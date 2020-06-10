@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block content %}
+	<script src="/static/js/reqwest.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<div id="page">
+	<article class="light-theme">
+
+<div  class="article-content">
+
+		  <div class="col-md-9">
+		    <div id="activity-body">{{ activity.html_body|safe }}</div>
+		  </div>
+
+<script>
+$(document).ready(function(){
+
+	// $('article h2').css('line-height', '.8');
+	// $('article table').addClass('table');
+	// $('article table tbody tr td').addClass('td');
+  //
+	// $('td').removeAttr('style');
+	// $('table').removeAttr('style');
+	// $('ul').removeAttr('style');
+
+	$('ul[class*="-1"]').addClass('listItems1');
+	$('ul[class*="-2"]').addClass('listItems2');
+	$('ul[class*="lst-kix"]').addClass('listItems');
+	$('.listItems.listItems1').css('margin-left', '100px');
+	$('.listItems.listItems2').css('margin-left', '200px');
+
+});
+</script>
+
+<div class="col-md-3">
+  {% if user.is_superuser %}
+    <p><a href="{% url 'admin:activities_activity_change' activity.id %}">Edit</a></p>
+    <div class="form-group">
+      <select name="approved" id="approved" class="form-control">
+        <option value="1" {% if activity.approved == 1 %}selected{% endif %}>Approved</option>
+        <option value="0" {% if activity.approved == 0 %}selected{% endif %}>Pending</option>
+      </select>
+      {% csrf_token %}
+    </div>
+    <hr>
+    <script>
+      (function(){
+        document.querySelector('#approved').addEventListener('change', function(e){
+          var token = document.querySelector('input[name="csrfmiddlewaretoken"]').value;
+          reqwest({url: '/units/change_status/', method: 'POST', data: {csrfmiddlewaretoken: token, id: {{activity.pk}}, approved: e.target.value}});
+        });
+      })();
+    </script>
+  {% endif %}
+
+  {% if user.id == activity.user.id or user.is_superuser %}
+    <div class="form-group">
+      <p>Click below to refresh the content of your unit. This will update your unit from your original Google Doc.</p>
+      <button class="btn btn-primary" id="refresh-button">Refresh Content</button>
+      {% csrf_token %}
+    </div>
+    <hr>
+    <script>
+
+
+
+      (function(){
+        var butt = document.querySelector('#refresh-button')
+        butt.addEventListener('click', function(e){
+          butt.setAttribute('disabled', true);
+          butt.textContent = 'Parsing...';
+          var token = document.querySelector('input[name="csrfmiddlewaretoken"]').value;
+          reqwest({
+            url: '/units/refresh/',
+            method: 'POST',
+            data: {csrfmiddlewaretoken: token, id: {{activity.pk}}}
+          }).then(function(result){
+            document.querySelector('#activity-body').innerHTML = result.body;
+            butt.removeAttribute('disabled');
+            butt.textContent = 'Refresh Content';
+          });
+        });
+      })();
+    </script>
+  {% endif %}
+
+  <p>
+    Created by:
+    <a href="/users/{{activity.user.id}}">
+      {% if activity.user.profile %}
+        {{activity.user.profile.full_name}}
+      {% else %}
+        {{activity.user.username}}
+      {% endif %}
+    </a>
+
+  </p>
+
+  <p><a href="{{ activity.google_file_id }}" target="_blank">View original on Google Docs</a></p>
+  <p><a href="{{ activity.copy_url }}" target="_blank">Make a copy on Google Docs</a></p>
+
+  {% if user.is_authenticated %}
+  <div class="form-group">
+    <form action="/units/{% if has_bookmark %}delete{% else %}add{%endif%}_bookmark/" method="POST">
+      <input type="submit" value="{% if has_bookmark %}Remove Bookmark{% else %}Add Bookmark{%endif%}" class="btn btn-primary">
+      <input type="hidden" name="activity_id" value="{{activity.id}}">
+       <input type="hidden" name="next" value="{{ request.path }}">
+      {% csrf_token %}
+    </form>
+  </div>
+  {% endif %}
+
+  {% if resources %}
+    <hr>
+    <h3>Related Resources</h3>
+    <ul>
+    {% for resource in resources %}
+      <li><a href="{% url 'show_resource' resource.id %}">{{resource.title}}</a></li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+</div>
+
+
+</div>
+</article>
+
+
+
+</div><!-- /#page -->
+
+{% endblock %}

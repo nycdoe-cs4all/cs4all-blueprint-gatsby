@@ -40,7 +40,7 @@ p.title {
   .infoTitle {
   font-size: 28px;
   }
-  
+
   .readMore {
   background-color:#599bb3;
   -moz-border-radius:9px;
@@ -158,7 +158,7 @@ nav a:focus, a:focus {
   text-decoration: none;
 }
 
-/*nav a[href*="//"]:not([href*="blueprint"]):hover, a[href*="//"]:not([href*="blueprint"]):hover {
+/*nav a[href*="/"]:not([href*="blueprint"]):hover, a[href*="/"]:not([href*="blueprint"]):hover {
   color: #f26922 !important;
   border-color: #f26922 !important;
 }*/
@@ -646,7 +646,7 @@ nav h1 {
   content: '';
   display: inline-block;
   vertical-align: middle;
-  background: url('/static/images/svg/icon-triangle-lightblue.svg') no-repeat 0 0;
+  background: url("/src/images/svg/icon-triangle-lightblue.svg") no-repeat 0 0;
   background-size: 100% auto;
   height: 16px;
   width: 16px;
@@ -815,13 +815,13 @@ article .assets p {
   margin: 0 0 32px;
 }
 article .assets li.asset-download {
-  background-image: url('images/svg/icon-download-d-medium.svg');
+  background-image: url("/src/images/svg/icon-download-d-medium.svg");
 }
 article .assets li.asset-link {
-  background-image: url('images/svg/icon-link-medium.svg');
+  background-image: url("/src/images/svg/icon-link-medium.svg");
 }
 article .assets li.asset-tip {
-  background-image: url('images/svg/icon-tip-a-medium.svg');
+  background-image: url("/src/images/svg/icon-tip-a-medium.svg");
 }
 .asset-tip a {
   position: relative;
@@ -834,7 +834,7 @@ article .assets li.asset-tip {
   top: 5px;
   width: 12px;
   height: 12px;
-  background: url('/static/images/svg/icon-triangle.svg') no-repeat center center;
+  background: url("/src/images/svg/icon-triangle.svg") no-repeat center center;
   transform: rotate(90deg);
   transition: transform .5s;
 }
@@ -1048,13 +1048,13 @@ article .activity-list .asset-count li {
   line-height: 1.4;
 }
 article .activity-list .asset-count li.assets-downloads {
-  background-image: url('images/svg/icon-download-d-medium.svg');
+  background-image: url("/src/images/svg/icon-download-d-medium.svg");
 }
 article .activity-list .asset-count li.assets-links {
-  background-image: url('images/svg/icon-link-medium.svg');
+  background-image: url("/src/images/svg/icon-link-medium.svg");
 }
 article .activity-list .asset-count li.assets-tips {
-  background-image: url('images/svg/icon-tip-a-medium.svg');
+  background-image: url("/src/images/svg/icon-tip-a-medium.svg");
 }
 article .activity-list .preview {
   position: relative;
@@ -1068,7 +1068,7 @@ article .activity-list .preview.video:after {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: url('../images/icon-play.svg') no-repeat center center;
+  background: url("/src/images/icon-play.svg") no-repeat center center;
   background-size: 100% 100%;
 }
 article .activity-list a img {
@@ -1313,7 +1313,7 @@ article #activity-body ul li {
   content: '';
   display: inline-block;
   vertical-align: middle;
-  background: url('/static/images/svg/icon-triangle.svg') no-repeat 50% 50%;
+  background: url("/src/images/svg/icon-triangle.svg") no-repeat 50% 50%;
   width: 10px;
   height: 10px;
   margin: -3px 0 0 8px;
@@ -1722,14 +1722,14 @@ h2, .box, .box-content, .preview-image, .gallery, .light-theme section, .activit
 
 a.box:before,
 .exit-menu div.box:before,
-div.box:before, 
+div.box:before,
 .activity-list > li:before {
   left: 0px;
 }
 
 a.box:after,
 .exit-menu div.box:after,
-div.box:after, 
+div.box:after,
 .activity-list > li:after {
   right: 0px;
 }
@@ -2040,8 +2040,8 @@ section header a:hover svg {
 }
 article.orange-theme,
 section.orange-theme {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#922900+0,b23900+20,b23900+80,922900+100 */
-  background: linear-gradient(to right, #922900 0%,#b23900 20%,#b23900 80%,#922900 100%); 
+  /* Permalink - use to edit and share this gradient: http:/colorzilla.com/gradient-editor/#922900+0,b23900+20,b23900+80,922900+100 */
+  background: linear-gradient(to right, #922900 0%,#b23900 20%,#b23900 80%,#922900 100%);
 }
 .orange-theme h2 .preamble {
   color: #f9af60;
@@ -2108,7 +2108,7 @@ article.orange-theme section,
   color: #521909;
 }
 article.orange-theme section.compressed a.box {
-  color: #e99f50; 
+  color: #e99f50;
 }
 
 
@@ -2119,7 +2119,7 @@ article.orange-theme section.compressed a.box {
 }
 article.green-theme,
 section.green-theme  {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1b573f+0,1d6743+20,1d6743+80,1b573f+100 */
+  /* Permalink - use to edit and share this gradient: http:/colorzilla.com/gradient-editor/#1b573f+0,1d6743+20,1d6743+80,1b573f+100 */
   background: linear-gradient(to right, #1b572f 0%,#1d6710 20%,#1d6710 80%,#1b572f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
@@ -2195,7 +2195,7 @@ article.green-theme section,
   color: #1b572f;
 }
 article.green-theme section.compressed a.box {
-  color: #A1CC3A; 
+  color: #A1CC3A;
 }
 
 
@@ -2210,7 +2210,7 @@ article.green-theme section.compressed a.box {
     font-size: 24px;
     line-height: 1.6;
   }
-  
+
 }
 
 
@@ -2236,7 +2236,7 @@ article.green-theme section.compressed a.box {
   .box .box-content .icon + h3 {
     display: block;
   }
-  
+
   .box .box-content .icon-set {
     height: 64px;
     width: 64px;
@@ -2253,23 +2253,23 @@ article.green-theme section.compressed a.box {
     position: static;
     transform: scale(1,1);
   }
-  
+
 }
 
 
 /* Tablets */
 
 @media (min-width: 768px) {
-  
+
 /*  .box {
     padding: 1px 0;
   }*/
-  
+
   body {
   padding-top: 80px;
   padding-bottom: 0;
   }
-  
+
   #masthead #logo a {
     height: 48px;
     width: 366px;
@@ -2292,11 +2292,11 @@ article.green-theme section.compressed a.box {
     float: none;
     margin: 0 0 0 8px;
   }
-  
+
   .jumbotron .next {
     max-width: 520px;
   }
-  
+
   .gallery {
     margin: 0 -16px;
   }
@@ -2315,7 +2315,7 @@ article.green-theme section.compressed a.box {
   .gallery > div:nth-child(2n+3) .preview-image {
     border-left: none;
   }
-  
+
   .exit-links {
     margin: 0 -16px;
     text-align: center;
@@ -2328,7 +2328,7 @@ article.green-theme section.compressed a.box {
   .exit-links > div.hero {
     width: 100%;
   }
-  
+
   article {
   padding: 32px;
   }
@@ -2336,14 +2336,14 @@ article.green-theme section.compressed a.box {
   margin: 32px -32px;
   padding: 32px;
   }
-  
+
   article header {
     text-align: center;
   }
   article header p {
     max-width: 790px;
   }
-  
+
   header .icon {
     width: 96px;
     height: 96px;
@@ -2361,15 +2361,15 @@ article.green-theme section.compressed a.box {
   article section + .article-content {
     margin-top: 64px;
   }
-  
+
   article h2 + .subhead {
   margin-top: 0;
   }
-  
+
   .article-content img {
     width: 790px;
   }
-  
+
     article table thead tr {
       display: table-row;
     }
@@ -2384,23 +2384,23 @@ article.green-theme section.compressed a.box {
   article table td.placeholder {
     display: table-cell;
   }
-  
+
   article table td:before {
     display: none;
   }
-  
+
   table.ordered tr:before {
     display: table-cell;
   }
   table.ordered th:before {
     display: none;
   }
-  
+
   article ul,
   article ol {
     padding: 0;
   }
-  
+
   .alignright,
   img.alignright {
     float: right;
@@ -2415,7 +2415,7 @@ article.green-theme section.compressed a.box {
     float: left;
     margin: 6px 32px 24px 0;
   }
-  
+
   .introduction {
     float: left;
     width: 60%;
@@ -2447,7 +2447,7 @@ article.green-theme section.compressed a.box {
     max-width: 50%;
   }
   #activity-body img {
-    
+
   }
   .case-study {
     width: 40%;
@@ -2463,7 +2463,7 @@ article.green-theme section.compressed a.box {
   .col-md-3 p, .col-md-3 li {
     margin-bottom: 12px;
   }
-  
+
   .btn, nav .btn {
     padding: 24px;
     font-size: 22px;
@@ -2525,13 +2525,13 @@ article.green-theme section.compressed a.box {
     width: 96px;
     left: 32px;
   }
-  
+
   .box .box-content .icon-set {
     height: 96px;
     width: 96px;
     left: 32px;
   }
-  
+
   #page-menu {
     width: 400px;
     top: 80px;
@@ -2555,16 +2555,16 @@ article.green-theme section.compressed a.box {
     margin: -4px 4px 0 0;
   }
   #page-menu .menu-content {
-    padding: 32px 74px 0 32px;    
+    padding: 32px 74px 0 32px;
   }
-  
+
   #footer {
     padding: 0 32px 64px;
   }
   .has-page-menu + #footer {
     padding-left: 81px
   }
-  
+
   .gallery:before {
     bottom: 0;
   }
@@ -2576,7 +2576,7 @@ article.green-theme section.compressed a.box {
     display: table-cell;
     vertical-align: middle;
   }
-  
+
   #statement {
     margin: 64px 0;
   }
@@ -2590,12 +2590,12 @@ article.green-theme section.compressed a.box {
   #statement .dropdown:hover .dropdown-content {
     transform: scale(1,1);
   }
-  
+
   .fellow {
     width: calc(100% / 3);
     padding: 33.3% 0 0;
   }
-  
+
   .activity-list {
     margin-left: -8px;
     margin-right: -8px;
@@ -2606,11 +2606,11 @@ article.green-theme section.compressed a.box {
     width: calc( 50% - 16px );
     margin: 8px;
   }
-  
+
   article table tbody th {
     min-width: 16%;
   }
-  
+
   article table tbody th,
   article table td,
   article table td:first-child {
@@ -2624,8 +2624,8 @@ article.green-theme section.compressed a.box {
   article table td:last-child {
     border-radius: 2px 8px 8px 2px !important;
   }
-  
-  
+
+
 
   #student-outcomes-table tbody::after {
     content: '';
@@ -2674,7 +2674,7 @@ article.green-theme section.compressed a.box {
   article #student-outcomes-table td.perspective:before {
     display: none;
   }
-  
+
   #student-outcomes-table td {
 /*    font-size: 13px;*/
     line-height: 1.5;
@@ -2702,17 +2702,17 @@ article.green-theme section.compressed a.box {
     min-width: 19%;
     width: 19%;
   }
-  
+
   #student-outcomes-table tbody th.concept .icon svg {
     fill: #f9af60;
   }
-  
-  
+
+
   #student-outcomes-table tbody td.practice {
     color: #2d7743;
   }
-  
-  
+
+
   #student-outcomes-table thead th .icon {
     margin: 0 0 12px;
     max-width: 40px;
@@ -2728,7 +2728,7 @@ article.green-theme section.compressed a.box {
     max-width: 40px;
     height: 40px;
   }
-  
+
 }
 
 
@@ -2739,7 +2739,7 @@ article.green-theme section.compressed a.box {
   body {
     padding-top: 81px;
   }
-  
+
   #masthead:hover {
     border-color: #8ac8ff;
   }
@@ -2749,7 +2749,7 @@ article.green-theme section.compressed a.box {
     float: left;
   }
     #menu {
-      
+
         float: right;
     }
     #menu h2 {
@@ -2841,7 +2841,7 @@ article.green-theme section.compressed a.box {
       display: none;
     }
     #menu .site-menu .parent-menu > a:after {
-      background-image: url('/static/images/svg/icon-triangle-lightblue.svg');
+      background-image: url("/src/images/svg/icon-triangle-lightblue.svg");
       width: 8px;
       height: 8px;
       margin: -2px 0 0 2px;
@@ -2849,7 +2849,7 @@ article.green-theme section.compressed a.box {
     #menu .site-menu .parent-menu:hover > a:after {
       transform: rotate(90deg);
     }
-    
+
     .gallery > div {
       width: calc(100% / 3) !important;
       margin: 0 0 12px !important;
@@ -2863,12 +2863,12 @@ article.green-theme section.compressed a.box {
     .gallery > div:nth-child(3n+3) .preview-image {
       border-width: 1px 1px 1px 0;
     }
-    
+
   .fellow {
     width: calc(25%);
     padding: 12.5% 0;
   }
-  
+
   article {
     padding: 32px;
   }
@@ -2879,17 +2879,17 @@ article.green-theme section.compressed a.box {
     margin-top: 42px;
   }
 
-  
+
   article section {
     margin: 64px -32px;
     padding: 64px 32px 32px;
   }
-  
+
   img.alignright,
   img.alignleft {
     max-width: 40%;
   }
-  
+
   .jumbotron {
     padding-bottom: 16px;
   }
@@ -2952,7 +2952,7 @@ article.green-theme section.compressed a.box {
   .box:hover .box-content .icon {
     transform: translate(0, -50%) scale(1, 1);
   }
-  
+
   .box .box-content .icon-set {
     height: 98px;
     width: 98px;
@@ -2961,7 +2961,7 @@ article.green-theme section.compressed a.box {
   .box:hover .box-content .icon-set .icon {
     transform: scale(1.1, 1.1);
   }
-  
+
   .preview-image .icon {
     height: 80px;
     width: 80px;
@@ -2973,7 +2973,7 @@ article.green-theme section.compressed a.box {
   .gallery:before {
     transform: scale(.95, 1);
   }
-  
+
   #page-menu {
     font-size: 16px;
   }
@@ -2989,7 +2989,7 @@ article.green-theme section.compressed a.box {
   #page-menu header a:hover h3 svg {
     fill: #17283e;
   }
-  
+
   #activity-body {
     float: left;
     width: calc(100% - 280px);
@@ -3002,7 +3002,7 @@ article.green-theme section.compressed a.box {
     position: relative;
     margin: 38px -16px 32px 0;
   }
-  
+
   .activity-list li {
     width: calc( 33.3% - 16px );
   }
@@ -3012,8 +3012,8 @@ article.green-theme section.compressed a.box {
   .activity-list a:hover {
       border-color: #8ac8ff;
   }
-  
-  
+
+
   .light-theme .box {
     border-color: transparent;
   }
@@ -3028,7 +3028,7 @@ article.green-theme section.compressed a.box {
   .light-theme .box:hover:before, .light-theme .box:hover:after, .light-theme .box:hover .box-content:before, .light-theme .box:hover .box-content:after {
     opacity: 1;
   }
-  
+
   .exit-menu {
     display: table;
     border-spacing: 38px;
@@ -3089,7 +3089,7 @@ article.green-theme section.compressed a.box {
     padding: 16px;
     white-space: nowrap;
   }
-  
+
   .resource-content {
     width: 64%;
     float: left;
@@ -3116,8 +3116,8 @@ article.green-theme section.compressed a.box {
   .resource-related ul {
     margin: 8px 0 0 15px;
   }
-  
-  
+
+
   article table#student-outcomes-table td:last-child:hover {
     border-radius: 2px 2px 8px 2px !important;
   }
@@ -3127,14 +3127,14 @@ article.green-theme section.compressed a.box {
   #student-outcomes-table thead th {
     padding: 16px;
   }
-  
+
   #student-outcomes-table tbody th.concept {
     min-width: 130px;
   }
   #student-outcomes-table tbody td.practice {
     min-width: 130px;
   }
-  
+
   #student-outcomes-table th,
   #student-outcomes-table td {
     padding: 12px 14px;
@@ -3151,7 +3151,7 @@ article.green-theme section.compressed a.box {
     background: #17283e;
     color: #fff;
   }
-  
+
   #student-outcomes-table .perspective:hover {
     background: #17283e;
     color: #fff;
@@ -3163,12 +3163,12 @@ article.green-theme section.compressed a.box {
   #student-outcomes-table .perspective.current .icon svg {
     fill: #175494;
   }
-  
+
   #student-outcomes-table .perspective:hover .icon svg {
     fill: #fff;
   }
-  
-  
+
+
   #student-outcomes-table tbody:hover th.concept {
     background: #f6ae66;
 /*    background: #f6d97c;*/
@@ -3177,14 +3177,14 @@ article.green-theme section.compressed a.box {
     background: #b23900;
     color: #fff;
   }
-  
+
   #student-outcomes-table tbody:hover th.concept .icon svg {
     fill: #e26932;
   }
   #student-outcomes-table tbody:hover th.concept:hover .icon svg {
     fill: #fff;
   }
-    
+
   #student-outcomes-table tbody tr:hover td.practice {
     background: #A1CC3A;
     background: #b1CC6A;
@@ -3258,14 +3258,14 @@ article.green-theme section.compressed a.box {
   article #student-outcomes-table tr:hover td.perspective:hover:after {
     color: #17283e;
   }
-  
+
   p[data-desktop]::after {
     content: attr(data-desktop);
     display: block;
     font-size: 18px;
     margin: 32px 0;
   }
-  
+
 }
 
 
@@ -3294,7 +3294,7 @@ article.green-theme section.compressed a.box {
   .jumbotron .next {
     max-width: 640px;
   }
-  
+
   #page-menu {
     top: 96px;
   }
@@ -3304,7 +3304,7 @@ article.green-theme section.compressed a.box {
 /* Desktops and wide Screens */
 
 @media only screen and (min-width: 1200px) {
-  
+
   header .box .box-content {
     padding: 24px 64px 24px 191px;
   }
@@ -3453,7 +3453,7 @@ h1 span{
 }
 
 #cboxLoadingGraphic {
-  background: url(/static/images/loading.gif) no-repeat center center;
+  background: url("/src/images/loading.gif") no-repeat center center;
 }
 
 #cboxLoadingOverlay {
@@ -3523,19 +3523,19 @@ h1 span{
 }
 
 #cboxPrevious {
-  background-image: url('/static/images/arrow-left-48.png');
+  background-image: url("/src/images/arrow-left-48.png");
   right: 78px;
   background-position: 5px center;
 }
 
 #cboxNext {
-  background-image: url('/static/images/iconmonstr-arrow-24-icon-48.png');
+  background-image: url("/src/images/iconmonstr-arrow-24-icon-48.png");
   right: 41px;
   background-position: 7px center;
 }
 
 #cboxClose {
-  background-image: url('http://blueprint.cs4all.nyc/static/images/icon-close.svg');
+  background-image: url("http:/blueprint.cs4all.nyc/static//src/images/icon-close.svg");
   right: 2px;
   transition: transform .2s;
 }

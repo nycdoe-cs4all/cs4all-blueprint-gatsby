@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+<!-- {% load bootstrap3 %} -->
+{% load i18n %}
+
+{% block content %}
+<div id="page">
+	<article class="light-theme" style="padding:0px !important;">
+
+<div class="col-md-9">
+  <form method="post" style="max-width: 100% !important; margin: 10px;">
+    {% csrf_token %}
+    {% bootstrap_field form.title %}
+    {% bootstrap_field form.summary %}
+    {% bootstrap_field form.body %}
+    {% bootstrap_field form.activities addon_after='<button class="btn btn-primary" data-toggler="id_activities">Select all</button>' %}
+    {% bootstrap_field form.tags  addon_after='<button class="btn btn-primary" data-toggler="id_tags">Select all</button>'%}
+    <input class="btn btn-primary" type="submit" value="Submit" />
+  </form>
+</div>
+
+<div class="col-md-3">
+  <form id="import-form" style="max-width: 100% !important; margin: 10px;">
+    <label for="url">Import From Google Docs URL</labeL>
+    <div class="form-group">
+      <div class="input-group">
+        <input class="form-control" type="text" name="url" id="url" placeholder="http://">
+        <span class="input-group-btn"><input type="submit" class="btn btn-default" value="Import"></span>
+      </div>
+    </div>
+  </form>
+</div>
+
+</article>
+
+</div><!-- /#page -->
+
+
+
+{% block extra_scripts %}
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.js"></script>
+
+<script>
+
+$('textarea').summernote({
+  minHeight: 100,
+
+});
+$('[data-toggler]').on('click', function(e) {
+  e.preventDefault();
+  var id = '#' + $(this).data('toggler');
+
+  if ($(this).data('selected')) {
+    $(this).text('Select all').data('selected', false);
+    $(id + ' option').prop('selected', false);
+  } else {
+    $(this).text('Select none').data('selected', true);
+    $(id + ' option').prop('selected', true);
+  }
+  $(id).focus();
+});
+
+$('#import-form').on('submit', function(e){
+  e.preventDefault();
+  $.get('/resources/parse', {file_id: $('#url').val()}, function(response){
+    $('#id_body').summernote('code', response);
+    console.log(response);
+  });
+});
+</script>
+{% endblock %}
+{% endblock %}
