@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 export default const BJCCSPrinciples = () => (
  <Layout>
 	<SEO title="BJC CS Principles" />
-	{<div id="page">
+	<div id="page">
 		<article className="light-theme">
 			<div className="col-md-12">
 				<header><span className="preamble"><h2 className="title"  style={{lineHeight: 1}}>Beauty & Joy of Computing</h2></span></header>
@@ -26,6 +26,6 @@ export default const BJCCSPrinciples = () => (
 			</div>
 		</article>
 	</div>
-	{/* /#page */}}
+	{/* /#page */}
  </Layout>
 )
