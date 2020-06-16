@@ -48,6 +48,7 @@ Gatsby makes it easy to create websites with a light front-end framework and lit
 ### 6/16/2020
 From [Dan](https://github.com/dgaylordCS4All)
 - Converted `src/pages/bjc-cs-principles.js` to a component
+- Converted `src/pages/uteach-cs-principles.js` to a component
 - Converted `src/pages/ican.js` to a component
 
 ### 6/10/2020
