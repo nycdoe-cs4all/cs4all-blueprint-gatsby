@@ -21,7 +21,6 @@ export default const BJCCSPrinciples = () => (
 				</div>
 			  </a>
 			</div>
-
 		  </div>
 		</div>
 	  </article>
