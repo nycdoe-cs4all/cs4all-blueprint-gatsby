@@ -45,6 +45,11 @@ Gatsby makes it easy to create websites with a light front-end framework and lit
 
 # Changelog
 
+### 6/16/2020
+From [Dan](https://github.com/dgaylordCS4All)
+- Converted `src/pages/bjc-cs-principles.js` to a component
+- Converted `src/pages/ican.js` to a component
+
 ### 6/10/2020
 From [Dylan](https://github.com/dylsteck)
 - Wrote guide on how to convert the blueprint site's template pages to Gatsby
