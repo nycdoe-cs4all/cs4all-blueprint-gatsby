@@ -11,15 +11,20 @@ By [@nycdoe-cs4all](https://github.com/nycdoe-cs4all)
    - Mac users can and should consider using [homebrew](https://treehouse.github.io/installation-guides/mac/node-mac.html) instead
 2. Install [Git](https://git-scm.com/)
 3. Install Gatsby - In your terminal, run the following command: `npm install -g gatsby-cli`
-- OPTIONAL: [GitHub Desktop](https://desktop.github.com/)
-  - GitHub allows you to have a GUI for using Git
+- OPTIONAL:
+  - [GitHub Desktop](https://desktop.github.com/)
+    - GitHub allows you to have a GUI for using Git
+  - [Atom](https://atom.io/)
+    - A text editor designed specifically for (and by) GitHub
 
-- For more information, follow [Gatsby's Tutorial](https://www.gatsbyjs.org/tutorial/part-zero/)
+- For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.org/tutorial/part-zero/)
 
 ## Preparing Git(Hub)
 - Clone the repository:
   - Using your terminal - `git clone https://github.com/dylsteck/cs4all-blueprint-gatsby.git`
   - Using GitHub Desktop - File > Clone repository... > URL tab > "https://github.com/dylsteck/cs4all-blueprint-gatsby.git"
+
+- For more information, check out [GitHub Help](https://help.github.com/en/desktop)
 
 ## Running the Website
 1. Navigate to the folder using your terminal - `cd C:\...\cs4all-blueprint-gatsby`
