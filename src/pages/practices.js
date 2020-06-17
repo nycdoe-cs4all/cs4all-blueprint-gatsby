@@ -149,9 +149,6 @@ const Practices = () => (
 					</div>
 
 				</section>
-
-
-
 				<section id="practice-communicate" className="accordion-target">
 
 					<header>
