@@ -42,7 +42,7 @@ By [@nycdoe-cs4all](https://github.com/nycdoe-cs4all)
   - *src/pages*
     - Where every page of the site is stored
     - Each page is a component that is filled with the HTML code from the original blueprint repo
-      - The structure for each component is written out in `src/pages/boilerplate.js`
+    - The structure for each component is written out in `src/pages/boilerplate.js`
 
 ## A little bit about Gatsby and React
 
