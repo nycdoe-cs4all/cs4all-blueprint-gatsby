@@ -45,6 +45,21 @@ Gatsby makes it easy to create websites with a light front-end framework and lit
 
 # Changelog
 
+### 6/16/20
+From [Dylan](https://github.com/dylsteck)
+- Converted and fixed:
+  - The three components Dan converted earlier today(I had to make a small fix to the boilerplate, so I made a very minor edit to the three components that was my own fault)
+  - `src/pages/boilerplate.js`
+    - Changed a very small typo in the naming of the components that was causing an error
+  - `src/pages/units-k2-computer-science-and-me.js`
+  - `src/pages/units-68-innovative-programming.js`
+  - `src/pages/units-35-creating-from-scratch.js`
+  - `src/pages/tangible-interfaces.js`
+  - `src/pages/software-engineering-program.js`
+  - `src/pages/software-engineering-program-jr.js`
+  - `src/pages/practices.js`
+
+
 ### 6/16/2020
 From [Dan](https://github.com/dgaylordCS4All)
 - Converted `src/pages/bjc-cs-principles.js` to a component

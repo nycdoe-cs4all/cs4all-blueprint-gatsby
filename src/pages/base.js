@@ -1,4 +1,4 @@
-{% load i18n %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -65,7 +65,7 @@
   <polygon class="st1" points="588.1,1.6 457.4,1.6 418.2,40.8 418.2,171.5 457.4,210.7 588.1,210.7 627.3,171.5 627.3,132.3 614.2,119.2 548.9,119.2 548.9,132.3 496.6,132.3 496.6,80 548.9,80 548.9,92.9 614.2,92.9 627.3,80 627.3,40.8     "/>
   <polygon class="st7" points="196,1.6 143.8,1.6 130.7,14.7 130.7,66.9 65.3,1.6 13.1,1.6 0,14.7 0,197.6 13.1,210.7 65.3,210.7 78.4,197.6 78.4,145.4 143.8,210.7 143.8,210.7 196,210.7 209.1,197.6 209.1,14.7    "/>
   <polygon class="st8" points="287.5,210.7 339.8,210.7 352.9,197.6 352.9,158.4 418.2,93.1 418.2,14.7 405.1,1.6 352.9,1.6 339.8,14.7 339.8,40.8 313.6,66.9 287.5,40.8 287.5,40.8 287.5,14.7 274.4,1.6 222.2,1.6 209.1,14.7 209.1,93.1 274.4,158.4 274.4,197.6"/>
- 
+
 
 </symbol>
 
@@ -160,7 +160,7 @@
 <symbol id="icon-close" viewBox="0 0 24 24">
   <path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/>
 </symbol>
-  
+
 </svg>
 
 	<div id="masthead">
@@ -174,28 +174,28 @@
         </h1>
       </a>
     </div>
-    
-    
+
+
     <nav id="menu">
-    
+
       <h2>
         <a class="toggle" href="#menu">
           <span class="icon"><svg><use xlink:href="#icon-menu" /></svg></span>
           <span class="label">Menu</span>
         </a>
       </h2>
-      
+
       <!-- local ".php" filepaths should be replaced with the correct cms-generated filepath. '/about.php' ->  '/about/' -->
       <div class="site-menu">
         <ul>
-        
+
           <li>
             <a href="/what-is-cs">
               <span class="icon"><svg><use xlink:href="#icon-foundations" /></svg></span>
               <span class="preamble">CS</span> Foundations
               <span class="caret"></span>
             </a>
-  
+
             <ul>
               <li><a href="/what-is-cs"><span class="preamble">What is</span> CS Education?</a></li>
               <li><a href="/perspectives"><span class="preamble">CS</span> Perspectives</a></li>
@@ -203,25 +203,25 @@
               <li><a href="/concepts"><span class="preamble">CS</span> Concepts</a></li>
               <li><a href="/outcomes"><span class="preamble">Student</span> Outcomes</a></li>
             </ul>
-  
+
           </li><li>
             <a href="/curriculum">
               <span class="icon"><svg><use xlink:href="#icon-units" /></svg></span>
               <span class="preamble">curriculum</span> Catalog
             </a>
-  
+
           </li><li>
             <a href="/resources">
               <span class="icon"><svg><use xlink:href="#icon-resources" /></svg></span>
               <span class="preamble">Educator</span> Resources
             </a>
-            
+
           </li><li>
             <a href="/about">
               <span class="icon"><svg><use xlink:href="#icon-blueprint" /></svg></span>
               <span class="preamble">About</span> Blueprint
             </a>
-  
+
 <!--           </li><li>
             <a href="/login">
               <span class="icon"><svg><use xlink:href="#icon-lock" /></svg></span>
@@ -249,13 +249,13 @@
             </a>
             </li>
           {% endif %}
-  
+
         </ul>
       </div><!-- /#menu -->
-    
+
     </nav>
 
-    
+
   </div><!-- /#masthead -->
 
 
@@ -284,7 +284,7 @@
 <!--  <script src="http://blueprint.cs4all.nyc/static/js/bootstrap.min.js"></script>-->
 <!--  <script src="http://blueprint.cs4all.nyc/static/js/glossarizer/jquery.glossarize.js"></script>-->
 <!--  <script src="http://blueprint.cs4all.nyc/static/js/glossarizer/tooltip/tooltip.js"></script>-->
-  
+
   <script type='text/javascript' src='/static/js/jquery.cookie.js?v=20170702'></script>
   <script type='text/javascript' src='/static/js/jquery.colorbox-min.js?ver=20170629'></script>
   <script type='text/javascript' src='/static/js/functions.js?ver=20180307'></script>

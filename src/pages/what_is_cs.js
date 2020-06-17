@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-export default const Boilerplate = () => (
+const WhatIsCS = () => (
  <Layout>
-    <SEO title="Boilerplate" />
+    <SEO title="What Is CS?" />
     <article className="light-theme">
 
     {/* <script src="/static/js/floatMenu.js"></script>
@@ -113,7 +113,7 @@ export default const Boilerplate = () => (
     		</div>
 
     	</div>
-
-    </div>{/* /#page */}
  </Layout>
 )
+
+export default WhatIsCS

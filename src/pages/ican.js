@@ -3,15 +3,15 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-export default const ICan = () => (
+const ICan = () => (
  <Layout>
     <SEO title="I Can Statements" />
     {/* <link rel="prerender" href="http://blueprint.cs4all.nyc/cs-concepts-and-practices">
 	<script src="/static/js/jquery-3.2.1.js"></script> */}
 	<script src="/static/js/ican.js"></script>
-	
+
 	{/* <script src="/static/js/floatMenu.js"></script> */}
-	
+
 	<div className="col-md-3">
 	  <h4>Blueprint CS Foundations</h4>
 	  <ul>
@@ -82,7 +82,7 @@ export default const ICan = () => (
 		</section>
 	  </div>
 	</div>
-	
+
 	{/* HOVER SIDE/INFO CONTENT */}
 	<div>
 	  <p className="ancon" hidden="hidden">People of all backgrounds must evaluate and respond to the ways that computing is affecting their lives, their families and friends, and their communities. Government, industry, start-ups, non-profits, researchers, artists and many others use the principles of computing to accomplish a fast-growing number of things. Some of these things we may think of as beneficial or malicious, but others we’re still not sure how to evaluate.</p>
@@ -100,7 +100,7 @@ export default const ICan = () => (
 	  <p className="iicon" hidden="hidden">Innovators engage with open-ended topics connected to the work of individuals in public, private and open-source domains of CS practice.</p>
 	  <p className="zcon" hidden="hidden">Citizens examine and try to influence the intersection of computing with social, economic and political systems.</p>
 	</div>
-	
+
 	{/* STATIC SIDE/INFO CONTENT */}
 	<div>
 	  {/* MUST VERIFY THAT ANCHORS ARE PERMALINKS!! */}
@@ -132,3 +132,4 @@ export default const ICan = () => (
 	</style>
  </Layout>
 )
+export default ICan
