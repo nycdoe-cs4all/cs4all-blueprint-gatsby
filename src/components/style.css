@@ -1,4 +1,11 @@
-
+/* Temporary CSS(because of React errors etc) */
+@media (min-width: 992px) {
+  /* for src/pages/ican.js  because React doesn't support inline media queries */
+  .green-media { background-color: #2FA351; }
+  .white-media { background-color: #F26922; }
+  .black-media { background-color: #17283e; }
+}
+/* End of Temporary CSS */
 
 
 .activity-list a {

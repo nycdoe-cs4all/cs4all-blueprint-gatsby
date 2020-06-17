@@ -65,6 +65,10 @@ Gatsby makes it easy to create websites with a light front-end framework and lit
 
 # Changelog
 
+### 6/17/20
+From [Dylan](https://github.com/dylsteck)
+- Fixed inline `@media` query issue in `src/pages/ican.js`
+
 ### 6/16/20
 From [Dylan](https://github.com/dylsteck)
 - Converted and fixed:
