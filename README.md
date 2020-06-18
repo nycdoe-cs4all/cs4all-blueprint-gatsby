@@ -65,6 +65,14 @@ Gatsby makes it easy to create websites with a light front-end framework and lit
 
 # Changelog
 
+### 6/18/2020
+From [Dan](https://github.com/dgaylordCS4All)
+- Converted `src/pages/bootstrap-data-science.js` to a component
+- Converted `src/pages/codeorg-cs-principles.js` to a component
+- Converted `src/pages/computational-media-creator.js` to a component
+- Converted `src/pages/computational-media-explorer.js` to a component
+- Converted `src/pages/computational-media-innovator.js` to a component
+
 ### 6/17/20
 From [Dylan](https://github.com/dylsteck)
 - Fixed inline `@media` query issue in `src/pages/ican.js`
