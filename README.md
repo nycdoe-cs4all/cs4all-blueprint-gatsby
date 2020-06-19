@@ -65,6 +65,15 @@ Gatsby makes it easy to create websites with a light front-end framework and lit
 
 # Changelog
 
+### 6/19/2020
+From [Dan](https://github.com/dgaylordCS4All)
+- Converted `src/pages/creative-computing.js` to a component
+- Converted `src/pages/creative-web.js` to a component
+- Converted `src/pages/critical-computing.js` to a component
+- Converted `src/pages/cs-a.js` to a component
+- Converted `src/pages/cs-principles.js` to a component
+- Cleaned up the code of various other pages that were already converted to components
+
 ### 6/18/2020
 From [Dan](https://github.com/dgaylordCS4All)
 - Converted `src/pages/bootstrap-data-science.js` to a component
