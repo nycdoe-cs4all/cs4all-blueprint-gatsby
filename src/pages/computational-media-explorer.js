@@ -12,6 +12,7 @@ const ComputationalMediaExplorer = () => (
           <header><span className="preamble"><h2 className="title"  style={{lineHeight: 1}}>Computational Media Explorer: Computing Through Time</h2></span></header>
           <div className="article-content">
             <p>Computational Media Explorers is a unit of computer science instruction that engages students in remixing and creating visual media using procedures on and off the computer. Students learn the basics of how computers function using data, problem solving strategies, and how to create using a visual programming language designed for pre-readers. Every activity gives students time to work hands-on, personalize their work, and be creative while applying CS practices and concepts.</p>
+
             <div className="submenu">
               <a href="https://drive.google.com/open?id=19l27XWtF_uy9Z2M4UdqESK4F3gAQki3E" target="blank">
                 <div className="btn"><h4>View the Computational Media Explorer curriculum</h4></div>

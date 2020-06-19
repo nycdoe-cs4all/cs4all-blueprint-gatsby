@@ -21,6 +21,7 @@ const ICan = () => (
         <li><a className="filter" href="/ican">I Can Statements</a></li>
       </ul>
     </div>
+
     <div className="col-md-9" id="mean">
       <p>Computer science (CS) is the practice of its concepts from a student's perspective. As students learn computer science, they should be able to articulate their understanding of what they've learned. </p>
       <p>The tool below helps us explore &quot;I can&quot; statements that provide the vocabulary and a frame of reference for how our students will engage with CS content. </p>
@@ -28,6 +29,7 @@ const ICan = () => (
       <p>Teachers are encouraged to use the following tool to develop  learning objectives based on what they want students to be able to do at varying levels of CS cognitive complexity.</p>
     </div><br><br>
     <div className="col-md-3"></div>
+
     <div className="col-md-9">
       <div style={{clear: 'both'}} id="contain">
         <div id="intro">
