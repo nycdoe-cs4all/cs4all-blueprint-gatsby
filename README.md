@@ -65,6 +65,14 @@ Gatsby makes it easy to create websites with a light front-end framework and lit
 
 # Changelog
 
+### 6/22/20
+From [Dylan](https://github.com/dylsteck)
+- Converted the remaining pages into components
+- Moved some files to `src/for_later`
+  - Code that can't be added back to the code base until we choose and implement a back end
+  - Mostly database code, or code that is used to interact with database content(eg. registering a new user, logging out, etc.)]
+- Began toying around with WordPress
+
 ### 6/19/2020
 From [Dan](https://github.com/dgaylordCS4All)
 - Converted `src/pages/creative-computing.js` to a component
