@@ -65,6 +65,11 @@ Gatsby makes it easy to create websites with a light front-end framework and lit
 
 # Changelog
 
+### 6/25/2020
+From [Dan](https://github.com/dgaylordCS4All)
+- Cleaned up the code of all the pages that were converted to components
+- Started adding comments to the Computational Media Innovator page
+
 ### 6/22/20
 From [Dylan](https://github.com/dylsteck)
 - Converted the remaining pages into components
