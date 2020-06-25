@@ -16,7 +16,7 @@ const SoftwareEngineeringProgramJr = () => (
 
             <div className="submenu">
               <a href="https://sites.google.com/strongschools.nyc/sepjrnyc/" className="box" target="blank">
-                <div className="box-content"><h4>View SEPjr curriculum and professional development materials</h4></div>
+                <div className="box-content"><h4>View the SEPjr curriculum and professional development materials</h4></div>
               </a>
             </div>
           </div>

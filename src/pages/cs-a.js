@@ -17,7 +17,7 @@ const APCSA = () => (
 
             <div className="submenu">
               <a href="https://tealsk12.gitbook.io/apcsa/" target="blank">
-                <div className="btn"><h4>View TEALS AP CS A curriculum</h4></div>
+                <div className="btn"><h4>View the TEALS AP CS A curriculum</h4></div>
               </a>
             </div>
           </div>

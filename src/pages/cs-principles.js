@@ -16,10 +16,10 @@ const CSPrinciples = () => (
 
             <div className="submenu">
               <a href="http://bjc.edc.org" target="blank">
-                <div className="btn"><h4>View Beauty and Joy of Computing curriculum</h4></div>
+                <div className="btn"><h4>View the Beauty and Joy of Computing curriculum</h4></div>
               </a>
               <a href="https://cs.uteach.utexas.edu/computer-science-principles" target="blank">
-                <div className="btn"><h4>View UTeach CS Principles curriculum</h4></div>
+                <div className="btn"><h4>View the UTeach CS Principles curriculum</h4></div>
               </a>
             </div>
           </div>

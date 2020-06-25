@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 const Practices = () => (
   <Layout>
-    <SEO title="Practices" />
+    <SEO title="Computer Science Practices" />
     <div id="page">
       <article className="green-theme">
         <header>
@@ -157,8 +157,8 @@ const Practices = () => (
             </table>
           </div>
         </section>
-
       </article>
+
       <div className="interior-container">
         <div className="exit-menu">
           <ol className="list-unstyled">

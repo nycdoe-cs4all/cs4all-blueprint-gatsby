@@ -36,13 +36,13 @@ const SoftwareEngineeringProgram = () => (
 
             <div className="submenu">
               <a href="https://drive.google.com/drive/u/0/folders/0B8D2ft9M8qQCamQwZGpJMEU2TEk" target="blank">
-                <div className="btn"><h4>View School Years 2016-2019 Software Engineering Program curriculum</h4></div>
+                <div className="btn"><h4>View school years 2016-2019 Software Engineering Program curriculum</h4></div>
                 </a>
             </div>
             <br>
             <div className="submenu">
               <a href="https://drive.google.com/drive/u/0/folders/0B8D2ft9M8qQCYXY2V3VndWNob0E" target="blank">
-                <div className="btn"><h4>View School Years 2016-2019 Software Engineering Program professional development materials</h4></div>
+                <div className="btn"><h4>View school years 2016-2019 Software Engineering Program professional development materials</h4></div>
               </a>
             </div>
           </div>
