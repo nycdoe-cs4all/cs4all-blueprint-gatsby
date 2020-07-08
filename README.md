@@ -65,6 +65,15 @@ Gatsby makes it easy to create websites with a light front-end framework and lit
 
 # Changelog
 
+### 7/8/20
+From [Dylan](https://github.com/dylsteck)
+- Added [Wordpress-Gatsby plugin](https://www.gatsbyjs.org/packages/gatsby-source-wordpress/) to the project
+- Created `wordpress` branch
+- Created a blank Wordpress site for testing
+- Paused further development to check in with Dan
+  - All of the components are fully coded out, and if we used WordPress, we would have to re-convert them to plain text and sort out how we want to replicate all of the icons
+    - Could also keep the code for key sites and then create a base layout for every component page(this would be the only solution that would involve Wordpress, basically)
+
 ### 6/25/2020
 From [Dan](https://github.com/dgaylordCS4All)
 - Cleaned up the code of all the pages that were converted to components

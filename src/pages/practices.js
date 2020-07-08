@@ -92,7 +92,7 @@ const Practices = () => (
                 </tr>
                 <tr>
                   <th>Imagining</th>
-                  <td><p>Imagine, create, and test possible computing artifacts that try to express a idea or solve a problem.</p><br><p>The idea or problem is provided and has a single, specific constraint.</p></td>
+                  <td><p>Imagine, create, and test possible computing artifacts that try to express a idea or solve a problem.</p><br /><p>The idea or problem is provided and has a single, specific constraint.</p></td>
                   <td dataColumn="Example"><p>I created a button that triggered Javascript to change the text on my website. The code was the same as displaying the date and time, but the paragraph already had text in it and instead of inserting the date and time, I inserted text I wrote as a String.</p></td>
                 </tr>
                 <tr>

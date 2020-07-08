@@ -21,7 +21,7 @@ div.fellow.col-md-3:hover .fellow-text{
     opacity: 1;
 }
 </style>*/
-export default const About = () => (
+const About = () => (
 	<Layout>
 		<SEO title="About" />
 		<article className="light-theme">
@@ -186,3 +186,4 @@ export default const About = () => (
 		</article>
 	</Layout>
 )
+export default About

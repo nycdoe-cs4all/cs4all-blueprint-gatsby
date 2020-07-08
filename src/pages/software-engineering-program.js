@@ -29,7 +29,7 @@ const SoftwareEngineeringProgram = () => (
             <h5>High School</h5>
             <ul>
               <li><a href="/curriculum/intro-to-computational-media">Introduction to Computational Media</a></li>
-              <li><a href="/curriculum/tangible-interfaces">Tangible Interfaces</a> OR Physical Computing and the Digital Self (coming in 2020)</a></li>
+              <li><a href="/curriculum/tangible-interfaces">Tangible Interfaces</a> OR Physical Computing and the Digital Self (coming in 2020)</li>
               <li><a href="/curriculum/cs-principles">Computer Science Principles (Advanced Placement optional)</a></li>
               <li><a href="/curriculum/cs-and-the-city">CS and the City</a> OR <a href="/curriculum/cs-a">Advanced Placement CS A</a></li>
             </ul>

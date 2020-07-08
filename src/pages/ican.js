@@ -69,7 +69,7 @@ const ICan = () => (
         </div>
         <div style={{margin: '10px 0px 10px 0px'}} id="loaderContainer"></div>
         <section>
-          <div className="tblinfo"></div><br><br>
+          <div className="tblinfo"></div><br/><br/>
           <div className="tbl-content">
             <table id= "userdata"  cellpadding="0" cellspacing="0" border="0">
               <tbody></tbody>
