@@ -66,7 +66,7 @@ Gatsby makes it easy to create websites with a light front-end framework and lit
 # Changelog
 
 ### 6/25/2020
-From [Dan](https://github.com/dgaylordCS4All)
+From [Dan](https://github.com/danielgaylord)
 - Cleaned up the code of all the pages that were converted to components
 - Started adding comments to the Computational Media Innovator page
 
@@ -79,7 +79,7 @@ From [Dylan](https://github.com/dylsteck)
 - Began toying around with WordPress
 
 ### 6/19/2020
-From [Dan](https://github.com/dgaylordCS4All)
+From [Dan](https://github.com/danielgaylord)
 - Converted `src/pages/creative-computing.js` to a component
 - Converted `src/pages/creative-web.js` to a component
 - Converted `src/pages/critical-computing.js` to a component
@@ -88,7 +88,7 @@ From [Dan](https://github.com/dgaylordCS4All)
 - Cleaned up the code of various other pages that were already converted to components
 
 ### 6/18/2020
-From [Dan](https://github.com/dgaylordCS4All)
+From [Dan](https://github.com/danielgaylord)
 - Converted `src/pages/bootstrap-data-science.js` to a component
 - Converted `src/pages/codeorg-cs-principles.js` to a component
 - Converted `src/pages/computational-media-creator.js` to a component
@@ -115,7 +115,7 @@ From [Dylan](https://github.com/dylsteck)
 
 
 ### 6/16/2020
-From [Dan](https://github.com/dgaylordCS4All)
+From [Dan](https://github.com/danielgaylord)
 - Converted `src/pages/bjc-cs-principles.js` to a component
 - Converted `src/pages/uteach-cs-principles.js` to a component
 - Converted `src/pages/ican.js` to a component
