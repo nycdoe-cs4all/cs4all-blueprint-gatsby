@@ -65,6 +65,10 @@ Gatsby makes it easy to create websites with a light front-end framework and lit
 
 # Changelog
 
+### 7/15/20
+From [Dylan](https://github.com/dylsteck)
+- Created resources component and fixed some bugs
+
 ### 7/8/20
 From [Dylan](https://github.com/dylsteck)
 - Added [Wordpress-Gatsby plugin](https://www.gatsbyjs.org/packages/gatsby-source-wordpress/) to the project
