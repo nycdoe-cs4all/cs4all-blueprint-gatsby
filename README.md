@@ -49,6 +49,9 @@ By [@nycdoe-cs4all](https://github.com/nycdoe-cs4all)
 Gatsby is a remix of the popular framework React. React makes it easy to create web apps using components.
 Gatsby makes it easy to create websites with a light front-end framework and little to no backend. It can easily connect to data sources(even Wordpress), and is configured to work well with headless servers. Gatsby statically renders the site and the data shown/stored on it, which means it's super easy to publish anywhere online and makes for a very fast web app.
 
+## How to locally run WordPress(in Terminal/unix)
+Follow [this guide](https://upcloud.com/community/tutorials/wordpress-with-docker/)
+
 ## How to convert an old blueprint site to a Gatsby component
 
 <i>Quick note: You won't have to follow every single step for each component. It is possible that, for example, some files won't include comments or inline styling in the original HTML. In that case, move on to the next step.</i>
@@ -64,6 +67,13 @@ Gatsby makes it easy to create websites with a light front-end framework and lit
 10. Rename the component from `Boilerplate` to the name of the site, written in camelcase. For example, if the file is called `cs-and-the-city.js`, turn `const Boilerplate` into `const CSAndTheCity`.
 
 # Changelog
+
+### 7/17/20
+From [Dylan](https://github.com/dylsteck)
+- Fixed all runtime bugs from component conversion
+- Connected to local Wordpress
+- Created Resource component, which just returns all of the WordPress posts as JSON
+- Added "How to locally run WordPress" in README
 
 ### 7/15/20
 From [Dylan](https://github.com/dylsteck)

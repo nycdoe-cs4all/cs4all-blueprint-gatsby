@@ -39,7 +39,7 @@ const SoftwareEngineeringProgram = () => (
                 <div className="btn"><h4>View school years 2016-2019 Software Engineering Program curriculum</h4></div>
                 </a>
             </div>
-            <br>
+            <br />
             <div className="submenu">
               <a href="https://drive.google.com/drive/u/0/folders/0B8D2ft9M8qQCYXY2V3VndWNob0E" target="blank">
                 <div className="btn"><h4>View school years 2016-2019 Software Engineering Program professional development materials</h4></div>

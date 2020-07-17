@@ -109,7 +109,9 @@ const Concepts = () => (
 								</tr>
 								<tr>
 									<th>Inputs, Variables &amp; Outputs</th>
-									<td><p>How <span className="c28"><a className="c49" href="http://blueprint.cs4all.nyc/concepts#data">data</a>&nbsp;is passed into (inputs,) manipulated by, used within (variables,) and returned from the algorithm (outputs).</p><p>&nbsp;</p></span></td>
+									<td>
+                    <p>How <span className="c28"><a className="c49" href="http://blueprint.cs4all.nyc/concepts#data">data</a> is passed into (inputs,) manipulated by, used within (variables,) and returned from the algorithm (outputs).</span></p>
+                  </td>
 									<td dataColumn="Math">
 										<p>A function machine is an example of a process that takes inputs, manipulates them in a way and outputs them.</p>
 										<p>* Variables in CS are more than just numbers - they can also represent strings of characters, lists, etc.</p>
