@@ -68,6 +68,11 @@ Follow [this guide](https://upcloud.com/community/tutorials/wordpress-with-docke
 
 # Changelog
 
+### 7/29/20
+From [Dylan](https://github.com/dylsteck)
+- `pages/resource.js` shows all posts
+- Trying to get demo server working, but taking a while because of WordPress issues
+
 ### 7/17/20
 From [Dylan](https://github.com/dylsteck)
 - Fixed all runtime bugs from component conversion
