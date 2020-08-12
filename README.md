@@ -68,9 +68,16 @@ Follow [this guide](https://upcloud.com/community/tutorials/wordpress-with-docke
 
 # Changelog
 
+### 8/12/20
+From [Dylan](https://github.com/dylsteck)
+- Cleaned up `pages/resources.js`
+- Worked on `pages/educator-resources.js` -- a component that will be re-used to display each article
+  - Having a few issues with [router params](https://reach.tech/router/api/useParams) and GraphQL
+- Looked into how we can clean up some of the code
+
 ### 7/29/20
 From [Dylan](https://github.com/dylsteck)
-- `pages/resource.js` shows all posts
+- `pages/resources.js` shows all posts
 - Trying to get demo server working, but taking a while because of WordPress issues
 
 ### 7/17/20
