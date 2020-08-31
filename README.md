@@ -68,6 +68,12 @@ Follow [this guide](https://upcloud.com/community/tutorials/wordpress-with-docke
 
 # Changelog
 
+### 8/31/20
+From [Dylan](https://github.com/dylsteck)
+- Pushed stable wordpress version to master
+  - Next up: fix internal router so each educator resource article has its own page
+  - Will keep looking into [reach router](https://reach.tech/router/api)
+  
 ### 8/12/20
 From [Dylan](https://github.com/dylsteck)
 - Cleaned up `pages/resources.js`
