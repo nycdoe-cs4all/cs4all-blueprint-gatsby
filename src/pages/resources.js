@@ -7,7 +7,6 @@ import SEO from "../components/seo"
 // import EducatorResource from "../pages/educator-resource"
 const parse = require('html-react-parser')
 
-
 export const query = graphql`
   {
     allWordpressPost {
@@ -24,7 +23,6 @@ export const query = graphql`
     }
   }
 `
-
 
 const Resource = ({ data }) => (
   <Layout>
