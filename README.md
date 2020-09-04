@@ -8,7 +8,6 @@ By [@nycdoe-cs4all](https://github.com/nycdoe-cs4all)
 
 ## Installations
 1. Install [Node.js](https://nodejs.org/en/download/)
-   - Mac users can and should consider using [homebrew](https://treehouse.github.io/installation-guides/mac/node-mac.html) to install it
 2. Install [Git](https://git-scm.com/)
 3. Install Gatsby - In your terminal, run the following command: `npm install -g gatsby-cli`
 - OPTIONAL:
@@ -30,7 +29,8 @@ By [@nycdoe-cs4all](https://github.com/nycdoe-cs4all)
 1. Navigate to the folder using your terminal - `cd C:\...\cs4all-blueprint-gatsby`
    - Replace the url with the directory you cloned the repository into
 2. Install dependencies - `npm install`
-3. Run - `gatsby develop`
+3. You will likely need to run a web server on your computer to view the site locally. Install MAMP on macOS(https://www.mamp.info/en/mac/) or Windows(https://www.mamp.info/en/windows/).
+4. Run - `gatsby develop`
 
 ## File Structure
 - *src*
