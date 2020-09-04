@@ -5,10 +5,12 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="CS4All Blueprint" />
     <div id="page">
       <div className="jumbotron">
-        <p><a className="intro-a" href="http://cs4all.nyc" target="_blank"><span className="expander">CS4ALL</span></a> will ensure every <span className="intro-2">NYC</span> student receives a <span className="intro-3">meaningful</span> unit of <span className="intro-1">computer science education</span> by 2025. With the <a className="intro-b" href="/about/"><span className="expander">Blueprint</span></a>, our <span className="intro-3">educators</span> are making it happen.</p>
+        <p>
+          <a className="intro-a" href="http://cs4all.nyc" target="_blank"><span className="expander">CS4ALL</span></a> will ensure that every NYC student receives a meaningful unit of computer science education by 2025. With the <a className="intro-b" href="/about/"><span className="expander">Blueprint</span></a>, our educators are making it happen.
+        </p>
         <div className="next box"><a className="btn scroll" href="#what-is-blueprint"><span className="preamble">Show me</span> how</a></div>
       </div>
 
@@ -126,14 +128,12 @@ const IndexPage = () => (
             </div>
             <div className="box">
               <a className="btn" href="https://docs.google.com/a/strongschools.nyc/forms/d/e/1FAIpQLScrFYHGQltaZ8taqnOc81RM6rhswS171zpsRyKaUMCxkP1ZDQ/viewform" role="button">
-                <span className="preamble">Get notified about</span>
-                <span>educator trainings</span>
+                <span className="preamble">Get notified about</span> <span>educator trainings</span>
               </a>
             </div>
             <div className="box">
               <a className="btn" href="http://cs4all.nyc/" role="button" target="_blank">
-                <span className="preamble">Learn more about the</span>
-                <span>CS4ALL initiative</span>
+                <span className="preamble">Learn more about the</span> <span>CS4ALL initiative</span>
               </a>
             </div>
           </div>
