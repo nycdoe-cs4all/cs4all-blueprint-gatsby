@@ -29,7 +29,7 @@ By [@nycdoe-cs4all](https://github.com/nycdoe-cs4all)
 1. Navigate to the folder using your terminal - `cd C:\...\cs4all-blueprint-gatsby`
    - Replace the url with the directory you cloned the repository into
 2. Install dependencies - `npm install`
-3. You will likely need to run a web server on your computer to view the site locally. Install MAMP on macOS(https://www.mamp.info/en/mac/) or Windows(https://www.mamp.info/en/windows/).
+3. You will likely need to run a web server on your computer to view the site locally. Install MAMP on [macOS](https://www.mamp.info/en/mac/) or [Windows](https://www.mamp.info/en/windows/).
 4. Run - `gatsby develop`
 
 ## File Structure
