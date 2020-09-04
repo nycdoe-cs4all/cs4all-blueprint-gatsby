@@ -132,7 +132,7 @@ h1, nav, .subtitle, .btn, #cboxTitle, .nav-tabs, h5, h3 .activity-grade, legend 
   box-sizing: border-box;
 }
 body {
-  padding-top: 69px;
+  /* padding-top: 69px; */
   padding-bottom: 20px;
   margin: 0;
   background: #17283e;
@@ -2273,7 +2273,7 @@ article.green-theme section.compressed a.box {
   }*/
 
   body {
-  padding-top: 80px;
+  /* padding-top: 80px; */
   padding-bottom: 0;
   }
 
@@ -2743,9 +2743,9 @@ article.green-theme section.compressed a.box {
 
 @media (min-width: 992px) {
 
-  body {
+  /* body {
     padding-top: 81px;
-  }
+  } */
 
   #masthead:hover {
     border-color: #8ac8ff;
@@ -2755,10 +2755,9 @@ article.green-theme section.compressed a.box {
     width: 398px;
     float: left;
   }
-    #menu {
-
+    /* #menu {
         float: right;
-    }
+    } */
     #menu h2 {
       display: none;
     }
@@ -3278,9 +3277,9 @@ article.green-theme section.compressed a.box {
 
 @media (min-width: 1160px) {
 
-  body {
+  /* body {
     padding-top: 97px;
-  }
+  } */
   #masthead #logo {
     padding: 24px 32px;
   }
