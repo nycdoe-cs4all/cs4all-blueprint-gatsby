@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
 const ExploringCS = () => (
   <Layout>
     <SEO title="Exploring CS" />
@@ -13,7 +13,7 @@ const ExploringCS = () => (
           <div className="article-content">
             <p>
               <video width="640" height="425" frameborder="0" controls preload="auto">
-                <source src="https://blueprint.cs4all.nyc/static/videos/ecs2019-20.mp4#t=0.5" type="video/mp4">
+                <source src="https://blueprint.cs4all.nyc/static/videos/ecs2019-20.mp4#t=0.5" type="video/mp4" />
                 Your browser doesn't support the video tag.
               </video>
             </p>

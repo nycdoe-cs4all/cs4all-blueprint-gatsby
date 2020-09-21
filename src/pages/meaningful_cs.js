@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
 const MeaningfulCS = () => (
   <Layout>
     <SEO title="Blueprint CS Foundations" />
@@ -62,7 +62,7 @@ const MeaningfulCS = () => (
         <li>9-12: A written reflection that discusses the concepts associated with calling a function.</li>
       </ul>
       <p>Finally, educators should write performance task criteria for students, and share this criterion early and often with them.</p>
-      
+
       <h2>Scope: CS Practices, Concepts, and Perspectives</h2>
       <p>A meaningful unit as described in the Blueprint represents the minimum instruction required in CS4All projects. Schools are expected to teach at least, all three CS practices (Analyze, Prototype, and Communicate), as well as three of five CS concepts (Abstraction, Algorithms, Programming, Data, and Networks.) Each practice and concept have corresponding  sub-practices and sub-concepts. </p>
       <p>Educators are expected to:</p>
@@ -75,11 +75,6 @@ const MeaningfulCS = () => (
       <p>For example, an educator who has no prior experience with CS, may scope their unit using the Explorer perspective, which focuses on giving students time to play and gain comfort with CS practices and concepts.</p>
       <p>Educators should consider this to be the standard for meaningful CS units. As they gain CS content knowledge and experience implementing CS instruction, educators are encouraged to add more concepts and to look at CS educational frameworks with broader scopes such as the K-12 CS framework, or the AP CS Principles framework.</p>
     </div>
-  <style>
-    .filter{
-      color: grey
-    }
-  </style>
   </Layout>
 )
 export default MeaningfulCS

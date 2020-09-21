@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
 const Outcomes = () => (
  <Layout>
     <SEO title="Student Outcomes" />
@@ -543,7 +543,7 @@ const Outcomes = () => (
             <a className="btn" href="/units" role="button"><span className="preamble">Cool. Let&rsquo;s find a</span> unit <span className="preamble">to teach.</span></a>
           </div>
           <div className="box">
-            <a className="btn" href="/resources" role="button"><span className="preamble">Hold on, I still have</span> questions.</span></a>
+            <a className="btn" href="/resources" role="button"> <span className="preamble">Hold on, I still have questions.</span></a>
           </div>
         </div>
       </div>

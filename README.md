@@ -8,7 +8,6 @@ By [@nycdoe-cs4all](https://github.com/nycdoe-cs4all)
 
 ## Installations
 1. Install [Node.js](https://nodejs.org/en/download/)
-   - Mac users can and should consider using [homebrew](https://treehouse.github.io/installation-guides/mac/node-mac.html) to install it
 2. Install [Git](https://git-scm.com/)
 3. Install Gatsby - In your terminal, run the following command: `npm install -g gatsby-cli`
 - OPTIONAL:
@@ -30,7 +29,8 @@ By [@nycdoe-cs4all](https://github.com/nycdoe-cs4all)
 1. Navigate to the folder using your terminal - `cd C:\...\cs4all-blueprint-gatsby`
    - Replace the url with the directory you cloned the repository into
 2. Install dependencies - `npm install`
-3. Run - `gatsby develop`
+3. You will likely need to run a web server on your computer to view the site locally. Install MAMP on [macOS](https://www.mamp.info/en/mac/) or [Windows](https://www.mamp.info/en/windows/).
+4. Run - `gatsby develop`
 
 ## File Structure
 - *src*
@@ -49,6 +49,9 @@ By [@nycdoe-cs4all](https://github.com/nycdoe-cs4all)
 Gatsby is a remix of the popular framework React. React makes it easy to create web apps using components.
 Gatsby makes it easy to create websites with a light front-end framework and little to no backend. It can easily connect to data sources(even Wordpress), and is configured to work well with headless servers. Gatsby statically renders the site and the data shown/stored on it, which means it's super easy to publish anywhere online and makes for a very fast web app.
 
+## How to locally run WordPress(in Terminal/unix)
+Follow [this guide](https://upcloud.com/community/tutorials/wordpress-with-docker/)
+
 ## How to convert an old blueprint site to a Gatsby component
 
 <i>Quick note: You won't have to follow every single step for each component. It is possible that, for example, some files won't include comments or inline styling in the original HTML. In that case, move on to the next step.</i>
@@ -64,6 +67,44 @@ Gatsby makes it easy to create websites with a light front-end framework and lit
 10. Rename the component from `Boilerplate` to the name of the site, written in camelcase. For example, if the file is called `cs-and-the-city.js`, turn `const Boilerplate` into `const CSAndTheCity`.
 
 # Changelog
+
+### 8/31/20
+From [Dylan](https://github.com/dylsteck)
+- Pushed stable wordpress version to master
+  - Next up: fix internal router so each educator resource article has its own page
+  - Will keep looking into [reach router](https://reach.tech/router/api)
+  
+### 8/12/20
+From [Dylan](https://github.com/dylsteck)
+- Cleaned up `pages/resources.js`
+- Worked on `pages/educator-resources.js` -- a component that will be re-used to display each article
+  - Having a few issues with [router params](https://reach.tech/router/api/useParams) and GraphQL
+- Looked into how we can clean up some of the code
+
+### 7/29/20
+From [Dylan](https://github.com/dylsteck)
+- `pages/resources.js` shows all posts
+- Trying to get demo server working, but taking a while because of WordPress issues
+
+### 7/17/20
+From [Dylan](https://github.com/dylsteck)
+- Fixed all runtime bugs from component conversion
+- Connected to local Wordpress
+- Created Resource component, which just returns all of the WordPress posts as JSON
+- Added "How to locally run WordPress" in README
+
+### 7/15/20
+From [Dylan](https://github.com/dylsteck)
+- Created resources component and fixed some bugs
+
+### 7/8/20
+From [Dylan](https://github.com/dylsteck)
+- Added [Wordpress-Gatsby plugin](https://www.gatsbyjs.org/packages/gatsby-source-wordpress/) to the project
+- Created `wordpress` branch
+- Created a blank Wordpress site for testing
+- Paused further development to check in with Dan
+  - All of the components are fully coded out, and if we used WordPress, we would have to re-convert them to plain text and sort out how we want to replicate all of the icons
+    - Could also keep the code for key sites and then create a base layout for every component page(this would be the only solution that would involve Wordpress, basically)
 
 ### 6/25/2020
 From [Dan](https://github.com/danielgaylord)
