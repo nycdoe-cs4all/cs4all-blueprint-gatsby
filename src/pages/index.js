@@ -63,7 +63,7 @@ const IndexPage = () => (
               </a>
             </li>
             <li>
-              <a className="box" href="/units">
+              <a className="box" href="/curriculum">
                 <div className="box-content">
                   <span className="icon"><svg><use xlinkHref="#icon-units" /></svg></span>
                   <h3>CS Curriculum</h3>
