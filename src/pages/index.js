@@ -8,7 +8,7 @@ const IndexPage = () => (
     <div id="page">
       <div className="jumbotron">
         <p>
-          <a className="intro-a" href="http://cs4all.nyc" target="_blank"><span className="expander">CS4ALL</span></a> will ensure that every NYC student receives a meaningful unit of computer science education by 2025. With the <a className="intro-b" href="/about/"><span className="expander">Blueprint</span></a>, our educators are making it happen.
+          <a className="intro-a" href="http://cs4all.nyc" target="_blank" rel="noreferrer"><span className="expander">CS4ALL</span></a> will ensure that every NYC student receives a meaningful unit of computer science education by 2025. With the <a className="intro-b" href="/about/"><span className="expander">Blueprint</span></a>, our educators are making it happen.
         </p>
         <div className="next box"><a className="btn scroll" href="#what-is-blueprint"><span className="preamble">Show me</span> how</a></div>
       </div>
@@ -120,7 +120,7 @@ const IndexPage = () => (
           </div>
 
           <div className="exit-links">
-            <div className="box" style={{display: 'none'}} className="hero">
+            <div className="box" style={{display: 'none'}}>
               <a className="btn" href="/units/" role="button">
                 <span className="preamble">Explore more</span> Units
               </a>
@@ -131,7 +131,7 @@ const IndexPage = () => (
               </a>
             </div>
             <div className="box">
-              <a className="btn" href="http://cs4all.nyc/" role="button" target="_blank">
+              <a className="btn" href="http://cs4all.nyc/" role="button" target="_blank" rel="noreferrer">
                 <span className="preamble">Learn more about the</span> <span>CS4ALL initiative</span>
               </a>
             </div>

@@ -163,7 +163,7 @@ const Practices = () => (
           <ol className="list-unstyled">
             <li><a className="box" href="/what-is-cs/" role="button"><span className="box-content">CS Education</span></a></li>
             <li><a className="box" href="/perspectives/" role="button"><span className="box-content">Perspectives</span></a></li>
-            <li className="current"><a href="">Practices</a></li>
+            <li className="current"><a href="#top">Practices</a></li>
             <li>
               <div className="box">
                 <a className="btn btn-primary btn-lg" href="/concepts/" role="button">Next: <span className="preamble">We&rsquo;ll define the</span> Concepts <span className="preamble">students explore through their CS practice.</span></a>

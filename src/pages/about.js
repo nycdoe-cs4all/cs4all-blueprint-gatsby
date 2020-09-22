@@ -30,7 +30,7 @@ const About = () => (
         <p>The Computer Science for All (CS4All) Blueprint is an academic and implementation guide for teaching computer science in New York City public schools.</p>
       </header>
       <div id="about-blueprint" className="article-content">
-        <img src="http://cs4all.nyc/wp-content/uploads/2017/03/CS4All_launch-workhop1_p11.jpg" />
+        <img src="http://cs4all.nyc/wp-content/uploads/2017/03/CS4All_launch-workhop1_p11.jpg" alt="Blueprint fellows at work"/>
         <p>We know that it's a big undertaking to support educators and their school communities as they begin to integrate, many for the first time, computer science into their classrooms. So we created the Blueprint with a dedicated group of <a href="#fellows">Blueprint Teacher Fellows</a>, elevating their CS teaching knowledge and experience in NYC classrooms.</p>
         <div id="about-blueprint-more" className="read-more">
           <p>We also gathered feedback from more than 30  sessions with researchers, the CS education community, industry, and families; and incorporated their needs, values, and goals in our design direction and content. </p>
@@ -51,11 +51,11 @@ const About = () => (
           <p>A huge thank you to all those who attended our sessions!</p>
           <ul>
             <li>
-              <h4>CS education researchers at the <a href="https://csnyc.org/our-work/csnyc-programs/knowledge-forum-2016" target="_blank">CSNYC Knowledge Forum</a></h4>
+              <h4>CS education researchers at the <a href="https://csnyc.org/our-work/csnyc-programs/knowledge-forum-2016" target="_blank" rel="noreferrer">CSNYC Knowledge Forum</a></h4>
               Generalize concepts and practices to elevate computer science thinking on the CSNYC Knowledge Forum.
             </li>
             <li>
-              <h4>CS education community at <a href="https://hiveresearchlab.org/what-we-do/ideologies-of-computer-science-education/" target="_blank">Hive Research Lab CS Visions Convenings</a></h4>
+              <h4>CS education community at <a href="https://hiveresearchlab.org/what-we-do/ideologies-of-computer-science-education/" target="_blank" rel="noreferrer">Hive Research Lab CS Visions Convenings</a></h4>
               Develop multiple perspectives about how to connect CS to each school's visions and goals.
             </li>
             <li>
@@ -67,7 +67,7 @@ const About = () => (
               Include practical guides to support the roll-out of CS in schools.
             </li>
             <li>
-              <h4>Families at <a href="http://makerfaire.com/" target="_blank">World Maker Faire</a></h4>
+              <h4>Families at <a href="http://makerfaire.com/" target="_blank" rel="noreferrer">World Maker Faire</a></h4>
               Families were most interested in general problem-solving and design-thinking skills.
             </li>
           </ul>
@@ -79,70 +79,70 @@ const About = () => (
         <div className="section-content">
           <div id="fellows" className="chart">
             <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/alana-robinson.png`)"}}>
-              <img src="http://blueprint.cs4all.nyc/static/images/assets/alana-robinson.png" width="250px" height="250px" />
+              <img src="http://blueprint.cs4all.nyc/static/images/assets/alana-robinson.png" width="250px" height="250px" alt="profile"/>
               <div className="fellow-content">
                 <h4>Alana Robinson</h4>
                 <span className="fellow-text">Alana Robinson teaches CS to elementary and middle school self-contained special education classes at the Mickey Mantle School, a District 75 school in Manhattan.</span>
               </div>
             </div>
             <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/ariadna-phillips-santos.png`)"}}>
-              <img src="http://blueprint.cs4all.nyc/static/images/assets/ariadna-phillips-santos.png" width="250px" height="250px" />
+              <img src="http://blueprint.cs4all.nyc/static/images/assets/ariadna-phillips-santos.png" width="250px" height="250px" alt="profile"/>
               <div className="fellow-content">
                 <h4>Ariadna Phillips-Santos</h4>
                 <span className="fellow-text">Ariadna Phillips-Santos is a passionate Dual Language (Spanish) Computer Science and ESL/ELA teacher at the Laboratory School of Finance and Technology in the South Bronx.</span>
               </div>
             </div>
             <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/ben-samuels-kalow.png`)"}}>
-              <img src="http://blueprint.cs4all.nyc/static/images/assets/ben-samuels-kalow.png" width="250px" height="250px" />
+              <img src="http://blueprint.cs4all.nyc/static/images/assets/ben-samuels-kalow.png" width="250px" height="250px" alt="profile"/>
               <div className="fellow-content">
                 <h4>Ben Samuels-Kalow</h4>
                 <span className="fellow-text">Ben Samuels-Kalow was a Computer Science and Economics teacher at the Laboratory School of Finance and Technology in the South Bronx.</span>
               </div>
             </div>
             <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/christa-quint.jpg`)"}}>
-              <img src="http://blueprint.cs4all.nyc/static/images/assets/christa-quint.jpg" width="250px" height="250px" />
+              <img src="http://blueprint.cs4all.nyc/static/images/assets/christa-quint.jpg" width="250px" height="250px" alt="profile"/>
               <div className="fellow-content">
                 <h4>Dr. Christa Quint</h4>
                 <span className="fellow-text">Dr. Christa Quint is in her 12th year teaching in New York City. She is an experienced Math teacher and and a new Computer Science teacher at the Urban Assembly Gateway School for Technology.</span>
               </div>
             </div>
             <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/christy-crawford.png`)"}}>
-              <img src="http://blueprint.cs4all.nyc/static/images/assets/christy-crawford.png" width="250px" height="250px" />
+              <img src="http://blueprint.cs4all.nyc/static/images/assets/christy-crawford.png" width="250px" height="250px" alt="profile"/>
               <div className="fellow-content">
                 <h4>Christy Crawford</h4>
-                <span className="fellow-text">Christy Crawford has taught in Harlem and the Bronx for more than 13 years. She is an education consultant and contributor to <a href="https://www.scholastic.com/teachers/contributors/bloggers/christy-crawford/"> Scholastic's Top Teaching blog.</a>.</span>
+                <span className="fellow-text">Christy Crawford has taught in Harlem and the Bronx for more than 13 years. She is an education consultant and contributor to <a href="https://www.scholastic.com/teachers/contributors/bloggers/christy-crawford/" target="_blank" rel="noreferrer"> Scholastic's Top Teaching blog.</a>.</span>
               </div>
             </div>
             <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/joann-westhall.png`)"}}>
-              <img src="http://blueprint.cs4all.nyc/static/images/assets/joann-westhall.png" width="250px" height="250px" />
+              <img src="http://blueprint.cs4all.nyc/static/images/assets/joann-westhall.png" width="250px" height="250px" alt="profile"/>
               <div className="fellow-content">
                 <h4>JoAnn Westhall</h4>
                 <span className="fellow-text">JoAnn Westhall is a Computer Science Instructor, Grades Pre-K-5 at PS 31 in Bayside, Queens.</span>
               </div>
             </div>
             <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/matt-boyle.png`)"}}>
-              <img src="http://blueprint.cs4all.nyc/static/images/assets/matt-boyle.png" width="250px" height="250px" />
+              <img src="http://blueprint.cs4all.nyc/static/images/assets/matt-boyle.png" width="250px" height="250px" alt="profile"/>
               <div className="fellow-content">
                 <h4>Matt Boyle</h4>
                 <span className="fellow-text">Matthew Boyle has background in architecture and graphic design. He helps lead operations, arts and digital media programming at the Renaissance Charter HS for Innovation.</span>
               </div>
             </div>
             <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/sean-pawelec.jpg`)"}}>
-              <img src="http://blueprint.cs4all.nyc/static/images/assets/sean-pawelec.jpg" width="250px" height="250px" />
+              <img src="http://blueprint.cs4all.nyc/static/images/assets/sean-pawelec.jpg" width="250px" height="250px" alt="profile"/>
               <div className="fellow-content">
                 <h4>Sean Pawelec</h4>
                 <span className="fellow-text">Sean Pawelec has a background in earth science who teaches computer science at the Renaissance Charter HS for Innovation where he is the Science Department Chair.</span>
               </div>
             </div>
             <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/tim-feimer.png`)"}}>
-              <img src="http://blueprint.cs4all.nyc/static/images/assets/tim-feimer.png" width="250px" height="250px" />
+              <img src="http://blueprint.cs4all.nyc/static/images/assets/tim-feimer.png" width="250px" height="250px" alt="profile"/>
               <div className="fellow-content">
                 <h4>Tim Feimer</h4>
                 <span className="fellow-text">Tim Feimer is a certified SS 7-12 teacher who enjoys building and learning all about CS topics for all middle school grade levels (6-8).</span>
               </div>
             </div>
             <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/tim-chen.png`)"}}>
-              <img src="http://blueprint.cs4all.nyc/static/images/assets/tim-chen.png" width="250px" height="250px" />
+              <img src="http://blueprint.cs4all.nyc/static/images/assets/tim-chen.png" width="250px" height="250px" alt="profile"/>
               <div className="fellow-content">
                 <h4>Tim Chen</h4>
                 <span className="fellow-text">Tim Chen was a software engineering teacher at the Urban Assembly Gateway School for Technology. He is interested in everything related to computer science education!</span>

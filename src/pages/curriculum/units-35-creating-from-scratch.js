@@ -10,7 +10,7 @@ const Units35CreatingFromScratch = () => (
         <div className="col-md-12">
           <header><span className="preamble"><h2 className="title"  style={{lineHeight: 1}}>3-5 Creator: Creating From Scratch</h2></span></header>
           <div className="article-content" style={{textAlign: 'center'}}>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Zky38KE11H4?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Course intro video" width="560" height="315" src="https://www.youtube.com/embed/Zky38KE11H4?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <div className="submenu">

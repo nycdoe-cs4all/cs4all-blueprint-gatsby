@@ -1,6 +1,6 @@
 import React from "react"
 import foundationsIcon from '../images/svg/icon-foundations.svg'
-import unitsIcon from '../images/svg/icon-units.svg'
+import curriculumIcon from '../images/svg/icon-units.svg'
 import resourcesIcon from '../images/svg/icon-resources.svg'
 import blueprintIcon from '../images/svg/icon-about-blueprint.svg'
 import logo from '../images/Logo.svg'
@@ -16,12 +16,12 @@ const Navbar = () => (
 
     {/* local ".php" filepaths should be replaced with the correct cms-generated filepath. '/about.php' ->  '/about/' */}
     <div className="site-menu">
-    <span id="brand"><img src={logo} /></span>
+    <span id="brand"><img src={logo} alt="CS4All logo"/></span>
       <ul>
         <li>
           <a href="/what-is-cs">
             {/* <span className="icon"><svg><use xlinkHref="#icon-foundations" /></svg></span> */}
-            <span className="icon"> <img src={foundationsIcon} /></span>
+            <span className="icon"> <img src={foundationsIcon} alt="Foundations icon"/></span>
             <span className="preamble">CS</span> Foundations
             <span className="caret"></span>
           </a>
@@ -37,7 +37,7 @@ const Navbar = () => (
         <li>
           <a href="/curriculum">
             {/* <span className="icon"><svg><use xlinkHref="#icon-units" /></svg></span> */}
-            <span className="icon"> <img src={unitsIcon} /></span>
+            <span className="icon"> <img src={curriculumIcon} alt="Curriculum icon"/></span>
             <span className="preamble">curriculum</span> Catalog
           </a>
         </li>
@@ -45,15 +45,15 @@ const Navbar = () => (
         <li>
           <a href="/resources">
             {/* <span className="icon"><svg><use xlinkHref="#icon-resources" /></svg></span> */}
-            <span className="icon"> <img src={resourcesIcon} /></span>
+            <span className="icon"> <img src={resourcesIcon} alt="Resources icon"/></span>
             <span className="preamble">Educator</span> Resources
           </a>
         </li>
-        
+
         <li>
           <a href="/about">
             {/* <span className="icon"><svg><use xlinkHref="#icon-blueprint" /></svg></span> */}
-            <span className="icon"> <img src={blueprintIcon} /></span>
+            <span className="icon"> <img src={blueprintIcon} alt="About icon"/></span>
             <span className="preamble">About</span> Blueprint
           </a>
         </li>

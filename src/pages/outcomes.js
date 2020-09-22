@@ -534,7 +534,7 @@ const Outcomes = () => (
             <li><a className="box" href="/perspectives" role="button"><span className="box-content">Perspectives</span></a></li>
             <li><a className="box" href="/practices" role="button"><span className="box-content">Practices</span></a></li>
             <li><a className="box" href="/concepts" role="button"><span className="box-content">Concepts</span></a></li>
-            <li className="current"><a href="">Outcomes</a></li>
+            <li className="current"><a href="#top">Outcomes</a></li>
           </ol>
         </div>
         <div className="exit-links">

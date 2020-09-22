@@ -300,7 +300,7 @@ const Concepts = () => (
           <li><a className="box" href="/what-is-cs/" role="button"><span className="box-content">CS Education</span></a></li>
           <li><a className="box" href="/perspectives/" role="button"><span className="box-content">Perspectives</span></a></li>
           <li><a className="box" href="/practices/" role="button"><span className="box-content">Practices</span></a></li>
-          <li className="current"><a href="">Concepts</a></li>
+          <li className="current"><a href="#top">Concepts</a></li>
           <li>
             <div className="box">
               <a className="btn btn-primary btn-lg" href="/outcomes/" role="button">Next: <span className="preamble">let's put it all together and see </span> <span>what CS Students can do!</span></a>
