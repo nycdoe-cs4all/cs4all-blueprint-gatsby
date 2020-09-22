@@ -68,6 +68,15 @@ Follow [this guide](https://upcloud.com/community/tutorials/wordpress-with-docke
 
 # Changelog
 
+### 9/22/20
+From [Dan](https://github.com/danielgaylord)
+- Fixed various warnings from running 'gatsby develop'
+  - Ex: img alt text, 'Link' not being used, a elements
+  - layout.js still has 1 warning that might be hardere to fix
+- Removed all links to the old units page
+- Restructured pages so all of the curriculum and unused pages are in their own folders
+- Made sure most non-internal links open in a new tab
+
 ### 8/31/20
 From [Dylan](https://github.com/dylsteck)
 - Pushed stable wordpress version to master
