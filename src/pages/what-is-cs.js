@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -29,7 +28,7 @@ const WhatIsCS = () => (
               </div>
             </a>
           </li>
-          
+
           <li className="green">
             <a className="box" href="/practices/">
               <div className="box-content">

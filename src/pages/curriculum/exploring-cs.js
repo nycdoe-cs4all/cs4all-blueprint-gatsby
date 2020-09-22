@@ -1,7 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
 
 const ExploringCS = () => (
   <Layout>
@@ -9,7 +8,7 @@ const ExploringCS = () => (
     <div id="page">
       <article className="light-theme">
         <div className="col-md-12">
-          <header><span className="preamble"><h2 className="title"  style="line-height:1;">Exploring Computer Science</h2></span></header>
+          <header><span className="preamble"><h2 className="title"  style={{lineHeight: 1}}>Exploring Computer Science</h2></span></header>
           <div className="article-content">
             <p>
               <video width="640" height="425" frameborder="0" controls preload="auto">

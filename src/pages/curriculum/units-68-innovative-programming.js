@@ -1,7 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
 
 const Units68InnovativeProgramming = () => (
   <Layout>
@@ -10,7 +9,7 @@ const Units68InnovativeProgramming = () => (
       <article className="light-theme">
         <div className="col-md-12">
           <header><span className="preamble"><h2 className="title"  style={{lineHeight: 1}}>6-8 Innovator: Innovative Programming</h2></span></header>
-          <div className="article-content" style="text-align:center">
+          <div className="article-content" style={{textAlign: 'center'}}>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/l5S9JMyyyZQ?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
