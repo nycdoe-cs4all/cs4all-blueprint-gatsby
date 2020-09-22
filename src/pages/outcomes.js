@@ -539,7 +539,7 @@ const Outcomes = () => (
         </div>
         <div className="exit-links">
           <div className="box">
-            <a className="btn" href="/units" role="button"><span className="preamble">Cool. Let&rsquo;s find a</span> unit <span className="preamble">to teach.</span></a>
+            <a className="btn" href="/curriculum" role="button"><span className="preamble">Cool. Let&rsquo;s find a</span> curriculum <span className="preamble">to teach.</span></a>
           </div>
           <div className="box">
             <a className="btn" href="/resources" role="button"> <span className="preamble">Hold on, I still have questions.</span></a>
