@@ -1,3 +1,7 @@
+#menu {
+  padding: 16px;
+}
+
 span#brand {
   float: left;
   height: 48px;
