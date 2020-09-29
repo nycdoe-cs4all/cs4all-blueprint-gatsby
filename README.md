@@ -68,6 +68,11 @@ Follow [this guide](https://upcloud.com/community/tutorials/wordpress-with-docke
 
 # Changelog
 
+## 9/21/20 
+From [Dylan](https://github.com/dylsteck)
+- Began looking into independent routing with Gatsby's [createPages](https://www.gatsbyjs.com/docs/node-apis/#createPages) API
+- 
+
 ### 8/31/20
 From [Dylan](https://github.com/dylsteck)
 - Pushed stable wordpress version to master
