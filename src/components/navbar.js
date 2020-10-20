@@ -16,7 +16,9 @@ const Navbar = () => (
 
     {/* local ".php" filepaths should be replaced with the correct cms-generated filepath. '/about.php' ->  '/about/' */}
     <div className="site-menu">
-    <span id="brand"><img src={logo} alt="CS4All logo"/></span>
+    <a href="/">
+      <span id="brand"><img src={logo} alt="CS4All logo"/></span>
+    </a>
       <ul>
         <li>
           <a href="/what-is-cs">
