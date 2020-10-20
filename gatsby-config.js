@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `CS4AlL Blueprint Beta`,
+    title: `CS4All Blueprint Beta`,
     description: `Computer Science for All (CS4All) will ensure all NYC public school students learn computer science, with an emphasis on female, black, and Latino students. Through our work, students will be better prepared to utilize computer science during their K-12 experience and after graduation.`,
     author: `@nycdoe-cs4all`,
   },
@@ -53,6 +53,15 @@ module.exports = {
         name: `src`,
         path: `${__dirname}/src/`,
       },
+
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /src/images/svg/ // See below to configure properly
+        }
+      }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

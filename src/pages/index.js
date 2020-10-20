@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import creativeCommonsIcon from "../images/svg/icon-cc-by-nc-sa.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -139,13 +138,6 @@ const IndexPage = () => (
           </div>
         </div> {/*  #featured-units */ }
       </div> {/* /.interior-container */ }
-      <div id="footer">
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
-          {/* <span class="icon"><svg><use xlinkHref="#icon-cc-by-nc-sa" /></svg></span> */}
-          <span className="icon"> <img src={creativeCommonsIcon} alt="creative commons icon"/></span>
-          This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-        </a>  
-      </div>
     </div>
   </Layout>
 )
