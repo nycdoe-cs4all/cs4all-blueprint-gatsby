@@ -68,6 +68,19 @@ Follow [this guide](https://upcloud.com/community/tutorials/wordpress-with-docke
 
 # Changelog
 
+### 10/22/20
+From [Dan](https://github.com/danielgaylord)
+- Missed several updates from prior...
+- Updated About page so the read more/collapse text buttons work and text opens gradually
+- Removed data var from layout.js, unsure if it broke anything, but everything still seems to work
+- Added an Accordion component that allows sections to open gradually
+  - Added accordion to the concepts, practices, and perspective pages
+- Fixed links in practices page, but the sections it links to do not automatically open
+- Show me how button on index page now gradually scrolls to the proper section of the page
+- CS4All logo in navbar links to index, but there is now a border around the logo
+- Noticed issue where previous coder stylized anchors to be used as buttons, but that is improper use for accessibility
+  - To fix we will have to deep dive into the stylesheet
+
 ### 9/22/20
 From [Dan](https://github.com/danielgaylord)
 - Fixed various warnings from running 'gatsby develop'
@@ -82,7 +95,7 @@ From [Dylan](https://github.com/dylsteck)
 - Pushed stable wordpress version to master
   - Next up: fix internal router so each educator resource article has its own page
   - Will keep looking into [reach router](https://reach.tech/router/api)
-  
+
 ### 8/12/20
 From [Dylan](https://github.com/dylsteck)
 - Cleaned up `pages/resources.js`
