@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -23,7 +23,8 @@ div.fellow.col-md-3:hover .fellow-text{
 
 const About = () => {
 
-  const aboutVisible = false;
+  const [aboutState, aboutVisible] = useState(false);
+  const [fellowState, fellowVisible] = useState(false);
 
   return (
     <Layout>
@@ -36,16 +37,16 @@ const About = () => {
         <div id="about-blueprint" className="article-content">
           <img src="http://cs4all.nyc/wp-content/uploads/2017/03/CS4All_launch-workhop1_p11.jpg" alt="Blueprint fellows at work"/>
           <p>We know that it's a big undertaking to support educators and their school communities as they begin to integrate, many for the first time, computer science into their classrooms. So we created the Blueprint with a dedicated group of <a href="#fellows">Blueprint Teacher Fellows</a>, elevating their CS teaching knowledge and experience in NYC classrooms.</p>
-          <div id="about-blueprint-more" className="read-more">
+          <div id="about-blueprint-more" className={aboutState ? "inactive" : "active"}>
             <p>We also gathered feedback from more than 30  sessions with researchers, the CS education community, industry, and families; and incorporated their needs, values, and goals in our design direction and content. </p>
             <p>A list of these stakeholders, as well as the important ideas and feedback they offered, are summarized below.</p>
             <p>With this beta (first published draft) version of the Blueprint, the CS4All team is engaging a new cohort of Teacher Fellows, and work with administrators to further refine and develop the resources schools need to implement a rigorous computer science curriculum.</p>
           </div>
           <p>
-            <div className="btn btn-sm open" onClick={() => !aboutVisible} onKeyPress={() => !aboutVisible} role="button" tabIndex="0">
-              <span className="label inactive">Read More</span>
-              <span className="label active">Collapse Text</span>
-            </div>
+            <button className="btn btn-sm open" onClick={() => aboutVisible(!aboutState)} onKeyPress={() => aboutVisible(!aboutState)} tabIndex="0">
+              <span className={aboutState ? "label inactive" : "label active"}>Read More</span>
+              <span className={aboutState ? "label active" : "label inactive"}>Collapse Text</span>
+            </button>
           </p>
         </div>
 
@@ -158,7 +159,7 @@ const About = () => {
               <h4><span>A message from the fellows:</span> What are we trying to teach?</h4>
               <p>In Math class, students hold a pencil. They may hold that same pencil in English, but what they’re asked to produce, how they’re trained to think and question –  look different. In neither class is the pencil the focus.</p>
               <p>In computer science, the computer is the pencil.</p>
-              <div id="about-fellows-more" className="read-more">
+              <div id="about-fellows-more" className={fellowState ? "inactive" : "active"}>
                 <p>Your students have used computers to convey their thinking -- to get it on a document, on a slide, in a picture, or on a piece of paper. Our hope is that these resources will help you create a classroom in which students think with the computer, where the
                 computer becomes &quot;a bicycle for the mind,&quot; a tool for empowering and unlocking our students' curiosity and creativity.</p>
                 <p>We'll be tackling everything from recommended programming languages and courses of study, to the arrangement of tables and chairs in your classroom. There is a lot to digest (and a lot that we are still learning,) but these resources were put together
@@ -169,10 +170,10 @@ const About = () => {
                 to equity, to unlocking more unrealized potential in all our students, in as many ways as we possibly can.</p>
               </div>
               <p>
-                <a className="btn btn-sm open" href="#about-blueprint-more">
-                  <span className="label inactive">Read More</span>
-                  <span className="label active">Collapse Text</span>
-                </a>
+              <button className="btn btn-sm open" onClick={() => fellowVisible(!fellowState)} onKeyPress={() => fellowVisible(!fellowState)} tabIndex="0">
+                <span className={fellowState ? "label inactive" : "label active"}>Read More</span>
+                <span className={fellowState ? "label active" : "label inactive"}>Collapse Text</span>
+              </button>
               </p>
             </div>
 
