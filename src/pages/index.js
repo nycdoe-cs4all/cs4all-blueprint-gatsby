@@ -11,9 +11,11 @@ const IndexPage = () => (
         <p>
           <a className="intro-a" href="http://cs4all.nyc" target="_blank" rel="noreferrer"><span className="expander">CS4ALL</span></a> will ensure that every NYC student receives a meaningful unit of computer science education by 2025. With the <a className="intro-b" href="/about/"><span className="expander">Blueprint</span></a>, our educators are making it happen.
         </p>
-        <button className="next box btn" onClick={() => scrollTo('#what-is-blueprint')} onKeyPress={() => scrollTo('#what-is-blueprint')} tabIndex="0">
-          <span className="preamble">Show me</span> how
-        </button>
+        <div className=" next box">
+          <a className="btn" href="javascript:void(0)" onClick={() => scrollTo('#what-is-blueprint')} onKeyPress={() => scrollTo('#what-is-blueprint')} role="button" tabIndex="0">
+            <span className="preamble">Show me</span> how
+          </a>
+        </div>
       </div>
 
       <div id="cs-in-classroom" className="interior-container">

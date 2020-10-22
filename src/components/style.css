@@ -926,7 +926,7 @@ article .section-content:after {
 }
 article .section-content {
   overflow: hidden;
-  transition: height .4s, margin .4s;
+  transition: max-height .4s, margin .4s;
 }
 article section + .article-content {
   margin-top: 24px;
@@ -937,7 +937,7 @@ article section.compressed .section-content {
 }
 
 .article-content .read-more {
-  transition: height .5s;
+  transition: max-height .5s;
   overflow: hidden;
 }
 .article-content .inactive {
