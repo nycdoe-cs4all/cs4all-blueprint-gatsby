@@ -186,8 +186,12 @@ nav img, img {
   height: auto;
 }
 
-nav a img, a img {
+a img {
   border: 2px solid #8ac8ff;
+}
+
+nav a img {
+  border: 0px;
 }
 
 nav a:hover img, a:hover img {
