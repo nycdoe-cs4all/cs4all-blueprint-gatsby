@@ -1,6 +1,14 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import iconExplorer from '../images/icon-explorer.svg'
+import iconCreator from '../images/icon-creator.svg'
+import iconInnovator from '../images/icon-innovator-color.svg'
+import iconCitizen from '../images/icon-citizen.svg'
+import iconAnalyze from '../images/icon-analyze.svg'
+import iconAbstraction from '../images/icon-abstraction.svg'
+import iconPrototype from '../images/prototyping.svg'
+import iconCommunicate from '../images/icon-communicate.svg'
 
 const Outcomes = () => (
  <Layout>
@@ -20,25 +28,29 @@ const Outcomes = () => (
 								<th className="practice">Practice</th>
 								<th id="outcomes-abstraction-explorer" className="perspective">
 									<a href="/perspectives#perspective-explorer" target="_blank">
-										<span className="icon"><svg><use xlinkHref="#icon-explorer" /></svg></span>
+									{/* <span className="icon"><svg><use xlinkHref="#icon-explorer" /></svg></span> */}
+									<span className="icon"><img src={iconExplorer} alt="Explorer icon"/></span>
 										As an Explorer, I can&hellip;
 									</a>
 								</th>
 								<th id="outcomes-abstraction-creator" className="perspective">
 									<a href="/perspectives#perspective-creator" target="_blank">
-										<span className="icon"><svg><use xlinkHref="#icon-creator" /></svg></span>
+										{/* <span className="icon"><svg><use xlinkHref="#icon-creator" /></svg></span> */}
+										<span className="icon"><img src={iconCreator} alt="Creator icon"/></span>
 										As a Creator, I can&hellip;
 									</a>
 								</th>
 								<th id="outcomes-abstraction-innovator" className="perspective">
 									<a href="/perspectives#perspective-innovator" target="_blank">
-										<span className="icon"><svg><use xlinkHref="#icon-innovator" /></svg></span>
+										{/* <span className="icon"><svg><use xlinkHref="#icon-innovator" /></svg></span> */}
+										<span className="icon"><img src={iconInnovator} alt="Innovator icon"/></span>
 										As an Innovator, I can&hellip;
 									</a>
 								</th>
 								<th id="outcomes-abstraction-citizen" className="perspective">
 									<a href="/perspectives#perspective-citizen" target="_blank">
-										<span className="icon"><svg><use xlinkHref="#icon-citizen" /></svg></span>
+										{/* <span className="icon"><svg><use xlinkHref="#icon-citizen" /></svg></span> */}
+										<span className="icon"><img src={iconCitizen} alt="Citizen icon"/></span>
 										As a Citizen, I can&hellip;
 									</a>
 								</th>
@@ -49,14 +61,16 @@ const Outcomes = () => (
 								<th className="concept" rowspan="3">
 									<a href="/concepts#concept-abstraction" target="_blank">
 										Abstraction
-										<span className="icon"><svg><use xlinkHref="#icon-abstraction" /></svg></span>
+										{/* <span className="icon"><svg><use xlinkHref="#icon-abstraction" /></svg></span> */}
+										<span className="icon"><img src={iconAbstraction} alt="Abstraction icon"/></span>
 									</a>
 								</th>
 								<td className="practice">
 									<a href="/practices#practice-analyze" target="_blank">
 										<h4>
 											Analyze
-											<span className="icon"><svg><use xlinkHref="#icon-analyze" /></svg></span>
+											{/* <span className="icon"><svg><use xlinkHref="#icon-analyze" /></svg></span> */}
+											<span className="icon"><img src={iconAnalyze} alt="Analyze icon"/></span>
 										</h4>
 									</a>
 								</td>
@@ -76,7 +90,8 @@ const Outcomes = () => (
 							<tr>
 								<td className="practice">
 									<a href="/practices#practice-prototype" target="_blank">
-										<h4>Prototype <span className="icon"><svg><use xlinkHref="#icon-prototype" /></svg></span></h4>
+										{/* <h4>Prototype <span className="icon"><svg><use xlinkHref="#icon-prototype" /></svg></span></h4> */}
+										<h4>Prototype <span className="icon"><img src={iconPrototype} alt="Prototype icon"/></span></h4>
 									</a>
 								</td>
 								<td dataColumn="Explorers can" data-header="outcomes-abstraction-explorer" dataDokNumber="2" dataDokVerb="imagining" className="perspective explorers">
@@ -97,7 +112,8 @@ const Outcomes = () => (
 									<a href="/practices#practice-communicate" target="_blank">
 										<h4>
 											Communicate
-											<span className="icon"><svg><use xlinkHref="#icon-communicate" /></svg></span>
+											{/* <span className="icon"><svg><use xlinkHref="#icon-communicate" /></svg></span> */}
+											<span className="icon"><img src={iconCommunicate} alt="Communicate icon"/></span>
 										</h4>
 									</a>
 								</td>
