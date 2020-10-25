@@ -131,7 +131,7 @@ const IndexPage = () => (
               </a>
             </div>
             <div className="box">
-              <a className="btn" href="https://docs.google.com/a/strongschools.nyc/forms/d/e/1FAIpQLScrFYHGQltaZ8taqnOc81RM6rhswS171zpsRyKaUMCxkP1ZDQ/viewform" role="button">
+              <a className="btn" href="https://docs.google.com/a/strongschools.nyc/forms/d/e/1FAIpQLScrFYHGQltaZ8taqnOc81RM6rhswS171zpsRyKaUMCxkP1ZDQ/viewform" role="button" target="_blank">
                 <span className="preamble">Get notified about</span> <span>educator trainings</span>
               </a>
             </div>

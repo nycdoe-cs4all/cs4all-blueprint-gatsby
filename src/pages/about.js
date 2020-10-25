@@ -191,7 +191,7 @@ const About = () => {
           </div>
         </section>
         <div className="article-content">
-          <p>If you have thoughts or feedback about the Blueprint website, <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIeJ9xKpfT-ngiOeMY01GF-vounSQxMjnYzaePEsMXhwIEcQ/viewform">please share them with us</a>!</p>
+          <p>If you have thoughts or feedback about the Blueprint website, <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIeJ9xKpfT-ngiOeMY01GF-vounSQxMjnYzaePEsMXhwIEcQ/viewform" target="_blank">please share them with us</a>!</p>
         </div>
       </article>
     </Layout>
