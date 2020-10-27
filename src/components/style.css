@@ -1,14 +1,3 @@
-#menu {
-  padding: 16px;
-  border-bottom: 1px solid #8ac8ff;
-}
-
-span#brand {
-  float: left;
-  height: 48px;
-  width: 366px;
-}
-
 /* Temporary CSS(because of React errors etc) */
 @media (min-width: 992px) {
   /* for src/pages/ican.js  because React doesn't support inline media queries */
@@ -143,7 +132,7 @@ h1, nav, .subtitle, .btn, #cboxTitle, .nav-tabs, h5, h3 .activity-grade, legend 
   box-sizing: border-box;
 }
 body {
-  /* padding-top: 69px; */
+  padding-top: 69px;
   padding-bottom: 20px;
   margin: 0;
   background: #17283e;
@@ -190,8 +179,8 @@ a img {
   border: 2px solid #8ac8ff;
 }
 
-nav a img {
-  border: 0px;
+nav a img, h1 span img {
+  border: 0px; /* remove when svgs work*/
 }
 
 nav a:hover img, a:hover img {
@@ -599,6 +588,7 @@ nav h1 {
 
 
 /* Menu */
+
 #menu h2 {
   position: absolute;
   right: 16px;
@@ -1471,7 +1461,7 @@ article table a {
 
 
 article table td:before {
-  content: attr(data-column);
+  content: attr(dataColumn);
   font-weight: 900;
   display: block;
 }
@@ -1541,11 +1531,11 @@ article #student-outcomes-table {
 }
 article #student-outcomes-table td.perspective:before {
   display: inline-block;
-  content: attr(data-column);
+  content: attr(dataColumn);
 }
 article #student-outcomes-table td.perspective:after {
   display: inline-block;
-  content: "(" attr(data-dok-number) "\00a0\2022\0020" attr(data-dok-verb) ")";
+  content: "(" attr(dataDokNumber) "\00a0\2022\0020" attr(dataDokVerb) ")";
   font-weight: bold;
   color: #97b5d0;
 }
@@ -2288,7 +2278,7 @@ article.green-theme section.compressed a.box {
   }*/
 
   body {
-  /* padding-top: 80px; */
+  padding-top: 80px;
   padding-bottom: 0;
   }
 
@@ -2758,9 +2748,9 @@ article.green-theme section.compressed a.box {
 
 @media (min-width: 992px) {
 
-  /* body {
+  body {
     padding-top: 81px;
-  } */
+  }
 
   #masthead:hover {
     border-color: #8ac8ff;
@@ -2770,9 +2760,11 @@ article.green-theme section.compressed a.box {
     width: 398px;
     float: left;
   }
-    /* #menu {
-        float: right;
-    } */
+
+  #menu {
+    float: right;
+  }
+
     #menu h2 {
       display: none;
     }
@@ -3231,7 +3223,7 @@ article.green-theme section.compressed a.box {
   }
   article #student-outcomes-table td.perspective:before {
     display: block;
-    content: attr(data-dok-number);
+    content: attr(dataDokNumber);
     background: #4b77a0;
     color: #fff;
     padding: 4px 0;
@@ -3249,7 +3241,7 @@ article.green-theme section.compressed a.box {
   }
   article #student-outcomes-table td.perspective:after {
     display: block;
-    content: attr(data-dok-verb);
+    content: attr(dataDokVerb);
     line-height: 1;
     padding: 4px 6px 6px;
     transform: rotate(90deg);
@@ -3292,9 +3284,9 @@ article.green-theme section.compressed a.box {
 
 @media (min-width: 1160px) {
 
-  /* body {
+  body {
     padding-top: 97px;
-  } */
+  }
   #masthead #logo {
     padding: 24px 32px;
   }
