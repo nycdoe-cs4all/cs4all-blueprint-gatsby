@@ -1,6 +1,5 @@
 const { graphql } = require('gatsby')
 const path = require(`path`)
-const parse = require('html-react-parser')
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
@@ -36,7 +35,7 @@ exports.createPages = ({ graphql, actions }) => {
         component: blogPostTemplate,
         context: {
           title: `${edge.node.title}`,
-          content: `${parse(edge.node.content)}`,
+          content: `${edge.node.content}`,
           id: `${edge.node.id}`,
           date: `${edge.node.date}`
         },
