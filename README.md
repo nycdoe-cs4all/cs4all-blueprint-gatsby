@@ -8,7 +8,6 @@ By [@nycdoe-cs4all](https://github.com/nycdoe-cs4all)
 
 ## Installations
 1. Install [Node.js](https://nodejs.org/en/download/)
-   - Mac users can and should consider using [homebrew](https://treehouse.github.io/installation-guides/mac/node-mac.html) to install it
 2. Install [Git](https://git-scm.com/)
 3. Install Gatsby - In your terminal, run the following command: `npm install -g gatsby-cli`
 - OPTIONAL:
@@ -30,7 +29,8 @@ By [@nycdoe-cs4all](https://github.com/nycdoe-cs4all)
 1. Navigate to the folder using your terminal - `cd C:\...\cs4all-blueprint-gatsby`
    - Replace the url with the directory you cloned the repository into
 2. Install dependencies - `npm install`
-3. Run - `gatsby develop`
+3. You will likely need to run a web server on your computer to view the site locally. Install MAMP on [macOS](https://www.mamp.info/en/mac/) or [Windows](https://www.mamp.info/en/windows/).
+4. Run - `gatsby develop`
 
 ## File Structure
 - *src*
@@ -68,6 +68,34 @@ Follow [this guide](https://upcloud.com/community/tutorials/wordpress-with-docke
 
 # Changelog
 
+### 10/27/20
+From [Dylan](https://github.com/dylsteck)
+- Finished wordpress pagination
+- Merged `wordpress` branch with `master`
+
+### 10/22/20
+From [Dan](https://github.com/danielgaylord)
+- Missed several updates from prior...
+- Updated About page so the read more/collapse text buttons work and text opens gradually
+- Removed data var from layout.js, unsure if it broke anything, but everything still seems to work
+- Added an Accordion component that allows sections to open gradually
+  - Added accordion to the concepts, practices, and perspective pages
+- Fixed links in practices page, but the sections it links to do not automatically open
+- Show me how button on index page now gradually scrolls to the proper section of the page
+- CS4All logo in navbar links to index, but there is now a border around the logo
+- Noticed issue where previous coder stylized anchors to be used as buttons, but that is improper use for accessibility
+  - To fix we will have to deep dive into the stylesheet
+
+### 9/22/20
+From [Dan](https://github.com/danielgaylord)
+- Fixed various warnings from running 'gatsby develop'
+  - Ex: img alt text, 'Link' not being used, a elements
+  - layout.js still has 1 warning that might be hardere to fix
+- Removed all links to the old units page
+- Restructured pages so all of the curriculum and unused pages are in their own folders
+- Made sure most non-internal links open in a new tab
+
+
 ## 9/21/20 
 From [Dylan](https://github.com/dylsteck)
 - Began looking into independent routing with Gatsby's [createPages](https://www.gatsbyjs.com/docs/node-apis/#createPages) API
@@ -78,7 +106,7 @@ From [Dylan](https://github.com/dylsteck)
 - Pushed stable wordpress version to master
   - Next up: fix internal router so each educator resource article has its own page
   - Will keep looking into [reach router](https://reach.tech/router/api)
-  
+
 ### 8/12/20
 From [Dylan](https://github.com/dylsteck)
 - Cleaned up `pages/resources.js`
@@ -112,7 +140,7 @@ From [Dylan](https://github.com/dylsteck)
     - Could also keep the code for key sites and then create a base layout for every component page(this would be the only solution that would involve Wordpress, basically)
 
 ### 6/25/2020
-From [Dan](https://github.com/dgaylordCS4All)
+From [Dan](https://github.com/danielgaylord)
 - Cleaned up the code of all the pages that were converted to components
 - Started adding comments to the Computational Media Innovator page
 
@@ -125,7 +153,7 @@ From [Dylan](https://github.com/dylsteck)
 - Began toying around with WordPress
 
 ### 6/19/2020
-From [Dan](https://github.com/dgaylordCS4All)
+From [Dan](https://github.com/danielgaylord)
 - Converted `src/pages/creative-computing.js` to a component
 - Converted `src/pages/creative-web.js` to a component
 - Converted `src/pages/critical-computing.js` to a component
@@ -134,7 +162,7 @@ From [Dan](https://github.com/dgaylordCS4All)
 - Cleaned up the code of various other pages that were already converted to components
 
 ### 6/18/2020
-From [Dan](https://github.com/dgaylordCS4All)
+From [Dan](https://github.com/danielgaylord)
 - Converted `src/pages/bootstrap-data-science.js` to a component
 - Converted `src/pages/codeorg-cs-principles.js` to a component
 - Converted `src/pages/computational-media-creator.js` to a component
@@ -161,7 +189,7 @@ From [Dylan](https://github.com/dylsteck)
 
 
 ### 6/16/2020
-From [Dan](https://github.com/dgaylordCS4All)
+From [Dan](https://github.com/danielgaylord)
 - Converted `src/pages/bjc-cs-principles.js` to a component
 - Converted `src/pages/uteach-cs-principles.js` to a component
 - Converted `src/pages/ican.js` to a component

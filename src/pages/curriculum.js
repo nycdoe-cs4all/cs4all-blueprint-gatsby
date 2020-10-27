@@ -1,8 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
 const Curriculum = () => (
   <Layout>
     <SEO title="Curriculum" />
@@ -262,18 +261,6 @@ const Curriculum = () => (
                 <span className="activity-title">CS and the City</span>
               </h3>
               <span className="activity-devices">108 Hour Course</span>
-              <span className="activity-concepts">Concepts: Abstraction, Algorithms, Programming, Data, Networks</span>
-            </a>
-          </li>
-
-          <li>
-            <a href="/units">
-              <div className="preview"><img src="/static/images/curriculum-default-b.png" alt="Units from the CS educator community" /></div>
-              <h3>
-                <span className="activity-grade">Grades K-12</span>
-                <span className="activity-title">CS Educator Community Curriculum</span>
-              </h3>
-              <span className="activity-devices">Variety of Units</span>
               <span className="activity-concepts">Concepts: Abstraction, Algorithms, Programming, Data, Networks</span>
             </a>
           </li>

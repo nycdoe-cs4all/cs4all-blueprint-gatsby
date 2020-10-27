@@ -1,8 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
 const WhatIsCS = () => (
   <Layout>
     <SEO title="What Is CS?" />
@@ -29,7 +28,7 @@ const WhatIsCS = () => (
               </div>
             </a>
           </li>
-          
+
           <li className="green">
             <a className="box" href="/practices/">
               <div className="box-content">
@@ -80,7 +79,7 @@ const WhatIsCS = () => (
     <div className="interior-container">
       <div className="exit-menu">
         <ol className="list-unstyled">
-          <li className="current"><a href="">CS&nbsp;Education</a></li>
+          <li className="current"><a href="#top">CS&nbsp;Education</a></li>
           <li>
             <div className="box">
               <a className="btn btn-primary btn-lg" href="/perspectives/" role="button">Next: <span className="preamble">We&rsquo;ll look at</span> Perspectives, <span className="preamble">and see how students approach CS education at different stages.</span></a>

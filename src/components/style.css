@@ -175,8 +175,12 @@ nav img, img {
   height: auto;
 }
 
-nav a img, a img {
+a img {
   border: 2px solid #8ac8ff;
+}
+
+nav a img, h1 span img {
+  border: 0px; /* remove when svgs work*/
 }
 
 nav a:hover img, a:hover img {
@@ -584,6 +588,7 @@ nav h1 {
 
 
 /* Menu */
+
 #menu h2 {
   position: absolute;
   right: 16px;
@@ -915,7 +920,7 @@ article .section-content:after {
 }
 article .section-content {
   overflow: hidden;
-  transition: height .4s, margin .4s;
+  transition: max-height .4s, margin .4s;
 }
 article section + .article-content {
   margin-top: 24px;
@@ -926,7 +931,7 @@ article section.compressed .section-content {
 }
 
 .article-content .read-more {
-  transition: height .5s;
+  transition: max-height .5s;
   overflow: hidden;
 }
 .article-content .inactive {
@@ -1456,7 +1461,7 @@ article table a {
 
 
 article table td:before {
-  content: attr(data-column);
+  content: attr(dataColumn);
   font-weight: 900;
   display: block;
 }
@@ -1526,11 +1531,11 @@ article #student-outcomes-table {
 }
 article #student-outcomes-table td.perspective:before {
   display: inline-block;
-  content: attr(data-column);
+  content: attr(dataColumn);
 }
 article #student-outcomes-table td.perspective:after {
   display: inline-block;
-  content: "(" attr(data-dok-number) "\00a0\2022\0020" attr(data-dok-verb) ")";
+  content: "(" attr(dataDokNumber) "\00a0\2022\0020" attr(dataDokVerb) ")";
   font-weight: bold;
   color: #97b5d0;
 }
@@ -2755,10 +2760,11 @@ article.green-theme section.compressed a.box {
     width: 398px;
     float: left;
   }
-    #menu {
 
-        float: right;
-    }
+  #menu {
+    float: right;
+  }
+
     #menu h2 {
       display: none;
     }
@@ -3217,7 +3223,7 @@ article.green-theme section.compressed a.box {
   }
   article #student-outcomes-table td.perspective:before {
     display: block;
-    content: attr(data-dok-number);
+    content: attr(dataDokNumber);
     background: #4b77a0;
     color: #fff;
     padding: 4px 0;
@@ -3235,7 +3241,7 @@ article.green-theme section.compressed a.box {
   }
   article #student-outcomes-table td.perspective:after {
     display: block;
-    content: attr(data-dok-verb);
+    content: attr(dataDokVerb);
     line-height: 1;
     padding: 4px 6px 6px;
     transform: rotate(90deg);
