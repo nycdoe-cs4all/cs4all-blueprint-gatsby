@@ -96,10 +96,9 @@ From [Dan](https://github.com/danielgaylord)
 - Made sure most non-internal links open in a new tab
 
 
-## 9/21/20 
+## 9/21/20
 From [Dylan](https://github.com/dylsteck)
 - Began looking into independent routing with Gatsby's [createPages](https://www.gatsbyjs.com/docs/node-apis/#createPages) API
-- 
 
 ### 8/31/20
 From [Dylan](https://github.com/dylsteck)
