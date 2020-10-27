@@ -3,7 +3,7 @@ import foundationsIcon from '../images/svg/icon-foundations.svg'
 import curriculumIcon from '../images/svg/icon-units.svg'
 import resourcesIcon from '../images/svg/icon-resources.svg'
 import blueprintIcon from '../images/svg/icon-about-blueprint.svg'
-import logo from '../images/Logo.svg'
+import logo from '../images/svg/Logo.svg'
 
 const Navbar = () => (
   <div id="masthead">

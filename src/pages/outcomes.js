@@ -1,14 +1,14 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import iconExplorer from '../images/icon-explorer.svg'
-import iconCreator from '../images/icon-creator.svg'
-import iconInnovator from '../images/icon-innovator-color.svg'
-import iconCitizen from '../images/icon-citizen.svg'
-import iconAnalyze from '../images/icon-analyze.svg'
-import iconAbstraction from '../images/icon-abstraction.svg'
-import iconPrototype from '../images/prototyping.svg'
-import iconCommunicate from '../images/icon-communicate.svg'
+import iconExplorer from '../images/svg/icon-explorer.svg'
+import iconCreator from '../images/svg/icon-creator.svg'
+import iconInnovator from '../images/svg/icon-innovator-color.svg'
+import iconCitizen from '../images/svg/icon-citizen.svg'
+import iconAnalyze from '../images/svg/icon-analyze.svg'
+import iconAbstraction from '../images/svg/icon-abstraction.svg'
+import iconPrototype from '../images/svg/prototyping.svg'
+import iconCommunicate from '../images/svg/icon-communicate.svg'
 
 const Outcomes = () => (
  <Layout>
