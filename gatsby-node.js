@@ -11,15 +11,15 @@ exports.createPages = ({ graphql, actions }) => {
   return graphql(`
     {
         allWordpressPost {
-        edges {
-            node {
-            id
-            slug
-            title
-            content
-            date
-            }
-        }
+          edges {
+              node {
+                id
+                slug
+                title
+                content
+                date
+              }
+          }
         }
     }
   `, { limit: 1000 }).then(result => {
