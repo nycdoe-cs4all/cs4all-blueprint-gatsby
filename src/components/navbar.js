@@ -4,6 +4,7 @@ import curriculumIcon from '../images/svg/icon-units.svg'
 import resourcesIcon from '../images/svg/icon-resources.svg'
 import blueprintIcon from '../images/svg/icon-about-blueprint.svg'
 import logo from '../images/svg/Logo.svg'
+import iconMenu from '../images/svg/icon-menu.svg'
 
 const Navbar = () => (
   <div id="masthead">
@@ -20,7 +21,8 @@ const Navbar = () => (
     <nav id="menu">
       <h2>
         <a className="toggle" href="#menu">
-          <span className="icon"><svg><use xlinkHref="#icon-menu" /></svg></span>
+          {/* <span className="icon"><svg><use xlinkHref="#icon-menu" /></svg></span> */}
+          <span className="icon"><img src={iconMenu} alt="hamburger menu icon"/></span>
           <span className="label">Menu</span>
         </a>
       </h2>
