@@ -1,10 +1,10 @@
 import React from "react"
-import foundationsIcon from '../images/svg/icon-foundations.svg'
-import curriculumIcon from '../images/svg/icon-units.svg'
-import resourcesIcon from '../images/svg/icon-resources.svg'
-import blueprintIcon from '../images/svg/icon-about-blueprint.svg'
+import foundationsIcon from '../images/svg/icon-foundations-color.svg'
+import curriculumIcon from '../images/svg/icon-units-color.svg'
+import resourcesIcon from '../images/svg/icon-resources-color.svg'
+import blueprintIcon from '../images/svg/icon-about_blueprint-color.svg'
 import logo from '../images/svg/Logo.svg'
-import iconMenu from '../images/svg/icon-menu.svg'
+import iconMenu from '../images/svg/icon-menu-color.svg'
 
 const Navbar = () => (
   <div id="masthead">
