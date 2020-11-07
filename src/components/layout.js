@@ -24,7 +24,7 @@ import '../images/svg/icon-cc-by-nc-sa.svg'
 
 import '../images/svg/icon-play.svg'
 
-import explorerIcon from '../images/svg/icon-explorer.svg'
+import '../images/svg/icon-explorer.svg'
 import '../images/svg/icon-creator.svg'
 import '../images/svg/icon-innovator.svg'
 import '../images/svg/icon-citizen.svg'
@@ -40,7 +40,7 @@ import '../images/svg/icon-data.svg'
 import '../images/svg/icon-network.svg'
 
 const Layout = ({ children }) => {
-  useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {

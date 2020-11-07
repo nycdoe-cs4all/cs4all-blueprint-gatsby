@@ -35,11 +35,11 @@ const Resource = ({ data }) => (
         <ul className="activity-list">
           {data.allWordpressPost.edges.map(post =>
             <li key={post.node.id}>
-              <Link to={post.node.slug}> 
-                <h3>{post.node.title}</h3> 
+              <Link to={post.node.slug}>
+                <h3>{post.node.title}</h3>
+                <p>{moment(post.node.date).format("dddd, MMMM Do YYYY, h:mm:ss a")}</p>
+                {post.node.excerpt ? parse(post.node.excerpt) : null}
               </Link>
-              <p>{moment(post.node.date).format("dddd, MMMM Do YYYY, h:mm:ss a")}</p>
-              {post.node.excerpt ? parse(post.node.excerpt) : null}
             </li> )}
         </ul>
       </div>
