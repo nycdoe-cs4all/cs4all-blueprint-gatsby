@@ -1,18 +1,11 @@
 import React from "react"
-import foundationsIcon from '../images/svg/icon-foundations-color.svg'
-import curriculumIcon from '../images/svg/icon-units-color.svg'
-import resourcesIcon from '../images/svg/icon-resources-color.svg'
-import blueprintIcon from '../images/svg/icon-about_blueprint-color.svg'
-import logo from '../images/svg/Logo.svg'
-import iconMenu from '../images/svg/icon-menu-color.svg'
 
 const Navbar = () => (
   <div id="masthead">
     <div id="logo">
       <a href="/">
         <h1>
-          {/*<span className="icon"><svg><use xlinkHref="#logo-cs4all" /></svg></span>*/}
-          <span className="icon"><img src={logo} alt="CS4All logo"/></span>
+          <span className="icon"><svg><use xlinkHref="#logo-cs4all" /></svg></span>
           <span className="label"></span>
         </h1>
       </a>
@@ -21,8 +14,7 @@ const Navbar = () => (
     <nav id="menu">
       <h2>
         <a className="toggle" href="#menu">
-          {/* <span className="icon"><svg><use xlinkHref="#icon-menu" /></svg></span> */}
-          <span className="icon"><img src={iconMenu} alt="hamburger menu icon"/></span>
+          <span className="icon"><svg><use xlinkHref="#icon-menu" /></svg></span>
           <span className="label">Menu</span>
         </a>
       </h2>
@@ -30,10 +22,9 @@ const Navbar = () => (
       {/* local ".php" filepaths should be replaced with the correct cms-generated filepath. '/about.php' ->  '/about/' */}
       <div className="site-menu">
         <ul>
-          <li>
+          <li className="compressed parent-menu">
             <a href="/what-is-cs">
-              {/* <span className="icon"><svg><use xlinkHref="#icon-foundations" /></svg></span> */}
-              <span className="icon"> <img src={foundationsIcon} alt="Foundations icon"/></span>
+              <span className="icon"><svg><use xlinkHref="#icon-foundations" /></svg></span>
               <span className="preamble">CS</span> Foundations
               <span className="caret"></span>
             </a>
@@ -48,24 +39,21 @@ const Navbar = () => (
 
           <li>
             <a href="/curriculum">
-              {/* <span className="icon"><svg><use xlinkHref="#icon-units" /></svg></span> */}
-              <span className="icon"> <img src={curriculumIcon} alt="Curriculum icon"/></span>
+              <span className="icon"><svg><use xlinkHref="#icon-units" /></svg></span>
               <span className="preamble">curriculum</span> Catalog
             </a>
           </li>
 
           <li>
             <a href="/resources">
-              {/* <span className="icon"><svg><use xlinkHref="#icon-resources" /></svg></span> */}
-              <span className="icon"> <img src={resourcesIcon} alt="Resources icon"/></span>
+              <span className="icon"><svg><use xlinkHref="#icon-resources" /></svg></span>
               <span className="preamble">Educator</span> Resources
             </a>
           </li>
 
           <li>
             <a href="/about">
-              {/* <span className="icon"><svg><use xlinkHref="#icon-blueprint" /></svg></span> */}
-              <span className="icon"> <img src={blueprintIcon} alt="About icon"/></span>
+              <span className="icon"><svg><use xlinkHref="#icon-blueprint" /></svg></span>
               <span className="preamble">About</span> Blueprint
             </a>
           </li>

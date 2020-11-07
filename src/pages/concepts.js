@@ -17,7 +17,7 @@ const Concepts = () => (
         <Accordion
           name="concept-abstraction"
           header="
-            <span class='icon'><svg><use xlinkHref='#icon-abstraction' /></svg></span>
+            <span class='icon'><svg><use xlink:href='#icon-abstraction' /></svg></span>
             <h3>Abstraction</h3>
             Extracting essential details and repeatable patterns from a more complex system.
           "
@@ -72,7 +72,7 @@ const Concepts = () => (
         <Accordion
           name="concept-algorithms"
           header="
-            <span class='icon'><svg><use xlinkHref='#icon-algorithm' /></svg></span>
+            <span class='icon'><svg><use xlink:href='#icon-algorithm' /></svg></span>
             <h3>Algorithms</h3>
             Instructions that convert a set of inputs into a desired output (kind of like a recipe).
           "
@@ -129,7 +129,7 @@ const Concepts = () => (
         <Accordion
           name="concept-programming"
           header="
-            <span class='icon'><svg><use xlinkHref='#icon-programming' /></svg></span>
+            <span class='icon'><svg><use xlink:href='#icon-programming' /></svg></span>
             <h3>Programming</h3>
             Giving instructions to computers in a human language.
           "
@@ -178,7 +178,7 @@ const Concepts = () => (
         <Accordion
           name="concept-data"
           header="
-            <span class='icon'><svg><use xlinkHref='#icon-data' /></svg></span>
+            <span class='icon'><svg><use xlink:href='#icon-data' /></svg></span>
             <h3>Data</h3>
             Information that can be collected, stored, and processed by a computer.
           "
@@ -230,7 +230,7 @@ const Concepts = () => (
         <Accordion
           name="concept-networks"
           header="
-            <span class='icon'><svg><use xlinkHref='#icon-network' /></svg></span>
+            <span class='icon'><svg><use xlink:href='#icon-network' /></svg></span>
             <h3>Networks</h3>
             Connections between computers that allow them to share data.
           "

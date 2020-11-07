@@ -18,7 +18,7 @@ const Perspectives = () => (
         <Accordion
           name="perspective-explorer"
           header="
-            <span class='icon'><svg><use xlinkHref='#icon-explorer' /></svg></span>
+            <span class='icon'><svg><use xlink:href='#icon-explorer' /></svg></span>
             <h3>Explorer</h3>
             At the beginning of their journey, students learn CS concepts and practices by manipulating physical models and working in guided digital environments.
           "
@@ -46,7 +46,7 @@ const Perspectives = () => (
         <Accordion
           name="perspective-creator"
           header="
-            <span class='icon'><svg><use xlinkHref='#icon-creator' /></svg></span>
+            <span class='icon'><svg><use xlink:href='#icon-creator' /></svg></span>
             <h3>Creator</h3>
             Continuing on their journey, students excited by the possibilities of computing can use friendly, open-ended physical and digital tools to represent their ideas, thoughts, or interests.
           "
@@ -73,7 +73,7 @@ const Perspectives = () => (
         <Accordion
           name="perspective-innovator"
           header="
-            <span class='icon'><svg><use xlinkHref='#icon-innovator' /></svg></span>
+            <span class='icon'><svg><use xlink:href='#icon-innovator' /></svg></span>
             <h3>Innovator</h3>
             Innovators build and share ideas, thoughts, and interests with others by contributing to or building on other projects.
           "
@@ -100,7 +100,7 @@ const Perspectives = () => (
         <Accordion
           name="perspective-citizen"
           header="
-            <span class='icon'><svg><use xlinkHref='#icon-citizen' /></svg></span>
+            <span class='icon'><svg><use xlink:href='#icon-citizen' /></svg></span>
             <h3>Citizen</h3>
             Citizens explore the systemic impact and application of computing by studying the current and historical context of the field.
           "

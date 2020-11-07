@@ -17,7 +17,7 @@ const Practices = () => (
         <Accordion
           name="practice-analyze"
           header="
-            <span class='icon'><svg><use xlinkHref='#icon-analyze' /></svg></span>
+            <span class='icon'><svg><use xlink:href='#icon-analyze' /></svg></span>
             <h3>Analyzing</h3>
             “I can develop a deeper understanding of computing applications.”
           "
@@ -62,7 +62,7 @@ const Practices = () => (
         <Accordion
           name="practice-prototype"
           header="
-            <span class='icon'><svg><use xlinkHref='#icon-prototype' /></svg></span>
+            <span class='icon'><svg><use xlink:href='#icon-prototype' /></svg></span>
             <h3>Prototyping</h3>
             “I can express my ideas by making computing projects.”
           "
@@ -107,7 +107,7 @@ const Practices = () => (
         <Accordion
           name="practice-communicate"
           header="
-            <span class='icon'><svg><use xlinkHref='#icon-communicate' /></svg></span>
+            <span class='icon'><svg><use xlink:href='#icon-communicate' /></svg></span>
             <h3>Communicating</h3>
             “I can engage others in my ideas and work on computing concepts.”
           "

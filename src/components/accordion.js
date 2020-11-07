@@ -1,6 +1,8 @@
 import React, { useState, useRef } from "react";
 import scrollTo from 'gatsby-plugin-smoothscroll'
 
+import iconExplorer from '../images/svg/icon-explorer.svg'
+
 function Accordion(props) {
 
   const [state, setState] = useState(false);

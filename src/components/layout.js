@@ -13,6 +13,32 @@ import Navbar from "./Navbar"
 import Footer from "./Footer"
 import "./style.css"
 
+import '../images/svg/icon-foundations.svg'
+import '../images/svg/icon-units.svg'
+import '../images/svg/icon-resources.svg'
+import '../images/svg/icon-blueprint.svg'
+import '../images/svg/logo-cs4all.svg'
+import '../images/svg/icon-menu.svg'
+
+import '../images/svg/icon-cc-by-nc-sa.svg'
+
+import '../images/svg/icon-play.svg'
+
+import explorerIcon from '../images/svg/icon-explorer.svg'
+import '../images/svg/icon-creator.svg'
+import '../images/svg/icon-innovator.svg'
+import '../images/svg/icon-citizen.svg'
+
+import '../images/svg/icon-analyze.svg'
+import '../images/svg/icon-prototype.svg'
+import '../images/svg/icon-communicate.svg'
+
+import '../images/svg/icon-abstraction.svg'
+import '../images/svg/icon-algorithm.svg'
+import '../images/svg/icon-programming.svg'
+import '../images/svg/icon-data.svg'
+import '../images/svg/icon-network.svg'
+
 const Layout = ({ children }) => {
   useStaticQuery(graphql`
     query SiteTitleQuery {
