@@ -36,8 +36,8 @@ const Resource = ({ data }) => (
           {data.allWordpressPost.edges.map(post =>
             <li key={post.node.id}>
               <Link to={post.node.slug}>
-                <h3>{post.node.title}</h3>
-                <p>{moment(post.node.date).format("dddd, MMMM Do YYYY, h:mm:ss a")}</p>
+                <h3 dangerouslySetInnerHTML={{ __html: post.node.title }} />
+                <p style={{display:'none'}}>{moment(post.node.date).format("dddd, MMMM Do YYYY, h:mm:ss a")}</p>
                 {post.node.excerpt ? parse(post.node.excerpt) : null}
               </Link>
             </li> )}

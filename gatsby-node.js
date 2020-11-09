@@ -13,11 +13,13 @@ exports.createPages = ({ graphql, actions }) => {
         allWordpressPost {
           edges {
               node {
+                author
+                date
                 id
                 slug
                 title
+                excerpt
                 content
-                date
               }
           }
         }
@@ -31,7 +33,7 @@ exports.createPages = ({ graphql, actions }) => {
     result.data.allWordpressPost.edges.forEach(edge => {
       createPage({
         // Path for this page — required
-        path: `${edge.node.slug}`,
+        path: `/resources/${edge.node.slug}`,
         component: blogPostTemplate,
         context: {
           title: `${edge.node.title}`,
