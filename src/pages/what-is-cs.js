@@ -10,9 +10,9 @@ const WhatIsCS = () => (
       <div className="col-md-3" id="floatMenu"> */}
       <header><h2><span className="preamble">What is</span> CS education?</h2></header>
       <div className="article-content">
-        <p>Computer science (CS) is the study of the capabilities and limitations of computers. Computational literacy is the ability to understand how CS can be applied in all walks of life. New York City public school students develop computational literacy through <a href="https://blueprint.cs4all.nyc/resources/29/">creative computing</a>.</p>
+        <p>Computer science (CS) is the study of the capabilities and limitations of computers. Computational literacy is the ability to understand how CS can be applied in all walks of life. New York City public school students develop computational literacy through <a href="/resources/what-is-creative-computing/">creative computing</a>.</p>
 
-        <p>Each <a href="https://blueprint.cs4all.nyc/resources/31/">meaningful unit</a> of CS education combines three core components in 10-25 hours of instructional time:</p>
+        <p>Each <a href="/resources/meaningful-cs-unit/">meaningful unit</a> of CS education combines three core components in 10-25 hours of instructional time:</p>
         <ul className="list-unstyled submenu">
           <li className="blue">
             <a className="box" href="/perspectives/">

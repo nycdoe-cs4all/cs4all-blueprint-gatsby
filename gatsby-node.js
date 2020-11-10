@@ -39,7 +39,8 @@ exports.createPages = ({ graphql, actions }) => {
           title: `${edge.node.title}`,
           content: `${edge.node.content}`,
           id: `${edge.node.id}`,
-          date: `${edge.node.date}`
+          date: `${edge.node.date}`,
+          excerpt: `${edge.node.excerpt}`
         },
       })
     })
