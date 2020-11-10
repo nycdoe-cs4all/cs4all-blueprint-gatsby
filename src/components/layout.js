@@ -13,31 +13,31 @@ import Navbar from "./Navbar"
 import Footer from "./Footer"
 import "./style.css"
 
-import '../images/svg/icon-foundations.svg'
-import '../images/svg/icon-units.svg'
-import '../images/svg/icon-resources.svg'
-import '../images/svg/icon-blueprint.svg'
-import '../images/svg/logo-cs4all.svg'
-import '../images/svg/icon-menu.svg'
+import '../assets/svg/icon-foundations.svg'
+import '../assets/svg/icon-units.svg'
+import '../assets/svg/icon-resources.svg'
+import '../assets/svg/icon-blueprint.svg'
+import '../assets/svg/logo-cs4all.svg'
+import '../assets/svg/icon-menu.svg'
 
-import '../images/svg/icon-cc-by-nc-sa.svg'
+import '../assets/svg/icon-cc-by-nc-sa.svg'
 
-import '../images/svg/icon-play.svg'
+import '../assets/svg/icon-play.svg'
 
-import '../images/svg/icon-explorer.svg'
-import '../images/svg/icon-creator.svg'
-import '../images/svg/icon-innovator.svg'
-import '../images/svg/icon-citizen.svg'
+import '../assets/svg/icon-explorer.svg'
+import '../assets/svg/icon-creator.svg'
+import '../assets/svg/icon-innovator.svg'
+import '../assets/svg/icon-citizen.svg'
 
-import '../images/svg/icon-analyze.svg'
-import '../images/svg/icon-prototype.svg'
-import '../images/svg/icon-communicate.svg'
+import '../assets/svg/icon-analyze.svg'
+import '../assets/svg/icon-prototype.svg'
+import '../assets/svg/icon-communicate.svg'
 
-import '../images/svg/icon-abstraction.svg'
-import '../images/svg/icon-algorithm.svg'
-import '../images/svg/icon-programming.svg'
-import '../images/svg/icon-data.svg'
-import '../images/svg/icon-network.svg'
+import '../assets/svg/icon-abstraction.svg'
+import '../assets/svg/icon-algorithm.svg'
+import '../assets/svg/icon-programming.svg'
+import '../assets/svg/icon-data.svg'
+import '../assets/svg/icon-network.svg'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
