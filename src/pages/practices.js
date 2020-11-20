@@ -46,7 +46,7 @@ const Practices = () => (
                 </tr>
                 <tr>
                   <th>Interpreting</th>
-                  <td><p>Interpret your analysis by looking for evidence to support an explanation. Test the evidence by researching similar cases, running experiments, or creating models (relates to<a href='#prototype'> prototype</a>).</p></td>
+                  <td><p>Interpret your analysis by looking for evidence to support an explanation. Test the evidence by researching similar cases, running experiments, or creating models (relates to<a href='#practice-prototype'> prototype</a>).</p></td>
                   <td dataColumn='Example'><p>I can draw on personal experience and interviews with others about how they use the keyboard, i.e. from memory, looking at the keyboard, etc.</p></td>
                 </tr>
                 <tr>
