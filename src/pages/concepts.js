@@ -4,6 +4,16 @@ import Accordion from "../components/accordion"
 import SEO from "../components/seo"
 
 class Concepts extends React.Component {
+  constructor(props) {
+    super(props)
+    this.handleState = this.handleState.bind(this);
+    this.state = {state: 'none'};
+    console.log(window.location.href);
+  }
+
+  handleState(state) {
+    this.setState({state});
+  }
 
   render() {
     return (
@@ -18,6 +28,8 @@ class Concepts extends React.Component {
             <div className="article-content"><p>Here are definitions of common CS concepts, alongside parallels from other subjects to help to demystify unfamiliar vocabulary.</p></div>
 
             <Accordion
+              state={this.state.state}
+              changeState={this.handleState}
               name="concept-abstraction"
               header="
                 <span class='icon'><svg><use xlink:href='#icon-abstraction' /></svg></span>
@@ -73,6 +85,8 @@ class Concepts extends React.Component {
             />
 
             <Accordion
+              state={this.state.state}
+              changeState={this.handleState}
               name="concept-algorithms"
               header="
                 <span class='icon'><svg><use xlink:href='#icon-algorithm' /></svg></span>
@@ -130,6 +144,8 @@ class Concepts extends React.Component {
             />
 
             <Accordion
+              state={this.state.state}
+              changeState={this.handleState}
               name="concept-programming"
               header="
                 <span class='icon'><svg><use xlink:href='#icon-programming' /></svg></span>
@@ -179,6 +195,8 @@ class Concepts extends React.Component {
             />
 
             <Accordion
+              state={this.state.state}
+              changeState={this.handleState}
               name="concept-data"
               header="
                 <span class='icon'><svg><use xlink:href='#icon-data' /></svg></span>
@@ -231,6 +249,8 @@ class Concepts extends React.Component {
             />
 
             <Accordion
+              state={this.state.state}
+              changeState={this.handleState}
               name="concept-networks"
               header="
                 <span class='icon'><svg><use xlink:href='#icon-network' /></svg></span>
