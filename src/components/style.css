@@ -1853,7 +1853,7 @@ article .box h3 {
   overflow: hidden;
 }
 .fellow img {
-  display: none;
+  /*display: none;*/
 }
 .fellow h4 {
   margin: -16px;
