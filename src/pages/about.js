@@ -11,6 +11,7 @@ import matt from "../assets/images/matt-boyle.png"
 import sean from "../assets/images/sean-pawelec.jpg"
 import timF from "../assets/images/tim-feimer.png"
 import timC from "../assets/images/tim-chen.png"
+import workshop from "../assets/images/cs4all-workshop.jpg"
 
 /*<style>
 div.fellow.col-md-3 span.fellow-text {
@@ -50,7 +51,7 @@ const About = () => {
           <p>The Computer Science for All (CS4All) Blueprint is an academic and implementation guide for teaching computer science in New York City public schools.</p>
         </header>
         <div id="about-blueprint" className="article-content">
-          <img src="http://cs4all.nyc/wp-content/uploads/2017/03/CS4All_launch-workhop1_p11.jpg" alt="Blueprint fellows at work"/>
+          <img src={workshop} alt="Blueprint fellows at work"/>
           <p>We know that it's a big undertaking to support educators and their school communities as they begin to integrate, many for the first time, computer science into their classrooms. So we created the Blueprint with a dedicated group of <a href="#fellows">Blueprint Teacher Fellows</a>, elevating their CS teaching knowledge and experience in NYC classrooms.</p>
           <div id="about-blueprint-more" className="read-more" ref={aboutContent} style={{ maxHeight: `${aboutHeight}` }}>
             <p>We also gathered feedback from more than 30  sessions with researchers, the CS education community, industry, and families; and incorporated their needs, values, and goals in our design direction and content. </p>
@@ -99,7 +100,7 @@ const About = () => {
           <div className="section-content">
             <div id="fellows" className="chart">
               <div className="fellow">
-                <img src={alana} width="250px" height="250px" alt="profile"/>
+                <img src={alana} alt="profile"/>
                 <div className="fellow-content">
                   <h4>Alana Robinson</h4>
                   <span className="fellow-text">Alana Robinson teaches CS to elementary and middle school self-contained special education classes at the Mickey Mantle School, a District 75 school in Manhattan.</span>
