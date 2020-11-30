@@ -98,70 +98,70 @@ const About = () => {
           <header><h3> 2016-2017 CS4ALL Blueprint Teacher Fellows</h3></header>
           <div className="section-content">
             <div id="fellows" className="chart">
-              <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/alana-robinson.png`)"}}>
+              <div className="fellow">
                 <img src={alana} width="250px" height="250px" alt="profile"/>
                 <div className="fellow-content">
                   <h4>Alana Robinson</h4>
                   <span className="fellow-text">Alana Robinson teaches CS to elementary and middle school self-contained special education classes at the Mickey Mantle School, a District 75 school in Manhattan.</span>
                 </div>
               </div>
-              <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/ariadna-phillips-santos.png`)"}}>
+              <div className="fellow">
                 <img src={ariadna} width="250px" height="250px" alt="profile"/>
                 <div className="fellow-content">
                   <h4>Ariadna Phillips-Santos</h4>
                   <span className="fellow-text">Ariadna Phillips-Santos is a passionate Dual Language (Spanish) Computer Science and ESL/ELA teacher at the Laboratory School of Finance and Technology in the South Bronx.</span>
                 </div>
               </div>
-              <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/ben-samuels-kalow.png`)"}}>
+              <div className="fellow">
                 <img src={ben} width="250px" height="250px" alt="profile"/>
                 <div className="fellow-content">
                   <h4>Ben Samuels-Kalow</h4>
                   <span className="fellow-text">Ben Samuels-Kalow was a Computer Science and Economics teacher at the Laboratory School of Finance and Technology in the South Bronx.</span>
                 </div>
               </div>
-              <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/christa-quint.jpg`)"}}>
+              <div className="fellow">
                 <img src={christa} width="250px" height="250px" alt="profile"/>
                 <div className="fellow-content">
                   <h4>Dr. Christa Quint</h4>
                   <span className="fellow-text">Dr. Christa Quint is in her 12th year teaching in New York City. She is an experienced Math teacher and and a new Computer Science teacher at the Urban Assembly Gateway School for Technology.</span>
                 </div>
               </div>
-              <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/christy-crawford.png`)"}}>
+              <div className="fellow">
                 <img src={christy} width="250px" height="250px" alt="profile"/>
                 <div className="fellow-content">
                   <h4>Christy Crawford</h4>
                   <span className="fellow-text">Christy Crawford has taught in Harlem and the Bronx for more than 13 years. She is an education consultant and contributor to <a href="https://www.scholastic.com/teachers/contributors/bloggers/christy-crawford/" target="_blank" rel="noreferrer"> Scholastic's Top Teaching blog.</a>.</span>
                 </div>
               </div>
-              <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/joann-westhall.png`)"}}>
+              <div className="fellow">
                 <img src={joann} width="250px" height="250px" alt="profile"/>
                 <div className="fellow-content">
                   <h4>JoAnn Westhall</h4>
                   <span className="fellow-text">JoAnn Westhall is a Computer Science Instructor, Grades Pre-K-5 at PS 31 in Bayside, Queens.</span>
                 </div>
               </div>
-              <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/matt-boyle.png`)"}}>
+              <div className="fellow">
                 <img src={matt} width="250px" height="250px" alt="profile"/>
                 <div className="fellow-content">
                   <h4>Matt Boyle</h4>
                   <span className="fellow-text">Matthew Boyle has background in architecture and graphic design. He helps lead operations, arts and digital media programming at the Renaissance Charter HS for Innovation.</span>
                 </div>
               </div>
-              <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/sean-pawelec.jpg`)"}}>
+              <div className="fellow">
                 <img src={sean} width="250px" height="250px" alt="profile"/>
                 <div className="fellow-content">
                   <h4>Sean Pawelec</h4>
                   <span className="fellow-text">Sean Pawelec has a background in earth science who teaches computer science at the Renaissance Charter HS for Innovation where he is the Science Department Chair.</span>
                 </div>
               </div>
-              <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/tim-feimer.png`)"}}>
+              <div className="fellow">
                 <img src={timF} width="250px" height="250px" alt="profile"/>
                 <div className="fellow-content">
                   <h4>Tim Feimer</h4>
                   <span className="fellow-text">Tim Feimer is a certified SS 7-12 teacher who enjoys building and learning all about CS topics for all middle school grade levels (6-8).</span>
                 </div>
               </div>
-              <div className="fellow" style={{backgroundImage: "url(`http://blueprint.cs4all.nyc/static/images/assets/tim-chen.png`)"}}>
+              <div className="fellow">
                 <img src={timC} width="250px" height="250px" alt="profile"/>
                 <div className="fellow-content">
                   <h4>Tim Chen</h4>
