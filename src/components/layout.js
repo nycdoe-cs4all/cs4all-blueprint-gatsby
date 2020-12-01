@@ -40,7 +40,7 @@ import '../assets/svg/icon-data.svg'
 import '../assets/svg/icon-network.svg'
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
+  useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
