@@ -12,6 +12,7 @@ import sean from "../assets/images/sean-pawelec.jpg"
 import timF from "../assets/images/tim-feimer.png"
 import timC from "../assets/images/tim-chen.png"
 import workshop from "../assets/images/cs4all-workshop.jpg"
+import scrollTo from 'gatsby-plugin-smoothscroll'
 
 /*<style>
 div.fellow.col-md-3 span.fellow-text {
@@ -59,7 +60,7 @@ const About = () => {
             <p>With this beta (first published draft) version of the Blueprint, the CS4All team is engaging a new cohort of Teacher Fellows, and work with administrators to further refine and develop the resources schools need to implement a rigorous computer science curriculum.</p>
           </div>
           <p>
-            <a className="btn btn-sm open" href="javascript:void(0)" onClick={() => {setAboutState(!aboutState); setAboutHeight(aboutState ? "0px" : `${aboutContent.current.scrollHeight}px`)}} role="button" tabIndex="0">
+            <a className="btn btn-sm open" href="#about-blueprint" onClick={() => {setAboutState(!aboutState); setAboutHeight(aboutState ? "0px" : `${aboutContent.current.scrollHeight}px`); scrollTo("#about-blueprint"); return false;}} role="button" tabIndex="0">
               <span className={aboutState ? "label inactive" : "label active"}>Read More</span>
               <span className={aboutState ? "label active" : "label inactive"}>Collapse Text</span>
             </a>
@@ -95,7 +96,7 @@ const About = () => {
           </div>
         </section>
 
-        <section id="about-fellows">
+        <section id="fellows">
           <header><h3> 2016-2017 CS4ALL Blueprint Teacher Fellows</h3></header>
           <div className="section-content">
             <div id="fellows" className="chart">
@@ -171,7 +172,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="article-content introduction">
+            <div id="about-fellows" className="article-content introduction">
               <h4><span>A message from the fellows:</span> What are we trying to teach?</h4>
               <p>In Math class, students hold a pencil. They may hold that same pencil in English, but what they’re asked to produce, how they’re trained to think and question –  look different. In neither class is the pencil the focus.</p>
               <p>In computer science, the computer is the pencil.</p>
@@ -186,7 +187,7 @@ const About = () => {
                 to equity, to unlocking more unrealized potential in all our students, in as many ways as we possibly can.</p>
               </div>
               <p>
-              <a className="btn btn-sm open" href="javascript:void(0)" onClick={() => {setFellowState(!fellowState); setFellowHeight(fellowState ? "0px" : `${fellowContent.current.scrollHeight}px`)}} role="button" tabIndex="0">
+              <a className="btn btn-sm open" href="#about-fellows" onClick={() => {setFellowState(!fellowState); setFellowHeight(fellowState ? "0px" : `${fellowContent.current.scrollHeight}px`); scrollTo("#about-fellows"); return false;}} role="button" tabIndex="0">
                 <span className={fellowState ? "label inactive" : "label active"}>Read More</span>
                 <span className={fellowState ? "label active" : "label inactive"}>Collapse Text</span>
               </a>
@@ -202,7 +203,7 @@ const About = () => {
           </div>
         </section>
         <div className="article-content">
-          <p>If you have thoughts or feedback about the Blueprint website, <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIeJ9xKpfT-ngiOeMY01GF-vounSQxMjnYzaePEsMXhwIEcQ/viewform" target="_blank">please share them with us</a>!</p>
+          <p>If you have thoughts or feedback about the Blueprint website, <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIeJ9xKpfT-ngiOeMY01GF-vounSQxMjnYzaePEsMXhwIEcQ/viewform" target="_blank" rel="noreferrer">please share them with us</a>!</p>
         </div>
       </article>
     </Layout>
