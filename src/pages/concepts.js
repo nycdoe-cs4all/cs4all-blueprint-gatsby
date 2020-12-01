@@ -7,16 +7,16 @@ class Concepts extends React.Component {
   constructor(props) {
     super(props)
     this.handleState = this.handleState.bind(this);
-    this.state = {state: 'none'};
+    console.log(window.location.hash);
+    if(window.location.hash) {
+      this.state = {state: window.location.href.split('#')[1]};
+    } else {
+      this.state = {state: 'none'};
+    }
   }
 
   handleState(state) {
     this.setState({state});
-  }
-
-  componentDidMount() {
-    this.state.state = window.location.href.split('#')[1];
-    console.log(this.refs);
   }
 
   render() {
@@ -124,9 +124,7 @@ class Concepts extends React.Component {
                     </tr>
                     <tr>
                       <th>Inputs, Variables &amp; Outputs</th>
-                      <td>
-                        <p>How <span class='c28'><a class='c49' href='#concept-data' onclick={props.state = 'concept-data'}>data</a> is passed into (inputs,) manipulated by, used within (variables,) and returned from the algorithm (outputs).</span></p>
-                      </td>
+                      <td><p>How <a href='#concept-data'>data</a> is passed into (inputs) manipulated by, used within (variables) and returned from the algorithm (outputs).</p></td>
                       <td dataColumn='Math'>
                         <p>A function machine is an example of a process that takes inputs, manipulates them in a way and outputs them.</p>
                         <p>* Variables in CS are more than just numbers - they can also represent strings of characters, lists, etc.</p>
