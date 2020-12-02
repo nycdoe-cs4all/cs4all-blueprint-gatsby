@@ -8,7 +8,9 @@ function Accordion(props) {
 
   useEffect(() => {
     checkHash();
-    open();
+    if(props.state === 'none' || props.state === props.name) {
+        open();
+    }
   });
 
   function updateState() {
