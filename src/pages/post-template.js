@@ -6,14 +6,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 const PostTemplate = (props) => (
  <Layout>
-    <SEO title={props.pathContext.title} />
+    <SEO title={props.pageContext.title} />
     <div id="page">
       <article className="light-theme">
         <div className="col-md-12">
-          <header><span className="preamble"><h2 className="title" style={{lineHeight:1}} dangerouslySetInnerHTML={{ __html: props.pathContext.title }} /></span></header>
+          <header><span className="preamble"><h2 className="title" style={{lineHeight:1}} dangerouslySetInnerHTML={{ __html: props.pageContext.title }} /></span></header>
           <div className="article-content">
-            <small style={{display:'none'}}>{moment(props.pathContext.date).format("dddd, MMMM Do YYYY, h:mm:ss a")}</small>
-            {parse(props.pathContext.content)}
+            <small style={{display:'none'}}>{moment(props.pageContext.date).format("dddd, MMMM Do YYYY, h:mm:ss a")}</small>
+            {parse(props.pageContext.content)}
           </div>
         </div>
       </article>
