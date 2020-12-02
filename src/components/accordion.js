@@ -7,6 +7,7 @@ function Accordion(props) {
   const content = useRef(null);
 
   useEffect(() => {
+    checkHash();
     open();
   });
 
@@ -17,6 +18,12 @@ function Accordion(props) {
       props.changeState(props.name);
     }
     return false;
+  }
+
+  function checkHash() {
+    if(props.state !== 'none' && (window.location.href.split('#')[1] !== props.state)) {
+      props.changeState(window.location.href.split('#')[1]);
+    }
   }
 
   function open() {
