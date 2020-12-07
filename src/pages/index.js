@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 import scrollTo from 'gatsby-plugin-smoothscroll'
 import elementarySchoolStudentWork from '../assets/images/elementary-school-student-work.png'
 import middleSchoolStudentWork from '../assets/images/middle-school-student-work.png'
-import highSchoolStudentWork from '../assets/images/middle-school-student-work.png'
+import highSchoolStudentWork from '../assets/images/high-school-student-work.png'
 
 const IndexPage = () => (
   <Layout>
