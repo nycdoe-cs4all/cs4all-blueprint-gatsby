@@ -2,6 +2,9 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import scrollTo from 'gatsby-plugin-smoothscroll'
+import elementarySchoolStudentWork from '../assets/images/elementary-school-student-work.png'
+import middleSchoolStudentWork from '../assets/images/middle-school-student-work.png'
+import highSchoolStudentWork from '../assets/images/middle-school-student-work.png'
 
 const IndexPage = () => (
   <Layout>
@@ -25,7 +28,7 @@ const IndexPage = () => (
             <a className="box embed html5lightbox" href="https://player.vimeo.com/video/226674454?autoplay=1" data-title="Student Work" data-subtitle="Elementary School">
               <div className="preview-image">
                 <span className="icon"><svg><use xlinkHref="#icon-play" /></svg></span>
-                <img src="http://blueprint.cs4all.nyc/static/images/assets/elementary-school-student-work.png" alt="preview" />
+                <img src={elementarySchoolStudentWork} alt="preview" />
               </div>
               <h3>Elementary School <span className="subtitle">Student Work</span></h3>
             </a>
@@ -35,7 +38,7 @@ const IndexPage = () => (
             <a className="box embed" href="https://player.vimeo.com/video/231736989?autoplay=1" data-title="Student Work" data-subtitle="Middle School">
               <div className="preview-image">
                 <span className="icon"><svg><use xlinkHref="#icon-play" /></svg></span>
-                <img src="http://blueprint.cs4all.nyc/static/images/assets/middle-school-student-work.png" alt="preview" />
+                <img src={middleSchoolStudentWork} alt="preview" />
               </div>
               <h3>Middle School <span className="subtitle">Student Work</span></h3>
             </a>
@@ -45,7 +48,7 @@ const IndexPage = () => (
             <a className="box embed" href="https://player.vimeo.com/video/226674594?autoplay=1" data-title="Student Work" data-subtitle="High School">
               <div className="preview-image">
                 <span className="icon"><svg><use xlinkHref="#icon-play" /></svg></span>
-                <img src="http://blueprint.cs4all.nyc/static/images/assets/high-school-student-work.png" alt="preview" />
+                <img src={highSchoolStudentWork} alt="preview" />
               </div>
               <h3>High School <span className="subtitle">Student Work</span></h3>
             </a>
