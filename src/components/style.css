@@ -1,14 +1,5 @@
 /* Dan */
 
-/* Temporary CSS(because of React errors etc) */
-@media (min-width: 992px) {
-  /* for src/pages/ican.js  because React doesn't support inline media queries */
-  .green-media { background-color: #2FA351; }
-  .white-media { background-color: #F26922; }
-  .black-media { background-color: #17283e; }
-}
-/* End of Temporary CSS */
-
 
 .activity-list a {
   display: block;
@@ -40,11 +31,6 @@ p.title {
   color: inherit;
 }
 
-
-
-
-
-
 @media (min-width: 690px) {
   .infoTitle {
   font-size: 28px;
@@ -73,14 +59,6 @@ p.title {
   top:1px;
   }
 }
-
-
-/*Floating Menu*/
-#floatMenu {
-  top:5%;
-
-}
-
 
 /* Global */
 
@@ -754,150 +732,6 @@ article .col-md-3 h3 {
 .col-md-3 ul {
   margin-top: 0;
 }
-#activity-body .lst-kix_list_1-1 {
-  padding-left: 36px;
-  margin-top: -16px;
-}
-#activity-body .lst-kix_list_1-1 li {
-  margin-bottom: 8px;
-}
-#activity-body h3 {
-  color: #17283e;
-  margin-top: 92px;
-}
-article #activity-body ul {
-  font-weight: 300;
-}
-article #activity-body ul li {
-  margin-bottom: 8px;
-  font-weight: 300;
-}
-
-
-#page-menu {
-  font-size: 20px;
-  width: 100%;
-  border-right: 1px solid #f26922;
-  position: fixed;
-  top: 68px;
-  left: 0;
-  bottom: 0;
-  z-index: 8;
-  transform: translate(calc(-100% + 50px), 0);
-  transition: transform .5s;
-}
-#page-menu + article {
-  margin-left: 50px;
-}
-#page-menu.active {
-  transform: translate( -16px, 0 );
-}
-#page-menu.active + article {
-  transform: translate( calc(100vw - 66px), 0 );
-}
-
-#page-menu header {
-  position: absolute;
-  top: 10px;
-  left: calc(100% - 10px);
-  transform: rotate(90deg);
-  transform-origin: 0 0;
-  white-space: nowrap;
-  width: calc(100vh - 68px);
-  z-index: 2;
-}
-#page-menu header a {
-  display: block;
-  text-decoration: none;
-  width: 100%;
-}
-#page-menu h3 {
-  transition: color .3s;
-  color: #f26922;
-}
-#page-menu h3 .icon {
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  vertical-align: middle;
-  margin: -2px 4px 3px 0;
-  transition: width .5s, height .5s, margin .5s;
-}
-#page-menu h3 svg {
-  fill: #f26922;
-}
-
-#page-menu .menu-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
-  padding: 24px 50px 0 32px;
-}
-#page-menu ul {
-  list-style: none;
-}
-#page-menu ul li {
-  list-style: none;
-  margin: 0 0 8px;
-}
-#page-menu .form-group {
-  margin: 0 0 32px;
-}
-#page-menu fieldset {
-  transition: margin .5s;
-}
-#page-menu fieldset.compressed {
-  margin-bottom: 8px;
-}
-#page-menu fieldset legend a {
-  color: inherit;
-  text-decoration: none;
-}
-#page-menu fieldset .options {
-  transition: height .5s;
-  overflow: hidden;
-}
-#page-menu fieldset.compressed .options {
-  height: 0 !important;
-}
-#page-menu fieldset legend a:after {
-  content: '';
-  display: inline-block;
-  vertical-align: middle;
-  background: url("/src/images/svg/icon-triangle.svg") no-repeat 50% 50%;
-  width: 10px;
-  height: 10px;
-  margin: -3px 0 0 8px;
-  transform: rotate(90deg);
-  transition: transform .5s;
-}
-#page-menu fieldset.compressed legend a:after {
-  transform: rotate(0deg);
-}
-#page-menu.active h3 .icon.open {
-  width: 0;
-  margin-right: 0;
-}
-#page-menu h3 .icon.close {
-  width: 0;
-  margin-right: 0;
-}
-#page-menu.active h3 .icon.close {
-  width: 32px;
-  margin-right: 4px;
-}
-#page-menu h4 {
-  text-transform: uppercase;
-  margin: 32px 0 10px;
-}
-#page-menu input[type="radio"],
-#page-menu input[type="checkbox"] {
-  margin: 0 10px 0 0;
-}
 
 .add-new {
   text-align: center;
@@ -1036,47 +870,6 @@ table.ordered tbody tr:before {
   counter-increment: row;
   content: counter(row);
 }
-
-#statement {
-  text-align: center;
-  margin: 16px 0;
-  font-size: 21px;
-}
-#statement .dropdown {
-  display: block;
-  margin: 16px 0;
-}
-#statement .box {
-  padding: 0;
-  cursor: pointer;
-  font-family: inherit;
-}
-#statement .box .box-content {
-  padding: 8px 18px 12px;
-}
-#statement .dropdown-content {
-  position: absolute;
-  left: 0;
-  min-width: 100%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  text-align: left;
-  font-size: 16px;
-  padding: 6px 0 8px;
-  transform-origin: 0 0;
-  transform: scale(1, 0);
-  transition: transform .5s, opacity .5s;
-}
-#statement .dropdown-content a {
-  color: #fff;
-  padding: 4px 16px;
-  text-decoration: none;
-  display: block;
-}
-#statement .dropdown.active .dropdown-content {
-  transform: scale(1,1);
-}
-
 
 .exit-menu li {
   display: none;
@@ -1273,23 +1066,216 @@ article form + p {
   text-align: center;
 }
 
-/* Responsivity */
-
-/* Medium-sized phones (and up) */
-
-@media only screen and (min-width: 350px) {
-
-  .jumbotron p {
-    font-size: 24px;
-    line-height: 1.6;
-  }
-
-}
-
 h1 span{
   margin: 0px auto 10px auto;
   font-size: 36px;
+}
 
+
+/* TO MOVE */
+
+/* Create Resources Stylesheet*/
+
+#page-menu {
+  font-size: 20px;
+  width: 100%;
+  border-right: 1px solid #f26922;
+  position: fixed;
+  top: 68px;
+  left: 0;
+  bottom: 0;
+  z-index: 8;
+  transform: translate(calc(-100% + 50px), 0);
+  transition: transform .5s;
+}
+#page-menu + article {
+  margin-left: 50px;
+}
+#page-menu.active {
+  transform: translate( -16px, 0 );
+}
+#page-menu.active + article {
+  transform: translate( calc(100vw - 66px), 0 );
+}
+
+#page-menu header {
+  position: absolute;
+  top: 10px;
+  left: calc(100% - 10px);
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  white-space: nowrap;
+  width: calc(100vh - 68px);
+  z-index: 2;
+}
+#page-menu header a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+}
+#page-menu h3 {
+  transition: color .3s;
+  color: #f26922;
+}
+#page-menu h3 .icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin: -2px 4px 3px 0;
+  transition: width .5s, height .5s, margin .5s;
+}
+#page-menu h3 svg {
+  fill: #f26922;
+}
+
+#page-menu .menu-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 24px 50px 0 32px;
+}
+#page-menu ul {
+  list-style: none;
+}
+#page-menu ul li {
+  list-style: none;
+  margin: 0 0 8px;
+}
+#page-menu .form-group {
+  margin: 0 0 32px;
+}
+#page-menu fieldset {
+  transition: margin .5s;
+}
+#page-menu fieldset.compressed {
+  margin-bottom: 8px;
+}
+#page-menu fieldset legend a {
+  color: inherit;
+  text-decoration: none;
+}
+#page-menu fieldset .options {
+  transition: height .5s;
+  overflow: hidden;
+}
+#page-menu fieldset.compressed .options {
+  height: 0 !important;
+}
+#page-menu fieldset legend a:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  background: url("/src/images/svg/icon-triangle.svg") no-repeat 50% 50%;
+  width: 10px;
+  height: 10px;
+  margin: -3px 0 0 8px;
+  transform: rotate(90deg);
+  transition: transform .5s;
+}
+#page-menu fieldset.compressed legend a:after {
+  transform: rotate(0deg);
+}
+#page-menu.active h3 .icon.open {
+  width: 0;
+  margin-right: 0;
+}
+#page-menu h3 .icon.close {
+  width: 0;
+  margin-right: 0;
+}
+#page-menu.active h3 .icon.close {
+  width: 32px;
+  margin-right: 4px;
+}
+#page-menu h4 {
+  text-transform: uppercase;
+  margin: 32px 0 10px;
+}
+#page-menu input[type="radio"],
+#page-menu input[type="checkbox"] {
+  margin: 0 10px 0 0;
+}
+
+
+/* TO DELETE */
+
+/* Temporary CSS(because of React errors etc) */
+@media (min-width: 992px) {
+  /* for src/pages/ican.js  because React doesn't support inline media queries */
+  .green-media { background-color: #2FA351; }
+  .white-media { background-color: #F26922; }
+  .black-media { background-color: #17283e; }
+}
+/* End of Temporary CSS */
+
+/* Unused */
+
+#floatMenu {
+  top:5%;
+}
+
+#activity-body .lst-kix_list_1-1 {
+  padding-left: 36px;
+  margin-top: -16px;
+}
+#activity-body .lst-kix_list_1-1 li {
+  margin-bottom: 8px;
+}
+#activity-body h3 {
+  color: #17283e;
+  margin-top: 92px;
+}
+article #activity-body ul {
+  font-weight: 300;
+}
+article #activity-body ul li {
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+
+#statement {
+  text-align: center;
+  margin: 16px 0;
+  font-size: 21px;
+}
+#statement .dropdown {
+  display: block;
+  margin: 16px 0;
+}
+#statement .box {
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
+}
+#statement .box .box-content {
+  padding: 8px 18px 12px;
+}
+#statement .dropdown-content {
+  position: absolute;
+  left: 0;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: left;
+  font-size: 16px;
+  padding: 6px 0 8px;
+  transform-origin: 0 0;
+  transform: scale(1, 0);
+  transition: transform .5s, opacity .5s;
+}
+#statement .dropdown-content a {
+  color: #fff;
+  padding: 4px 16px;
+  text-decoration: none;
+  display: block;
+}
+#statement .dropdown.active .dropdown-content {
+  transform: scale(1,1);
 }
 
 .loader {
@@ -1301,14 +1287,9 @@ h1 span{
     animation: spin 2s linear infinite;
 }
 
-
 .filter{
     color: grey;
 }
-
-
-
-/* Core Style */
 
 #colorbox, #cboxOverlay, #cboxWrapper {
   position: fixed;
@@ -1380,9 +1361,6 @@ h1 span{
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
 }
-
-
-/* Custom */
 
 #cboxOverlay {
   background: #17283e;
@@ -1458,9 +1436,6 @@ h1 span{
   z-index: 2;
 }
 
-
-/* Buttons */
-
 #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {
   border: none;
   background: transparent;
@@ -1477,9 +1452,6 @@ h1 span{
   background-size: 20px;
   z-index: 4;
 }
-
-
-/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
 
 #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {
   outline: 0;

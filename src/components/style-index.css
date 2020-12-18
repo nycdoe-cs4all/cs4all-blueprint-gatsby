@@ -1,4 +1,4 @@
-/* Dan */
+/* Index Page Styles */
 
 /* Jumbotron */
 
@@ -14,12 +14,12 @@
 }
 
 .jumbotron p a {
-  color: #a1cc3b;
+  color: #a1cc3b; /* Color: Atlantis */
   font-weight: 400;
 }
 
 .jumbotron p a:hover {
-  color: #fff !important;
+  color: #fff !important; /* Color: White */
 }
 
 .jumbotron p a:before {
@@ -32,8 +32,6 @@
 
 .jumbotron .next {
   margin: 0 auto;
-}
-.jumbotron .btn {
 }
 
 
@@ -68,6 +66,29 @@
   transform: translate(-50%, 0) scale(1, 1);
 }
 
+a:hover .preview-image .icon {
+  transform: translate(-50%, 0) scale(1.04, 1.04);
+}
+
+a .preview-image .icon svg {
+  fill: #17283e; /* Color: Midnight */
+  stroke: #8ac8ff; /* Color: Light Sky Blue */
+  stroke-width: .02em;
+}
+
+a:hover .preview-image .icon svg {
+  fill: #17283e; /* Color: Midnight */
+  stroke: #fff; /* Color: White */
+}
+
+
+/* TO DELETE */
+
+/* Unused */
+.jumbotron .btn {
+}
+
+/* Will No Longer Be Used */
 #featured-units .preview-image .icon {
   left: auto;
   right: 26px;
@@ -76,21 +97,6 @@
   transform: none;
 }
 
-a:hover .preview-image .icon {
-  transform: translate(-50%, 0) scale(1.04, 1.04);
-}
-
 #featured-units a:hover .preview-image .icon {
   transform: scale(1.04, 1.04);
-}
-
-a .preview-image .icon svg {
-  fill: #17283e;
-  stroke: #8ac8ff;
-  stroke-width: .02em;
-}
-
-a:hover .preview-image .icon svg {
-  fill: #17283e;
-  stroke: #fff;
 }

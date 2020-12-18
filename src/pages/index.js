@@ -81,7 +81,7 @@ function IndexPage() {
               />
             </div>
           </div>
-        </div>{/* #cs-in-classroom */ }
+        </div>
 
         <div id="what-is-blueprint" className="light-theme">
           <div className="interior-container">
@@ -117,7 +117,7 @@ function IndexPage() {
               </li>
             </ul>
           </div>
-        </div> {/*  #what-is-blueprint */ }
+        </div>
 
         <div className="interior-container">
           <div id="featured-units">

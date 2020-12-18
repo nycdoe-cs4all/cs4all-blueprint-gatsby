@@ -1,78 +1,79 @@
 /* Dan */
 
-/* Light theme */
+/* Color Schemes */
+
+/* Light Theme */
 
 .light-theme {
-/*  background: #cad5e0;*/
-  background: #fff;
-/*  background: #dfe9fb;*/
-  color: #17283e;
+  background: #fff; /* Color: White */
+  /* background: #cad5e0; Color: Link Water */
+  /* background: #dfe9fb; Color: Solitude */
+  color: #17283e; /* Color: Midnight */
 }
 
 .light-theme a {
   color: inherit;
-  color: #f26922;
+  color: #f26922; /* Color: Pumpkin */
 }
+
 .light-theme a:hover {
   text-decoration: underline;
 }
+
 .light-theme p a {
   font-weight: 400;
 }
 
-.light-theme svg {
-  fill: #6b8bb2;
-}
-.light-theme a svg {
-  fill: #6b8bb2;
-}
-header .icon {
-  width: 64px;
-  height: 64px;
-  margin: 0 auto;
-}
-
+.light-theme svg,
+.light-theme a svg,
 .light-theme a:hover svg {
-  fill: #6b8bb2;
+  fill: #6b8bb2; /* Color: Ship Cove */
 }
 
-.light-theme h2 .preamble, .light-theme h2 b span {
-  color: #6b8bb2;
-}
-
-.light-theme h2:after, .light-theme .box .box-content:before, .light-theme .box .box-content:after {
-  background: linear-gradient(to right, rgba(107, 139, 178, 0) 0%, rgba(107, 139, 178, 1) 50%, rgba(107, 139, 178, 0) 100%);
-/*   W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+*/
-}
-
-.light-theme .box:before, .light-theme .box:after {
-  background: linear-gradient(to bottom, rgba(107, 139, 178, 0) 0%, rgba(107, 139, 178, 1) 50%, rgba(107, 139, 178, 0) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
-
+.light-theme h2 .preamble,
+.light-theme h2 b span,
 .light-theme h3 {
-  color: #6b8bb2;
-/*  color: #175494;;*/
+  color: #6b8bb2; /* Color: Ship Cove */
+  /* color: #175494; Color: Endeavour */
 }
+
 .light-theme h3 a {
   text-decoration: none;
 }
 
 .light-theme .btn {
-  color: #97b5d0;
-  border-color: #97b5d0;
+  border-color: #97b5d0; /* Color: Polo Blue */
+  color: #97b5d0; /* Color: Polo Blue */
 }
+
+.light-theme .btn:hover {
+  border-color: #175494; /* Color: Endeavour */
+  color: #175494; /* Color: Endeavour */
+}
+
 .light-theme .box {
   margin: 0;
-  border: 1px solid #97b5d0;
+  border: 1px solid #97b5d0; /* Color: Polo Blue */
   color: inherit;
 }
 
-.light-theme .box:hover,
-.light-theme .btn:hover {
-  border-color: #6b8bb2;
-  color: #17283e;
+.light-theme .box:hover {
+  border-color: #6b8bb2; /* Color: Ship Cove */
+  color: #17283e; /* Color: Midnight */
   text-decoration: none;
+}
+
+.light-theme h2:after,
+.light-theme .box .box-content:before,
+.light-theme .box .box-content:after {
+  background: linear-gradient(to right, rgba(107, 139, 178, 0) 0%, rgba(107, 139, 178, 1) 50%, rgba(107, 139, 178, 0) 100%);
+/*   W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+*/
+}
+
+.light-theme .box:before,
+.light-theme .box:after {
+  background: linear-gradient(to bottom, rgba(107, 139, 178, 0) 0%, rgba(107, 139, 178, 1) 50%, rgba(107, 139, 178, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .light-theme section {
@@ -81,19 +82,15 @@ header .icon {
 .light-theme section + section {
   margin-top: 0;
 }
-/*.light-theme section + section:before {
-  display: none;
-}*/
+
 .light-theme section.compressed header .box {
-  color: #17283e;
+  color: #17283e; /* Color: Midnight */
 }
+
 .light-theme section header .box h3 {
-  color: #175494;
+  color: #175494; /* Color: Endeavour */
 }
-.light-theme .btn:hover {
-  border-color: #175494;
-  color: #175494;
-}
+
 article.light-theme {
   margin-bottom: 32px;
 }
@@ -101,13 +98,10 @@ article.light-theme {
 
 /* Blue theme */
 
-
 h2 .preamble, h2 b span {
   color: #8ac8ff;
 }
-.light-theme .blue a {
-/*  color: #521909;*/
-}
+
 .blue h3 {
 /*  color: #97b5d0;*/
   color: #0A55A3;
@@ -119,9 +113,7 @@ h2 .preamble, h2 b span {
   fill: #97b5d0;
 /*  fill: #0A55A3;*/
 }
-.blue .dropdown-content {
-  background: #6b8bb2;
-}
+
 .blue .dropdown-content a:hover,
 .blue .box.selected {
   background: #17283e;
@@ -297,4 +289,28 @@ article.green-theme section,
 }
 article.green-theme section.compressed a.box {
   color: #A1CC3A;
+}
+
+
+/* TO MOVE */
+
+/* Move to General */
+
+header .icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+}
+
+
+/* TO DELETE */
+
+/* Unused */
+
+.blue .dropdown-content {
+  background: #6b8bb2;
+}
+
+.light-theme .blue a {
+  /* color: #521909; */
 }

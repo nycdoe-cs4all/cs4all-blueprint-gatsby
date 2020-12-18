@@ -19,7 +19,7 @@ import "./style-navbar.css"
 import "./style-footer.css"
 import "./style-index.css"
 import "./style-about.css"
-import "./style-studentOutcomes.css"
+import "./style-outcomes.css"
 import "./style-responsive.css"
 
 import '../assets/svg/icon-foundations.svg'

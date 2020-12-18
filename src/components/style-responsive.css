@@ -1,5 +1,18 @@
 /* Jorge */
 
+/* Responsivity */
+
+/* Medium-sized phones (and up) */
+
+@media only screen and (min-width: 350px) {
+
+  .jumbotron p {
+    font-size: 24px;
+    line-height: 1.6;
+  }
+
+}
+
 /* Larger Phones */
 
 @media only screen and (min-width: 480px) {

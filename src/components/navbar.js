@@ -19,7 +19,6 @@ const Navbar = () => (
         </a>
       </h2>
 
-      {/* local ".php" filepaths should be replaced with the correct cms-generated filepath. '/about.php' ->  '/about/' */}
       <div className="site-menu">
         <ul>
           <li className="compressed parent-menu">
@@ -57,28 +56,6 @@ const Navbar = () => (
               <span className="preamble">About</span> Blueprint
             </a>
           </li>
-
-          {/* if user.is_authenticated }
-          <li className="dropdown">
-            <a className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="http://blueprint.cs4all.nyc/accounts/login/">
-              <span className="icon"><svg><use xlinkHref="#icon-user" /></svg></span>
-              <span className="preamble">my</span> ACCOUNT
-              <span className="caret"></span>
-            </a>
-            <ul className="dropdown-menu">
-              <li><a href="/users/{{user.id}}">View Profile</a></li>
-              <li><a href="{% url 'edit_profile' %}">Edit Profile</a></li>
-              <li><a href="{% url 'auth_logout' %}">Log Out</a></li>
-            </ul>
-          </li>
-          {% else %}
-            <li>
-              <a href="{% url 'auth_login' %}">
-                <span className="icon"><svg><use xlinkHref="#icon-lock" /></svg></span>
-              login
-            </a>
-            </li>
-          */ }
         </ul>
       </div>
     </nav>
