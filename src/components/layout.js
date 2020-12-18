@@ -12,6 +12,15 @@ import { useStaticQuery, graphql } from "gatsby"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 import "./style.css"
+import "./style-typography.css"
+import "./style-colorScheme.css"
+import "./style-animations.css"
+import "./style-navbar.css"
+import "./style-footer.css"
+import "./style-index.css"
+import "./style-about.css"
+import "./style-studentOutcomes.css"
+import "./style-responsive.css"
 
 import '../assets/svg/icon-foundations.svg'
 import '../assets/svg/icon-units.svg'

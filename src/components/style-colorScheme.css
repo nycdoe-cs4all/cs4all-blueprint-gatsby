@@ -1,0 +1,300 @@
+/* Dan */
+
+/* Light theme */
+
+.light-theme {
+/*  background: #cad5e0;*/
+  background: #fff;
+/*  background: #dfe9fb;*/
+  color: #17283e;
+}
+
+.light-theme a {
+  color: inherit;
+  color: #f26922;
+}
+.light-theme a:hover {
+  text-decoration: underline;
+}
+.light-theme p a {
+  font-weight: 400;
+}
+
+.light-theme svg {
+  fill: #6b8bb2;
+}
+.light-theme a svg {
+  fill: #6b8bb2;
+}
+header .icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+}
+
+.light-theme a:hover svg {
+  fill: #6b8bb2;
+}
+
+.light-theme h2 .preamble, .light-theme h2 b span {
+  color: #6b8bb2;
+}
+
+.light-theme h2:after, .light-theme .box .box-content:before, .light-theme .box .box-content:after {
+  background: linear-gradient(to right, rgba(107, 139, 178, 0) 0%, rgba(107, 139, 178, 1) 50%, rgba(107, 139, 178, 0) 100%);
+/*   W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+*/
+}
+
+.light-theme .box:before, .light-theme .box:after {
+  background: linear-gradient(to bottom, rgba(107, 139, 178, 0) 0%, rgba(107, 139, 178, 1) 50%, rgba(107, 139, 178, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.light-theme h3 {
+  color: #6b8bb2;
+/*  color: #175494;;*/
+}
+.light-theme h3 a {
+  text-decoration: none;
+}
+
+.light-theme .btn {
+  color: #97b5d0;
+  border-color: #97b5d0;
+}
+.light-theme .box {
+  margin: 0;
+  border: 1px solid #97b5d0;
+  color: inherit;
+}
+
+.light-theme .box:hover,
+.light-theme .btn:hover {
+  border-color: #6b8bb2;
+  color: #17283e;
+  text-decoration: none;
+}
+
+.light-theme section {
+  margin-bottom: 0;
+}
+.light-theme section + section {
+  margin-top: 0;
+}
+/*.light-theme section + section:before {
+  display: none;
+}*/
+.light-theme section.compressed header .box {
+  color: #17283e;
+}
+.light-theme section header .box h3 {
+  color: #175494;
+}
+.light-theme .btn:hover {
+  border-color: #175494;
+  color: #175494;
+}
+article.light-theme {
+  margin-bottom: 32px;
+}
+
+
+/* Blue theme */
+
+
+h2 .preamble, h2 b span {
+  color: #8ac8ff;
+}
+.light-theme .blue a {
+/*  color: #521909;*/
+}
+.blue h3 {
+/*  color: #97b5d0;*/
+  color: #0A55A3;
+  color: #175494;
+}
+.blue a svg,
+.blue a:hover svg {
+  fill: #8ac8ff;
+  fill: #97b5d0;
+/*  fill: #0A55A3;*/
+}
+.blue .dropdown-content {
+  background: #6b8bb2;
+}
+.blue .dropdown-content a:hover,
+.blue .box.selected {
+  background: #17283e;
+  color: #fff;
+}
+
+section header a:hover svg {
+  fill: #8ac8ff;
+}
+
+
+
+/* Orange Theme */
+.orange-theme {
+  background: #b23900;
+  color: #fff;
+}
+article.orange-theme,
+section.orange-theme {
+  /* Permalink - use to edit and share this gradient: http:/colorzilla.com/gradient-editor/#922900+0,b23900+20,b23900+80,922900+100 */
+  background: linear-gradient(to right, #922900 0%,#b23900 20%,#b23900 80%,#922900 100%);
+}
+.orange-theme h2 .preamble {
+  color: #f9af60;
+}
+article.orange-theme header + .article-content p:first-child:before {
+  background: #f9af60;
+}
+
+.orange .dropdown-content {
+  background: #e99f50;
+}
+.orange .dropdown-content a:hover,
+.orange .box.selected {
+  background: #b23900;
+  color: #fff;
+}
+
+.light-theme .orange a {
+  color: #521909;
+}
+.orange h3,
+.orange-theme section header h3 {
+  color: #F26922;
+  color: #e26932;
+}
+
+
+.orange-theme a svg,
+.orange a svg,
+.orange a:hover svg {
+  fill: #F26922;
+  fill: #f9af60 !important;
+}
+.orange-theme section.compressed a svg {
+  fill: #f9af60;
+}
+
+.orange .box:hover,
+.orange-theme section .box:hover {
+  border-color: #e99f50;
+}
+
+.orange-theme h2:after, .orange-theme .box .box-content:before, .orange-theme .box .box-content:after,
+.orange h2:after, .orange .box .box-content:before, .orange .box .box-content:after {
+  background: linear-gradient(to right, rgba(249, 122, 57, 0) 0%, rgba(249, 122, 57, 1) 50%, rgba(249, 122, 57, 0) 100%);
+}
+.orange-theme .box:before, .orange-theme .box:after,
+.orange .box:before, .orange .box:after {
+  background: linear-gradient(to bottom, rgba(249, 122, 57, 0) 0%, rgba(249, 122, 57, 1) 50%, rgba(249, 122, 57, 0) 100%);
+}
+
+article.orange-theme tbody th {
+  background: #b23900;
+}
+article.orange-theme td {
+  background: #ffcf80;
+}
+article.orange-theme td.placeholder {
+  border-color: #ffcf80;
+}
+
+article.orange-theme section,
+.orange {
+  color: #521909;
+}
+article.orange-theme section.compressed a.box {
+  color: #e99f50;
+}
+
+
+
+/* Green Theme */
+.green-theme {
+  background: #1D6743;
+}
+article.green-theme,
+section.green-theme  {
+  /* Permalink - use to edit and share this gradient: http:/colorzilla.com/gradient-editor/#1b573f+0,1d6743+20,1d6743+80,1b573f+100 */
+  background: linear-gradient(to right, #1b572f 0%,#1d6710 20%,#1d6710 80%,#1b572f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+article.green-theme header + .article-content p:first-child:before {
+  background: #A1CC3A;
+}
+.green-theme .headline {
+  color: #2d7743;
+}
+
+.green-theme h2 .preamble,
+.green-theme section a,
+.green-theme section a:hover {
+  color: #A1CC3A;
+}
+.green-theme .section-content a:hover {
+  text-decoration: underline;
+}
+
+.green .dropdown-content {
+  background: #A1CC3A;
+}
+.green .dropdown-content a:hover,
+.green .box.selected {
+  background: #1D6743;
+  color: #fff;
+}
+
+.light-theme .green a {
+  color: #A1CC3A;
+  color: #1b572f;
+}
+.green h3,
+.green-theme section header h3 {
+  color: #1D8743;
+  color: #2d7743;
+}
+.green-theme a svg,
+.green a svg,
+.green a:hover svg {
+  fill: #1D8743;
+  fill: #A1CC3A !important;
+}
+.green-theme section.compressed a svg {
+  fill: #A1CC3A;
+}
+
+.green-theme section .box:hover,
+.green .box:hover {
+  border-color: #A1CC3A;
+}
+
+.green-theme h2:after, .green-theme .box .box-content:before, .green-theme .box .box-content:after,
+.green h2:after, .green .box .box-content:before, .green .box .box-content:after {
+  background: linear-gradient(to right, rgba(161, 205, 58, 0) 0%, rgba(161, 205, 58, 1) 50%, rgba(161, 205, 58, 0) 100%);
+}
+.green-theme .box:before, .green-theme .box:after, .green .box:before, .green .box:after {
+  background: linear-gradient(to bottom, rgba(161, 205, 58, 0) 0%, rgba(161, 205, 58, 1) 50%, rgba(161, 205, 58, 0) 100%);
+}
+
+article.green-theme tbody th {
+  background: #1b572f;
+}
+article.green-theme td {
+  background: #A1CC3A;
+}
+article.green-theme td.placeholder {
+  border-color: #A1CC3A;
+}
+
+article.green-theme section,
+.green {
+  color: #1b572f;
+}
+article.green-theme section.compressed a.box {
+  color: #A1CC3A;
+}

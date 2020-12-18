@@ -1,0 +1,140 @@
+/* Dan */
+
+/* Header */
+
+#masthead {
+  background: #17283e;
+  background: linear-gradient(to right, rgba(20,34,53,1) 0%,rgba(23,40,62,1) 20%,rgba(23,40,62,1) 80%,rgba(20,34,53,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  border-bottom: 1px solid #88b8e3;
+  border-color: rgba(136, 184, 227, .25);
+  font-size: 13px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+  transition: border .3s;
+}
+#masthead a {
+  display: block;
+  position: relative;
+}
+#masthead #logo {
+  background: #17283e;
+  background: linear-gradient(to right, rgba(20,34,53,1) 0%,rgba(23,40,62,1) 20%,rgba(23,40,62,1) 80%,rgba(20,34,53,1) 100%);
+  padding: 16px;
+}
+#masthead #logo a {
+  height: 36px;
+  width: calc(100% - 58px);
+  max-width: 272px;
+}
+#masthead #logo .icon {
+  height: 100%;
+  width: 100%;
+}
+#masthead #logo .icon svg {
+  vertical-align: top;
+}
+#masthead h1 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  transform-origin: 25% 50%;
+}
+
+
+/* Menu */
+
+#menu h2 {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+#menu h2 .icon {
+  height: 36px;
+  width: 44px;
+}
+#menu h2 .label {
+  display: none;
+}
+#menu .icon {
+  display: inline-block;
+  overflow: visible;
+}
+#menu.active h2 .icon svg {
+  fill: #fff;
+}
+#menu .site-menu {
+  color: #17283e;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #cad5e0;
+  font-size: 18px;
+  overflow: hidden;
+  transition: transform .6s, opacity .6s;
+  transform: translate(0, -100%);
+  transform-origin: 50% 0;
+  z-index: -1;
+  padding: 32px 16px 0;
+  max-height: calc(100vh - 68px);
+  overflow: auto;
+}
+#menu.active .site-menu {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+#menu ul {
+  list-style: none;
+}
+#menu .site-menu li {
+  margin: 0 0 32px;
+}
+#menu .site-menu li ul {
+  margin: 24px 0 32px 40px;
+  transition: height .5s, margin .5s, opacity .5s;
+  overflow: hidden;
+}
+#menu .site-menu li.compressed ul {
+  height: 0 !important;
+  margin: 0 0 0 40px;
+  opacity: 0;
+}
+#menu .site-menu li li {
+  margin: 0 0 16px;
+}
+#menu .site-menu a {
+  color: #17283e;
+}
+#menu .site-menu li li a:before {
+  content: '\00a0';
+}
+#menu .site-menu .parent-menu > a:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  background: url("/src/images/svg/icon-triangle-lightblue.svg") no-repeat 0 0;
+  background-size: 100% auto;
+  height: 16px;
+  width: 16px;
+  float: right;
+  margin: 8px 0 0 0;
+  transform: rotate(90deg);
+  transform-origin: 50% 40%;
+  transition: transform .5s;
+}
+#menu .site-menu .parent-menu.compressed > a:after {
+  transform: rotate(0);
+}
+#menu .site-menu .icon {
+  vertical-align: middle;
+  margin: 0 8px 0 0;
+  height: 32px;
+  width: 32px;
+}
+#menu .site-menu svg {
+  fill: #17283e;
+}

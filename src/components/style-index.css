@@ -1,0 +1,96 @@
+/* Dan */
+
+/* Jumbotron */
+
+.jumbotron {
+  background: none;
+  margin: 0;
+}
+
+.jumbotron p {
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 0 0 40px;
+}
+
+.jumbotron p a {
+  color: #a1cc3b;
+  font-weight: 400;
+}
+
+.jumbotron p a:hover {
+  color: #fff !important;
+}
+
+.jumbotron p a:before {
+  content: '<';
+}
+
+.jumbotron p a:after {
+  content: '>';
+}
+
+.jumbotron .next {
+  margin: 0 auto;
+}
+.jumbotron .btn {
+}
+
+
+/* Preview Galleries */
+
+.gallery {
+  text-align: center;
+}
+
+.gallery > div {
+  margin: 0px 0 48px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+.gallery h3 {
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+.gallery .preview-image img {
+  vertical-align: top;
+}
+.preview-image .icon {
+  display: block;
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  height: 96px;
+  width: 96px;
+  transform: translate(-50%, 0) scale(1, 1);
+}
+
+#featured-units .preview-image .icon {
+  left: auto;
+  right: 26px;
+  height: 80px;
+  width: 80px;
+  transform: none;
+}
+
+a:hover .preview-image .icon {
+  transform: translate(-50%, 0) scale(1.04, 1.04);
+}
+
+#featured-units a:hover .preview-image .icon {
+  transform: scale(1.04, 1.04);
+}
+
+a .preview-image .icon svg {
+  fill: #17283e;
+  stroke: #8ac8ff;
+  stroke-width: .02em;
+}
+
+a:hover .preview-image .icon svg {
+  fill: #17283e;
+  stroke: #fff;
+}

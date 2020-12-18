@@ -1,0 +1,68 @@
+/* Jorge */
+
+#fellows {
+  border-bottom: 2px solid #8ac8ff;
+  padding: 0 0 32px;
+  margin: 0 -2px 32px;
+}
+.fellow {
+  position: relative;
+  font-size: 14px;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 50%;
+  padding: 25% 0;
+  display: inline-block;
+  vertical-align: top;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.fellow img {
+  /*display: none;*/
+}
+.fellow h4 {
+  margin: -16px;
+  padding: 16px 16px 32px;
+  font-size: 14px;
+  transition: background .4s;
+  position: relative;
+  z-index: 1;
+}
+.fellow h4:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,.6) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  content: '';
+  display: block;
+  z-index: -1;
+  transition: opacity .4s;
+  opacity: 1;
+}
+.fellow:hover h4:before {
+  opacity: 0;
+}
+.fellow .fellow-content {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 16px;
+    background: transparent;
+    transition: background .4s, opacity .4s;
+}
+.fellow .fellow-text {
+  opacity: 0;
+  transition: opacity .4s;
+}
+.fellow:hover .fellow-content {
+  background: #17283e;
+}
+.fellow:hover .fellow-text {
+  opacity: 1;
+}
