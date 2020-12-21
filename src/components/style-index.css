@@ -1,7 +1,6 @@
 /* Index Page Styles */
 
-/* Jumbotron */
-
+/* Jumbotron (CS4All Mission + Home Page Button)*/
 .jumbotron {
   background: none;
   margin: 0;
@@ -34,9 +33,7 @@
   margin: 0 auto;
 }
 
-
-/* Preview Galleries */
-
+/* Galleries (Currently consists of only the Student Work videos)*/
 .gallery {
   text-align: center;
 }
@@ -56,6 +53,7 @@
 .gallery .preview-image img {
   vertical-align: top;
 }
+
 .preview-image .icon {
   display: block;
   position: absolute;

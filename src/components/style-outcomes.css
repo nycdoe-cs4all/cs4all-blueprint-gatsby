@@ -1,7 +1,6 @@
 /* Outcomes Page Styles */
 
-/* Student Outcomes Table */
-
+/* Student Outcomes Tables */
 article #student-outcomes-table {
   max-width: 1200px;
 }
@@ -66,6 +65,7 @@ article #student-outcomes-table td.perspective:after {
 
 #student-outcomes-table th.perspective {
   color: #4b77a0; /* Color: San Marino */
+  padding: 0 0 128px;
 }
 
 #student-outcomes-table .perspective .icon svg {
@@ -98,7 +98,6 @@ article #student-outcomes-table td.perspective:after {
 /* TO DELETE */
 
 /* Unused */
-
 #student-outcomes-table tbody th.concept .icon {
   /*  float: none;*/
 }

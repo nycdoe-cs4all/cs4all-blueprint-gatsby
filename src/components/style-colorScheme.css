@@ -3,7 +3,6 @@
 /* Color Schemes */
 
 /* Light Theme */
-
 .light-theme {
   background: #fff; /* Color: White */
   /* background: #cad5e0; Color: Link Water */
@@ -95,41 +94,37 @@ article.light-theme {
   margin-bottom: 32px;
 }
 
-
 /* Blue theme */
-
 h2 .preamble, h2 b span {
-  color: #8ac8ff;
+  color: #8ac8ff; /* Color: Light Sky Blue */
 }
 
 .blue h3 {
-/*  color: #97b5d0;*/
-  color: #0A55A3;
-  color: #175494;
+  color: #0a55a3; /* Color: Cobalt */
+  color: #175494; /* Color: Endeavour */
+  /* color: #97b5d0; Color: Polo Blue */
 }
 .blue a svg,
 .blue a:hover svg {
-  fill: #8ac8ff;
-  fill: #97b5d0;
-/*  fill: #0A55A3;*/
+  fill: #8ac8ff; /* Color: Light Sky Blue */
+  fill: #97b5d0; /* Color: Polo Blue */
+  /* fill: #0a55a3; Color: Cobalt */
 }
 
 .blue .dropdown-content a:hover,
 .blue .box.selected {
-  background: #17283e;
-  color: #fff;
+  background: #17283e; /* Color: Midnight */
+  color: #fff; /* Color: White */
 }
 
 section header a:hover svg {
-  fill: #8ac8ff;
+  fill: #8ac8ff; /* Color: Light Sky Blue */
 }
-
-
 
 /* Orange Theme */
 .orange-theme {
-  background: #b23900;
-  color: #fff;
+  background: #b23900; /* Color: Rust */
+  color: #fff; /* Color: White */
 }
 article.orange-theme,
 section.orange-theme {
@@ -137,44 +132,44 @@ section.orange-theme {
   background: linear-gradient(to right, #922900 0%,#b23900 20%,#b23900 80%,#922900 100%);
 }
 .orange-theme h2 .preamble {
-  color: #f9af60;
+  color: #f9af60; /* Color: Rajah */
 }
 article.orange-theme header + .article-content p:first-child:before {
-  background: #f9af60;
+  background: #f9af60; /* Color: Rajah */
 }
 
 .orange .dropdown-content {
-  background: #e99f50;
+  background: #e99f50; /* Color: Sea Buckthorn */
 }
 .orange .dropdown-content a:hover,
 .orange .box.selected {
-  background: #b23900;
-  color: #fff;
+  background: #b23900; /* Color: Rust */
+  color: #fff; /* Color: White */
 }
 
 .light-theme .orange a {
-  color: #521909;
+  color: #521909; /* Color: Caput Mortuum */
 }
 .orange h3,
 .orange-theme section header h3 {
-  color: #F26922;
-  color: #e26932;
+  color: #f26922; /* Color: Pumpkin */
+  color: #e26932; /* Color: Sorbus */
 }
 
 
 .orange-theme a svg,
 .orange a svg,
 .orange a:hover svg {
-  fill: #F26922;
-  fill: #f9af60 !important;
+  fill: #f26922; /* Color: Pumpkin */
+  fill: #f9af60 !important; /* Color: Rajah */
 }
 .orange-theme section.compressed a svg {
-  fill: #f9af60;
+  fill: #f9af60; /* Color: Rajah */
 }
 
 .orange .box:hover,
 .orange-theme section .box:hover {
-  border-color: #e99f50;
+  border-color: #e99f50; /* Color: Sea Buckthorn */
 }
 
 .orange-theme h2:after, .orange-theme .box .box-content:before, .orange-theme .box .box-content:after,
@@ -187,28 +182,28 @@ article.orange-theme header + .article-content p:first-child:before {
 }
 
 article.orange-theme tbody th {
-  background: #b23900;
+  background: #b23900; /* Color: Rust */
 }
 article.orange-theme td {
-  background: #ffcf80;
+  background: #ffcf80; /* Color: Salomie */
 }
 article.orange-theme td.placeholder {
-  border-color: #ffcf80;
+  border-color: #ffcf80; /* Color: Salomie */
 }
 
 article.orange-theme section,
 .orange {
-  color: #521909;
+  color: #521909; /* Color: Caput Mortuum */
 }
 article.orange-theme section.compressed a.box {
-  color: #e99f50;
+  color: #e99f50; /* Color: Sea Buckthorn */
 }
 
 
 
 /* Green Theme */
 .green-theme {
-  background: #1D6743;
+  background: #1d6743; /* Color: Fun Green */
 }
 article.green-theme,
 section.green-theme  {
@@ -217,52 +212,52 @@ section.green-theme  {
 }
 
 article.green-theme header + .article-content p:first-child:before {
-  background: #A1CC3A;
+  background: #a1cc3a; /* Color: Atlantis */
 }
 .green-theme .headline {
-  color: #2d7743;
+  color: #2d7743; /* Color: Camarone */
 }
 
 .green-theme h2 .preamble,
 .green-theme section a,
 .green-theme section a:hover {
-  color: #A1CC3A;
+  color: #a1cc3a; /* Color: Atlantis */
 }
 .green-theme .section-content a:hover {
   text-decoration: underline;
 }
 
 .green .dropdown-content {
-  background: #A1CC3A;
+  background: #a1cc3a; /* Color: Atlantis */
 }
 .green .dropdown-content a:hover,
 .green .box.selected {
-  background: #1D6743;
-  color: #fff;
+  background: #1d6743; /* Color: Fun Green */
+  color: #fff; /* Color: White */
 }
 
 .light-theme .green a {
-  color: #A1CC3A;
-  color: #1b572f;
+  color: #a1cc3a; /* Color: Atlantis */
+  color: #1b572f; /* Color: Crusoe */
 }
 .green h3,
 .green-theme section header h3 {
-  color: #1D8743;
-  color: #2d7743;
+  color: #1d8743; /* Color: Salem */
+  color: #2d7743; /* Color: Camarone */
 }
 .green-theme a svg,
 .green a svg,
 .green a:hover svg {
-  fill: #1D8743;
-  fill: #A1CC3A !important;
+  fill: #1d8743; /* Color: Salem */
+  fill: #a1cc3a !important; /* Color: Atlantis */
 }
 .green-theme section.compressed a svg {
-  fill: #A1CC3A;
+  fill: #a1cc3a; /* Color: Atlantis */
 }
 
 .green-theme section .box:hover,
 .green .box:hover {
-  border-color: #A1CC3A;
+  border-color: #a1cc3a; /* Color: Atlantis */
 }
 
 .green-theme h2:after, .green-theme .box .box-content:before, .green-theme .box .box-content:after,
@@ -274,28 +269,27 @@ article.green-theme header + .article-content p:first-child:before {
 }
 
 article.green-theme tbody th {
-  background: #1b572f;
+  background: #1b572f; /* Color: Crusoe */
 }
 article.green-theme td {
-  background: #A1CC3A;
+  background: #a1cc3a; /* Color: Atlantis */
 }
 article.green-theme td.placeholder {
-  border-color: #A1CC3A;
+  border-color: #a1cc3a; /* Color: Atlantis */
 }
 
 article.green-theme section,
 .green {
-  color: #1b572f;
+  color: #1b572f; /* Color: Crusoe */
 }
 article.green-theme section.compressed a.box {
-  color: #A1CC3A;
+  color: #a1cc3a; /* Color: Atlantis */
 }
 
 
 /* TO MOVE */
 
 /* Move to General */
-
 header .icon {
   width: 64px;
   height: 64px;
@@ -306,7 +300,6 @@ header .icon {
 /* TO DELETE */
 
 /* Unused */
-
 .blue .dropdown-content {
   background: #6b8bb2;
 }
