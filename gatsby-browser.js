@@ -5,3 +5,12 @@
  */
 
 // You can delete this file if you're not using it
+const $ = require("jquery")
+export const onClientEntry = () => {
+  window.onload = () => {
+    $('a.toggle').click(function(event) {
+       event.preventDefault();
+       $("nav").toggleClass("active");
+   });
+  }
+}
