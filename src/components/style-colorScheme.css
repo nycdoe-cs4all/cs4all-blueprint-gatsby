@@ -95,20 +95,17 @@ article.light-theme {
 }
 
 /* Blue theme */
-h2 .preamble, h2 b span {
-  color: #8ac8ff; /* Color: Light Sky Blue */
+.blue a svg,
+.blue a:hover svg {
+  fill: #8ac8ff; /* Color: Light Sky Blue */
+  fill: #97b5d0; /* Color: Polo Blue */
+  /* fill: #0a55a3; Color: Cobalt */
 }
 
 .blue h3 {
   color: #0a55a3; /* Color: Cobalt */
   color: #175494; /* Color: Endeavour */
   /* color: #97b5d0; Color: Polo Blue */
-}
-.blue a svg,
-.blue a:hover svg {
-  fill: #8ac8ff; /* Color: Light Sky Blue */
-  fill: #97b5d0; /* Color: Polo Blue */
-  /* fill: #0a55a3; Color: Cobalt */
 }
 
 .blue .dropdown-content a:hover,
@@ -117,45 +114,27 @@ h2 .preamble, h2 b span {
   color: #fff; /* Color: White */
 }
 
-section header a:hover svg {
-  fill: #8ac8ff; /* Color: Light Sky Blue */
-}
-
 /* Orange Theme */
 .orange-theme {
   background: #b23900; /* Color: Rust */
   color: #fff; /* Color: White */
 }
-article.orange-theme,
-section.orange-theme {
-  /* Permalink - use to edit and share this gradient: http:/colorzilla.com/gradient-editor/#922900+0,b23900+20,b23900+80,922900+100 */
-  background: linear-gradient(to right, #922900 0%,#b23900 20%,#b23900 80%,#922900 100%);
-}
+
 .orange-theme h2 .preamble {
   color: #f9af60; /* Color: Rajah */
 }
-article.orange-theme header + .article-content p:first-child:before {
-  background: #f9af60; /* Color: Rajah */
-}
 
-.orange .dropdown-content {
-  background: #e99f50; /* Color: Sea Buckthorn */
-}
 .orange .dropdown-content a:hover,
 .orange .box.selected {
   background: #b23900; /* Color: Rust */
   color: #fff; /* Color: White */
 }
 
-.light-theme .orange a {
-  color: #521909; /* Color: Caput Mortuum */
-}
-.orange h3,
-.orange-theme section header h3 {
+.orange-theme section header h3,
+.orange h3 {
   color: #f26922; /* Color: Pumpkin */
   color: #e26932; /* Color: Sorbus */
 }
-
 
 .orange-theme a svg,
 .orange a svg,
@@ -163,73 +142,84 @@ article.orange-theme header + .article-content p:first-child:before {
   fill: #f26922; /* Color: Pumpkin */
   fill: #f9af60 !important; /* Color: Rajah */
 }
+
 .orange-theme section.compressed a svg {
   fill: #f9af60; /* Color: Rajah */
 }
 
-.orange .box:hover,
-.orange-theme section .box:hover {
+.orange-theme section .box:hover,
+.orange .box:hover {
   border-color: #e99f50; /* Color: Sea Buckthorn */
 }
 
-.orange-theme h2:after, .orange-theme .box .box-content:before, .orange-theme .box .box-content:after,
-.orange h2:after, .orange .box .box-content:before, .orange .box .box-content:after {
+.orange-theme h2:after,
+.orange-theme .box .box-content:before,
+.orange-theme .box .box-content:after,
+.orange h2:after,
+.orange .box .box-content:before,
+.orange .box .box-content:after {
   background: linear-gradient(to right, rgba(249, 122, 57, 0) 0%, rgba(249, 122, 57, 1) 50%, rgba(249, 122, 57, 0) 100%);
 }
-.orange-theme .box:before, .orange-theme .box:after,
-.orange .box:before, .orange .box:after {
+
+.orange-theme .box:before,
+.orange-theme .box:after,
+.orange .box:before,
+.orange .box:after {
   background: linear-gradient(to bottom, rgba(249, 122, 57, 0) 0%, rgba(249, 122, 57, 1) 50%, rgba(249, 122, 57, 0) 100%);
+}
+
+.light-theme .orange a,
+.orange,
+article.orange-theme section {
+  color: #521909; /* Color: Caput Mortuum */
 }
 
 article.orange-theme tbody th {
   background: #b23900; /* Color: Rust */
 }
+
 article.orange-theme td {
   background: #ffcf80; /* Color: Salomie */
 }
+
 article.orange-theme td.placeholder {
   border-color: #ffcf80; /* Color: Salomie */
 }
 
-article.orange-theme section,
-.orange {
-  color: #521909; /* Color: Caput Mortuum */
-}
 article.orange-theme section.compressed a.box {
   color: #e99f50; /* Color: Sea Buckthorn */
 }
 
+article.orange-theme header + .article-content p:first-child:before {
+  background: #f9af60; /* Color: Rajah */
+}
 
+article.orange-theme,
+section.orange-theme {
+  /* Permalink - use to edit and share this gradient: http:/colorzilla.com/gradient-editor/#922900+0,b23900+20,b23900+80,922900+100 */
+  background: linear-gradient(to right, #922900 0%,#b23900 20%,#b23900 80%,#922900 100%);
+}
 
 /* Green Theme */
 .green-theme {
   background: #1d6743; /* Color: Fun Green */
 }
-article.green-theme,
-section.green-theme  {
-  /* Permalink - use to edit and share this gradient: http:/colorzilla.com/gradient-editor/#1b573f+0,1d6743+20,1d6743+80,1b573f+100 */
-  background: linear-gradient(to right, #1b572f 0%,#1d6710 20%,#1d6710 80%,#1b572f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
 
-article.green-theme header + .article-content p:first-child:before {
-  background: #a1cc3a; /* Color: Atlantis */
-}
 .green-theme .headline {
   color: #2d7743; /* Color: Camarone */
 }
 
 .green-theme h2 .preamble,
 .green-theme section a,
-.green-theme section a:hover {
+.green-theme section a:hover,
+article.green-theme section.compressed a.box {
   color: #a1cc3a; /* Color: Atlantis */
 }
+
 .green-theme .section-content a:hover {
   text-decoration: underline;
 }
 
-.green .dropdown-content {
-  background: #a1cc3a; /* Color: Atlantis */
-}
 .green .dropdown-content a:hover,
 .green .box.selected {
   background: #1d6743; /* Color: Fun Green */
@@ -240,60 +230,83 @@ article.green-theme header + .article-content p:first-child:before {
   color: #a1cc3a; /* Color: Atlantis */
   color: #1b572f; /* Color: Crusoe */
 }
+
 .green h3,
 .green-theme section header h3 {
   color: #1d8743; /* Color: Salem */
   color: #2d7743; /* Color: Camarone */
 }
+
 .green-theme a svg,
 .green a svg,
 .green a:hover svg {
   fill: #1d8743; /* Color: Salem */
   fill: #a1cc3a !important; /* Color: Atlantis */
 }
+
 .green-theme section.compressed a svg {
   fill: #a1cc3a; /* Color: Atlantis */
 }
 
+article.green-theme td.placeholder,
 .green-theme section .box:hover,
 .green .box:hover {
   border-color: #a1cc3a; /* Color: Atlantis */
 }
 
-.green-theme h2:after, .green-theme .box .box-content:before, .green-theme .box .box-content:after,
-.green h2:after, .green .box .box-content:before, .green .box .box-content:after {
+.green-theme h2:after,
+.green-theme .box .box-content:before,
+.green-theme .box .box-content:after,
+.green h2:after,
+.green .box .box-content:before,
+.green .box .box-content:after {
   background: linear-gradient(to right, rgba(161, 205, 58, 0) 0%, rgba(161, 205, 58, 1) 50%, rgba(161, 205, 58, 0) 100%);
 }
-.green-theme .box:before, .green-theme .box:after, .green .box:before, .green .box:after {
-  background: linear-gradient(to bottom, rgba(161, 205, 58, 0) 0%, rgba(161, 205, 58, 1) 50%, rgba(161, 205, 58, 0) 100%);
-}
 
-article.green-theme tbody th {
-  background: #1b572f; /* Color: Crusoe */
-}
-article.green-theme td {
-  background: #a1cc3a; /* Color: Atlantis */
-}
-article.green-theme td.placeholder {
-  border-color: #a1cc3a; /* Color: Atlantis */
+.green-theme .box:before,
+.green-theme .box:after,
+.green .box:before,
+.green .box:after {
+  background: linear-gradient(to bottom, rgba(161, 205, 58, 0) 0%, rgba(161, 205, 58, 1) 50%, rgba(161, 205, 58, 0) 100%);
 }
 
 article.green-theme section,
 .green {
   color: #1b572f; /* Color: Crusoe */
 }
-article.green-theme section.compressed a.box {
-  color: #a1cc3a; /* Color: Atlantis */
+
+article.green-theme tbody th {
+  background: #1b572f; /* Color: Crusoe */
+}
+
+article.green-theme header + .article-content p:first-child:before,
+article.green-theme td {
+  background: #a1cc3a; /* Color: Atlantis */
+}
+
+article.green-theme,
+section.green-theme  {
+  /* Permalink - use to edit and share this gradient: http:/colorzilla.com/gradient-editor/#1b573f+0,1d6743+20,1d6743+80,1b573f+100 */
+  background: linear-gradient(to right, #1b572f 0%,#1d6710 20%,#1d6710 80%,#1b572f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 
 /* TO MOVE */
 
 /* Move to General */
+h2 .preamble,
+h2 b span {
+  color: #8ac8ff; /* Color: Light Sky Blue */
+}
+
 header .icon {
   width: 64px;
   height: 64px;
   margin: 0 auto;
+}
+
+section header a:hover svg {
+  fill: #8ac8ff; /* Color: Light Sky Blue */
 }
 
 
@@ -302,6 +315,14 @@ header .icon {
 /* Unused */
 .blue .dropdown-content {
   background: #6b8bb2;
+}
+
+.orange .dropdown-content {
+  background: #e99f50; /* Color: Sea Buckthorn */
+}
+
+.green .dropdown-content {
+  background: #a1cc3a; /* Color: Atlantis */
 }
 
 .light-theme .blue a {
