@@ -10,7 +10,7 @@ import React from "react"
 const Navbar = () => (
   <div id="masthead">
 
-    /* CS4All Logo */
+    {/* CS4All Logo */}
     <div id="logo">
       <a href="/">
         <h1>
@@ -21,7 +21,7 @@ const Navbar = () => (
     </div>
 
     <nav id="menu">
-      /* Hamburger menu (only seen on phone-sized screen) */
+      {/* Hamburger menu (only seen on phone-sized screen) */}
       <h2>
         <a className="toggle" href="#menu">
           <span className="icon"><svg><use xlinkHref="#icon-menu" /></svg></span>
@@ -29,7 +29,7 @@ const Navbar = () => (
         </a>
       </h2>
 
-      /* Navbar icons (changes orientation based on screen size) */
+      {/* Navbar icons (changes orientation based on screen size) */}
       <div className="site-menu">
         <ul>
           <li className="compressed parent-menu">
