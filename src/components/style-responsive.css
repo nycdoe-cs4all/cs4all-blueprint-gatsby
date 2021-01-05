@@ -283,28 +283,6 @@
     display: table-cell;
     vertical-align: middle;
   }
-  /***********
-   ***********
-   ***********
-   ***********
-   "statements" found in unused page: ican.js
-   ***********
-   ***********
-   ***********
-  ************/
-  #statement {
-    margin: 64px 0;
-  }
-  #statement .dropdown {
-    display: inline-block;
-    margin: 0 16px;
-  }
-  #statement .dropdown + .dropdown {
-    margin-left: 0;
-  }
-  #statement .dropdown:hover .dropdown-content {
-    transform: scale(1,1);
-  }
   .fellow {
     width: calc(100% / 3);
     padding: 33.3% 0 0;
@@ -934,3 +912,21 @@
     left: 46px;
   }
 }
+
+/* TO DELETE */
+
+/* Unused */
+  /* "statements" below found in unused page: ican.js */
+  #statement {
+    margin: 64px 0;
+  }
+  #statement .dropdown {
+    display: inline-block;
+    margin: 0 16px;
+  }
+  #statement .dropdown + .dropdown {
+    margin-left: 0;
+  }
+  #statement .dropdown:hover .dropdown-content {
+    transform: scale(1,1);
+  }

@@ -13,3 +13,10 @@
   margin: 0 auto 16px;
   /*  background: #fff;*/
 }
+
+/* TO DELETE */
+
+/* Unused */
+.has-page-menu + #footer {
+  padding-left: 66px;
+}
