@@ -1,23 +1,15 @@
-/* Jorge */
-
-/* Typography */
-
-body, h3, .preamble, #cboxTitle .subtitle, h2 b span, p[data-desktop]::after {
+body, h3, .preamble, h2 b span, p[data-desktop]::after {
   font-family: 'Roboto Slab', serif;
 }
-
-h1, h2, h4, .interior-container li, nav, #footer, .btn, .subtitle, #cboxTitle, .subhead, table, table caption, .case-study, .col-md-3, a.box, #page-menu, .nav-tabs, .fellow, article header, .activity-list a, .activity-list h3 .activity-grade, article .col-md-3 h3, article .activity-list h3 .preamble {
+h1, h2, h4, .interior-container li, nav, #footer, .btn, .subtitle, .subhead, table, table caption, .case-study, .col-md-3, a.box, #page-menu, .fellow, article header, .activity-list a, .activity-list h3 .activity-grade, article .col-md-3 h3, article .activity-list h3 .preamble {
   font-family: 'Roboto', sans-serif;
 }
-
 h2 .preamble, h2 b span {
   font-weight: 100;
 }
-
 body, h3, .interior-container ul li, #footer, .preamble, article li p {
   font-weight: 300;
 }
-
 li h3,
 article h3,
 .case-study,
@@ -28,18 +20,14 @@ article li,
 article table li p {
   font-weight: 400;
 }
-
-h1, h2, nav, .btn, .light-theme p a.btn, .subtitle, #cboxTitle, h4, h5, table caption,
-#statement, #statement .box, .nav-tabs li,
-#page-menu h3, article .col-md-3 h3, legend {
+h1, h2, nav, .btn, .light-theme p a.btn, .subtitle, h4, h5, table caption,
+#statement, #statement .box,
+#page-menu h3, article .col-md-3 h3 {
   font-weight: 900;
 }
-
-
 .preamble, h2 b span {
   text-transform: lowercase;
 }
-
-h1, nav, .subtitle, .btn, #cboxTitle, .nav-tabs, h5, h3 .activity-grade, legend {
+h1, nav, .subtitle, .btn, h5, h3 .activity-grade {
   text-transform: uppercase;
 }
