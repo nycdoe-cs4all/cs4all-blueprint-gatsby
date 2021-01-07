@@ -1,16 +1,15 @@
-import React from "react"
+import React, { useState } from "react";
 import { StaticQuery, graphql } from 'gatsby';
-import { Link } from "gatsby"
-import moment from "moment"
-const parse = require('html-react-parser')
 
 const ResourceFilterList = function (props) {
 
+  const [filterState, setFilterState] = useState(false);
+
   return <StaticQuery
     query={graphql`{
-      allWordpressCategory{
-        edges(name: {ne: "Uncategorized"}){
-          node{
+      allWordpressCategory (filter: {name: {ne: "Uncategorized"}}) {
+        edges {
+          node {
             name
             id
           }
@@ -20,24 +19,32 @@ const ResourceFilterList = function (props) {
   `}
     render={(data) => {
     return(
-    <div id="page-menu" className="light-theme">
+    <div id="page-menu" className={filterState ? "light-theme active" : "light-theme inactive"}>
       <header>
-          <a href="#page-menu" className="toggle">
+          <a href="#page-menu" className="toggle" onClick={() => {setFilterState(!filterState); return false;}} role="button">
               <h3>
-                  <span className="icon open"><svg><use xLinkHref="#icon-filter"></use></svg></span>
-                  <span className="icon close"><svg><use xLinkHref="#icon-close"></use></svg></span>
+                  <span className="icon open"><svg><use xlinkHref="#icon-open"/></svg></span>
+                  <span className="icon close"><svg><use xlinkHref="#icon-close"/></svg></span>
                   <span className="label">Filter Resources</span>
               </h3>
           </a>
       </header>
       <div className="menu-content">
           <ul>
-          {data.allWordpressCategory.edges.map(category =>
-            <li key={category.edges.id}>
-              <Link onClick={() => props.changeCategory(category.edges.name)}>
-                <h3>{category.edges.name}</h3>
-              </Link>
-            </li> )}
+            <li key="0">
+              <a href="#page-menu" onClick={() => {props.changeCategory("All"); return false;}}>
+                All Resources
+              </a>
+            </li>
+            {data.allWordpressCategory.edges.map(edge => {
+              return (
+                <li key={edge.node.id}>
+                  <a href="#page-menu" onClick={() => {props.changeCategory(edge.node.name); return false;}}>
+                    {edge.node.name}
+                  </a>
+                </li>
+              )})
+            }
           </ul>
       </div>
     </div>

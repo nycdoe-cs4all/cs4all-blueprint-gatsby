@@ -58,6 +58,10 @@ import '../assets/svg/icon-programming.svg'
 import '../assets/svg/icon-data.svg'
 import '../assets/svg/icon-network.svg'
 
+/* Resource Filter SVGs */
+import '../assets/svg/icon-open.svg'
+import '../assets/svg/icon-close.svg'
+
 const Layout = ({ children }) => {
   useStaticQuery(graphql`
     query SiteTitleQuery {
