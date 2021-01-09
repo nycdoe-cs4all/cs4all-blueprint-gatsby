@@ -80,23 +80,3 @@ a:hover .preview-image .icon svg {
   fill: #17283e; /* Color: Midnight */
   stroke: #fff; /* Color: White */
 }
-
-
-/* TO DELETE */
-
-/* Unused */
-.jumbotron .btn {
-}
-
-/* Will No Longer Be Used */
-#featured-units .preview-image .icon {
-  left: auto;
-  right: 26px;
-  height: 80px;
-  width: 80px;
-  transform: none;
-}
-
-#featured-units a:hover .preview-image .icon {
-  transform: scale(1.04, 1.04);
-}

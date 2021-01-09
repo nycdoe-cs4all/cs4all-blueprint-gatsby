@@ -119,7 +119,7 @@ function IndexPage() {
           </div>
         </div>
 
-        <div className="interior-container">
+        <div className="interior-container"> {/* TO REMOVE */}
           <div id="featured-units">
             <div style={{display: 'none'}}>
               <h2><span className="preamble">Featured</span> Units</h2>
@@ -171,8 +171,8 @@ function IndexPage() {
                 </a>
               </div>
             </div>
-          </div> {/*  #featured-units */ }
-        </div> {/* /.interior-container */ }
+          </div>
+        </div>
       </div>
     </Layout>
   )

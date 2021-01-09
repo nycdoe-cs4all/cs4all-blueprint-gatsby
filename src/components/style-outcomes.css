@@ -95,11 +95,3 @@ article #student-outcomes-table td.perspective:after {
 #student-outcomes-table tbody td.practice .icon svg {
   fill: #a1cc3a; /* Color: Atlantis */
 }
-
-
-/* TO DELETE */
-
-/* Unused */
-#student-outcomes-table tbody th.concept .icon {
-  /*  float: none;*/
-}
