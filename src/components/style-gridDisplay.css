@@ -1,0 +1,65 @@
+/**
+ * Styling for grid displays as used on the curriculum & resources pages
+ */
+
+/* Grid Dsiplay */
+article .activity-list {
+  max-width: none;
+  padding: 0;
+}
+
+article .activity-list li {
+  padding: ;
+}
+
+article .activity-list .preview {
+  position: relative;
+}
+
+article .activity-list .preview.video:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("/src/images/icon-play.svg") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+article .activity-list a img {
+  margin: 0 0 16px;
+  border-width: 1px;
+}
+
+article .activity-list h3 {
+  margin-top: 0 !important;
+  font-size: 22px;
+}
+
+article .activity-list h3 .preamble {
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.4;
+  color: #8ac8ff; /* Color: Light Sky Blue */
+}
+
+.activity-list a {
+  display: block;
+  padding: 16px;
+  border: 1px solid #8ac8ff; /* Color: Light Sky Blue */
+}
+
+.activity-list a:hover {
+  color: #8ac8ff; /* Color: Light Sky Blue */
+}
+
+.activity-list a span {
+  display: block;
+}
+
+h3 .activity-grade {
+  font-size: 14px;
+}

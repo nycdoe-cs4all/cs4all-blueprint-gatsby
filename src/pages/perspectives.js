@@ -22,7 +22,6 @@ class Perspectives extends React.Component {
     return (
       <Layout>
         <SEO title="Computer Science Perspectives" />
-    		{/* <script src="/static/js/floatMenu.js"></script> <div className="col-md-3" id="floatMenu"> */}
     		<div id="page">
           <article className="blue-theme">
             <header>

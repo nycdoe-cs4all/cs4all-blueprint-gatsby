@@ -6,8 +6,6 @@ const WhatIsCS = () => (
   <Layout>
     <SEO title="What Is CS?" />
     <article className="light-theme">
-      {/* <script src="/static/js/floatMenu.js"></script>
-      <div className="col-md-3" id="floatMenu"> */}
       <header><h2><span className="preamble">What is</span> CS education?</h2></header>
       <div className="article-content">
         <p>Computer science (CS) is the study of the capabilities and limitations of computers. Computational literacy is the ability to understand how CS can be applied in all walks of life. New York City public school students develop computational literacy through <a href="/resources/what-is-creative-computing/">creative computing</a>.</p>

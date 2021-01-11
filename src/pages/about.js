@@ -14,25 +14,6 @@ import timC from "../assets/images/tim-chen.png"
 import workshop from "../assets/images/cs4all-workshop.jpg"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
-/*<style>
-div.fellow.col-md-3 span.fellow-text {
-    position: absolute;
-    left: 10px;
-    padding: 10px;
-    opacity: 0;
-    width: 250px;
-    font-size: 14pt;
-}
-
-div.fellow.col-md-3:hover img{
-    opacity: 0.25;
-}
-
-div.fellow.col-md-3:hover .fellow-text{
-    opacity: 1;
-}
-</style>*/
-
 const About = () => {
   const [aboutState, setAboutState] = useState(false)
   const [aboutHeight, setAboutHeight] = useState("0px")
