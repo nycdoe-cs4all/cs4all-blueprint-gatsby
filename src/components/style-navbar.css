@@ -5,16 +5,22 @@
 /* Header (This is the whole navbar that exists at the top of every page)*/
 #masthead {
   background: #17283e; /* Color: Midnight */
-  background: linear-gradient(to right, rgba(20,34,53,1) 0%,rgba(23,40,62,1) 20%,rgba(23,40,62,1) 80%,rgba(20,34,53,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(
+    to right,
+    rgba(20, 34, 53, 1) 0%,
+    rgba(23, 40, 62, 1) 20%,
+    rgba(23, 40, 62, 1) 80%,
+    rgba(20, 34, 53, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   border-bottom: 1px solid #88b8e3; /* Color: Jordy Blue */
-  border-color: rgba(136, 184, 227, .25);
+  border-color: rgba(136, 184, 227, 0.25);
   font-size: 13px;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 9;
-  transition: border .3s;
+  transition: border 0.3s;
 }
 
 #masthead a {
@@ -24,7 +30,13 @@
 
 #masthead #logo {
   background: #17283e; /* Color: Midnight */
-  background: linear-gradient(to right, rgba(20,34,53,1) 0%,rgba(23,40,62,1) 20%,rgba(23,40,62,1) 80%,rgba(20,34,53,1) 100%);
+  background: linear-gradient(
+    to right,
+    rgba(20, 34, 53, 1) 0%,
+    rgba(23, 40, 62, 1) 20%,
+    rgba(23, 40, 62, 1) 80%,
+    rgba(20, 34, 53, 1) 100%
+  );
   padding: 16px;
 }
 
@@ -76,7 +88,8 @@
   fill: #fff; /* Color: White */
 }
 
-#menu .site-menu { /* Site-Menu corresponds to the Hamburger Menu or normal links depending on screen size */
+#menu .site-menu {
+  /* Site-Menu corresponds to the Hamburger Menu or normal links depending on screen size */
   color: #17283e; /* Color: Midnight */
   position: absolute;
   top: 100%;
@@ -85,7 +98,7 @@
   background: #cad5e0; /* Color: Link Water */
   font-size: 18px;
   overflow: hidden;
-  transition: transform .6s, opacity .6s;
+  transition: transform 0.6s, opacity 0.6s;
   transform: translate(0, -100%);
   transform-origin: 50% 0;
   z-index: -1;
@@ -109,7 +122,7 @@
 
 #menu .site-menu li ul {
   margin: 24px 0 32px 40px;
-  transition: height .5s, margin .5s, opacity .5s;
+  transition: height 0.5s, margin 0.5s, opacity 0.5s;
   overflow: hidden;
 }
 
@@ -128,11 +141,11 @@
 }
 
 #menu .site-menu li li a:before {
-  content: '\00a0';
+  content: "\00a0";
 }
 
 #menu .site-menu .parent-menu > a:after {
-  content: '';
+  content: "";
   display: inline-block;
   vertical-align: middle;
   background: url("/src/images/svg/icon-triangle-lightblue.svg") no-repeat 0 0;
@@ -143,7 +156,7 @@
   margin: 8px 0 0 0;
   transform: rotate(90deg);
   transform-origin: 50% 40%;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 #menu .site-menu .parent-menu.compressed > a:after {

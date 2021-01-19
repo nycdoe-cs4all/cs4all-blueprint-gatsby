@@ -1,15 +1,47 @@
-body, h3, .preamble, h2 b span, p[data-desktop]::after {
-  font-family: 'Roboto Slab', serif;
+body,
+h3,
+.preamble,
+h2 b span,
+p[data-desktop]::after {
+  font-family: "Roboto Slab", serif;
 }
-h1, h2, h4, .interior-container li, nav, #footer, .btn, .subtitle, .subhead, table, table caption, .case-study, .col-md-3, a.box, #page-menu, .fellow, article header, .activity-list a, .activity-list h3 .activity-grade, article .col-md-3 h3, article .activity-list h3 .preamble {
-  font-family: 'Roboto', sans-serif;
+h1,
+h2,
+h4,
+.interior-container li,
+nav,
+#footer,
+.btn,
+.subtitle,
+.subhead,
+table,
+table caption,
+.case-study,
+.col-md-3,
+a.box,
+#page-menu,
+.fellow,
+article header,
+.activity-list a,
+.activity-list h3 .activity-grade,
+article .col-md-3 h3,
+article .activity-list h3 .preamble {
+  font-family: "Roboto", sans-serif;
 }
-h2 .preamble, h2 b span {
+h2 .preamble,
+h2 b span {
   font-weight: 100;
 }
-body, h3, .interior-container ul li, #footer, .preamble, article li p {
+
+body,
+h3,
+.interior-container ul li,
+#footer,
+.preamble,
+article li p {
   font-weight: 300;
 }
+
 li h3,
 article h3,
 .case-study,
@@ -20,15 +52,33 @@ article li,
 article table li p {
   font-weight: 400;
 }
-h1, h2, nav, .btn, .light-theme p a.btn, .subtitle, h4, h5, table caption,
-#statement, #statement .box,
-#page-menu h3, article .col-md-3 h3 {
+
+h1,
+h2,
+nav,
+.btn,
+.light-theme p a.btn,
+.subtitle,
+h4,
+h5,
+table caption,
+#statement,
+#statement .box,
+#page-menu h3,
+article .col-md-3 h3 {
   font-weight: 900;
 }
-.preamble, h2 b span {
+
+.preamble,
+h2 b span {
   text-transform: lowercase;
 }
-h1, nav, .subtitle, .btn, h5, h3 .activity-grade {
+h1,
+nav,
+.subtitle,
+.btn,
+h5,
+h3 .activity-grade {
   text-transform: uppercase;
 }
 
@@ -36,11 +86,11 @@ h1, nav, .subtitle, .btn, h5, h3 .activity-grade {
 
 /* Unused */
 #cboxTitle .subtitle {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
+
 #cboxTitle {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
-

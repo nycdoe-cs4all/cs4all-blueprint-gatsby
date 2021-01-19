@@ -13,7 +13,13 @@ body {
   padding-bottom: 20px;
   margin: 0;
   background: #17283e; /* Color: Midnight */
-  background: linear-gradient(to right, rgba(20, 34, 53, 1) 0%, rgba(23, 40, 62, 1) 20%, rgba(23, 40, 62, 1) 80%, rgba(20, 34, 53, 1) 100%);
+  background: linear-gradient(
+    to right,
+    rgba(20, 34, 53, 1) 0%,
+    rgba(23, 40, 62, 1) 20%,
+    rgba(23, 40, 62, 1) 80%,
+    rgba(20, 34, 53, 1) 100%
+  );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   color: #fff; /* Color: White */
   font-size: 18px;
@@ -78,14 +84,14 @@ p.title {
   color: inherit;
 }
 
-h1 span{
+h1 span {
   margin: 0px auto 10px auto;
   font-size: 36px;
 }
 
 h2 {
   font-size: 34px;
-  line-height: .72;
+  line-height: 0.72;
   margin: 0 0 -1px;
 }
 
@@ -151,7 +157,7 @@ iframe {
 }
 
 .interior-container,
-.jumbotron /*Move?*/{
+.jumbotron /*Move?*/ {
   padding: 32px 16px 16px;
 }
 
@@ -246,11 +252,11 @@ article {
   padding: 16px 16px 32px;
   margin: 0;
   position: relative;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 article:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -319,7 +325,7 @@ article .section-content {
   margin: 0 auto;
   max-width: 1024px;
   position: relative;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 article .article-content {
@@ -329,11 +335,11 @@ article .article-content {
 
 article .section-content {
   overflow: hidden;
-  transition: max-height .4s, margin .4s;
+  transition: max-height 0.4s, margin 0.4s;
 }
 
 article .section-content:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -363,7 +369,7 @@ article .submenu li {
 article section {
   margin: 32px -16px;
   padding: 32px 16px;
-  transition: background .4s, margin .4s, padding .4s;
+  transition: background 0.4s, margin 0.4s, padding 0.4s;
   background: #fff; /* Color: White */
   color: #17283e; /* Color: Midnight */
 }
@@ -388,7 +394,7 @@ article section.compressed a.box {
 article section header {
   max-width: 1024px;
   margin: 0 auto 32px;
-  transition: margin .4s;
+  transition: margin 0.4s;
   text-align: left;
 }
 
@@ -399,7 +405,7 @@ article section.compressed header {
 article section header h3 {
   max-width: none;
   color: #17283e; /* Color: Midnight */
-  transition: color .4s;
+  transition: color 0.4s;
 }
 
 article section.compressed header h3 {
@@ -536,7 +542,7 @@ table.ordered {
 }
 
 table.ordered tr:before {
-  content: '';
+  content: "";
   display: none;
   font-weight: 900;
   vertical-align: middle;
@@ -560,7 +566,7 @@ table.ordered tbody tr:before {
 }
 
 .article-content .read-more {
-  transition: max-height .5s;
+  transition: max-height 0.5s;
   overflow: hidden;
 }
 
@@ -595,7 +601,7 @@ h2,
 .preview-image {
   margin: 0 -15px 10px;
   padding: 16px 15px;
-  border: 1px solid rgba(136, 184, 227, .2);
+  border: 1px solid rgba(136, 184, 227, 0.2);
   border-width: 1px 0;
 }
 
@@ -622,7 +628,7 @@ article .box h3 {
 .activity-list > li:after,
 .activity-list li a:before,
 .activity-list:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
 }
@@ -634,7 +640,12 @@ article .box h3 {
   top: 0;
   bottom: 0;
   width: 1px;
-  background: linear-gradient(to bottom, rgba(136, 184, 227, 0) 0%, rgba(136, 184, 227, 0.5) 50%, rgba(136, 184, 227, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(136, 184, 227, 0) 0%,
+    rgba(136, 184, 227, 0.5) 50%,
+    rgba(136, 184, 227, 0) 100%
+  );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   transform: scale(1, 1.4);
 }
@@ -652,7 +663,12 @@ h2:after,
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(to right, rgba(136, 184, 227, 0) 0%, rgba(136, 184, 227, 0.5) 50%, rgba(136, 184, 227, 0) 100%);
+  background: linear-gradient(
+    to right,
+    rgba(136, 184, 227, 0) 0%,
+    rgba(136, 184, 227, 0.5) 50%,
+    rgba(136, 184, 227, 0) 100%
+  );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   transform: scale(1.4, 1);
 }
@@ -662,7 +678,12 @@ h2:after,
   left: 0px;
   right: 0px;
   height: 2px;
-  background: linear-gradient(to right, rgba(136, 184, 227, 0) 0%, rgba(136, 184, 227, 0.5) 50%, rgba(136, 184, 227, 0) 100%);
+  background: linear-gradient(
+    to right,
+    rgba(136, 184, 227, 0) 0%,
+    rgba(136, 184, 227, 0.5) 50%,
+    rgba(136, 184, 227, 0) 100%
+  );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
@@ -736,7 +757,7 @@ h2:after,
 }
 
 .gallery:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -797,7 +818,7 @@ h2:after,
   background: #17283e; /* Color: Midnight */
   padding: 16px;
   color: #fff; /* Color: White */
-  transition: background .4s;
+  transition: background 0.4s;
   margin: 0;
   border-radius: 2px;
 }

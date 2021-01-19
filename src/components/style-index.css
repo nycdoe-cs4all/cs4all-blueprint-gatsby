@@ -3,6 +3,7 @@
  */
 
 /* Jumbotron (CS4All Mission + Home Page Button)*/
+
 .jumbotron {
   background: none;
   margin: 0;
@@ -24,11 +25,11 @@
 }
 
 .jumbotron p a:before {
-  content: '<';
+  content: "<";
 }
 
 .jumbotron p a:after {
-  content: '>';
+  content: ">";
 }
 
 .jumbotron .next {
@@ -73,7 +74,7 @@ a:hover .preview-image .icon {
 a .preview-image .icon svg {
   fill: #17283e; /* Color: Midnight */
   stroke: #8ac8ff; /* Color: Light Sky Blue */
-  stroke-width: .02em;
+  stroke-width: 0.02em;
 }
 
 a:hover .preview-image .icon svg {

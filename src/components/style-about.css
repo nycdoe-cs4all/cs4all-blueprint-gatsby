@@ -44,6 +44,7 @@
 .fellow:hover h4:before {
   opacity: 0;
 }
+
 .fellow .fellow-content {
   color: #fff;
   position: absolute;
@@ -55,13 +56,16 @@
   background: transparent;
   transition: background 0.4s, opacity 0.4s;
 }
+
 .fellow .fellow-text {
   opacity: 0;
   transition: opacity 0.4s;
 }
+
 .fellow:hover .fellow-content {
   background: #17283e;
 }
+
 .fellow:hover .fellow-text {
   opacity: 1;
 }

@@ -13,7 +13,7 @@
   bottom: 0;
   z-index: 8;
   transform: translate(calc(-100% + 50px), 0);
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 #page-menu + article {
@@ -21,11 +21,11 @@
 }
 
 #page-menu.active {
-  transform: translate( -16px, 0 );
+  transform: translate(-16px, 0);
 }
 
 #page-menu.active + article {
-  transform: translate( calc(100vw - 66px), 0 );
+  transform: translate(calc(100vw - 66px), 0);
 }
 
 #page-menu header {
@@ -46,7 +46,7 @@
 }
 
 #page-menu h3 {
-  transition: color .3s;
+  transition: color 0.3s;
   color: #f26922; /* Color: Pumpkin */
 }
 
@@ -56,7 +56,7 @@
   height: 32px;
   vertical-align: middle;
   margin: -2px 4px 3px 0;
-  transition: width .5s, height .5s, margin .5s;
+  transition: width 0.5s, height 0.5s, margin 0.5s;
 }
 
 #page-menu h3 svg {
