@@ -7,6 +7,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import scrollTo from 'gatsby-plugin-smoothscroll'
 
+/* Component */
 function Accordion(props) {
 
   /* Variables */
@@ -60,7 +61,7 @@ function Accordion(props) {
     }
   }
 
-  /* Component display */
+  /* Display component */
   return (
     <section id={props.name} className={props.state === props.name ? "accordion-target" : "accordion-target compressed"}>
       <header>

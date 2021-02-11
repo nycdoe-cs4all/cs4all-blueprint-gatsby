@@ -5,16 +5,16 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-/* Imports */
+/* General Imports */
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-/* Components */
+/* Component Imports*/
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 
-/* Stylesheets */
+/* Stylesheet Imports */
 import "./style.css"
 import "./style-typography.css"
 import "./style-colorScheme.css"
@@ -28,7 +28,7 @@ import "./style-about.css"
 import "./style-outcomes.css"
 import "./style-responsive.css"
 
-/* Navbar SVGs */
+/* Navbar SVG Imports */
 import '../assets/svg/icon-foundations.svg'
 import '../assets/svg/icon-units.svg'
 import '../assets/svg/icon-resources.svg'
@@ -36,34 +36,35 @@ import '../assets/svg/icon-blueprint.svg'
 import '../assets/svg/logo-cs4all.svg'
 import '../assets/svg/icon-menu.svg'
 
-/* Footer SVGs */
+/* Footer SVG Imports */
 import '../assets/svg/icon-cc-by-nc-sa.svg'
 
-/* Index SVGs */
+/* Index SVG Imports */
 import '../assets/svg/icon-play.svg'
 
-/* Concept SVGs */
+/* Concept SVG Imports */
 import '../assets/svg/icon-explorer.svg'
 import '../assets/svg/icon-creator.svg'
 import '../assets/svg/icon-innovator.svg'
 import '../assets/svg/icon-citizen.svg'
 
-/* Practice SVGs */
+/* Practice SVG Imports */
 import '../assets/svg/icon-analyze.svg'
 import '../assets/svg/icon-prototype.svg'
 import '../assets/svg/icon-communicate.svg'
 
-/* Perspective SVGs */
+/* Perspective SVG Imports */
 import '../assets/svg/icon-abstraction.svg'
 import '../assets/svg/icon-algorithm.svg'
 import '../assets/svg/icon-programming.svg'
 import '../assets/svg/icon-data.svg'
 import '../assets/svg/icon-network.svg'
 
-/* Resource Filter SVGs */
+/* Resource Filter SVG Imports */
 import '../assets/svg/icon-open.svg'
 import '../assets/svg/icon-close.svg'
 
+/* Component */
 const Layout = ({ children }) => {
   useStaticQuery(graphql`
     query SiteTitleQuery {

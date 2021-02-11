@@ -6,7 +6,7 @@
 /* Imports */
 import React from "react"
 
-/* Component display */
+/* Component */
 const Footer = () => (
   <div id="footer">
     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noreferrer">
