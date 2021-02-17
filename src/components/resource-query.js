@@ -1,11 +1,23 @@
+/**
+ * Accordion component that is used to hide/show blocks of information
+ * used in Concept, Practice, and Perspective pages
+ */
+
+/* Imports */
 import React from "react"
-import { StaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby'
 import { Link } from "gatsby"
+
+/* Parser */
 const parse = require('html-react-parser')
 
+/* Component */
 const ResourceQuery = function (props) {
 
+  /* Display component */
   return <StaticQuery
+
+    /* Pull all posts from the attatched wordpress site */
     query={graphql`{
       allWordpressPost {
         edges {
@@ -25,6 +37,12 @@ const ResourceQuery = function (props) {
       }
     }
   `}
+
+    /**
+     * Add a resource block/link to the page
+     * for every post in the above query
+     * and change it to visible or hidden based on category
+     */
     render={(data) => {
     return(
       <React.Fragment>

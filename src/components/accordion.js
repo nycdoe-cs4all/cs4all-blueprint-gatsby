@@ -4,7 +4,7 @@
  */
 
 /* Imports */
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react"
 import scrollTo from 'gatsby-plugin-smoothscroll'
 
 /* Component */

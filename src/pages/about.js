@@ -1,6 +1,15 @@
+/**
+ * About page that describes what the Blueprint is, what went into creating
+ * it, and who was involved in the process
+ */
+
+/* General Imports */
 import React, { useState, useRef } from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import scrollTo from "gatsby-plugin-smoothscroll"
+
+/* Blueprint fellow pictures */
 import alana from "../assets/images/alana-robinson.png"
 import ariadna from "../assets/images/ariadna-phillips-santos.png"
 import ben from "../assets/images/ben-samuels-kalow.png"
@@ -12,9 +21,11 @@ import sean from "../assets/images/sean-pawelec.jpg"
 import timF from "../assets/images/tim-feimer.png"
 import timC from "../assets/images/tim-chen.png"
 import workshop from "../assets/images/cs4all-workshop.jpg"
-import scrollTo from "gatsby-plugin-smoothscroll"
 
+/* Component */
 const About = () => {
+
+  /* Variables */
   const [aboutState, setAboutState] = useState(false)
   const [aboutHeight, setAboutHeight] = useState("0px")
   const aboutContent = useRef(null)
@@ -23,10 +34,12 @@ const About = () => {
   const [fellowHeight, setFellowHeight] = useState("0px")
   const fellowContent = useRef(null)
 
+  /* Display component */
   return (
     <Layout>
-      <SEO title="About" />
+      <SEO title="About the Blueprint" />
       <article className="light-theme">
+
         <header>
           <h2>
             <span className="preamble">About the</span> Blueprint
@@ -37,6 +50,7 @@ const About = () => {
             public schools.
           </p>
         </header>
+
         <div id="about-blueprint" className="article-content">
           <img src={workshop} alt="Blueprint fellows at work" />
           <p>
@@ -162,11 +176,9 @@ const About = () => {
           </div>
         </section>
 
-        <section id="fellows">
-          <header>
-            <h3> 2016-2017 CS4ALL Blueprint Teacher Fellows</h3>
-          </header>
+        <section>
           <div className="section-content">
+            <h3> 2016-2017 CS4ALL Blueprint Teacher Fellows</h3>
             <div id="fellows" className="chart">
               <div
                 className="fellow"
@@ -252,7 +264,7 @@ const About = () => {
                   <h4>JoAnn Westhall</h4>
                   <span className="fellow-text">
                     JoAnn Westhall is a Computer Science Instructor, Grades
-                    Pre-K-5 at PS 31 in Bayside, Queens.
+                    Pre-K-5, at PS 31 in Bayside, Queens.
                   </span>
                 </div>
               </div>
@@ -264,7 +276,7 @@ const About = () => {
                   <h4>Matt Boyle</h4>
                   <span className="fellow-text">
                     Matthew Boyle has background in architecture and graphic
-                    design. He helps lead operations, arts and digital media
+                    design. He helps lead operations, arts, and digital media
                     programming at the Renaissance Charter HS for Innovation.
                   </span>
                 </div>
@@ -415,8 +427,10 @@ const About = () => {
               </p>
               <p> Names and bios will be posted soon!</p>
             </div>
+
           </div>
         </section>
+
         <div className="article-content">
           <p>
             If you have thoughts or feedback about the Blueprint website,{" "}
@@ -430,8 +444,10 @@ const About = () => {
             !
           </p>
         </div>
+
       </article>
     </Layout>
   )
 }
+
 export default About

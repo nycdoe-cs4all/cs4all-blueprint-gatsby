@@ -1,14 +1,24 @@
+/**
+ * Software Engineering Program sequence/curriculum
+ */
+
+/* Imports */
 import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
+/* Component */
 const SoftwareEngineeringProgram = () => (
   <Layout>
     <SEO title="Software Engineering Program" />
     <div id="page">
       <article className="light-theme">
         <div className="col-md-12">
-          <header><span className="preamble"><h2 className="title"  style={{lineHeight: 1}}>Software Engineering Program</h2></span></header>
+
+          <header>
+            <span className="preamble"><h2 className="title"  style={{lineHeight: 1}}>Software Engineering Program</h2></span>
+          </header>
+
           <div className="article-content">
             <p>The Software Engineering Program (SEP) is a multi-year, comprehensive, standards-aligned computer science education program for grades 6 to 12. The goals of the program are:</p>
             <ul>
@@ -22,32 +32,34 @@ const SoftwareEngineeringProgram = () => (
             <ul>
               <li><a href="/curriculum/creative-computing">Creative Computing</a></li>
               <li><a href="/curriculum/creative-web">Creative Web</a> OR <a href="/curriculum/intro-to-pcomp">Introduction to Physical Computing</a></li>
-              <li>Web Games (coming in 2020)</li>
+              <li>Web Games (coming soon)</li>
             </ul>
 
             <h5>High School</h5>
             <ul>
               <li><a href="/curriculum/intro-to-computational-media">Introduction to Computational Media</a></li>
-              <li><a href="/curriculum/tangible-interfaces">Tangible Interfaces</a> OR Physical Computing and the Digital Self (coming in 2020)</li>
+              <li><a href="/curriculum/tangible-interfaces">Tangible Interfaces</a> OR Physical Computing and the Digital Self (coming soon)</li>
               <li><a href="/curriculum/cs-principles">Computer Science Principles (Advanced Placement optional)</a></li>
               <li><a href="/curriculum/cs-and-the-city">CS and the City</a> OR <a href="/curriculum/cs-a">Advanced Placement CS A</a></li>
             </ul>
 
             <div className="submenu">
               <a href="https://drive.google.com/drive/u/0/folders/0B8D2ft9M8qQCamQwZGpJMEU2TEk" target="blank">
-                <div className="btn"><h4>View school years 2016-2019 Software Engineering Program curriculum</h4></div>
+                <div className="btn"><h4>2016-2019 Software Engineering Program curriculum</h4></div>
                 </a>
             </div>
             <br />
             <div className="submenu">
               <a href="https://drive.google.com/drive/u/0/folders/0B8D2ft9M8qQCYXY2V3VndWNob0E" target="blank">
-                <div className="btn"><h4>View school years 2016-2019 Software Engineering Program professional development materials</h4></div>
+                <div className="btn"><h4>2016-2019 Software Engineering Program professional development materials</h4></div>
               </a>
             </div>
           </div>
+
         </div>
       </article>
     </div>
   </Layout>
 )
+
 export default SoftwareEngineeringProgram

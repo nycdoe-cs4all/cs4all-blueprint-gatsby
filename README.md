@@ -68,6 +68,11 @@ Follow [this guide](https://upcloud.com/community/tutorials/wordpress-with-docke
 
 # Changelog
 
+### 2/16/21
+From various
+- Blueprint 2.0 bugs squashed, site looks and functions exactly like 1.0 with some minor differences
+- Code roughly commented and organized for easier viewing and parsing
+
 ### 10/27/20
 From [Dylan](https://github.com/dylsteck)
 - Finished wordpress pagination

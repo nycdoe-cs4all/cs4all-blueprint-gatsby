@@ -1,11 +1,22 @@
-import React, { useState } from "react";
-import { StaticQuery, graphql } from 'gatsby';
+/**
+ * List of resource types that appear in the filter list on the
+ * educator resources page
+ */
 
+/* Imports */
+import React, { useState } from "react"
+import { StaticQuery, graphql } from 'gatsby'
+
+/* Component */
 const ResourceFilterList = function (props) {
 
+  /* Variables */
   const [filterState, setFilterState] = useState(false);
 
+  /* Display component */
   return <StaticQuery
+
+    /* Pull all categories from the attatched wordpress site */
     query={graphql`{
       allWordpressCategory (filter: {name: {ne: "Uncategorized"}}) {
         edges {
@@ -17,6 +28,12 @@ const ResourceFilterList = function (props) {
       }
     }
   `}
+
+    /**
+     * Create the filter side bar and add a category to the filter list
+     * for every category in the above query
+     * (in addition to an 'All Resources' category)
+     */
     render={(data) => {
     return(
     <div id="page-menu" className={filterState ? "light-theme active" : "light-theme inactive"}>

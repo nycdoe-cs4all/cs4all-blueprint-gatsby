@@ -1,9 +1,17 @@
-import React from "react";
+/**
+ * A deeper dive into the CS Concepts and sub-concepts
+ */
+
+/* Imports */
+import React from "react"
 import Layout from "../components/layout"
 import Accordion from "../components/accordion"
 import SEO from "../components/seo"
 
+/* Component */
 class Concepts extends React.Component {
+
+  /* Constructor */
   constructor(props) {
     super(props)
     this.handleState = this.handleState.bind(this);
@@ -14,21 +22,27 @@ class Concepts extends React.Component {
     }
   }
 
+  /* Handles state for open accordion */
   handleState(state) {
     this.setState({state});
   }
 
+  /* Display component */
   render() {
     return (
       <Layout>
         <SEO title="Computer Science Concepts" />
         <div id="page">
           <article className="orange-theme">
+
             <header>
               <h2><span className="preamble">Computer Science</span> Concepts</h2>
-              <p className="subhead">A framework for what computers can and cannot do.</p>
+              <p>A framework for what computers can and cannot do.</p>
             </header>
-            <div className="article-content"><p>Here are definitions of common CS concepts, alongside parallels from other subjects to help to demystify unfamiliar vocabulary.</p></div>
+
+            <div className="article-content">
+              <p>Here are definitions of common CS concepts, alongside parallels from other subjects to help to demystify unfamiliar vocabulary.</p>
+            </div>
 
             <Accordion
               state={this.state.state}
@@ -302,26 +316,29 @@ class Concepts extends React.Component {
                 </table>
               "
             />
+
           </article>
 
           <div className="interior-container">
             <div className="exit-menu">
               <ol className="list-unstyled">
-              <li><a className="box" href="/what-is-cs/" role="button"><span className="box-content">CS Education</span></a></li>
-              <li><a className="box" href="/perspectives/" role="button"><span className="box-content">Perspectives</span></a></li>
-              <li><a className="box" href="/practices/" role="button"><span className="box-content">Practices</span></a></li>
-              <li className="current"><a href="#top">Concepts</a></li>
-              <li>
-                <div className="box">
-                  <a className="btn btn-primary btn-lg" href="/outcomes/" role="button">Next: <span className="preamble">let's put it all together and see </span> <span>what CS Students can do!</span></a>
-                </div>
-              </li>
+                <li><a className="box" href="/what-is-cs/" role="button"><span className="box-content">CS Education</span></a></li>
+                <li><a className="box" href="/perspectives/" role="button"><span className="box-content">Perspectives</span></a></li>
+                <li><a className="box" href="/practices/" role="button"><span className="box-content">Practices</span></a></li>
+                <li className="current"><a href="#top">Concepts</a></li>
+                <li>
+                  <div className="box">
+                    <a className="btn btn-primary btn-lg" href="/outcomes/" role="button">Next: <span className="preamble">let's put it all together and see </span> <span>what CS Students can do!</span></a>
+                  </div>
+                </li>
               </ol>
             </div>
           </div>
+
         </div>
       </Layout>
     )
   }
 }
+
 export default Concepts

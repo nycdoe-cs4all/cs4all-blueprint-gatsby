@@ -1,21 +1,33 @@
+/**
+ * Main page of the CS4All Blueprint
+ */
+
+/* General Imports */
 import React, { useState } from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import scrollTo from 'gatsby-plugin-smoothscroll'
 import FsLightbox from "fslightbox-react"
+
+/* Video thumbnails */
 import elementarySchoolStudentWork from '../assets/images/elementary-school-student-work.png'
 import middleSchoolStudentWork from '../assets/images/middle-school-student-work.png'
 import highSchoolStudentWork from '../assets/images/high-school-student-work.png'
 
+/* Component */
 function IndexPage() {
+
+  /* Variables */
   const [togglerES, setTogglerES] = useState(false);
   const [togglerMS, setTogglerMS] = useState(false);
   const [togglerHS, setTogglerHS] = useState(false);
 
+  /* Display component */
   return (
     <Layout>
       <SEO title="CS4All Blueprint" />
       <div id="page">
+
         <div className="jumbotron">
           <p>
             <a className="intro-a" href="http://cs4all.nyc" target="_blank" rel="noreferrer"><span className="expander">CS4ALL</span></a> will ensure that every NYC student receives a meaningful unit of computer science education by 2025. With the <a className="intro-b" href="/about/"><span className="expander">Blueprint</span></a>, our educators are making it happen.
@@ -30,6 +42,7 @@ function IndexPage() {
         <div id="cs-in-classroom" className="interior-container">
           <h2><span className="preamble">CS in the</span> Classroom</h2>
           <div className="gallery">
+
             <div id="elementaryWork">
               <a href="#elementaryWork" onClick={e => {setTogglerES(!togglerES); e.preventDefault();}}>
                 <div className="preview-image">
@@ -80,6 +93,7 @@ function IndexPage() {
                 ]}
               />
             </div>
+
           </div>
         </div>
 
@@ -87,6 +101,7 @@ function IndexPage() {
           <div className="interior-container">
             <h2><span className="preamble">What is the</span> Blueprint?</h2>
             <ul className="list-unstyled">
+
               <li>
                 <a className="box" href="/what-is-cs">
                   <div className="box-content">
@@ -96,6 +111,7 @@ function IndexPage() {
                   </div>
                 </a>
               </li>
+
               <li>
                 <a className="box" href="/curriculum">
                   <div className="box-content">
@@ -106,6 +122,7 @@ function IndexPage() {
                   </div>
                 </a>
               </li>
+
               <li>
                 <a className="box" href="/resources">
                   <div className="box-content">
@@ -115,66 +132,29 @@ function IndexPage() {
                   </div>
                 </a>
               </li>
+
             </ul>
           </div>
         </div>
 
-        <div className="interior-container"> {/* TO REMOVE */}
-          <div id="featured-units">
-            <div style={{display: 'none'}}>
-              <h2><span className="preamble">Featured</span> Units</h2>
-              <div className="row gallery">
-                <div className="col-sm-6 col-md-4">
-                  <a className="box" href="/units/#">
-                    <div className="preview-image">
-                      <span className="icon"><svg><use xlinkHref="#icon-units" /></svg></span>
-                      <img src="http://blueprint.cs4all.nyc/static/images/assets/art_machine.jpg" alt="preview" />
-                    </div>
-                    <h3>Art Machine <span className="subtitle">k-2 | ELA &amp; Art</span></h3>
-                  </a>
-                </div>
-                <div className="col-sm-12 col-md-4">
-                  <a className="box" href="/units/#">
-                    <div className="preview-image">
-                      <span className="icon"><svg><use xlinkHref="#icon-units" /></svg></span>
-                      <img src="http://blueprint.cs4all.nyc/static/images/assets/understanding_the_internet-b.jpg" alt="preview" />
-                    </div>
-                    <h3>Understanding the Internet <span className="subtitle">6-8 | ELA</span></h3>
-                  </a>
-                </div>
-                <div className="col-sm-6 col-md-4">
-                  <a className="box" href="/units/#">
-                    <div className="preview-image">
-                      <span className="icon"><svg><use xlinkHref="#icon-units" /></svg></span>
-                      <img src="http://blueprint.cs4all.nyc/static/images/assets/biobots.jpg" alt="preview" />
-                    </div>
-                    <h3>Exploring Biorobotics <span className="subtitle">9-12 | Science</span></h3>
-                  </a>
-                </div>
-              </div>
+        <div className="interior-container">
+          <div className="exit-links">
+            <div className="box">
+              <a className="btn" href="https://docs.google.com/a/strongschools.nyc/forms/d/e/1FAIpQLScrFYHGQltaZ8taqnOc81RM6rhswS171zpsRyKaUMCxkP1ZDQ/viewform" role="button" target="_blank" rel="noreferrer">
+                <span className="preamble">Get notified about</span> <span>educator trainings</span>
+              </a>
             </div>
-
-            <div className="exit-links">
-              <div className="box" style={{display: 'none'}}>
-                <a className="btn" href="/units/" role="button">
-                  <span className="preamble">Explore more</span> Units
-                </a>
-              </div>
-              <div className="box">
-                <a className="btn" href="https://docs.google.com/a/strongschools.nyc/forms/d/e/1FAIpQLScrFYHGQltaZ8taqnOc81RM6rhswS171zpsRyKaUMCxkP1ZDQ/viewform" role="button" target="_blank" rel="noreferrer">
-                  <span className="preamble">Get notified about</span> <span>educator trainings</span>
-                </a>
-              </div>
-              <div className="box">
-                <a className="btn" href="http://cs4all.nyc/" role="button" target="_blank" rel="noreferrer">
-                  <span className="preamble">Learn more about the</span> <span>CS4ALL initiative</span>
-                </a>
-              </div>
+            <div className="box">
+              <a className="btn" href="http://cs4all.nyc/" role="button" target="_blank" rel="noreferrer">
+                <span className="preamble">Learn more about the</span> <span>CS4ALL initiative</span>
+              </a>
             </div>
           </div>
         </div>
+        
       </div>
     </Layout>
   )
 }
+
 export default IndexPage

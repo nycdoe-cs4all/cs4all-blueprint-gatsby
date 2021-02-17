@@ -11,7 +11,10 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
+/* Component */
 function SEO({ description, lang, meta, title }) {
+
+  /* Variables */
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -25,10 +28,10 @@ function SEO({ description, lang, meta, title }) {
       }
     `
   )
-
+  
   const metaDescription = description || site.siteMetadata.description
 
-  /* Component display */
+  /* Display component */
   return (
     <Helmet
       htmlAttributes={{

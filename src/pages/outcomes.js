@@ -1,20 +1,28 @@
+/**
+ * Student learning outcomes organized by CS Concept, Practice, and Perspective
+ */
+
+/* Imports */
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+/* Component */
 const Outcomes = () => (
  <Layout>
     <SEO title="Student Outcomes" />
 		<div id="page">
 			<article className="light-theme">
-				<header>
+
+        <header>
 					<h2><span className="preamble">Student</span> Outcomes</h2>
 					<p data-desktop="(Hover over an outcome below to see its depth of knowledge value)">CS students' practice of each concept deepens and expands as meaningful CS units guide them from one perspective to the next.</p>
 				</header>
 
 				<div className="article-content">
 					<table id="student-outcomes-table">
-						<thead>
+
+            <thead>
 							<tr>
 								<th className="concept">Concept</th>
 								<th className="practice">Practice</th>
@@ -523,8 +531,10 @@ const Outcomes = () => (
 								</td>
 							</tr>
 						</tbody>
+            
 					</table>
 				</div>
+
 			</article>
 
       <div className="interior-container">
@@ -546,6 +556,7 @@ const Outcomes = () => (
           </div>
         </div>
       </div>
+
     </div>
   </Layout>
 )

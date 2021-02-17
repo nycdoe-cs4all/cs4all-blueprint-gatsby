@@ -81,16 +81,3 @@ h5,
 h3 .activity-grade {
   text-transform: uppercase;
 }
-
-/* TO DELETE */
-
-/* Unused */
-#cboxTitle .subtitle {
-  font-family: "Roboto Slab", serif;
-}
-
-#cboxTitle {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  text-transform: uppercase;
-}

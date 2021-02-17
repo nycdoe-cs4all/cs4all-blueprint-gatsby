@@ -76,7 +76,7 @@ const Layout = ({ children }) => {
     }
   `)
 
-  /* Component display */
+  /* Display component */
   return (
     <>
       <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>

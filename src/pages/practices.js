@@ -1,9 +1,17 @@
+/**
+ * A deeper dive into the CS Practices and sub-practices
+ */
+
+/* Imports */
 import React from "react"
 import Layout from "../components/layout"
 import Accordion from "../components/accordion"
 import SEO from "../components/seo"
 
+/* Component */
 class Practices extends React.Component {
+
+  /* Constructor */
   constructor(props) {
     super(props)
     this.handleState = this.handleState.bind(this);
@@ -14,21 +22,27 @@ class Practices extends React.Component {
     }
   }
 
+  /* Handles state for open accordion */
   handleState(state) {
     this.setState({state});
   }
 
+  /* Display component */
   render() {
     return (
       <Layout>
         <SEO title="Computer Science Practices" />
         <div id="page">
           <article className="green-theme">
+
             <header>
               <h2><span className="preamble">Computer Science</span> Practices</h2>
               <p>The intertwined methods by which computer science is studied and applied.</p>
             </header>
-            <div className="article-content"><p>Each practice is composed of a progression of skills, based on Webb’s Depth of Knowledge, that educators can utilize to structure CS lessons based on their students’ needs. </p></div>
+
+            <div className="article-content">
+              <p>Each practice is composed of a progression of skills, based on Webb’s Depth of Knowledge, that educators can utilize to structure CS lessons based on their students’ needs. </p>
+            </div>
 
             <Accordion
               state={this.state.state}
@@ -187,9 +201,11 @@ class Practices extends React.Component {
               </ol>
             </div>
           </div>
+
         </div>
       </Layout>
     )
   }
 }
+
 export default Practices

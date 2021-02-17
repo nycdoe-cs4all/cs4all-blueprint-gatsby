@@ -4,13 +4,15 @@
  */
 
 /* Imports */
-import React, { useState } from "react";
+import React, { useState } from "react"
 
-/* Component display */
+/* Component */
 const Navbar = () => {
 
+  /* Variables */
   const [menuState, setMenuState] = useState(false);
 
+  /* Display component */
   return (
     <div id="masthead">
 
@@ -53,7 +55,7 @@ const Navbar = () => {
             <li>
               <a href="/curriculum">
                 <span className="icon"><svg><use xlinkHref="#icon-units" /></svg></span>
-                <span className="preamble">curriculum</span> Catalog
+                <span className="preamble">Curriculum</span> Catalog
               </a>
             </li>
             <li>

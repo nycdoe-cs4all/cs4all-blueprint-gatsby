@@ -1,9 +1,17 @@
+/**
+ * A deeper dive into the CS Perspectives with examples
+ */
+
+/* Imports */
 import React from "react"
 import Layout from "../components/layout"
 import Accordion from "../components/accordion"
 import SEO from "../components/seo"
 
+/* Component */
 class Perspectives extends React.Component {
+
+  /* Constructor */
   constructor(props) {
     super(props)
     this.handleState = this.handleState.bind(this);
@@ -14,21 +22,27 @@ class Perspectives extends React.Component {
     }
   }
 
+  /* Handles state for open accordion */
   handleState(state) {
     this.setState({state});
   }
 
+  /* Display component */
   render() {
     return (
       <Layout>
         <SEO title="Computer Science Perspectives" />
     		<div id="page">
           <article className="blue-theme">
+
             <header>
               <h2><span className="preamble">Computer Science</span> Perspectives</h2>
               <p>How students progress in their understanding of computing concepts and practices.</p>
             </header>
-            <div className="article-content"><p className="intro">Meaningful computer science units help students fully embrace a perspective such that they are ready and interested in progressing to the next.</p></div>
+
+            <div className="article-content">
+              <p>Meaningful computer science units help students fully embrace a perspective such that they are ready and interested in progressing to the next.</p>
+            </div>
 
             <Accordion
               state={this.state.state}
@@ -145,6 +159,7 @@ class Perspectives extends React.Component {
                 </div>
               "
             />
+
           </article>
 
           <div className="interior-container">
@@ -162,9 +177,11 @@ class Perspectives extends React.Component {
               </ol>
             </div>
           </div>
+
         </div>
       </Layout>
     )
   }
 }
+
 export default Perspectives
