@@ -312,6 +312,11 @@ article ul li {
   list-style-type: square;
 }
 
+article li li {
+  margin: 0 32px 16px;
+  list-style-type: circle;
+}
+
 article header p {
   font-size: 21px;
   line-height: 1.4;
