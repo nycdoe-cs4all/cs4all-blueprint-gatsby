@@ -16,10 +16,12 @@ const Outcomes = () => (
 
         <header>
 					<h2><span className="preamble">Student</span> Outcomes</h2>
-					<p data-desktop="(Hover over an outcome below to see its depth of knowledge value)">CS students' practice of each concept deepens and expands as meaningful CS units guide them from one perspective to the next.</p>
+					<p>CS students' practice of each concept deepens and expands as meaningful CS units guide them from one perspective to the next.</p>
 				</header>
 
-				<div className="article-content">
+        <div className="article-content">
+          <p data-desktop="(Hover over an outcome below to see its depth of knowledge value)">These student outcomes work in tandem with the <a href="http://www.nysed.gov/curriculum-instruction/computer-science-and-digital-fluency-learning-standards" target="blank">New York State K12 Computer Science and Digital Fluency Learning Standards</a> to help guide student learning and understanding.</p>
+
 					<table id="student-outcomes-table">
 
             <thead>
@@ -531,7 +533,7 @@ const Outcomes = () => (
 								</td>
 							</tr>
 						</tbody>
-            
+
 					</table>
 				</div>
 

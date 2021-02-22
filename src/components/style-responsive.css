@@ -1081,6 +1081,7 @@
     content: attr(data-desktop);
     display: block;
     font-size: 18px;
+    text-align: center;
     margin: 32px 0;
   }
 }

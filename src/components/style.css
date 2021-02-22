@@ -270,7 +270,7 @@ article h6,
 article ul,
 article ol,
 article form {
-  max-width: 640px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -305,7 +305,7 @@ article ul.submenu {
 }
 
 article li {
-  margin: 0 0 16px;
+  margin: 0 32px 16px;
 }
 
 article ul li {

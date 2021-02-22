@@ -39,19 +39,29 @@ const Curriculum = () => (
         </header>
 
         <div className="article-content">
-          <ul className="activity-list">
+          <p>These curriculum are created by the CS Education Team or supported by one of our partners, for additional curricular options we recommend <a href="https://www.csforall.org/projects_and_programs/curriculum_directory/" target="_blank">CSforAll’s AlignCS Curriculum Directory</a>.</p>
+          <p>All CS4All curriculum is aligned to the <a href="http://www.nysed.gov/curriculum-instruction/computer-science-and-digital-fluency-learning-standards" target="blank">New York State K12 Computer Science and Digital Fluency Learning Standards</a>. We are currently in the process of adding references to these standards.</p>
 
-          <li>
-            <a href="/curriculum/software-engineering-program-jr">
-              <div className="preview"><img src={sepJr} alt="Software Engineering Program Jr" /></div>
-              <h3>
-                <span className="activity-grade">Grades K-5</span>
-                <span className="activity-title">Software Engineering Program Junior</span>
-              </h3>
-              <span className="activity-devices">K-5 Sequence</span>
-              <span className="activity-concepts">Concepts: Abstraction, Algorithms, Programming, Data, Networks</span>
-            </a>
-          </li>
+          <header className="orange-theme">
+            <div className="box">
+              <div className="box-content">
+                <h3>Elementary School Curriculum</h3>
+              </div>
+            </div>
+          </header>
+
+          <ul className="activity-list">
+            <li>
+              <a href="/curriculum/software-engineering-program-jr">
+                <div className="preview"><img src={sepJr} alt="Software Engineering Program Jr" /></div>
+                <h3>
+                  <span className="activity-grade">Grades K-5</span>
+                  <span className="activity-title">Software Engineering Program Junior</span>
+                </h3>
+                <span className="activity-devices">K-5 Sequence</span>
+                <span className="activity-concepts">Concepts: Abstraction, Algorithms, Programming, Data, Networks</span>
+              </a>
+            </li>
 
             <li>
               <a href="/curriculum/k-2-integrated-units">
@@ -76,7 +86,17 @@ const Curriculum = () => (
                 <span className="activity-concepts">Concepts: Abstraction, Algorithms, Programming</span>
               </a>
             </li>
+          </ul>
 
+          <header className="orange-theme">
+            <div className="box">
+              <div className="box-content">
+                <h3>Middle School Curriculum</h3>
+              </div>
+            </div>
+          </header>
+
+          <ul className="activity-list">
             <li>
               <a href="/curriculum/software-engineering-program/">
                 <div className="preview"><img src={sepHackathon} alt="Software Engineering Program" /></div>
@@ -158,6 +178,28 @@ const Curriculum = () => (
                 </h3>
                 <span className="activity-devices">108 Hour Course</span>
                 <span className="activity-concepts">Concepts: Abstraction, Algorithms, Programming, Data, Networks</span>
+              </a>
+            </li>
+          </ul>
+
+          <header className="orange-theme">
+            <div className="box">
+              <div className="box-content">
+                <h3>High School Curriculum</h3>
+              </div>
+            </div>
+          </header>
+
+          <ul className="activity-list">
+            <li>
+              <a href="/curriculum/software-engineering-program/">
+                <div className="preview"><img src={sepHackathon} alt="Software Engineering Program" /></div>
+                <h3>
+                  <span className="activity-grade">Grade 6-12</span>
+                  <span className="activity-title">Software Engineering Program</span>
+                </h3>
+                <span className="activity-devices">6-12 Sequence</span>
+                <span className="activity-concepts">Concepts: Abstraction, Algorithms, Programming</span>
               </a>
             </li>
 

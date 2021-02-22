@@ -16,10 +16,12 @@ function Resource(props){
 
         <header>
             <h2><span className="preamble">educator</span> Resources</h2>
-            <p>Answers to common questions, developed by teachers and NYC DOE staff.</p>
+            <p>Answers to common questions, developed by Blueprint Fellows and NYC DOE staff.</p>
         </header>
 
         <div className="article-content">
+          <p>These resources were created and vetted by the Blueprint Fellows and CS Education Team, for additional resources created by teachers in the CS Leads program visit their site &lt;Link Coming Soon!&gt;</p>
+
           <ul className="activity-list">
             <ResourceQuery category={category} />
           </ul>
