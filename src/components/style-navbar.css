@@ -148,7 +148,8 @@
   content: "";
   display: inline-block;
   vertical-align: middle;
-  background: url("/src/images/svg/icon-triangle-lightblue.svg") no-repeat 0 0;
+  background-image: none;
+  background-repeat: no-repeat;
   background-size: 100% auto;
   height: 16px;
   width: 16px;

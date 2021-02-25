@@ -632,10 +632,11 @@
   }
 
   #menu .site-menu .parent-menu > a:after {
-    background-image: url("/src/images/svg/icon-triangle-lightblue.svg");
+    background-image: url("/static/icon-triangle-lightblue.svg");
+    background-repeat: no-repeat;
     width: 8px;
     height: 8px;
-    margin: -2px 0 0 2px;
+    margin: -2px 0 0 5px;
   }
 
   #menu .site-menu .parent-menu:hover > a:after {

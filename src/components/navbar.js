@@ -42,7 +42,6 @@ const Navbar = () => {
               <a href="/what-is-cs">
                 <span className="icon"><svg><use xlinkHref="#icon-foundations" /></svg></span>
                 <span className="preamble">CS</span> Foundations
-                <span className="caret"></span>
               </a>
               <ul>
                 <li><a href="/what-is-cs"><span className="preamble">What is</span> CS Education?</a></li>
