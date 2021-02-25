@@ -39,7 +39,7 @@ const Curriculum = () => (
         </header>
 
         <div className="article-content">
-          <p>These curriculum are created by the CS Education Team or supported by one of our partners, for additional curricular options we recommend <a href="https://www.csforall.org/projects_and_programs/curriculum_directory/" target="_blank">CSforAll’s AlignCS Curriculum Directory</a>.</p>
+          <p>These curriculum are created by the CS Education Team or supported by one of our partners, for additional curricular options we recommend <a href="https://www.csforall.org/projects_and_programs/curriculum_directory/" target="_blank" rel="noreferrer">CSforAll’s AlignCS Curriculum Directory</a>.</p>
           <p>All CS4All curriculum is aligned to the <a href="http://www.nysed.gov/curriculum-instruction/computer-science-and-digital-fluency-learning-standards" target="blank">New York State K12 Computer Science and Digital Fluency Learning Standards</a>. We are currently in the process of adding references to these standards.</p>
 
           <header className="orange-theme">
