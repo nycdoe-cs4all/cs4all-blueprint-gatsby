@@ -10,21 +10,20 @@ import SEO from "../components/seo"
 
 /* Component */
 class Perspectives extends React.Component {
-
   /* Constructor */
   constructor(props) {
     super(props)
-    this.handleState = this.handleState.bind(this);
-    if(window.location.hash) {
-      this.state = {state: window.location.href.split('#')[1]};
+    this.handleState = this.handleState.bind(this)
+    if (window.location.hash) {
+      this.state = { state: window.location.href.split("#")[1] }
     } else {
-      this.state = {state: 'none'};
+      this.state = { state: "none" }
     }
   }
 
   /* Handles state for open accordion */
   handleState(state) {
-    this.setState({state});
+    this.setState({ state })
   }
 
   /* Display component */
@@ -32,16 +31,24 @@ class Perspectives extends React.Component {
     return (
       <Layout>
         <SEO title="Computer Science Perspectives" />
-    		<div id="page">
+        <div id="page">
           <article className="blue-theme">
-
             <header>
-              <h2><span className="preamble">Computer Science</span> Perspectives</h2>
-              <p>How students progress in their understanding of computing concepts and practices.</p>
+              <h2>
+                <span className="preamble">Computer Science</span> Perspectives
+              </h2>
+              <p>
+                How students progress in their understanding of computing
+                concepts and practices.
+              </p>
             </header>
 
             <div className="article-content">
-              <p>Meaningful computer science units help students fully embrace a perspective such that they are ready and interested in progressing to the next.</p>
+              <p>
+                Meaningful computer science units help students fully embrace a
+                perspective such that they are ready and interested in
+                progressing to the next.
+              </p>
             </div>
 
             <Accordion
@@ -159,25 +166,48 @@ class Perspectives extends React.Component {
                 </div>
               "
             />
-
           </article>
 
           <div className="interior-container">
             <div className="exit-menu">
               <ol className="list-unstyled">
-                <li><a className="box" href="/what-is-cs/" role="button"><span className="box-content">CS Education</span></a></li>
-                <li className="current"><a href="#top">Perspectives</a></li>
+                <li>
+                  <a className="box" href="/what-is-cs/" role="button">
+                    <span className="box-content">CS Education</span>
+                  </a>
+                </li>
+                <li className="current">
+                  <a href="#top">Perspectives</a>
+                </li>
                 <li>
                   <div className="box">
-                    <a className="btn btn-primary btn-lg" href="/practices/" role="button">Next: <span className="preamble">Let&rsquo;s discuss the</span> Practices <span className="preamble">each perspective employs.</span></a>
+                    <a
+                      className="btn btn-primary btn-lg"
+                      href="/practices/"
+                      role="button"
+                    >
+                      Next:{" "}
+                      <span className="preamble">Let&rsquo;s discuss the</span>{" "}
+                      Practices{" "}
+                      <span className="preamble">
+                        each perspective employs.
+                      </span>
+                    </a>
                   </div>
                 </li>
-                <li><a className="box" href="/concepts/" role="button"><span className="box-content">Concepts</span></a></li>
-                <li><a className="box" href="/outcomes/" role="button"><span className="box-content">Outcomes</span></a></li>
+                <li>
+                  <a className="box" href="/concepts/" role="button">
+                    <span className="box-content">Concepts</span>
+                  </a>
+                </li>
+                <li>
+                  <a className="box" href="/outcomes/" role="button">
+                    <span className="box-content">Outcomes</span>
+                  </a>
+                </li>
               </ol>
             </div>
           </div>
-
         </div>
       </Layout>
     )

@@ -24,7 +24,6 @@ import workshop from "../assets/images/cs4all-workshop.jpg"
 
 /* Component */
 const About = () => {
-
   /* Variables */
   const [aboutState, setAboutState] = useState(false)
   const [aboutHeight, setAboutHeight] = useState("0px")
@@ -40,15 +39,14 @@ const About = () => {
       <SEO title="About the Blueprint" />
       <div id="page">
         <article className="light-theme">
-
           <header>
             <h2>
               <span className="preamble">About the</span> Blueprint
             </h2>
             <p>
               The Computer Science for All (CS4All) Blueprint is an academic and
-              implementation guide for teaching computer science in New York City
-              public schools.
+              implementation guide for teaching computer science in New York
+              City public schools.
             </p>
           </header>
 
@@ -59,8 +57,23 @@ const About = () => {
               school communities as they begin to integrate, many for the first
               time, computer science into their classrooms. So we created the
               Blueprint with a dedicated group of{" "}
-              <a href="#page" onClick={e => {scrollTo('#fellow-list'); e.preventDefault();}} onKeyPress={() => {scrollTo('#fellow-list'); return false;}} role="button" tabIndex="0">Blueprint Teacher Fellows</a>, elevating their CS
-              teaching knowledge and experience in NYC classrooms.
+              <a
+                href="#page"
+                onClick={e => {
+                  scrollTo("#fellow-list")
+                  e.preventDefault()
+                }}
+                onKeyPress={() => {
+                  scrollTo("#fellow-list")
+                  return false
+                }}
+                role="button"
+                tabIndex="0"
+              >
+                Blueprint Teacher Fellows
+              </a>
+              , elevating their CS teaching knowledge and experience in NYC
+              classrooms.
             </p>
             <div
               id="about-blueprint-more"
@@ -91,20 +104,28 @@ const About = () => {
                 className="btn btn-sm open"
                 href="#about-blueprint-text"
                 onClick={() => {
-                  setAboutState(!aboutState);
+                  setAboutState(!aboutState)
                   setAboutHeight(
-                    aboutState ? "0px" : `${aboutContent.current.scrollHeight}px`
-                  );
-                  setTimeout(() => {scrollTo("#about-blueprint")}, 500);
+                    aboutState
+                      ? "0px"
+                      : `${aboutContent.current.scrollHeight}px`
+                  )
+                  setTimeout(() => {
+                    scrollTo("#about-blueprint")
+                  }, 500)
                   return false
                 }}
                 role="button"
                 tabIndex="0"
               >
-                <span className={aboutState ? "label inactive" : "label active"}>
+                <span
+                  className={aboutState ? "label inactive" : "label active"}
+                >
                   Read More
                 </span>
-                <span className={aboutState ? "label active" : "label inactive"}>
+                <span
+                  className={aboutState ? "label active" : "label inactive"}
+                >
                   Collapse Text
                 </span>
               </a>
@@ -146,7 +167,8 @@ const About = () => {
                 </li>
                 <li>
                   <h4>
-                    Tech and tech-related industry at CS4ALL industry roundtables
+                    Tech and tech-related industry at CS4ALL industry
+                    roundtables
                   </h4>
                   Collaboration and critical thinking are equally important to
                   technical skills.
@@ -242,8 +264,8 @@ const About = () => {
                   <div className="fellow-content">
                     <h4>Christy Crawford</h4>
                     <span className="fellow-text">
-                      Christy Crawford has taught in Harlem and the Bronx for more
-                      than 13 years. She is an education consultant and
+                      Christy Crawford has taught in Harlem and the Bronx for
+                      more than 13 years. She is an education consultant and
                       contributor to{" "}
                       <a
                         href="https://www.scholastic.com/teachers/contributors/bloggers/christy-crawford/"
@@ -316,8 +338,8 @@ const About = () => {
                     <h4>Tim Chen</h4>
                     <span className="fellow-text">
                       Tim Chen was a software engineering teacher at the Urban
-                      Assembly Gateway School for Technology. He is interested in
-                      everything related to computer science education!
+                      Assembly Gateway School for Technology. He is interested
+                      in everything related to computer science education!
                     </span>
                   </div>
                 </div>
@@ -342,20 +364,20 @@ const About = () => {
                   style={{ maxHeight: `${fellowHeight}` }}
                 >
                   <p>
-                    Your students have used computers to convey their thinking --
-                    to get it on a document, on a slide, in a picture, or on a
-                    piece of paper. Our hope is that these resources will help you
-                    create a classroom in which students think with the computer,
-                    where the computer becomes &quot;a bicycle for the mind,&quot;
-                    a tool for empowering and unlocking our students' curiosity
-                    and creativity.
+                    Your students have used computers to convey their thinking
+                    -- to get it on a document, on a slide, in a picture, or on
+                    a piece of paper. Our hope is that these resources will help
+                    you create a classroom in which students think with the
+                    computer, where the computer becomes &quot;a bicycle for the
+                    mind,&quot; a tool for empowering and unlocking our
+                    students' curiosity and creativity.
                   </p>
                   <p>
                     We'll be tackling everything from recommended programming
                     languages and courses of study, to the arrangement of tables
-                    and chairs in your classroom. There is a lot to digest (and a
-                    lot that we are still learning,) but these resources were put
-                    together by folks who love teaching computer science and
+                    and chairs in your classroom. There is a lot to digest (and
+                    a lot that we are still learning,) but these resources were
+                    put together by folks who love teaching computer science and
                     learned to teach it, just like you, while in the classroom.
                   </p>
                   <p>
@@ -371,12 +393,12 @@ const About = () => {
                   </p>
                   <p>
                     In the history of computer science, we have mostly been
-                    content to wait for prodigies to drive innovation. We believe
-                    there is more prodigious talent in our students that can be
-                    unlocked by learning to create and iterate. These resources
-                    are a commitment to equity, to unlocking more unrealized
-                    potential in all our students, in as many ways as we possibly
-                    can.
+                    content to wait for prodigies to drive innovation. We
+                    believe there is more prodigious talent in our students that
+                    can be unlocked by learning to create and iterate. These
+                    resources are a commitment to equity, to unlocking more
+                    unrealized potential in all our students, in as many ways as
+                    we possibly can.
                   </p>
                 </div>
                 <p>
@@ -384,25 +406,31 @@ const About = () => {
                     className="btn btn-sm open"
                     href="#about-fellows"
                     onClick={() => {
-                      setFellowState(!fellowState);
+                      setFellowState(!fellowState)
                       setFellowHeight(
                         fellowState
                           ? "0px"
                           : `${fellowContent.current.scrollHeight}px`
-                      );
-                      setTimeout(() => {scrollTo("#about-fellows")}, 500);
-                      return false;
+                      )
+                      setTimeout(() => {
+                        scrollTo("#about-fellows")
+                      }, 500)
+                      return false
                     }}
                     role="button"
                     tabIndex="0"
                   >
                     <span
-                      className={fellowState ? "label inactive" : "label active"}
+                      className={
+                        fellowState ? "label inactive" : "label active"
+                      }
                     >
                       Read More
                     </span>
                     <span
-                      className={fellowState ? "label active" : "label inactive"}
+                      className={
+                        fellowState ? "label active" : "label inactive"
+                      }
                     >
                       Collapse Text
                     </span>
@@ -419,16 +447,15 @@ const About = () => {
                   almost 50 teachers participating this year!
                 </p>
                 <p>
-                  The Curriculum Fellows, who got started in early July 2017, are
-                  designed Blueprint-aligned CS units to test in the classroom and
-                  eventually publish on the Blueprint. The Pedagogy Fellows will
-                  meeting in August to kick-off a year of interivistation and peer
-                  observation that will published as video{" "}
-                  <a href="/resources">resources</a> on the Blueprint.
+                  The Curriculum Fellows, who got started in early July 2017,
+                  are designed Blueprint-aligned CS units to test in the
+                  classroom and eventually publish on the Blueprint. The
+                  Pedagogy Fellows will meeting in August to kick-off a year of
+                  interivistation and peer observation that will published as
+                  video <a href="/resources">resources</a> on the Blueprint.
                 </p>
                 <p> Names and bios will be posted soon!</p>
               </div>
-
             </div>
           </section>
 
@@ -445,7 +472,6 @@ const About = () => {
               !
             </p>
           </div>
-
         </article>
       </div>
     </Layout>

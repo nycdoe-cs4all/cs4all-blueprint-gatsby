@@ -10,21 +10,20 @@ import SEO from "../components/seo"
 
 /* Component */
 class Practices extends React.Component {
-
   /* Constructor */
   constructor(props) {
     super(props)
-    this.handleState = this.handleState.bind(this);
-    if(window.location.hash) {
-      this.state = {state: window.location.href.split('#')[1]};
+    this.handleState = this.handleState.bind(this)
+    if (window.location.hash) {
+      this.state = { state: window.location.href.split("#")[1] }
     } else {
-      this.state = {state: 'none'};
+      this.state = { state: "none" }
     }
   }
 
   /* Handles state for open accordion */
   handleState(state) {
-    this.setState({state});
+    this.setState({ state })
   }
 
   /* Display component */
@@ -34,14 +33,22 @@ class Practices extends React.Component {
         <SEO title="Computer Science Practices" />
         <div id="page">
           <article className="green-theme">
-
             <header>
-              <h2><span className="preamble">Computer Science</span> Practices</h2>
-              <p>The intertwined methods by which computer science is studied and applied.</p>
+              <h2>
+                <span className="preamble">Computer Science</span> Practices
+              </h2>
+              <p>
+                The intertwined methods by which computer science is studied and
+                applied.
+              </p>
             </header>
 
             <div className="article-content">
-              <p>Each practice is composed of a progression of skills, based on Webb’s Depth of Knowledge, that educators can utilize to structure CS lessons based on their students’ needs. </p>
+              <p>
+                Each practice is composed of a progression of skills, based on
+                Webb’s Depth of Knowledge, that educators can utilize to
+                structure CS lessons based on their students’ needs.{" "}
+              </p>
             </div>
 
             <Accordion
@@ -189,19 +196,43 @@ class Practices extends React.Component {
           <div className="interior-container">
             <div className="exit-menu">
               <ol className="list-unstyled">
-                <li><a className="box" href="/what-is-cs/" role="button"><span className="box-content">CS Education</span></a></li>
-                <li><a className="box" href="/perspectives/" role="button"><span className="box-content">Perspectives</span></a></li>
-                <li className="current"><a href="#top">Practices</a></li>
+                <li>
+                  <a className="box" href="/what-is-cs/" role="button">
+                    <span className="box-content">CS Education</span>
+                  </a>
+                </li>
+                <li>
+                  <a className="box" href="/perspectives/" role="button">
+                    <span className="box-content">Perspectives</span>
+                  </a>
+                </li>
+                <li className="current">
+                  <a href="#top">Practices</a>
+                </li>
                 <li>
                   <div className="box">
-                    <a className="btn btn-primary btn-lg" href="/concepts/" role="button">Next: <span className="preamble">We&rsquo;ll define the</span> Concepts <span className="preamble">students explore through their CS practice.</span></a>
+                    <a
+                      className="btn btn-primary btn-lg"
+                      href="/concepts/"
+                      role="button"
+                    >
+                      Next:{" "}
+                      <span className="preamble">We&rsquo;ll define the</span>{" "}
+                      Concepts{" "}
+                      <span className="preamble">
+                        students explore through their CS practice.
+                      </span>
+                    </a>
                   </div>
                 </li>
-                <li><a className="box" href="/outcomes/" role="button"><span className="box-content">Outcomes</span></a></li>
+                <li>
+                  <a className="box" href="/outcomes/" role="button">
+                    <span className="box-content">Outcomes</span>
+                  </a>
+                </li>
               </ol>
             </div>
           </div>
-
         </div>
       </Layout>
     )

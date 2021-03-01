@@ -13,7 +13,6 @@ import { useStaticQuery, graphql } from "gatsby"
 
 /* Component */
 function SEO({ description, lang, meta, title }) {
-
   /* Variables */
   const { site } = useStaticQuery(
     graphql`
@@ -28,7 +27,7 @@ function SEO({ description, lang, meta, title }) {
       }
     `
   )
-  
+
   const metaDescription = description || site.siteMetadata.description
 
   /* Display component */

@@ -29,40 +29,40 @@ import "./style-outcomes.css"
 import "./style-responsive.css"
 
 /* Navbar SVG Imports */
-import '../assets/svg/icon-foundations.svg'
-import '../assets/svg/icon-units.svg'
-import '../assets/svg/icon-resources.svg'
-import '../assets/svg/icon-blueprint.svg'
-import '../assets/svg/logo-cs4all.svg'
-import '../assets/svg/icon-menu.svg'
+import "../assets/svg/icon-foundations.svg"
+import "../assets/svg/icon-units.svg"
+import "../assets/svg/icon-resources.svg"
+import "../assets/svg/icon-blueprint.svg"
+import "../assets/svg/logo-cs4all.svg"
+import "../assets/svg/icon-menu.svg"
 
 /* Footer SVG Imports */
-import '../assets/svg/icon-cc-by-nc-sa.svg'
+import "../assets/svg/icon-cc-by-nc-sa.svg"
 
 /* Index SVG Imports */
-import '../assets/svg/icon-play.svg'
+import "../assets/svg/icon-play.svg"
 
 /* Concept SVG Imports */
-import '../assets/svg/icon-explorer.svg'
-import '../assets/svg/icon-creator.svg'
-import '../assets/svg/icon-innovator.svg'
-import '../assets/svg/icon-citizen.svg'
+import "../assets/svg/icon-explorer.svg"
+import "../assets/svg/icon-creator.svg"
+import "../assets/svg/icon-innovator.svg"
+import "../assets/svg/icon-citizen.svg"
 
 /* Practice SVG Imports */
-import '../assets/svg/icon-analyze.svg'
-import '../assets/svg/icon-prototype.svg'
-import '../assets/svg/icon-communicate.svg'
+import "../assets/svg/icon-analyze.svg"
+import "../assets/svg/icon-prototype.svg"
+import "../assets/svg/icon-communicate.svg"
 
 /* Perspective SVG Imports */
-import '../assets/svg/icon-abstraction.svg'
-import '../assets/svg/icon-algorithm.svg'
-import '../assets/svg/icon-programming.svg'
-import '../assets/svg/icon-data.svg'
-import '../assets/svg/icon-network.svg'
+import "../assets/svg/icon-abstraction.svg"
+import "../assets/svg/icon-algorithm.svg"
+import "../assets/svg/icon-programming.svg"
+import "../assets/svg/icon-data.svg"
+import "../assets/svg/icon-network.svg"
 
 /* Resource Filter SVG Imports */
-import '../assets/svg/icon-open.svg'
-import '../assets/svg/icon-close.svg'
+import "../assets/svg/icon-open.svg"
+import "../assets/svg/icon-close.svg"
 
 /* Component */
 const Layout = ({ children }) => {
@@ -80,8 +80,14 @@ const Layout = ({ children }) => {
   return (
     <>
       <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" />
-      <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Roboto+Mono|Syncopate|Ubuntu|Ubuntu+Condensed" rel="stylesheet" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Roboto+Mono|Syncopate|Ubuntu|Ubuntu+Condensed"
+        rel="stylesheet"
+      />
       <Navbar />
       <div>
         <main>{children}</main>
