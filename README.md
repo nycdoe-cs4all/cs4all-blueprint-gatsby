@@ -1,85 +1,150 @@
-# cs4all-blueprint-gatsby
-Converting the [CS4All Blueprint site](https://blueprint.cs4all.nyc/) to [GatsbyJS](https://gatsbyjs.org)
+# NYC DOE CS Education (CS4All) Blueprint
+
+[CS4All Blueprint V2.0](https://blueprint.cs4all.nyc/) using [GatsbyJS](https://gatsbyjs.org)
 
 By [@nycdoe-cs4all](https://github.com/nycdoe-cs4all)
 
+Based on [CS4All Blueprint V1.0](https://github.com/nycdoe-cs4all/blueprint-learning-site)
 
-# Setup
+### About Gatsby and React
 
-## Installations
-1. Install [Node.js](https://nodejs.org/en/download/)
+Gatsby is a remix of the popular framework React. React makes it easy to create web apps using components.
+Gatsby makes it easy to create websites with a light front-end framework and little to no backend. It can easily connect to data sources (such as WordPress), and is configured to work well with headless servers. Gatsby statically renders the site and the data shown/stored on it, which means it's super easy to publish anywhere online and makes for a very fast web app.
+
+## Table of Contents
+
+This README ended up being longer than intended, so here are quick links to where you may want to go
+
+- TO DO
+- Proposed Updates
+- File Structure
+- Setting Up Your Development Environment
+- Accessing and Using WordPress
+- Changelog
+- For Posterity
+
+## TO DO
+
+## Proposed Updates
+
+These changes have been temporarily added to show what they will look like
+
+## File Structure
+
+- _src_
+  - This is where the main code of this web app lives
+  - _src/assets_
+    - This is where images, videos, etc. are housed
+    - When adding assets, make sure they are placed in the appropriate subfolder
+  - _src/components_
+    - Where components that will be reused will be stored (eg. layout and SEO)
+    - The temporary home for stylesheets (until a proper public folder is created and site is made more modular)
+  - _src/pages_
+    - Where every page of the site is stored
+    - The structure for each component is written out in `src/pages/boilerplate.js`
+
+## Setting Up Your Development Environment
+
+### Installing Apps
+
+1. Install [Node.js](https://nodejs.org/en/) using an [installer](https://nodejs.org/en/download/) or [package manager](https://nodejs.org/en/download/package-manager/)
 2. Install [Git](https://git-scm.com/)
 3. Install Gatsby - In your terminal, run the following command: `npm install -g gatsby-cli`
-- OPTIONAL:
-  - [GitHub Desktop](https://desktop.github.com/)
-    - GitHub allows you to have a GUI for using Git
-  - [Atom](https://atom.io/)
-    - A text editor designed specifically for (and by) GitHub
+
+**OPTIONAL:**
+
+- Install [GitHub Desktop](https://desktop.github.com/)
+  - A GUI to more easily use Git on your machine
+- Install [Atom](https://atom.io/)
+  - A text editor designed specifically for (and by) GitHub
+- Install [Prettier](https://prettier.io/)
+  - A plug in for various text editors that helps format code to avoid errors
 
 - For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.org/tutorial/part-zero/)
 
-## Preparing Git(Hub)
-- Clone the repository:
-  - Using your terminal - `git clone https://github.com/dylsteck/cs4all-blueprint-gatsby.git`
-  - Using GitHub Desktop - File > Clone repository... > URL tab > "https://github.com/dylsteck/cs4all-blueprint-gatsby.git"
+### Preparing Git(Hub)
+
+1. Clone the repository:
+   - Using your terminal - `git clone https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby.git`
+   - Using GitHub Desktop - File > Clone repository... > URL tab > "https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby.git"
+2. Navigate to the folder using your terminal - `cd C:\...\cs4all-blueprint-gatsby`
+   - Replace the url with the directory you cloned the repository into
+   - If using GitHub Desktop just hit `CTRL + ~`
+3. Install dependencies - `npm install`
 
 - For more information, check out [GitHub Help](https://help.github.com/en/desktop)
 
-## Running the Website
+### Running Locally
+
 1. Navigate to the folder using your terminal - `cd C:\...\cs4all-blueprint-gatsby`
    - Replace the url with the directory you cloned the repository into
-2. Install dependencies - `npm install`
-3. You will likely need to run a web server on your computer to view the site locally. Install MAMP on [macOS](https://www.mamp.info/en/mac/) or [Windows](https://www.mamp.info/en/windows/).
-4. Run - `gatsby develop`
+   - If using GitHub Desktop just hit `CTRL + ~`
+2. Run - `gatsby develop`
+3. Open up a browser tab and navigate to `http://localhost:8000`
+   - You can also access the site's [GraphQL](https://graphql.org/) data by going to `http://localhost:8000/___graphql`
 
-## File Structure
-- *src*
-  - This is where the main code of this web app lives
-  - *src/components*
-    - Where components that will be reused will be stored(eg. layout and SEO)
-    - The temporary home for `style.css`(until a proper public folder is created)
-  - *src/images*
-  - *src/pages*
-    - Where every page of the site is stored
-    - Each page is a component that is filled with the HTML code from the original blueprint repo
-    - The structure for each component is written out in `src/pages/boilerplate.js`
+- For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.org/tutorial/part-zero/)
 
-## A little bit about Gatsby and React
+### Deploying Site
 
-Gatsby is a remix of the popular framework React. React makes it easy to create web apps using components.
-Gatsby makes it easy to create websites with a light front-end framework and little to no backend. It can easily connect to data sources(even Wordpress), and is configured to work well with headless servers. Gatsby statically renders the site and the data shown/stored on it, which means it's super easy to publish anywhere online and makes for a very fast web app.
+1. Stop the development server (if running)
+2. Navigate to the folder using your terminal - `cd C:\...\cs4all-blueprint-gatsby`
+   - Replace the url with the directory you cloned the repository into
+   - If using GitHub Desktop just hit `CTRL + ~`
+3. Build - `gatsby build`
+   - To view the production site locally - `gatsby serve`
+   - After the above, you can view the site at `http://localhost:9000`
 
-## How to locally run WordPress(in Terminal/unix)
-Follow [this guide](https://upcloud.com/community/tutorials/wordpress-with-docker/)
+- For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.com/docs/tutorial/part-eight/)
 
-## How to convert an old blueprint site to a Gatsby component
+## Accessing and Using WordPress
 
-<i>Quick note: You won't have to follow every single step for each component. It is possible that, for example, some files won't include comments or inline styling in the original HTML. In that case, move on to the next step.</i>
-1. Go to `src/pages`. Every HTML page from the old blueprint site is in there, and now has a .js extension.
-2. Copy the contents of `src/pages/boilerplate.js` into the top of the file you're working in, and un-comment the code.
-3. Change the title of the `<SEO /> ` component to the name of the page. eg. if the file is called `cs-and-the-city.js`, name it CS and the City.
-4. Delete every line in the old HTML code that contains `{% %}`, such as: `{% extends "base.html" %} {% load i18n %} {% block content %}`
-5. Find every instance of `class=` and replace it with `className=` -- because React supports camel case, and lower case "class" means something different in the React DOM.
-6. Find every `xlink:href=` and replace it with `xlinkHref=`.
-7. Turn every inline HTML comment into a React comment. Replace the `<!-- ` at the beginning of every comment with `{/*` and replace the `-->` at the end of every comment with `*/}`. For example, `<!-- end of section -->` should be: `{/* end of section */}`.
-8. Turn every inline style into a React inline style. In React, inline styling is done with nested objects, where every property is written in camel-case and every value is written in quotations. For example, `<h1 style="background-color: blue;"> Hi </h1>` becomes `<h1 style={{backgroundColor: 'blue'}}> Hi </h1>`. Instead of putting a semicolon between every property, put a comma.
-9. Cut/copy all of the HTML code from the original site that you've just edited and paste it where the comment at the top of the file(the code you copied from the boilerplate) says "children -- the HTML code for the site".
-10. Rename the component from `Boilerplate` to the name of the site, written in camelcase. For example, if the file is called `cs-and-the-city.js`, turn `const Boilerplate` into `const CSAndTheCity`.
+To access the site's WordPress backend, go to https://cs4allblueprint.wordpress.com/wp-admin/ and log in with your user credentials
 
-# Changelog
+## Changelog
+
+### 3/5/21
+
+From [Dan](https://github.com/danielgaylord)
+
+- Initial update to README to make it easier to follow
+
+### 3/1/21
+
+From [Dan](https://github.com/danielgaylord)
+
+- Used [prettier](https://prettier.io/) to make code easier to read
+
+### 2/24/21
+
+From [Dan](https://github.com/danielgaylord)
+
+- Fixed caret in Navbar
+- Updated page scrolling for internal links
+- Added draft looks of potential changes to the following pages:
+  - Educator resources
+  - Curriculum Catalog
+  - Student outcomes
+  - Integrated Units Curriculum
 
 ### 2/16/21
+
 From various
+
 - Blueprint 2.0 bugs squashed, site looks and functions exactly like 1.0 with some minor differences
 - Code roughly commented and organized for easier viewing and parsing
 
 ### 10/27/20
+
 From [Dylan](https://github.com/dylsteck)
+
 - Finished wordpress pagination
 - Merged `wordpress` branch with `master`
 
 ### 10/22/20
+
 From [Dan](https://github.com/danielgaylord)
+
 - Missed several updates from prior...
 - Updated About page so the read more/collapse text buttons work and text opens gradually
 - Removed data var from layout.js, unsure if it broke anything, but everything still seems to work
@@ -92,7 +157,9 @@ From [Dan](https://github.com/danielgaylord)
   - To fix we will have to deep dive into the stylesheet
 
 ### 9/22/20
+
 From [Dan](https://github.com/danielgaylord)
+
 - Fixed various warnings from running 'gatsby develop'
   - Ex: img alt text, 'Link' not being used, a elements
   - layout.js still has 1 warning that might be hardere to fix
@@ -100,42 +167,55 @@ From [Dan](https://github.com/danielgaylord)
 - Restructured pages so all of the curriculum and unused pages are in their own folders
 - Made sure most non-internal links open in a new tab
 
-
 ## 9/21/20
+
 From [Dylan](https://github.com/dylsteck)
+
 - Began looking into independent routing with Gatsby's [createPages](https://www.gatsbyjs.com/docs/node-apis/#createPages) API
 
 ### 8/31/20
+
 From [Dylan](https://github.com/dylsteck)
+
 - Pushed stable wordpress version to master
   - Next up: fix internal router so each educator resource article has its own page
   - Will keep looking into [reach router](https://reach.tech/router/api)
 
 ### 8/12/20
+
 From [Dylan](https://github.com/dylsteck)
+
 - Cleaned up `pages/resources.js`
 - Worked on `pages/educator-resources.js` -- a component that will be re-used to display each article
   - Having a few issues with [router params](https://reach.tech/router/api/useParams) and GraphQL
 - Looked into how we can clean up some of the code
 
 ### 7/29/20
+
 From [Dylan](https://github.com/dylsteck)
+
 - `pages/resources.js` shows all posts
 - Trying to get demo server working, but taking a while because of WordPress issues
 
 ### 7/17/20
+
 From [Dylan](https://github.com/dylsteck)
+
 - Fixed all runtime bugs from component conversion
 - Connected to local Wordpress
 - Created Resource component, which just returns all of the WordPress posts as JSON
 - Added "How to locally run WordPress" in README
 
 ### 7/15/20
+
 From [Dylan](https://github.com/dylsteck)
+
 - Created resources component and fixed some bugs
 
 ### 7/8/20
+
 From [Dylan](https://github.com/dylsteck)
+
 - Added [Wordpress-Gatsby plugin](https://www.gatsbyjs.org/packages/gatsby-source-wordpress/) to the project
 - Created `wordpress` branch
 - Created a blank Wordpress site for testing
@@ -144,12 +224,16 @@ From [Dylan](https://github.com/dylsteck)
     - Could also keep the code for key sites and then create a base layout for every component page(this would be the only solution that would involve Wordpress, basically)
 
 ### 6/25/2020
+
 From [Dan](https://github.com/danielgaylord)
+
 - Cleaned up the code of all the pages that were converted to components
 - Started adding comments to the Computational Media Innovator page
 
 ### 6/22/20
+
 From [Dylan](https://github.com/dylsteck)
+
 - Converted the remaining pages into components
 - Moved some files to `src/for_later`
   - Code that can't be added back to the code base until we choose and implement a back end
@@ -157,7 +241,9 @@ From [Dylan](https://github.com/dylsteck)
 - Began toying around with WordPress
 
 ### 6/19/2020
+
 From [Dan](https://github.com/danielgaylord)
+
 - Converted `src/pages/creative-computing.js` to a component
 - Converted `src/pages/creative-web.js` to a component
 - Converted `src/pages/critical-computing.js` to a component
@@ -166,7 +252,9 @@ From [Dan](https://github.com/danielgaylord)
 - Cleaned up the code of various other pages that were already converted to components
 
 ### 6/18/2020
+
 From [Dan](https://github.com/danielgaylord)
+
 - Converted `src/pages/bootstrap-data-science.js` to a component
 - Converted `src/pages/codeorg-cs-principles.js` to a component
 - Converted `src/pages/computational-media-creator.js` to a component
@@ -174,11 +262,15 @@ From [Dan](https://github.com/danielgaylord)
 - Converted `src/pages/computational-media-innovator.js` to a component
 
 ### 6/17/20
+
 From [Dylan](https://github.com/dylsteck)
+
 - Fixed inline `@media` query issue in `src/pages/ican.js`
 
 ### 6/16/20
+
 From [Dylan](https://github.com/dylsteck)
+
 - Converted and fixed:
   - The three components Dan converted earlier today(I had to make a small fix to the boilerplate, so I made a very minor edit to the three components that was my own fault)
   - `src/pages/boilerplate.js`
@@ -191,22 +283,27 @@ From [Dylan](https://github.com/dylsteck)
   - `src/pages/software-engineering-program-jr.js`
   - `src/pages/practices.js`
 
-
 ### 6/16/2020
+
 From [Dan](https://github.com/danielgaylord)
+
 - Converted `src/pages/bjc-cs-principles.js` to a component
 - Converted `src/pages/uteach-cs-principles.js` to a component
 - Converted `src/pages/ican.js` to a component
 
 ### 6/10/2020
+
 From [Dylan](https://github.com/dylsteck)
+
 - Wrote guide on how to convert the blueprint site's template pages to Gatsby
 - Changed file extensions from `.html` to `.js` for all files in pages/ activities, registration, resources, and users.
 - Converted `src/pages/what_is_cs.js` to a component
 - Added installation instructions
 
 ### 6/9/2020
+
 From [Dylan](https://github.com/dylsteck)
+
 - Imported all HTML pages from original blueprint repo and changed all extensions from `.html` to `.js`
 - Created `src/pages/boilerplate.js` as an example for the core structure of a page
 - Finished converting `src/pages/index.js` and `src/pages/about.js` to Gatsby/React
@@ -214,3 +311,21 @@ From [Dylan](https://github.com/dylsteck)
   - Changed certain syntax to match React
     - eg. In React, `class` becomes `className` because it follows camel case for DOM attributes(class, style, id, etc.)
 - Created navbar component
+
+## For Posterity
+
+### Converting CS4All Blueprint V1.0 pages into V2.0 Gatsby components
+
+_Quick Note 1: You may not have to follow every single step for each component. It is possible that, for example, some files won't include comments or inline styling in the original HTML. In that case, move on to the next step._
+_Quick Note 2: If, after following these steps, the page still does not work, use other pages as a reference or flag the file in some way for additional eyes._
+
+1. Add the V1.0 page into `src/pages` and change the extension to .js.
+2. Copy the contents of `src/pages/boilerplate.js` into the top of the file you're working in, and un-comment the code.
+3. Change the title of the `<SEO />` component to the name of the page. eg. if the file is called `cs-and-the-city.js`, name it CS and the City.
+4. Delete every line in the old HTML code that contains `{% %}`, such as: `{% extends "base.html" %} {% load i18n %} {% block content %}`
+5. Find every instance of `class=` and replace it with `className=` -- because React supports camel case, and lower case "class" means something different in the React DOM.
+6. Find every `xlink:href=` and replace it with `xlinkHref=`.
+7. Turn every inline HTML comment into a React comment. Replace the `<!--` at the beginning of every comment with `{/*` and replace the `-->` at the end of every comment with `*/}`. For example, `<!-- end of section -->` should be: `{/* end of section */}`.
+8. Turn every inline style into a React inline style. In React, inline styling is done with nested objects, where every property is written in camel-case and every value is written in quotations. For example, `<h1 style="background-color: blue;"> Hi </h1>` becomes `<h1 style={{backgroundColor: 'blue'}}> Hi </h1>`. Instead of putting a semicolon between every property, put a comma.
+9. Cut/copy all of the HTML code from the original site that you've just edited and paste it where the comment at the top of the file(the code you copied from the boilerplate) says "children -- the HTML code for the site".
+10. Rename the component from `Boilerplate` to the name of the site, written in camelcase. For example, if the file is called `cs-and-the-city.js`, turn `const Boilerplate` into `const CSAndTheCity`.
