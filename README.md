@@ -15,30 +15,41 @@ Gatsby makes it easy to create websites with a light front-end framework and lit
 
 This README ended up being longer than intended, so here are quick links to where you may want to go
 
-- TO DO
-- Proposed Updates
-- File Structure
-- Setting Up Your Development Environment
-- Accessing and Using WordPress
-- Changelog
-- For Posterity
+- [TO DO](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#to-do)
+- [File Structure](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#file-structure)
+- [Setting Up Your Development Environment](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#setting-up-your-development-environment)
+- [Adding Educator Resources via WordPress](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#adding-educator-resources-via-wordpress)
+- [Changelog](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#changelog)
+- [For Posterity](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#for-posterity)
 
 ## TO DO
 
-## Proposed Updates
-
-These changes have been temporarily added to show what they will look like
+- [x] Port [Blueprint 1.0](https://github.com/nycdoe-cs4all/blueprint-learning-site) to GatsbyJS
+- [x] Squash bugs so Blueprint 2.0 looks and functions identical to Blueprint 1.0
+- [x] Organize folder structure
+- [x] Improve code comments (could probably improve further)
+- [x] Update Educator Resource format and structure
+- [x] (_NOT FINAL_) Improve look of curriculum page(s)
+- [x] (_NOT FINAL_) Include references to NYSED standards, 3rd party curriculum, and CS Leads resources
+- [ ] (_IN PROGRESS_) Update README
+- [ ] Create process for adding new Educator Resources in WordPress
+- [ ] Improve site accessibility (i.e. translation, page structure, alt text, etc. Will require sub tasks)
+- [ ] Improve stylesheets (i.e only import styles for pages that need them)
+- [ ] Make site more modular (i.e make components for items that are used often)
+- [ ] Launch Blueprint 2.0 (estimate May 1, 2021)
+- [ ] (**OPTIONAL**) Change video hosting
+- [ ] (**OPTIONAL**) Change site hosting
 
 ## File Structure
 
 - _src_
-  - This is where the main code of this web app lives
+  - This is where the main code of this website lives
   - _src/assets_
-    - This is where images, videos, etc. are housed
+    - This is where images, videos, etc. are stored
     - When adding assets, make sure they are placed in the appropriate subfolder
   - _src/components_
-    - Where components that will be reused will be stored (eg. layout and SEO)
-    - The temporary home for stylesheets (until a proper public folder is created and site is made more modular)
+    - Where components that will be reused are stored (eg. layout and SEO)
+    - The temporary home for stylesheets (until site is made more modular)
   - _src/pages_
     - Where every page of the site is stored
     - The structure for each component is written out in `src/pages/boilerplate.js`
@@ -47,59 +58,92 @@ These changes have been temporarily added to show what they will look like
 
 ### Installing Apps
 
+For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.org/tutorial/part-zero/)
+
 1. Install [Node.js](https://nodejs.org/en/) using an [installer](https://nodejs.org/en/download/) or [package manager](https://nodejs.org/en/download/package-manager/)
 2. Install [Git](https://git-scm.com/)
-3. Install Gatsby - In your terminal, run the following command: `npm install -g gatsby-cli`
+3. Install Gatsby
+   - In your terminal, run the following command: `npm install -g gatsby-cli`
 
-**OPTIONAL:**
-
-- Install [GitHub Desktop](https://desktop.github.com/)
-  - A GUI to more easily use Git on your machine
-- Install [Atom](https://atom.io/)
-  - A text editor designed specifically for (and by) GitHub
-- Install [Prettier](https://prettier.io/)
-  - A plug in for various text editors that helps format code to avoid errors
-
-- For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.org/tutorial/part-zero/)
+- **OPTIONAL**: Additional recommended installs
+  - Install [GitHub Desktop](https://desktop.github.com/)
+    - A GUI to more easily use Git on your machine
+  - Install [Atom](https://atom.io/)
+    - A text editor designed specifically for (and by) GitHub
+  - Install [Prettier](https://prettier.io/)
+    - A plugin for various text editors that helps format code to avoid errors
 
 ### Preparing Git(Hub)
 
-1. Clone the repository:
-   - Using your terminal - `git clone https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby.git`
-   - Using GitHub Desktop - File > Clone repository... > URL tab > "https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby.git"
-2. Navigate to the folder using your terminal - `cd C:\...\cs4all-blueprint-gatsby`
-   - Replace the url with the directory you cloned the repository into
-   - If using GitHub Desktop just hit `CTRL + ~`
-3. Install dependencies - `npm install`
+For more information, check out [GitHub Help](https://help.github.com/en/desktop)
 
-- For more information, check out [GitHub Help](https://help.github.com/en/desktop)
+1. Clone the repository:
+   - If using your terminal, run the following command: `git clone https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby.git`
+   - If using GitHub Desktop: File > Clone repository... > URL tab > "https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby.git"
+2. Navigate to the project in your terminal:
+   - If using your terminal, run the following command: `cd C:\...\cs4all-blueprint-gatsby`
+     - Replace the URL above with the directory you cloned the repository into
+   - If using GitHub Desktop, just hit `CTRL + ~`
+3. Install dependencies:
+   - In your terminal, run the following command: `npm install`
 
 ### Running Locally
 
-1. Navigate to the folder using your terminal - `cd C:\...\cs4all-blueprint-gatsby`
-   - Replace the url with the directory you cloned the repository into
-   - If using GitHub Desktop just hit `CTRL + ~`
-2. Run - `gatsby develop`
+For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.org/tutorial/part-zero/)
+
+1. Navigate to the project in your terminal:
+   - If using your terminal, run the following command: `cd C:\...\cs4all-blueprint-gatsby`
+     - Replace the URL above with the directory you cloned the repository into
+   - If using GitHub Desktop, just hit `CTRL + ~`
+2. Run the development server:
+   - In your terminal, run the following command: `gatsby develop`
 3. Open up a browser tab and navigate to `http://localhost:8000`
    - You can also access the site's [GraphQL](https://graphql.org/) data by going to `http://localhost:8000/___graphql`
 
-- For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.org/tutorial/part-zero/)
-
 ### Deploying Site
 
+For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.com/docs/tutorial/part-eight/)
+
 1. Stop the development server (if running)
-2. Navigate to the folder using your terminal - `cd C:\...\cs4all-blueprint-gatsby`
-   - Replace the url with the directory you cloned the repository into
-   - If using GitHub Desktop just hit `CTRL + ~`
-3. Build - `gatsby build`
-   - To view the production site locally - `gatsby serve`
-   - After the above, you can view the site at `http://localhost:9000`
+2. Navigate to the project in your terminal:
+   - If using your terminal, run the following command: `cd C:\...\cs4all-blueprint-gatsby`
+     - Replace the URL above with the directory you cloned the repository into
+   - If using GitHub Desktop, just hit `CTRL + ~`
+3. Build the project:
+   - In your terminal, run the following command: `gatsby build`
 
-- For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.com/docs/tutorial/part-eight/)
+- **OPTIONAL**: Viewing the production site locally
+  - In your terminal, run the following command: `gatsby serve`
+  - Open up a browser tab and navigate to `http://localhost:9000`
 
-## Accessing and Using WordPress
+## Adding Educator Resources via WordPress
 
-To access the site's WordPress backend, go to https://cs4allblueprint.wordpress.com/wp-admin/ and log in with your user credentials
+1. Access the site's WordPress backend:
+   - Go to https://cs4allblueprint.wordpress.com/wp-admin/
+   - Log in with your user credentials
+2. Determine which layout the resource will take:
+   - Video Only (i.e. [Computer Science Education Week](https://blueprint.cs4all.nyc/resources/42/))
+   - Strategy w/ Modifications (i.e. [Culturally Responsive CS](https://blueprint.cs4all.nyc/resources/3/), with or without video)
+   - General Article (i.e. [How Might I Evaluate Student Progress](https://blueprint.cs4all.nyc/resources/20/))
+   - New layouts may be added if a resource doesn't fit into one of the above formats
+3. Navigate to the _Posts_ section in WordPress
+4. Click _Add New_ in the top left
+5. Type in the content using the following guidelines:
+   - **NOTE**: Use the examples in step 2 as references
+   - Each paragraph should be its own block
+   - Headings should start at H3 and work down
+   - H4 should be in all caps
+   - Links to external sites should be marked to open in a new tab
+   - Images should have a width of approximately 613px and have alt text
+6. Change the following in the right menu (Settings):
+   - **NOTE**: If the settings menu isn't visible, click on the gear next to the _Publish_ button
+   - The author should be _nycdoecs4all_
+   - Update the URL slug to something that makes sense (see other posts for examples)
+   - Check of appropriate categories (used for filtering)
+   - Summarize the page in the excerpt (for the main Educator Resources page)
+7. Click the _Preview_ button to make sure the page displays correctly
+8. Click the _Publish_ button
+   - The page will go live during the next deployment
 
 ## Changelog
 
