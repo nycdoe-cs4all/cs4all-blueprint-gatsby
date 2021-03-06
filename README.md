@@ -18,6 +18,10 @@ This README ended up being longer than intended, so here are quick links to wher
 - [TO DO](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#to-do)
 - [File Structure](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#file-structure)
 - [Setting Up Your Development Environment](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#setting-up-your-development-environment)
+  - [Installing Apps](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#installing-apps)
+  - [Preparing Git(Hub)](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#preparing-github)
+  - [Running Locally](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#running-locally)
+  - [Deploying Site](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#deploying-site)
 - [Adding Educator Resources via WordPress](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#adding-educator-resources-via-wordpress)
 - [Changelog](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#changelog)
 - [For Posterity](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#for-posterity)
@@ -27,13 +31,13 @@ This README ended up being longer than intended, so here are quick links to wher
 - [x] Port [Blueprint 1.0](https://github.com/nycdoe-cs4all/blueprint-learning-site) to GatsbyJS
 - [x] Squash bugs so Blueprint 2.0 looks and functions identical to Blueprint 1.0
 - [x] Organize folder structure
-- [x] Improve code comments (could probably improve further)
-- [x] Update Educator Resource format and structure
+- [x] Improve code comments (_could probably improve further_)
+- [x] Update Educator Resource layouts and structure
 - [x] (_NOT FINAL_) Improve look of curriculum page(s)
 - [x] (_NOT FINAL_) Include references to NYSED standards, 3rd party curriculum, and CS Leads resources
-- [ ] (_IN PROGRESS_) Update README
-- [ ] Create process for adding new Educator Resources in WordPress
-- [ ] Improve site accessibility (i.e. translation, page structure, alt text, etc. Will require sub tasks)
+- [x] Update README
+- [x] Create process for adding new Educator Resources via WordPress
+- [ ] (_IN PROGRESS_) Improve site accessibility (i.e. translation, page structure, alt text, etc. Will require sub tasks)
 - [ ] Improve stylesheets (i.e only import styles for pages that need them)
 - [ ] Make site more modular (i.e make components for items that are used often)
 - [ ] Launch Blueprint 2.0 (estimate May 1, 2021)
@@ -65,7 +69,7 @@ For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.org/t
 3. Install Gatsby
    - In your terminal, run the following command: `npm install -g gatsby-cli`
 
-- **OPTIONAL**: Additional recommended installs
+- **OPTIONAL** - Additional recommended installs:
   - Install [GitHub Desktop](https://desktop.github.com/)
     - A GUI to more easily use Git on your machine
   - Install [Atom](https://atom.io/)
@@ -112,7 +116,7 @@ For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.com/d
 3. Build the project:
    - In your terminal, run the following command: `gatsby build`
 
-- **OPTIONAL**: Viewing the production site locally
+- **OPTIONAL** - Viewing the production site locally:
   - In your terminal, run the following command: `gatsby serve`
   - Open up a browser tab and navigate to `http://localhost:9000`
 
