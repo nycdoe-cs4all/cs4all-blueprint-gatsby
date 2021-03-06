@@ -151,7 +151,9 @@ For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.com/d
 
 From [Dan](https://github.com/danielgaylord)
 
-- Initial update to README to make it easier to follow
+- Updated README to make it easier to follow
+- Added process for adding Educator Resources via WordPress
+- Added project To-do list
 
 ### 3/1/21
 
