@@ -92,10 +92,11 @@ function Accordion(props) {
           href={"#" + props.name}
           onClick={e => updateState(e)}
         >
-          <div
-            className="box-content"
-            dangerouslySetInnerHTML={{ __html: props.header }}
-          />
+          <div className="box-content">
+            <span class='icon'>{props.icon}</span>
+            <h3>{props.header}</h3>
+            {props.statement}
+          </div>
         </a>
       </header>
       <div

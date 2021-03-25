@@ -9,6 +9,11 @@ import SEO from "../components/seo"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import FsLightbox from "fslightbox-react"
 
+import Play from "../assets/svg/icon-play.svg"
+import Foundations from "../assets/svg/icon-foundations.svg"
+import Units from "../assets/svg/icon-units.svg"
+import Resources from "../assets/svg/icon-resources.svg"
+
 /* Video thumbnails */
 import elementarySchoolStudentWork from "../assets/images/elementary-school-student-work.png"
 import middleSchoolStudentWork from "../assets/images/middle-school-student-work.png"
@@ -78,9 +83,7 @@ function IndexPage() {
               >
                 <div className="preview-image">
                   <span className="icon">
-                    <svg>
-                      <use xlinkHref="#icon-play" />
-                    </svg>
+                    <Play/>
                   </span>
                   <img src={elementarySchoolStudentWork} alt="preview" />
                 </div>
@@ -115,9 +118,7 @@ function IndexPage() {
               >
                 <div className="preview-image">
                   <span className="icon">
-                    <svg>
-                      <use xlinkHref="#icon-play" />
-                    </svg>
+                    <Play/>
                   </span>
                   <img src={middleSchoolStudentWork} alt="preview" />
                 </div>
@@ -151,9 +152,7 @@ function IndexPage() {
               >
                 <div className="preview-image">
                   <span className="icon">
-                    <svg>
-                      <use xlinkHref="#icon-play" />
-                    </svg>
+                    <Play/>
                   </span>
                   <img src={highSchoolStudentWork} alt="preview" />
                 </div>
@@ -189,9 +188,7 @@ function IndexPage() {
                 <a className="box" href="/what-is-cs">
                   <div className="box-content">
                     <span className="icon">
-                      <svg>
-                        <use xlinkHref="#icon-foundations" />
-                      </svg>
+                      <Foundations/>
                     </span>
                     <h3>Explanations of CS concepts &amp; practices.</h3>
                     No CS background required!
@@ -203,9 +200,7 @@ function IndexPage() {
                 <a className="box" href="/curriculum">
                   <div className="box-content">
                     <span className="icon">
-                      <svg>
-                        <use xlinkHref="#icon-units" />
-                      </svg>
+                      <Units/>
                     </span>
                     <h3>CS Curriculum</h3>
                     Learn how educators are integrating meaningful CS learning
@@ -218,9 +213,7 @@ function IndexPage() {
                 <a className="box" href="/resources">
                   <div className="box-content">
                     <span className="icon">
-                      <svg>
-                        <use xlinkHref="#icon-resources" />
-                      </svg>
+                      <Resources/>
                     </span>
                     <h3>Tools for teachers of all experience levels.</h3>
                     Preparing your first lesson incorporating CS? Looking for

@@ -8,6 +8,12 @@ import Layout from "../components/layout"
 import Accordion from "../components/accordion"
 import SEO from "../components/seo"
 
+import Abstraction from "../assets/svg/icon-abstraction.svg"
+import Algorithm from "../assets/svg/icon-algorithm.svg"
+import Programming from "../assets/svg/icon-programming.svg"
+import Data from "../assets/svg/icon-data.svg"
+import Network from "../assets/svg/icon-network.svg"
+
 /* Component */
 class Concepts extends React.Component {
   /* Constructor */
@@ -51,11 +57,9 @@ class Concepts extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="concept-abstraction"
-              header="
-                <span class='icon'><svg><use xlink:href='#icon-abstraction' /></svg></span>
-                <h3>Abstraction</h3>
-                Extracting essential details and repeatable patterns from a more complex system.
-              "
+              icon={<Abstraction/>}
+              header="Abstraction"
+              statement="Extracting essential details and repeatable patterns from a more complex system."
               content="
                 <p>An abstraction represents a simplified idea or problem derived by ignoring details and using patterns or general characteristics. A simple example of a CS abstraction can be found in programming languages: They allow programmers to give complex instructions to computers without worrying about the bits &amp; bytes!</p>
                 <table>
@@ -108,11 +112,9 @@ class Concepts extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="concept-algorithms"
-              header="
-                <span class='icon'><svg><use xlink:href='#icon-algorithm' /></svg></span>
-                <h3>Algorithms</h3>
-                Instructions that convert a set of inputs into a desired output (kind of like a recipe).
-              "
+              icon={<Algorithm/>}
+              header="Algorithms"
+              statement="Instructions that convert a set of inputs into a desired output (kind of like a recipe)."
               content="
                 <p>Algorithms are a generalized and repeatable sequence of instructions that achieve a particular purpose and output, given a set of inputs. It&#39;s important to understand when, why and how to implement an algorithm, and to consider who or what might be affected.</p>
                 <table>
@@ -165,11 +167,9 @@ class Concepts extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="concept-programming"
-              header="
-                <span class='icon'><svg><use xlink:href='#icon-programming' /></svg></span>
-                <h3>Programming</h3>
-                Giving instructions to computers in a human language.
-              "
+              icon={<Programming/>}
+              header="Programming"
+              statement="Giving instructions to computers in a human language."
               content="
                 <p>Programming is about giving instructions to computers. Programming can be done through a constantly changing set of languages. Each language is translated from human-readable code into machine code that can be executed by the computer&rsquo;s central processing unit, CPU.</p>
                 <table>
@@ -216,11 +216,9 @@ class Concepts extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="concept-data"
-              header="
-                <span class='icon'><svg><use xlink:href='#icon-data' /></svg></span>
-                <h3>Data</h3>
-                Information that can be collected, stored, and processed by a computer.
-              "
+              icon={<Data/>}
+              header="Data"
+              statement="Information that can be collected, stored, and processed by a computer."
               content="
                 <p>Computers can be used to collect, store and analyze massive amounts of data quickly and reliably. Computer programs can use data to make decisions or to automate tasks.</p>
                 <table>
@@ -270,11 +268,9 @@ class Concepts extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="concept-networks"
-              header="
-                <span class='icon'><svg><use xlink:href='#icon-network' /></svg></span>
-                <h3>Networks</h3>
-                Connections between computers that allow them to share data.
-              "
+              icon={<Network/>}
+              header="Networks"
+              statement="Connections between computers that allow them to share data."
               content="
                 <p>Networks, like the Internet, allow computers to interface with other computers through a set of rules, or protocols, that define how computers send and receive data. Protocols and standards are created and agreed upon by groups of people.</p>
                 <table>

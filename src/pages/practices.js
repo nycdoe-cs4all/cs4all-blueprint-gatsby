@@ -8,6 +8,10 @@ import Layout from "../components/layout"
 import Accordion from "../components/accordion"
 import SEO from "../components/seo"
 
+import Analyze from "../assets/svg/icon-analyze.svg"
+import Prototype from "../assets/svg/icon-prototype.svg"
+import Communicate from "../assets/svg/icon-communicate.svg"
+
 /* Component */
 class Practices extends React.Component {
   /* Constructor */
@@ -55,11 +59,9 @@ class Practices extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="practice-analyze"
-              header="
-                <span class='icon'><svg><use xlink:href='#icon-analyze' /></svg></span>
-                <h3>Analyzing</h3>
-                “I can develop a deeper understanding of computing applications.”
-              "
+              icon={<Analyze/>}
+              header="Analyzing"
+              statement="I can develop a deeper understanding of computing applications."
               content="
                 <p>Students interact with computing applications created by government, industry, startups, nonprofits, researchers, artists and many others.They need to evaluate and respond to the ways that these applications affect their lives, their families and friends, as well as their communities. </p>
                 <p>In order build their ability to analyze computing applications, educators should help students develop these skills:</p>
@@ -102,11 +104,9 @@ class Practices extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="practice-prototype"
-              header="
-                <span class='icon'><svg><use xlink:href='#icon-prototype' /></svg></span>
-                <h3>Prototyping</h3>
-                “I can express my ideas by making computing projects.”
-              "
+              icon={<Prototype/>}
+              header="Prototyping"
+              statement="I can express my ideas by making computing projects."
               content="
                 <p>The goal of the prototyping practice is to help students build a mental model of how to use a computer to create new applications. Computer applications or programs like word processors or web browsers define how students use computers in a limited way. When students practice prototyping computing projects, they are creating their own applications; using computers in different ways than when they use a word processor or web browser.</p>
                 <p>There are many versions of and names for the prototyping process such as the engineering design process, design thinking process, and others that map to process and skills discussed below:</p>
@@ -149,11 +149,9 @@ class Practices extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="practice-communicate"
-              header="
-                <span class='icon'><svg><use xlink:href='#icon-communicate' /></svg></span>
-                <h3>Communicating</h3>
-                “I can engage others in my ideas and work on computing concepts.”
-              "
+              icon={<Communicate/>}
+              header="Communicating"
+              statement="I can engage others in my ideas and work on computing concepts."
               content="
                 <p>Students will have to communicate the complex thought processes behind their computer science work when they collaborate with professors, advisors, project leaders, customers and others across a range of different fields. These stakeholders will be interested in the ‘how’ and ‘why’ behind students’ projects and analyses.</p>
                 <p>Students should practice the skills required to communicate their higher-order CS thinking, go through the <a href='#practice-analyze'>analyze</a> and <a href='#practice-prototype'>prototype</a> practices, and not just complete those activities.</p>

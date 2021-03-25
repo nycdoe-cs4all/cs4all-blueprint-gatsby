@@ -6,6 +6,13 @@
 /* Imports */
 import React, { useState } from "react"
 
+import Foundations from "../assets/svg/icon-foundations.svg"
+import Units from "../assets/svg/icon-units.svg"
+import Resources from "../assets/svg/icon-resources.svg"
+import Blueprint from "../assets/svg/icon-blueprint.svg"
+import Logo from "../assets/svg/logo-cs4all.svg"
+import Menu from "../assets/svg/icon-menu.svg"
+
 /* Component */
 const Navbar = () => {
   /* Variables */
@@ -19,9 +26,7 @@ const Navbar = () => {
         <a href="/">
           <h1>
             <span className="icon">
-              <svg>
-                <use xlinkHref="#logo-cs4all" />
-              </svg>
+              <Logo/>
             </span>
             <span className="label"></span>
           </h1>
@@ -41,9 +46,7 @@ const Navbar = () => {
             role="button"
           >
             <span className="icon">
-              <svg>
-                <use xlinkHref="#icon-menu" />
-              </svg>
+              <Menu/>
             </span>
             <span className="label">Menu</span>
           </a>
@@ -55,9 +58,7 @@ const Navbar = () => {
             <li className="compressed parent-menu">
               <a href="/what-is-cs">
                 <span className="icon">
-                  <svg>
-                    <use xlinkHref="#icon-foundations" />
-                  </svg>
+                  <Foundations/>
                 </span>
                 <span className="preamble">CS</span> Foundations
               </a>
@@ -92,9 +93,7 @@ const Navbar = () => {
             <li>
               <a href="/curriculum">
                 <span className="icon">
-                  <svg>
-                    <use xlinkHref="#icon-units" />
-                  </svg>
+                  <Units/>
                 </span>
                 <span className="preamble">Curriculum</span> Catalog
               </a>
@@ -102,9 +101,7 @@ const Navbar = () => {
             <li>
               <a href="/resources">
                 <span className="icon">
-                  <svg>
-                    <use xlinkHref="#icon-resources" />
-                  </svg>
+                  <Resources/>
                 </span>
                 <span className="preamble">Educator</span> Resources
               </a>
@@ -112,9 +109,7 @@ const Navbar = () => {
             <li>
               <a href="/about">
                 <span className="icon">
-                  <svg>
-                    <use xlinkHref="#icon-blueprint" />
-                  </svg>
+                  <Blueprint/>
                 </span>
                 <span className="preamble">About</span> Blueprint
               </a>

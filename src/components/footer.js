@@ -6,6 +6,8 @@
 /* Imports */
 import React from "react"
 
+import CreativeCommons from "../assets/svg/icon-cc-by-nc-sa.svg"
+
 /* Component */
 const Footer = () => (
   <div id="footer">
@@ -15,9 +17,7 @@ const Footer = () => (
       rel="license noreferrer"
     >
       <span className="icon">
-        <svg>
-          <use xlinkHref="#icon-cc-by-nc-sa" />
-        </svg>
+        <CreativeCommons/>
       </span>
       This work is licensed under a Creative Commons
       Attribution-NonCommercial-ShareAlike 4.0 International License.

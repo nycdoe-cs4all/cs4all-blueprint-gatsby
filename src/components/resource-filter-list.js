@@ -7,6 +7,9 @@
 import React, { useState } from "react"
 import { StaticQuery, graphql } from "gatsby"
 
+import Open from "../assets/svg/icon-open.svg"
+import Close from "../assets/svg/icon-close.svg"
+
 /* Component */
 const ResourceFilterList = function (props) {
   /* Variables */
@@ -53,14 +56,10 @@ const ResourceFilterList = function (props) {
               >
                 <h3>
                   <span className="icon open">
-                    <svg>
-                      <use xlinkHref="#icon-open" />
-                    </svg>
+                    <Open/>
                   </span>
                   <span className="icon close">
-                    <svg>
-                      <use xlinkHref="#icon-close" />
-                    </svg>
+                    <Close/>
                   </span>
                   <span className="label">Filter Resources</span>
                 </h3>

@@ -8,6 +8,11 @@ import Layout from "../components/layout"
 import Accordion from "../components/accordion"
 import SEO from "../components/seo"
 
+import Explorer from "../assets/svg/icon-explorer.svg"
+import Creator from "../assets/svg/icon-creator.svg"
+import Innovator from "../assets/svg/icon-innovator.svg"
+import Citizen from "../assets/svg/icon-citizen.svg"
+
 /* Component */
 class Perspectives extends React.Component {
   /* Constructor */
@@ -55,11 +60,9 @@ class Perspectives extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="perspective-explorer"
-              header="
-                <span class='icon'><svg><use xlink:href='#icon-explorer' /></svg></span>
-                <h3>Explorer</h3>
-                At the beginning of their journey, students learn CS concepts and practices by manipulating physical models and working in guided digital environments.
-              "
+              icon={<Explorer/>}
+              header="Explorer"
+              statement="At the beginning of their journey, students learn CS concepts and practices by manipulating physical models and working in guided digital environments."
               content="
                 <div class='introduction col-sm-6 col-md-7'>
                   <p class='headline'>&ldquo;I can play with computing practices and concepts.&rdquo;</p>
@@ -85,11 +88,9 @@ class Perspectives extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="perspective-creator"
-              header="
-                <span class='icon'><svg><use xlink:href='#icon-creator' /></svg></span>
-                <h3>Creator</h3>
-                Continuing on their journey, students excited by the possibilities of computing can use friendly, open-ended physical and digital tools to represent their ideas, thoughts, or interests.
-              "
+              icon={<Creator/>}
+              header="Creator"
+              statement="Continuing on their journey, students excited by the possibilities of computing can use friendly, open-ended physical and digital tools to represent their ideas, thoughts, or interests."
               content="
                 <div class='introduction col-sm-7'>
                   <p class='headline'>&ldquo;I can express myself with computing practices and concepts&rdquo;</p>
@@ -114,11 +115,9 @@ class Perspectives extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="perspective-innovator"
-              header="
-                <span class='icon'><svg><use xlink:href='#icon-innovator' /></svg></span>
-                <h3>Innovator</h3>
-                Innovators build and share ideas, thoughts, and interests with others by contributing to or building on other projects.
-              "
+              icon={<Innovator/>}
+              header="Innovator"
+              statement="Innovators build and share ideas, thoughts, and interests with others by contributing to or building on other projects."
               content="
                 <div class='introduction col-sm-7'>
                   <p class='headline'>&ldquo;I can connect to the work of others using computing practices and concepts.&rdquo;</p>
@@ -143,11 +142,9 @@ class Perspectives extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="perspective-citizen"
-              header="
-                <span class='icon'><svg><use xlink:href='#icon-citizen' /></svg></span>
-                <h3>Citizen</h3>
-                Citizens explore the systemic impact and application of computing by studying the current and historical context of the field.
-              "
+              icon={<Citizen/>}
+              header="Citizen"
+              statement="Citizens explore the systemic impact and application of computing by studying the current and historical context of the field."
               content="
                 <div class='introduction col-sm-7'>
                   <p class='headline'>&ldquo;I can question how computing practices and concepts affect my community.&rdquo;</p>

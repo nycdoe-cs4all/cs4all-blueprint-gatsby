@@ -9,6 +9,19 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Explorer from "../assets/svg/icon-explorer.svg"
+import Creator from "../assets/svg/icon-creator.svg"
+import Innovator from "../assets/svg/icon-innovator.svg"
+import Citizen from "../assets/svg/icon-citizen.svg"
+import Analyze from "../assets/svg/icon-analyze.svg"
+import Prototype from "../assets/svg/icon-prototype.svg"
+import Communicate from "../assets/svg/icon-communicate.svg"
+import Abstraction from "../assets/svg/icon-abstraction.svg"
+import Algorithm from "../assets/svg/icon-algorithm.svg"
+import Programming from "../assets/svg/icon-programming.svg"
+import Data from "../assets/svg/icon-data.svg"
+import Network from "../assets/svg/icon-network.svg"
+
 /* Component */
 const WhatIsCS = () => (
   <Layout>
@@ -43,24 +56,16 @@ const WhatIsCS = () => (
                 <div className="box-content">
                   <div className="icon-set">
                     <span className="icon">
-                      <svg>
-                        <use xlinkHref="#icon-explorer" />
-                      </svg>
+                      <Explorer/>
                     </span>
                     <span className="icon">
-                      <svg>
-                        <use xlinkHref="#icon-creator" />
-                      </svg>
+                      <Creator/>
                     </span>
                     <span className="icon">
-                      <svg>
-                        <use xlinkHref="#icon-innovator" />
-                      </svg>
+                      <Innovator/>
                     </span>
                     <span className="icon">
-                      <svg>
-                        <use xlinkHref="#icon-citizen" />
-                      </svg>
+                      <Citizen/>
                     </span>
                   </div>
                   <h3>Perspectives</h3>
@@ -75,19 +80,13 @@ const WhatIsCS = () => (
                 <div className="box-content">
                   <div className="icon-set">
                     <span className="icon">
-                      <svg>
-                        <use xlinkHref="#icon-analyze" />
-                      </svg>
+                      <Analyze/>
                     </span>
                     <span className="icon">
-                      <svg>
-                        <use xlinkHref="#icon-prototype" />
-                      </svg>
+                      <Prototype/>
                     </span>
                     <span className="icon">
-                      <svg>
-                        <use xlinkHref="#icon-communicate" />
-                      </svg>
+                      <Communicate/>
                     </span>
                   </div>
                   <h3>Practices</h3>
@@ -103,24 +102,16 @@ const WhatIsCS = () => (
                 <div className="box-content">
                   <div className="icon-set">
                     <span className="icon">
-                      <svg>
-                        <use xlinkHref="#icon-algorithm" />
-                      </svg>
+                      <Algorithm/>
                     </span>
                     <span className="icon">
-                      <svg>
-                        <use xlinkHref="#icon-programming" />
-                      </svg>
+                      <Programming/>
                     </span>
                     <span className="icon">
-                      <svg>
-                        <use xlinkHref="#icon-data" />
-                      </svg>
+                      <Data/>
                     </span>
                     <span className="icon">
-                      <svg>
-                        <use xlinkHref="#icon-network" />
-                      </svg>
+                      <Network/>
                     </span>
                   </div>
                   <h3>Concepts</h3>
@@ -143,14 +134,10 @@ const WhatIsCS = () => (
                 <div className="icon-set">
                   <span className="icon"></span>
                   <span className="icon">
-                    <svg>
-                      <use xlinkHref="#icon-communicate" />
-                    </svg>
+                    <Communicate/>
                   </span>
                   <span className="icon">
-                    <svg>
-                      <use xlinkHref="#icon-abstraction" />
-                    </svg>
+                    <Abstraction/>
                   </span>
                 </div>
                 <h3>Student Outcomes</h3>
