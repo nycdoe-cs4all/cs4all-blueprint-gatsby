@@ -2,6 +2,7 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -11,6 +12,7 @@
   0% {
     color: transparent;
   }
+
   100% {
     color: #fff;
   }
@@ -20,6 +22,7 @@
   0% {
     color: transparent;
   }
+
   100% {
     color: #a1cc3b;
   }
@@ -29,6 +32,7 @@
   0% {
     color: transparent;
   }
+
   100% {
     color: #8ac8ff;
   }
@@ -38,6 +42,7 @@
   0% {
     border-color: transparent;
   }
+
   100% {
     border-color: #8ac8ff;
   }
@@ -47,6 +52,7 @@
   0% {
     transform: scale(0.9, 0.95);
   }
+
   100% {
     transform: scale(1, 1);
   }
@@ -56,6 +62,7 @@
   0% {
     transform: scale(0, 1);
   }
+
   100% {
     transform: scale(1, 1);
   }
@@ -65,6 +72,7 @@
   0% {
     transform: scale(1, 0);
   }
+
   100% {
     transform: scale(1, 1);
   }
@@ -74,6 +82,7 @@
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -153,48 +162,59 @@ nav h1 {
     transition: none;
     /* Hack to make Safari behave itself */
   }
+
   /* Loading Animations */
   .animation .jumbotron a.btn:before,
   .animation .jumbotron a.btn:after {
     animation: draw-horizontal 2s ease-in 1s backwards;
   }
+
   .animation .jumbotron .box:before,
   .animation .jumbotron .box:after {
     animation: draw-vertical 1s ease-in 2.5s backwards;
   }
+
   .animation #masthead {
     animation: reveal 1s ease-in 4.5s backwards;
   }
+
   .animation .interior-container,
   .animation .light-theme {
     animation: reveal 1s ease-in 5s backwards;
   }
+
   .animation .jumbotron a.btn {
     animation: text-reveal-blue 1s ease-in 3.5s backwards,
       border-reveal-blue 1s ease-in 4s backwards;
   }
+
   .animation .jumbotron {
     animation: text-reveal 2s ease-in 3.1s backwards;
   }
+
   .animation .jumbotron p a {
     display: inline-block;
     animation: text-reveal-green 0.5s ease-in 1s backwards,
       grow 1s ease-out 1s backwards;
   }
+
   .animation .jumbotron .intro-1,
   .animation .jumbotron .intro-2,
   .animation .jumbotron .intro-3 {
     color: #fff;
     display: inline-block;
   }
+
   .animation .jumbotron .intro-1 {
     animation: text-reveal 0.5s ease-in 1.8s backwards,
       grow 1s ease-out 1.8s backwards;
   }
+
   .animation .jumbotron .intro-2 {
     animation: text-reveal 0.5s ease-in 2.3s backwards,
       grow 1s ease-out 2.3s backwards;
   }
+
   .animation .jumbotron .intro-3 {
     animation: text-reveal 0.5s ease-in 2.7s backwards,
       grow 1s ease-out 2.7s backwards;

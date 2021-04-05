@@ -3,6 +3,7 @@
   padding: 0 0 32px;
   margin: 0 -2px 32px;
 }
+
 .fellow {
   position: relative;
   font-size: 14px;
@@ -16,6 +17,7 @@
   border-radius: 4px;
   overflow: hidden;
 }
+
 .fellow h4 {
   margin: -16px;
   padding: 16px 16px 32px;
@@ -24,6 +26,7 @@
   position: relative;
   z-index: 1;
 }
+
 .fellow h4:before {
   position: absolute;
   top: 0;
@@ -41,6 +44,7 @@
   transition: opacity 0.4s;
   opacity: 1;
 }
+
 .fellow:hover h4:before {
   opacity: 0;
 }
