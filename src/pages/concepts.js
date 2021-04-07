@@ -20,8 +20,12 @@ class Concepts extends React.Component {
   constructor(props) {
     super(props)
     this.handleState = this.handleState.bind(this)
-    if (window.location.hash) {
-      this.state = { state: window.location.href.split("#")[1] }
+    if (typeof window !== 'undefined') {
+      if (window.location.hash) {
+        this.state = { state: window.location.href.split("#")[1] }
+      } else {
+        this.state = { state: "none" }
+      }
     } else {
       this.state = { state: "none" }
     }
