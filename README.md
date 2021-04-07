@@ -151,6 +151,12 @@ For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.com/d
 
 ## Changelog
 
+### 4/7/21
+
+From [Dan](https://github.com/danielgaylord)
+
+- Added code to account for variables being undefined or the incorrect type
+
 ### 3/5/21
 
 From [Dan](https://github.com/danielgaylord)
