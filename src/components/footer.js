@@ -17,11 +17,22 @@ const Footer = () => (
       rel="license noreferrer"
     >
       <span className="icon">
-        <CreativeCommons/>
+        <CreativeCommons />
       </span>
       This work is licensed under a Creative Commons
       Attribution-NonCommercial-ShareAlike 4.0 International License.
     </a>
+    <br/><br/>
+    We are working to make this website easier to access for people with
+    disabilities, and will follow the{" "}
+    <a href="http://www.w3.org/WAI/intro/wcag" target="_blank" rel="noreferrer">
+      Web Content Accessibility Guidelines 2.0, Level AA
+    </a>.
+    <br/>
+    If you need assistance with a particular page or document on our current
+    site, please email{" "}
+    <a href="mailto:dgaylord@strongschools.nyc">Daniel Gaylord</a> for
+    assistance.
   </div>
 )
 

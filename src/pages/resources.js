@@ -25,8 +25,9 @@ function Resource(props) {
 
           <div className="article-content">
             <p>
-              These resources were created and vetted by the Blueprint Fellows
-              and CS Education Team, for additional resources created by
+              These resources were created and vetted by the{" "}
+              <a href="/about#fellow-list">Blueprint Fellows</a>{" "}
+              and the CS Education Team, for additional resources created by
               teachers in the CS Leads program visit their site &lt;Link Coming
               Soon!&gt;
             </p>
