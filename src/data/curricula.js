@@ -1,3 +1,4 @@
+/* Curriculum pictures */
 import k2Units from "../assets/images/k2-units.jpg"
 import three5Units from "../assets/images/35-units.jpg"
 import six8Units from "../assets/images/68-units.jpg"
@@ -17,6 +18,7 @@ import csP from "../assets/images/cs-principles.jpg"
 import csA from "../assets/images/cs-a.gif"
 import csAndTheCity from "../assets/images/cs-and-the-city.gif"
 
+// Curriculum data
 const curricula = {
   elementary: [
     {

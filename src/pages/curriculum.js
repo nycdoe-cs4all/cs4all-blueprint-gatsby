@@ -52,7 +52,10 @@ const Curriculum = () => (
 
           <header className="orange-theme">
             <div className="box">
-              <div className="box-content">
+              <div
+                className="box-content"
+                style={{ padding: "12px", "text-align": "center" }}
+              >
                 <h3>Elementary School Curriculum</h3>
               </div>
             </div>
@@ -73,7 +76,10 @@ const Curriculum = () => (
 
           <header className="orange-theme">
             <div className="box">
-              <div className="box-content">
+              <div
+                className="box-content"
+                style={{ padding: "12px", "text-align": "center" }}
+              >
                 <h3>Middle School Curriculum</h3>
               </div>
             </div>
@@ -94,7 +100,10 @@ const Curriculum = () => (
 
           <header className="orange-theme">
             <div className="box">
-              <div className="box-content">
+              <div
+                className="box-content"
+                style={{ padding: "12px", "text-align": "center" }}
+              >
                 <h3>High School Curriculum</h3>
               </div>
             </div>
