@@ -27,6 +27,52 @@ import csP from "../assets/images/cs-principles.jpg"
 import csA from "../assets/images/cs-a.gif"
 import csAndTheCity from "../assets/images/cs-and-the-city.gif"
 
+const curricula = {
+  elementary: [
+    {
+      link: "/curriculum/software-engineering-program-jr",
+      pic: sepJr,
+      altText: "Software Engineering Program Jr",
+      activityGrade: "Grades K-5",
+      activityTitle: "Software Engineering Program Junior",
+      activityDevices: "K-5 Sequence",
+      activityConcepts:
+        "Concepts: Abstraction, Algorithms, Programming, Data, Networks",
+    },
+    {
+      link: "/curriculum/k-2-integrated-units",
+      pic: k2Units,
+      altText: "K-2 Integrated Units",
+      activityGrade: "Grades K-2",
+      activityTitle: "K-2 Integrated Units",
+      activityDevices: "16-20 Hour Unit",
+      activityConcepts: "Concepts: Abstraction, Algorithms, Programming",
+    },
+    {
+      link: "/curriculum/3-5-integrated-units",
+      pic: three5Units,
+      altText: "3-5 Integrated Units",
+      activityGrade: "Grades 3-5",
+      activityTitle: "3-5 Integrated Units",
+      activityDevices: "16-20 Hour Unit",
+      activityConcepts: "Concepts: Abstraction, Algorithms, Programming",
+    },
+  ],
+  middle: [],
+  high: [],
+}
+
+// ,
+//     {
+//       link: "",
+//       pic: ,
+//       altText: "",
+//       activityGrade: "",
+//       activityTitle: "",
+//       activityDevices: "",
+//       activityConcepts: "",
+//     }
+
 /* Component */
 const Curriculum = () => (
   <Layout>
@@ -66,73 +112,46 @@ const Curriculum = () => (
             standards.
           </p>
 
-          <header className="orange-theme">
+          {/* <header className="orange-theme">
             <div className="box">
               <div className="box-content">
                 <h3>Elementary School Curriculum</h3>
               </div>
             </div>
-          </header>
-
+          </header> */}
           <ul className="activity-list">
-            <li>
-              <a href="/curriculum/software-engineering-program-jr">
-                <div className="preview">
-                  <img src={sepJr} alt="Software Engineering Program Jr" />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grades K-5</span>
-                  <span className="activity-title">
-                    Software Engineering Program Junior
+            {curricula.elementary.map(curriculum => (
+              <li>
+                <a href={curriculum.link}>
+                  <div className="preview">
+                    <img src={curriculum.pic} alt={curriculum.altText} />
+                  </div>
+                  <h3>
+                    <span className="activity-grade">
+                      {curriculum.activityGrade}
+                    </span>
+                    <span className="activity-title">
+                      {curriculum.activityTitle}
+                    </span>
+                  </h3>
+                  <span className="activity-devices">
+                    {curriculum.activityDevices}
                   </span>
-                </h3>
-                <span className="activity-devices">K-5 Sequence</span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming, Data, Networks
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/k-2-integrated-units">
-                <div className="preview">
-                  <img src={k2Units} alt="K-2 Integrated Units" />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grades K-2</span>
-                  <span className="activity-title">K-2 Integrated Units</span>
-                </h3>
-                <span className="activity-devices">16-20 Hour Unit</span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/3-5-integrated-units">
-                <div className="preview">
-                  <img src={three5Units} alt="3-5 Integrated Units" />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grades 3-5</span>
-                  <span className="activity-title">3-5 Integrated Units</span>
-                </h3>
-                <span className="activity-devices">16-20 Hour Unit</span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming
-                </span>
-              </a>
-            </li>
+                  <span className="activity-concepts">
+                    {curriculum.activityConcepts}
+                  </span>
+                </a>
+              </li>
+            ))}
           </ul>
 
-          <header className="orange-theme">
+          {/* <header className="orange-theme">
             <div className="box">
               <div className="box-content">
                 <h3>Middle School Curriculum</h3>
               </div>
             </div>
-          </header>
+          </header> */}
 
           <ul className="activity-list">
             <li>
