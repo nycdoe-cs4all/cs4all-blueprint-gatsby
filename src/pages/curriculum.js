@@ -6,6 +6,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import CurriculumCard from "../components/CurriculumCard"
 
 /* Curriculum pictures */
 import k2Units from "../assets/images/k2-units.jpg"
@@ -265,27 +266,15 @@ const Curriculum = () => (
           </header>
           <ul className="activity-list">
             {curricula.elementary.map(curriculum => (
-              <li>
-                <a href={curriculum.link}>
-                  <div className="preview">
-                    <img src={curriculum.pic} alt={curriculum.altText} />
-                  </div>
-                  <h3>
-                    <span className="activity-grade">
-                      {curriculum.activityGrade}
-                    </span>
-                    <span className="activity-title">
-                      {curriculum.activityTitle}
-                    </span>
-                  </h3>
-                  <span className="activity-devices">
-                    {curriculum.activityDevices}
-                  </span>
-                  <span className="activity-concepts">
-                    {curriculum.activityConcepts}
-                  </span>
-                </a>
-              </li>
+              <CurriculumCard
+                link={curriculum.link}
+                pic={curriculum.pic}
+                alt={curriculum.altText}
+                grade={curriculum.activityGrade}
+                title={curriculum.activityTitle}
+                devices={curriculum.activityDevices}
+                concepts={curriculum.activityConcepts}
+              />
             ))}
           </ul>
 
@@ -298,27 +287,15 @@ const Curriculum = () => (
           </header>
           <ul className="activity-list">
             {curricula.middle.map(curriculum => (
-              <li>
-                <a href={curriculum.link}>
-                  <div className="preview">
-                    <img src={curriculum.pic} alt={curriculum.altText} />
-                  </div>
-                  <h3>
-                    <span className="activity-grade">
-                      {curriculum.activityGrade}
-                    </span>
-                    <span className="activity-title">
-                      {curriculum.activityTitle}
-                    </span>
-                  </h3>
-                  <span className="activity-devices">
-                    {curriculum.activityDevices}
-                  </span>
-                  <span className="activity-concepts">
-                    {curriculum.activityConcepts}
-                  </span>
-                </a>
-              </li>
+              <CurriculumCard
+                link={curriculum.link}
+                pic={curriculum.pic}
+                alt={curriculum.altText}
+                grade={curriculum.activityGrade}
+                title={curriculum.activityTitle}
+                devices={curriculum.activityDevices}
+                concepts={curriculum.activityConcepts}
+              />
             ))}
           </ul>
 
@@ -331,27 +308,36 @@ const Curriculum = () => (
           </header>
           <ul className="activity-list">
             {curricula.high.map(curriculum => (
-              <li>
-                <a href={curriculum.link}>
-                  <div className="preview">
-                    <img src={curriculum.pic} alt={curriculum.altText} />
-                  </div>
-                  <h3>
-                    <span className="activity-grade">
-                      {curriculum.activityGrade}
-                    </span>
-                    <span className="activity-title">
-                      {curriculum.activityTitle}
-                    </span>
-                  </h3>
-                  <span className="activity-devices">
-                    {curriculum.activityDevices}
-                  </span>
-                  <span className="activity-concepts">
-                    {curriculum.activityConcepts}
-                  </span>
-                </a>
-              </li>
+              <CurriculumCard
+                link={curriculum.link}
+                pic={curriculum.pic}
+                alt={curriculum.altText}
+                grade={curriculum.activityGrade}
+                title={curriculum.activityTitle}
+                devices={curriculum.activityDevices}
+                concepts={curriculum.activityConcepts}
+              />
+              // <li>
+              //   <a href={curriculum.link}>
+              //     <div className="preview">
+              //       <img src={curriculum.pic} alt={curriculum.altText} />
+              //     </div>
+              //     <h3>
+              //       <span className="activity-grade">
+              //         {curriculum.activityGrade}
+              //       </span>
+              //       <span className="activity-title">
+              //         {curriculum.activityTitle}
+              //       </span>
+              //     </h3>
+              //     <span className="activity-devices">
+              //       {}
+              //     </span>
+              //     <span className="activity-concepts">
+              //       {}
+              //     </span>
+              //   </a>
+              // </li>
             ))}
           </ul>
         </div>
