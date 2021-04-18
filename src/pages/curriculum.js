@@ -58,20 +58,164 @@ const curricula = {
       activityConcepts: "Concepts: Abstraction, Algorithms, Programming",
     },
   ],
-  middle: [],
-  high: [],
+  middle: [
+    {
+      link: "/curriculum/software-engineering-program/",
+      pic: sepHackathon,
+      altText: "Software Engineering Program",
+      activityGrade: "Grade 6-12",
+      activityTitle: "Software Engineering Program",
+      activityDevices: "6-12 Sequence",
+      activityConcepts: "Concepts: Abstraction, Algorithms, Programming",
+    },
+    {
+      link: "/curriculum/6-8-integrated-units",
+      pic: six8Units,
+      altText: "6-8 Integrated Units",
+      activityGrade: "Grades 6-8",
+      activityTitle: "6-8 Integrated Units",
+      activityDevices: "16-20 Hour Unit",
+      activityConcepts: "Concepts: Abstraction, Algorithms, Programming",
+    },
+    {
+      link: "/curriculum/creative-computing/",
+      pic: creativeComputing,
+      altText: "Creative Computing",
+      activityGrade: "Grade 6",
+      activityTitle: "Creative Computing",
+      activityDevices: "Software Engineering Program: 54 Hour Course",
+      activityConcepts: "Concepts: Abstraction, Algorithms, Programming, Data",
+    },
+    {
+      link: "/curriculum/critical-computing/",
+      pic: criticalComputing,
+      altText: "Critical Computing",
+      activityGrade: "Grade 6",
+      activityTitle: "Critical Computing",
+      activityDevices: "Software Engineering Program: 54 Hour Course",
+      activityConcepts: "Concepts: Abstraction, Algorithms, Programming, Data",
+    },
+    {
+      link: "/curriculum/creative-web/",
+      pic: creativeWeb,
+      altText: "Creative Web",
+      activityGrade: "Grade 7",
+      activityTitle: "Creative Web",
+      activityDevices: "Software Engineering Program: 54 Hour Course",
+      activityConcepts:
+        "Concepts: Abstraction, Algorithms, Programming, Data, Networks",
+    },
+    {
+      link: "/curriculum/intro-to-pcomp/",
+      pic: physicalComputing,
+      altText: "Introduction to Physical Computing",
+      activityGrade: "Grade 7",
+      activityTitle: "Introduction to Physical Computing",
+      activityDevices: "Software Engineering Program: 54 Hour Course",
+      activityConcepts:
+        "Concepts: Abstraction, Algorithms, Programming, Data, Networks",
+    },
+    {
+      link: "/curriculum/cs-discoveries/",
+      pic: csDiscoveries,
+      altText: "code.org CS Discoveries",
+      activityGrade: "Grades 6-8",
+      activityTitle: "code.org CS Discoveries",
+      activityDevices: "108 Hour Course",
+      activityConcepts:
+        "Concepts: Abstraction, Algorithms, Programming, Data, Networks",
+    },
+  ],
+  high: [
+    {
+      link: "/curriculum/software-engineering-program/",
+      pic: sepHackathon,
+      altText: "Software Engineering Program",
+      activityGrade: "Grade 6-12",
+      activityTitle: "Software Engineering Program",
+      activityDevices: "6-12 Sequence",
+      activityConcepts: "Concepts: Abstraction, Algorithms, Programming",
+    },
+    {
+      link: "/curriculum/bootstrap-data-science/",
+      pic: bootstrapDataScience,
+      altText: "Bootstrap Data Science",
+      activityGrade: "Grades 9-10",
+      activityTitle: "Bootstrap: Data Science",
+      activityDevices: "54 Hour Course",
+      activityConcepts: "Concepts: Abstraction, Algorithms, Programming, Data",
+    },
+    {
+      link: "/curriculum/exploring-cs/",
+      pic: exploringCS,
+      altText: "Exploring Computer Science",
+      activityGrade: "Grades 9-10",
+      activityTitle: "Exploring Computer Science",
+      activityDevices: "108 Hour Course",
+      activityConcepts:
+        "Concepts: Abstraction, Algorithms, Programming, Data, Networks",
+    },
+    {
+      link: "/curriculum/teals-intro-to-cs/",
+      pic: teals,
+      altText: "TEALS Introduction to Computer Science",
+      activityGrade: "Grade 9-10",
+      activityTitle: "TEALS Introduction to Computer Science",
+      activityDevices: "54 Hour Course",
+      activityConcepts: "Concepts: Abstraction, Algorithms, Programming, Data",
+    },
+    {
+      link: "/curriculum/intro-to-computational-media/",
+      pic: introToCompMedia,
+      altText: "Introduction to Computational Media",
+      activityGrade: "Grade 9-10",
+      activityTitle: "Introduction to Computational Media",
+      activityDevices: "Software Engineering Program: 108 Hour Course",
+      activityConcepts: "Concepts: Abstraction, Algorithms, Programming, Data",
+    },
+    {
+      link: "/curriculum/tangible-interfaces/",
+      pic: tangibleInterfaces,
+      altText: "Tangible Interfaces",
+      activityGrade: "Grade 10-11",
+      activityTitle: "Tangible Interfaces (Pilot)",
+      activityDevices: "Software Engineering Program: 108 Hour Course",
+      activityConcepts:
+        "Concepts: Abstraction, Algorithms, Programming, Data, Networks",
+    },
+    {
+      link: "/curriculum/cs-principles/",
+      pic: csP,
+      altText: "Computer Science Principles",
+      activityGrade: "Grades 10-12",
+      activityTitle:
+        "Computer Science Principles (Advanced Placement optional)",
+      activityDevices: "108 Hour Course",
+      activityConcepts:
+        "Concepts: Abstraction, Algorithms, Programming, Data, Networks",
+    },
+    {
+      link: "/curriculum/cs-a/",
+      pic: csA,
+      altText: "AP Computer Science A",
+      activityGrade: "Grades 11-12",
+      activityTitle: "Advanced Placement Computer Science A",
+      activityDevices: "108 Hour Course",
+      activityConcepts:
+        "Concepts: Abstraction, Algorithms, Programming, Data, Networks",
+    },
+    {
+      link: "/curriculum/cs-and-the-city/",
+      pic: csAndTheCity,
+      altText: "CS and the City",
+      activityGrade: "Grades 11-12",
+      activityTitle: "CS and the City",
+      activityDevices: "108 Hour Course",
+      activityConcepts:
+        "Concepts: Abstraction, Algorithms, Programming, Data, Networks",
+    },
+  ],
 }
-
-// ,
-//     {
-//       link: "",
-//       pic: ,
-//       altText: "",
-//       activityGrade: "",
-//       activityTitle: "",
-//       activityDevices: "",
-//       activityConcepts: "",
-//     }
 
 /* Component */
 const Curriculum = () => (
@@ -102,7 +246,7 @@ const Curriculum = () => (
           <p>
             All CS4All curriculum is aligned to the{" "}
             <a
-              href="http://www.nysed.gov/curriculum-instruction/computer-science-and-digital-fluency-learning-standards"
+              href="http://www.nysed.gov/curriculum-instruction/computer-science-and-digital-fluency-learning-standards/"
               target="blank"
             >
               New York State K12 Computer Science and Digital Fluency Learning
@@ -112,13 +256,13 @@ const Curriculum = () => (
             standards.
           </p>
 
-          {/* <header className="orange-theme">
+          <header className="orange-theme">
             <div className="box">
               <div className="box-content">
                 <h3>Elementary School Curriculum</h3>
               </div>
             </div>
-          </header> */}
+          </header>
           <ul className="activity-list">
             {curricula.elementary.map(curriculum => (
               <li>
@@ -145,143 +289,37 @@ const Curriculum = () => (
             ))}
           </ul>
 
-          {/* <header className="orange-theme">
+          <header className="orange-theme">
             <div className="box">
               <div className="box-content">
                 <h3>Middle School Curriculum</h3>
               </div>
             </div>
-          </header> */}
-
+          </header>
           <ul className="activity-list">
-            <li>
-              <a href="/curriculum/software-engineering-program/">
-                <div className="preview">
-                  <img src={sepHackathon} alt="Software Engineering Program" />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grade 6-12</span>
-                  <span className="activity-title">
-                    Software Engineering Program
+            {curricula.middle.map(curriculum => (
+              <li>
+                <a href={curriculum.link}>
+                  <div className="preview">
+                    <img src={curriculum.pic} alt={curriculum.altText} />
+                  </div>
+                  <h3>
+                    <span className="activity-grade">
+                      {curriculum.activityGrade}
+                    </span>
+                    <span className="activity-title">
+                      {curriculum.activityTitle}
+                    </span>
+                  </h3>
+                  <span className="activity-devices">
+                    {curriculum.activityDevices}
                   </span>
-                </h3>
-                <span className="activity-devices">6-12 Sequence</span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/6-8-integrated-units">
-                <div className="preview">
-                  <img src={six8Units} alt="6-8 Integrated Units" />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grades 6-8</span>
-                  <span className="activity-title">6-8 Integrated Units</span>
-                </h3>
-                <span className="activity-devices">16-20 Hour Unit</span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/creative-computing/">
-                <div className="preview">
-                  <img src={creativeComputing} alt="Creative Computing" />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grade 6</span>
-                  <span className="activity-title">Creative Computing</span>
-                </h3>
-                <span className="activity-devices">
-                  Software Engineering Program: 54 Hour Course
-                </span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming, Data
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/critical-computing/">
-                <div className="preview">
-                  <img src={criticalComputing} alt="Critical Computing" />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grade 6</span>
-                  <span className="activity-title">Critical Computing</span>
-                </h3>
-                <span className="activity-devices">
-                  Software Engineering Program: 54 Hour Course
-                </span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming, Data
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/creative-web/">
-                <div className="preview">
-                  <img src={creativeWeb} alt="Creative Web" />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grade 7</span>
-                  <span className="activity-title">Creative Web</span>
-                </h3>
-                <span className="activity-devices">
-                  Software Engineering Program: 54 Hour Course
-                </span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming, Data, Networks
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/intro-to-pcomp/">
-                <div className="preview">
-                  <img
-                    src={physicalComputing}
-                    alt="Introduction to Physical Computing"
-                  />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grade 7</span>
-                  <span className="activity-title">
-                    Introduction to Physical Computing
+                  <span className="activity-concepts">
+                    {curriculum.activityConcepts}
                   </span>
-                </h3>
-                <span className="activity-devices">
-                  Software Engineering Program: 54 Hour Course
-                </span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming, Data, Networks
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/cs-discoveries">
-                <div className="preview">
-                  <img src={csDiscoveries} alt="Code.org CS Discoveries" />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grades 6-8</span>
-                  <span className="activity-title">
-                    Code.org CS Discoveries
-                  </span>
-                </h3>
-                <span className="activity-devices">108 Hour Course</span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming, Data, Networks
-                </span>
-              </a>
-            </li>
+                </a>
+              </li>
+            ))}
           </ul>
 
           <header className="orange-theme">
@@ -291,183 +329,30 @@ const Curriculum = () => (
               </div>
             </div>
           </header>
-
           <ul className="activity-list">
-            <li>
-              <a href="/curriculum/software-engineering-program/">
-                <div className="preview">
-                  <img src={sepHackathon} alt="Software Engineering Program" />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grade 6-12</span>
-                  <span className="activity-title">
-                    Software Engineering Program
+            {curricula.high.map(curriculum => (
+              <li>
+                <a href={curriculum.link}>
+                  <div className="preview">
+                    <img src={curriculum.pic} alt={curriculum.altText} />
+                  </div>
+                  <h3>
+                    <span className="activity-grade">
+                      {curriculum.activityGrade}
+                    </span>
+                    <span className="activity-title">
+                      {curriculum.activityTitle}
+                    </span>
+                  </h3>
+                  <span className="activity-devices">
+                    {curriculum.activityDevices}
                   </span>
-                </h3>
-                <span className="activity-devices">6-12 Sequence</span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/bootstrap-data-science">
-                <div className="preview">
-                  <img
-                    src={bootstrapDataScience}
-                    alt="Bootstrap Data Science"
-                  />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grades 9-10</span>
-                  <span className="activity-title">
-                    Bootstrap: Data Science
+                  <span className="activity-concepts">
+                    {curriculum.activityConcepts}
                   </span>
-                </h3>
-                <span className="activity-devices">54 Hour Course</span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming, Data
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/exploring-cs">
-                <div className="preview">
-                  <img src={exploringCS} alt="Exploring Computer Science" />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grades 9-10</span>
-                  <span className="activity-title">
-                    Exploring Computer Science
-                  </span>
-                </h3>
-                <span className="activity-devices">108 Hour Course</span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming, Data, Networks
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/teals-intro-to-cs">
-                <div className="preview">
-                  <img
-                    src={teals}
-                    alt="TEALS Introduction to Computer Science"
-                  />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grade 9-10</span>
-                  <span className="activity-title">
-                    TEALS Introduction to Computer Science
-                  </span>
-                </h3>
-                <span className="activity-devices">54 Hour Course</span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming, Data
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/intro-to-computational-media">
-                <div className="preview">
-                  <img
-                    src={introToCompMedia}
-                    alt="Introduction to Computational Media"
-                  />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grade 9-10</span>
-                  <span className="activity-title">
-                    Introduction to Computational Media
-                  </span>
-                </h3>
-                <span className="activity-devices">
-                  Software Engineering Program: 108 Hour Course
-                </span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming, Data
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/tangible-interfaces">
-                <div className="preview">
-                  <img
-                    src={tangibleInterfaces}
-                    alt="Introduction to Computational Media"
-                  />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grade 10-11</span>
-                  <span className="activity-title">
-                    Tangible Interfaces (Pilot)
-                  </span>
-                </h3>
-                <span className="activity-devices">
-                  Software Engineering Program: 108 Hour Course
-                </span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming, Data, Networks
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/cs-principles">
-                <div className="preview">
-                  <img src={csP} alt="Computer Science Principles" />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grades 10-12</span>
-                  <span className="activity-title">
-                    Computer Science Principles (Advanced Placement optional)
-                  </span>
-                </h3>
-                <span className="activity-devices">108 Hour Course</span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming, Data, Networks
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/cs-a">
-                <div className="preview">
-                  <img src={csA} alt="CS A" />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grades 11-12</span>
-                  <span className="activity-title">
-                    Advanced Placement Computer Science A
-                  </span>
-                </h3>
-                <span className="activity-devices">108 Hour Course</span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming, Data, Networks
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="/curriculum/cs-and-the-city">
-                <div className="preview">
-                  <img src={csAndTheCity} alt="CS and the City" />
-                </div>
-                <h3>
-                  <span className="activity-grade">Grades 11-12</span>
-                  <span className="activity-title">CS and the City</span>
-                </h3>
-                <span className="activity-devices">108 Hour Course</span>
-                <span className="activity-concepts">
-                  Concepts: Abstraction, Algorithms, Programming, Data, Networks
-                </span>
-              </a>
-            </li>
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </article>
