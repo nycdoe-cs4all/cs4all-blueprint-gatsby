@@ -25,8 +25,8 @@ const Curriculum = () => (
 
         <div className="article-content">
           <p>
-            These curriculum are created by the CS Education Team or supported
-            by one of our partners, for additional curricular options we
+            The curriculum below are created and supported by the CS Education
+            Team or one of our partners, for additional curricular options we
             recommend{" "}
             <a
               href="https://www.csforall.org/projects_and_programs/curriculum_directory/"
@@ -42,14 +42,22 @@ const Curriculum = () => (
             <a
               href="http://www.nysed.gov/curriculum-instruction/computer-science-and-digital-fluency-learning-standards/"
               target="blank"
+              rel="noreferrer"
             >
               New York State K12 Computer Science and Digital Fluency Learning
               Standards
             </a>
-            . We are currently in the process of adding references to these
-            standards.
+            , and we are currently in the process of adding references to these
+            standards. These standards were adopted by the Board of Regents in
+            December 2020 and it is expected that all schools{" "}
+            <a
+              href="http://www.nysed.gov/curriculum-instruction/timeline-roll-out-and-implementation"
+              target="blank"
+              rel="noreferrer"
+            >
+              fully implement the standards by September 2024
+            </a>
           </p>
-
           <header className="orange-theme">
             <div className="box">
               <div
