@@ -1,7 +1,7 @@
 import React from "react"
 
 const CurriculumCard = props => {
-  const { link, pic, alt, grade, title, devices, concepts } = props
+  const { link, pic, grade, title, devices, concepts } = props
 
   return (
     <li>

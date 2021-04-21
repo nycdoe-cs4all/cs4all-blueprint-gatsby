@@ -63,7 +63,6 @@ const Curriculum = () => (
               <CurriculumCard
                 link={curriculum.link}
                 pic={curriculum.pic}
-                alt={curriculum.altText}
                 grade={curriculum.activityGrade}
                 title={curriculum.activityTitle}
                 devices={curriculum.activityDevices}
