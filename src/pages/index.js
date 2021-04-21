@@ -85,7 +85,7 @@ function IndexPage() {
                   <span className="icon">
                     <Play/>
                   </span>
-                  <img src={elementarySchoolStudentWork} alt="preview" />
+                  <img src={elementarySchoolStudentWork} alt="elementary school preview" />
                 </div>
                 <h3>
                   Elementary School{" "}
@@ -120,7 +120,7 @@ function IndexPage() {
                   <span className="icon">
                     <Play/>
                   </span>
-                  <img src={middleSchoolStudentWork} alt="preview" />
+                  <img src={middleSchoolStudentWork} alt="middle school preview" />
                 </div>
                 <h3>
                   Middle School <span className="subtitle">Student Work</span>
@@ -154,7 +154,7 @@ function IndexPage() {
                   <span className="icon">
                     <Play/>
                   </span>
-                  <img src={highSchoolStudentWork} alt="preview" />
+                  <img src={highSchoolStudentWork} alt="high school preview" />
                 </div>
                 <h3>
                   High School <span className="subtitle">Student Work</span>

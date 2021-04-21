@@ -12,7 +12,12 @@
 
 .light-theme a {
   color: inherit;
-  color: #f26922; /* Color: Pumpkin */
+  /*fill: #f26922; Color: Pumpkin */
+  color: #ca4b0c; /* Color: Tenne */
+}
+
+.case-study a {
+  color: #f26922; /*Color: Pumpkin*/
 }
 
 .light-theme a:hover {
@@ -42,7 +47,8 @@
 
 .light-theme .btn {
   border-color: #97b5d0; /* Color: Polo Blue */
-  color: #97b5d0; /* Color: Polo Blue */
+  color: #487aa3; /* Color: Steel Blue */
+  /* color: #97b5d0; Color: Polo Blue */
 }
 
 .light-theme .btn:hover {
@@ -142,14 +148,16 @@ article.light-theme {
 
 .orange-theme section header h3,
 .orange h3 {
-  color: #f26922; /* Color: Pumpkin */
+  /*fill: #f26922; Color: Pumpkin */
+  color: #ca4b0c; /* Color: Tenne */
   color: #e26932; /* Color: Sorbus */
 }
 
 .orange-theme a svg,
 .orange a svg,
 .orange a:hover svg {
-  fill: #f26922; /* Color: Pumpkin */
+  /*fill: #f26922; Color: Pumpkin */
+  color: #ca4b0c; /* Color: Tenne */
   fill: #f9af60 !important; /* Color: Rajah */
 }
 

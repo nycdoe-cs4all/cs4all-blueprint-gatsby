@@ -102,7 +102,7 @@ const About = () => {
             <p>
               <a
                 className="btn btn-sm open"
-                href="#about-blueprint-text"
+                href="#about-blueprint"
                 onClick={() => {
                   setAboutState(!aboutState)
                   setAboutHeight(

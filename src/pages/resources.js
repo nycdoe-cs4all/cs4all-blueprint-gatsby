@@ -17,10 +17,10 @@ function Resource(props) {
             <h2>
               <span className="preamble">educator</span> Resources
             </h2>
-            <p>
+            <h3>
               Answers to common questions, developed by Blueprint Fellows and
               NYC DOE staff.
-            </p>
+            </h3>
           </header>
 
           <div className="article-content">

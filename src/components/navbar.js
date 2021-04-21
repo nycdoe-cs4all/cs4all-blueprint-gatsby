@@ -63,11 +63,11 @@ const Navbar = () => {
                 <span className="preamble">CS</span> Foundations
               </a>
               <ul>
-                <li>
+                {/*<li>
                   <a href="/what-is-cs">
                     <span className="preamble">What is</span> CS Education?
                   </a>
-                </li>
+                </li>*/}
                 <li>
                   <a href="/perspectives">
                     <span className="preamble">CS</span> Perspectives

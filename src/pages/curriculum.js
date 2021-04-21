@@ -21,22 +21,12 @@ const Curriculum = () => (
           <h2>
             <span className="preamble">K-12</span> Curriculum
           </h2>
+          <h3>Curriculum created and supported by the CS Education
+          Team or one of our partners
+          </h3>
         </header>
 
         <div className="article-content">
-          <p>
-            The curriculum below are created and supported by the CS Education
-            Team or one of our partners, for additional curricular options we
-            recommend{" "}
-            <a
-              href="https://www.csforall.org/projects_and_programs/curriculum_directory/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              CSforAll’s AlignCS Curriculum Directory
-            </a>
-            .
-          </p>
           <p>
             All CS4All curriculum is aligned to the{" "}
             <a
@@ -130,6 +120,18 @@ const Curriculum = () => (
             ))}
           </ul>
         </div>
+        <p>
+          For additional curricular options we
+          recommend{" "}
+          <a
+            href="https://www.csforall.org/projects_and_programs/curriculum_directory/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            CSforAll’s AlignCS Curriculum Directory
+          </a>
+          .
+        </p>
       </article>
     </div>
   </Layout>

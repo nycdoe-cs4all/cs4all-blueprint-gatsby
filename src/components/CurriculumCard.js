@@ -7,7 +7,7 @@ const CurriculumCard = props => {
     <li>
       <a href={link}>
         <div className="preview">
-          <img src={pic} alt={alt} />
+          <img src={pic} alt="" />
         </div>
         <h3>
           <span className="activity-grade">{grade}</span>

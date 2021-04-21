@@ -182,7 +182,8 @@ iframe {
 .headline {
   font-size: 22px;
   font-weight: 400;
-  color: #f26922; /* Color: Pumpkin */
+  /* color: #f26922; Color: Pumpkin */
+  color: #ca4b0c; /* Color: Tenne */
 }
 
 .examples {

@@ -30,10 +30,10 @@ const Outcomes = () => (
           <h2>
             <span className="preamble">Student</span> Outcomes
           </h2>
-          <p>
+          <h3>
             CS students' practice of each concept deepens and expands as
             meaningful CS units guide them from one perspective to the next.
-          </p>
+          </h3>
         </header>
 
         <div className="article-content">
@@ -1109,7 +1109,7 @@ const Outcomes = () => (
               </a>
             </li>
             <li className="current">
-              <a href="#top">Outcomes</a>
+              <a href="/outcomes/">Outcomes</a>
             </li>
           </ol>
         </div>

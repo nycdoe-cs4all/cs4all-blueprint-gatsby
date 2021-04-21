@@ -47,7 +47,7 @@ class Concepts extends React.Component {
               <h2>
                 <span className="preamble">Computer Science</span> Concepts
               </h2>
-              <p>A framework for what computers can and cannot do.</p>
+              <h3>A framework for what computers can and cannot do.</h3>
             </header>
 
             <div className="article-content">
@@ -340,7 +340,7 @@ class Concepts extends React.Component {
                   </a>
                 </li>
                 <li className="current">
-                  <a href="#top">Concepts</a>
+                  <a href="/concepts/">Concepts</a>
                 </li>
                 <li>
                   <div className="box">

@@ -153,7 +153,7 @@ const WhatIsCS = () => (
         <div className="exit-menu">
           <ol className="list-unstyled">
             <li className="current">
-              <a href="#top">CS&nbsp;Education</a>
+              <a href="/what-is-cs/">CS&nbsp;Education</a>
             </li>
             <li>
               <div className="box">

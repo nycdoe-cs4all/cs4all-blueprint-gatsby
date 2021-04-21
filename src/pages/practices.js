@@ -45,10 +45,10 @@ class Practices extends React.Component {
               <h2>
                 <span className="preamble">Computer Science</span> Practices
               </h2>
-              <p>
+              <h3>
                 The intertwined methods by which computer science is studied and
                 applied.
-              </p>
+              </h3>
             </header>
 
             <div className="article-content">
@@ -209,7 +209,7 @@ class Practices extends React.Component {
                   </a>
                 </li>
                 <li className="current">
-                  <a href="#top">Practices</a>
+                  <a href="/practices/">Practices</a>
                 </li>
                 <li>
                   <div className="box">
