@@ -7,7 +7,14 @@ const CurriculumCard = props => {
     <li>
       <a href={link}>
         <div className="preview">
-          <img src={pic} alt="" />
+          <img
+            src={pic}
+            alt=""
+            style={{
+              objectFit: "cover",
+              maxHeight: "180px",
+            }}
+          />
         </div>
         <h3>
           <span className="activity-grade">{grade}</span>

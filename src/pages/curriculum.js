@@ -48,6 +48,7 @@ const Curriculum = () => (
             >
               fully implement the standards by September 2024
             </a>
+            .
           </p>
           <header className="orange-theme">
             <div className="box">
