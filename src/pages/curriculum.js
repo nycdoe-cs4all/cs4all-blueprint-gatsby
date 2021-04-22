@@ -21,8 +21,9 @@ const Curriculum = () => (
           <h2>
             <span className="preamble">K-12</span> Curriculum
           </h2>
-          <h3>Curriculum created and supported by the CS Education
-          Team or one of our partners
+          <h3>
+            Curriculum created and supported by the CS Education Team or one of
+            our partners
           </h3>
         </header>
 
@@ -52,7 +53,7 @@ const Curriculum = () => (
             <div className="box">
               <div
                 className="box-content"
-                style={{ padding: "12px", "text-align": "center" }}
+                style={{ padding: "12px", textAlign: "center" }}
               >
                 <h3>Elementary School Curriculum</h3>
               </div>
@@ -67,6 +68,7 @@ const Curriculum = () => (
                 title={curriculum.activityTitle}
                 devices={curriculum.activityDevices}
                 concepts={curriculum.activityConcepts}
+                key={curriculum.activityTitle}
               />
             ))}
           </ul>
@@ -75,7 +77,7 @@ const Curriculum = () => (
             <div className="box">
               <div
                 className="box-content"
-                style={{ padding: "12px", "text-align": "center" }}
+                style={{ padding: "12px", textAlign: "center" }}
               >
                 <h3>Middle School Curriculum</h3>
               </div>
@@ -86,11 +88,11 @@ const Curriculum = () => (
               <CurriculumCard
                 link={curriculum.link}
                 pic={curriculum.pic}
-                alt={curriculum.altText}
                 grade={curriculum.activityGrade}
                 title={curriculum.activityTitle}
                 devices={curriculum.activityDevices}
                 concepts={curriculum.activityConcepts}
+                key={curriculum.activityTitle}
               />
             ))}
           </ul>
@@ -99,7 +101,7 @@ const Curriculum = () => (
             <div className="box">
               <div
                 className="box-content"
-                style={{ padding: "12px", "text-align": "center" }}
+                style={{ padding: "12px", textAlign: "center" }}
               >
                 <h3>High School Curriculum</h3>
               </div>
@@ -110,18 +112,17 @@ const Curriculum = () => (
               <CurriculumCard
                 link={curriculum.link}
                 pic={curriculum.pic}
-                alt={curriculum.altText}
                 grade={curriculum.activityGrade}
                 title={curriculum.activityTitle}
                 devices={curriculum.activityDevices}
                 concepts={curriculum.activityConcepts}
+                key={curriculum.activityTitle}
               />
             ))}
           </ul>
         </div>
         <p>
-          For additional curricular options we
-          recommend{" "}
+          For additional curricular options we recommend{" "}
           <a
             href="https://www.csforall.org/projects_and_programs/curriculum_directory/"
             target="_blank"
