@@ -29,25 +29,15 @@ const Curriculum = () => (
 
         <div className="article-content">
           <p>
-            All CS4All curriculum is aligned to the{" "}
+            We are currently refining our student outcomes and curriculum to
+            support the release of the{" "}
             <a
-              href="http://www.nysed.gov/curriculum-instruction/computer-science-and-digital-fluency-learning-standards/"
+              href="http://www.nysed.gov/curriculum-instruction/computer-science-and-digital-fluency-learning-standards"
               target="blank"
-              rel="noreferrer"
             >
               New York State K12 Computer Science and Digital Fluency Learning
               Standards
-            </a>
-            , and we are currently in the process of adding references to these
-            standards. These standards were adopted by the Board of Regents in
-            December 2020 and it is expected that all schools{" "}
-            <a
-              href="http://www.nysed.gov/curriculum-instruction/timeline-roll-out-and-implementation"
-              target="blank"
-              rel="noreferrer"
-            >
-              fully implement the standards by September 2024
-            </a>
+            </a>{" "}
             .
           </p>
           <header className="orange-theme">
@@ -56,7 +46,7 @@ const Curriculum = () => (
                 className="box-content"
                 style={{ padding: "12px", textAlign: "center" }}
               >
-                <h3>Elementary School Curriculum</h3>
+                <h3>Curriculum for Grades K-5</h3>
               </div>
             </div>
           </header>
@@ -80,7 +70,7 @@ const Curriculum = () => (
                 className="box-content"
                 style={{ padding: "12px", textAlign: "center" }}
               >
-                <h3>Middle School Curriculum</h3>
+                <h3>Curriculum for Grades 6-8</h3>
               </div>
             </div>
           </header>
@@ -104,7 +94,7 @@ const Curriculum = () => (
                 className="box-content"
                 style={{ padding: "12px", textAlign: "center" }}
               >
-                <h3>High School Curriculum</h3>
+                <h3>Curriculum for Grades 9-14+</h3>
               </div>
             </div>
           </header>
@@ -122,7 +112,7 @@ const Curriculum = () => (
             ))}
           </ul>
         </div>
-        <p>
+        {/*<p>
           For additional curricular options we recommend{" "}
           <a
             href="https://www.csforall.org/projects_and_programs/curriculum_directory/"
@@ -132,7 +122,7 @@ const Curriculum = () => (
             CSforAll’s AlignCS Curriculum Directory
           </a>
           .
-        </p>
+        </p>*/}
       </article>
     </div>
   </Layout>

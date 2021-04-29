@@ -38,7 +38,8 @@ const Outcomes = () => (
 
         <div className="article-content">
           <p data-desktop="(Hover over an outcome below to see its depth of knowledge value)">
-            These student outcomes work in tandem with the{" "}
+            We are currently refining our student outcomes and curriculum to
+            support the release of the{" "}
             <a
               href="http://www.nysed.gov/curriculum-instruction/computer-science-and-digital-fluency-learning-standards"
               target="blank"
@@ -46,16 +47,7 @@ const Outcomes = () => (
               New York State K12 Computer Science and Digital Fluency Learning
               Standards
             </a>{" "}
-            to help guide student learning and understanding. These standards
-            were adopted by the Board of Regents in December 2020 and it is
-            expected that all schools{" "}
-            <a
-              href="http://www.nysed.gov/curriculum-instruction/timeline-roll-out-and-implementation"
-              target="blank"
-              rel="noreferrer"
-            >
-              fully implement the standards by September 2024.
-            </a>
+            .
           </p>
           <table id="student-outcomes-table">
             <thead>

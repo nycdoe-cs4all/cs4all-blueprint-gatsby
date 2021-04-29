@@ -284,6 +284,11 @@ article ul {
   margin-top: 0;
 }
 
+.article-content p,
+.interior-container p {
+  text-align: center;
+}
+
 article h2 {
   margin-bottom: 16px;
 }

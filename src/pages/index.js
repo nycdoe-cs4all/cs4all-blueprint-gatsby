@@ -83,9 +83,12 @@ function IndexPage() {
               >
                 <div className="preview-image">
                   <span className="icon">
-                    <Play/>
+                    <Play />
                   </span>
-                  <img src={elementarySchoolStudentWork} alt="elementary school preview" />
+                  <img
+                    src={elementarySchoolStudentWork}
+                    alt="elementary school preview"
+                  />
                 </div>
                 <h3>
                   Elementary School{" "}
@@ -118,9 +121,12 @@ function IndexPage() {
               >
                 <div className="preview-image">
                   <span className="icon">
-                    <Play/>
+                    <Play />
                   </span>
-                  <img src={middleSchoolStudentWork} alt="middle school preview" />
+                  <img
+                    src={middleSchoolStudentWork}
+                    alt="middle school preview"
+                  />
                 </div>
                 <h3>
                   Middle School <span className="subtitle">Student Work</span>
@@ -152,7 +158,7 @@ function IndexPage() {
               >
                 <div className="preview-image">
                   <span className="icon">
-                    <Play/>
+                    <Play />
                   </span>
                   <img src={highSchoolStudentWork} alt="high school preview" />
                 </div>
@@ -183,12 +189,32 @@ function IndexPage() {
             <h2>
               <span className="preamble">What is the</span> Blueprint?
             </h2>
+            <p>
+              We are currently refining our student outcomes and curriculum to
+              support the release of the{" "}
+              <a
+                href="http://www.nysed.gov/curriculum-instruction/computer-science-and-digital-fluency-learning-standards"
+                target="blank"
+              >
+                New York State K12 Computer Science and Digital Fluency Learning
+                Standards
+              </a>{" "}
+              . These standards were adopted by the Board of Regents in December
+              2020 and it is expected that all schools{" "}
+              <a
+                href="http://www.nysed.gov/curriculum-instruction/timeline-roll-out-and-implementation"
+                target="blank"
+                rel="noreferrer"
+              >
+                fully implement the standards by September 2024.
+              </a>
+            </p>
             <ul className="list-unstyled">
               <li>
                 <a className="box" href="/what-is-cs">
                   <div className="box-content">
                     <span className="icon">
-                      <Foundations/>
+                      <Foundations />
                     </span>
                     <h3>Explanations of CS concepts &amp; practices.</h3>
                     No CS background required!
@@ -200,7 +226,7 @@ function IndexPage() {
                 <a className="box" href="/curriculum">
                   <div className="box-content">
                     <span className="icon">
-                      <Units/>
+                      <Units />
                     </span>
                     <h3>CS Curriculum</h3>
                     Learn how educators are integrating meaningful CS learning
@@ -213,7 +239,7 @@ function IndexPage() {
                 <a className="box" href="/resources">
                   <div className="box-content">
                     <span className="icon">
-                      <Resources/>
+                      <Resources />
                     </span>
                     <h3>Tools for teachers of all experience levels.</h3>
                     Preparing your first lesson incorporating CS? Looking for

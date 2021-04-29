@@ -58,7 +58,11 @@ const ResourceQuery = function (props) {
               >
                 <Link to={post.node.slug}>
                   <h3 dangerouslySetInnerHTML={{ __html: post.node.title }} />
-                  {post.node.excerpt ? parse(post.node.excerpt) : null}
+                  Categories: {post.node.categories.map((category, index) => (
+                    (index ? ', ': '') + category.name
+                  ))}
+                  <br/><br/>
+                  <p>{post.node.excerpt ? parse(post.node.excerpt) : null}</p>
                 </Link>
               </li>
             ))}
