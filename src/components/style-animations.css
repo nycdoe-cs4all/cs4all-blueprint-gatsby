@@ -14,7 +14,7 @@
   }
 
   100% {
-    color: #fff;
+    color: #fff; /* Color: White */
   }
 }
 
@@ -24,7 +24,7 @@
   }
 
   100% {
-    color: #a1cc3b;
+    color: #a1cc3b; /* Color: Atlantis */
   }
 }
 
@@ -34,7 +34,7 @@
   }
 
   100% {
-    color: #8ac8ff;
+    color: #8ac8ff; /* Color: Light Sky Blue */
   }
 }
 
@@ -44,7 +44,7 @@
   }
 
   100% {
-    border-color: #8ac8ff;
+    border-color: #8ac8ff; /* Color: Light Sky Blue */
   }
 }
 
@@ -201,7 +201,7 @@ nav h1 {
   .animation .jumbotron .intro-1,
   .animation .jumbotron .intro-2,
   .animation .jumbotron .intro-3 {
-    color: #fff;
+    color: #fff; /* Color: White */
     display: inline-block;
   }
 

@@ -1,5 +1,5 @@
 #fellows {
-  border-bottom: 2px solid #8ac8ff;
+  border-bottom: 2px solid #8ac8ff; /* Color: Light Sky Blue */
   padding: 0 0 32px;
   margin: 0 -2px 32px;
 }
@@ -13,7 +13,7 @@
   padding: 25% 0;
   display: inline-block;
   vertical-align: top;
-  border: 2px solid #fff;
+  border: 2px solid #fff; /* Color: White */
   border-radius: 4px;
   overflow: hidden;
 }
@@ -50,7 +50,7 @@
 }
 
 .fellow .fellow-content {
-  color: #fff;
+  color: #fff; /* Color: White */
   position: absolute;
   top: 0;
   left: 0;
@@ -67,7 +67,7 @@
 }
 
 .fellow:hover .fellow-content {
-  background: #17283e;
+  background: #17283e; /* Color: Midnight */
 }
 
 .fellow:hover .fellow-text {
