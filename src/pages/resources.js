@@ -28,8 +28,14 @@ function Resource(props) {
               These resources were created and vetted by the{" "}
               <a href="/about#fellow-list">Blueprint Fellows</a> and the CS
               Education Team, for additional resources created by teachers in
-              the CS Leads program visit the School Leaders Website &lt;Link
-              Coming Soon!&gt;
+              the CS Leads program visit the{" "}
+              <a
+                href="https://sites.google.com/strongschools.nyc/cs4allschoolleaders/home"
+                target="_blank"
+                rel="noreferrer"
+              >
+                School Leaders Website
+              </a>
             </p>
 
             <ul className="activity-list">
