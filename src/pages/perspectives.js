@@ -53,7 +53,7 @@ class Perspectives extends React.Component {
             </header>
 
             <div className="article-content">
-              <p>
+              <p className="sub-head">
                 Meaningful computer science units help students fully embrace a
                 perspective such that they are ready and interested in
                 progressing to the next.
@@ -99,9 +99,9 @@ class Perspectives extends React.Component {
                 <div class='introduction col-sm-7'>
                   <p class='headline'>&ldquo;I can express myself with computing practices and concepts&rdquo;</p>
                   <ul class='examples'>
-                    <li>A group of 4th graders create an interactive Scratch project that helps to introduce new students to the school, providing information about key locations and resources throughout the building.</li>
-                    <li>7th grader Umaima programmed a micro:bit to pick a random number and used it to choose the winning tickets at a school event's raffle.</li>
-                    <li>9th grader Nora used Python and conditionals to create choose-your-own-adventure story with different outcomes depending on the decisions made by the user. This was part of a unit to create an web application that improved upon an existing product based on the student's’ research.</li>
+                    <li>A group of fourth graders create an interactive Scratch project that helps to introduce new students to the school, providing information about key locations and resources throughout the building.</li>
+                    <li>Seventh grader Umaima programmed a micro:bit to pick a random number and used it to choose the winning tickets at a school event's raffle.</li>
+                    <li>Ninth grader Nora used Python and conditionals to create choose-your-own-adventure story with different outcomes depending on the decisions made by the user. This was part of a unit to create an web application that improved upon an existing product based on the student's’ research.</li>
                   </ul>
                   <p>Educators teaching third to fifth grade students should focus on developing their students' confidence as Creators by providing them with opportunities to analyze computing projects, imagine how they might express themselves through computing, and build prototypes of their ideas. The goal of these opportunities for expression is to help students develop a sense of self-efficacy with CS that will enable them to be Innovators who can build on or incorporate the work of the larger CS community.  Educators teaching from this perspective should scaffold instruction with elements of the Explorer perspective.</p>
                   <p>Educators teaching middle and high school students should also utilize the Creator perspective to introduce or provide structure to students learning CS as Innovators or Citizens. Both the Innovator and Citizen perspectives ask students to consider how they might bring their ideas into existing systems, so educators should ensure that students are confident expressing their ideas before asking them to learn as Innovators and Citizens.</p>
@@ -126,8 +126,8 @@ class Perspectives extends React.Component {
                 <div class='introduction col-sm-7'>
                   <p class='headline'>&ldquo;I can connect to the work of others using computing practices and concepts.&rdquo;</p>
                   <ul class='examples'>
-                    <li>An 8th grade student creates a Scratch Studio and then 'interviews' other Scratchers to 'hire' them to make a Scratch project with the goal of animating a comic book that she designed and wrote.</li>
-                    <li>10th grader Stephanie utilized an interactive map showing average temperature by year in a website that she created to discuss the impacts of humans on the environment.</li>
+                    <li>An eighth grade student creates a Scratch Studio and then 'interviews' other Scratchers to 'hire' them to make a Scratch project with the goal of animating a comic book that she designed and wrote.</li>
+                    <li>Tenth grader Stephanie utilized an interactive map showing average temperature by year in a website that she created to discuss the impacts of humans on the environment.</li>
                     <li>A group of high schoolers building an app to help people struggling from addiction used a Javascript calendar library to create a way for their users to plan out new routines and document their progress.</li>
                   </ul>
                   <p>Educators teaching middle school and career and technical high school should focus on developing their students' confidence as Innovators by challenging them to consider how their work connects to, builds on, or can incorporate the work of individuals in the public, private, and open-source domains. The goal of challenging students in this way is to help them see themselves as part of the larger CS community. These connections can mean analyzing data from government agencies, utilizing software libraries from open source organizations, or communicating their projects to professionals visiting the classroom. Educators teaching from this perspective should scaffold instruction with elements of the Explorer and Creator perspectives.</p>

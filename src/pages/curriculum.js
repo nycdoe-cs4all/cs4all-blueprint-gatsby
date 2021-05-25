@@ -28,7 +28,7 @@ const Curriculum = () => (
         </header>
 
         <div className="article-content">
-          <p>
+          <p className="sub-head">
             We are currently refining our student outcomes and curriculum to
             support the release of the{" "}
             <a

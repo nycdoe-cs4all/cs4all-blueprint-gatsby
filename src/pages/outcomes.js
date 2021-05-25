@@ -37,7 +37,7 @@ const Outcomes = () => (
         </header>
 
         <div className="article-content">
-          <p data-desktop="(Hover over an outcome below to see its depth of knowledge value)">
+          <p className="sub-head" data-desktop="(Hover over an outcome below to see its depth of knowledge value)">
             We are currently refining our student outcomes and curriculum to
             support the release of the{" "}
             <a

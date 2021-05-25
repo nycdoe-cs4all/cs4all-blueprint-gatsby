@@ -90,14 +90,14 @@ const IntegratedUnitsK2 = () => (
           <h3>2018-19 Integrated Unit</h3>
           <div className="article-content">
             <p>
-              Computing Through Time is a unit of computer science instruction
-              that engages students in remixing and creating visual media using
-              procedures on and off the computer. Students learn the basics of
-              how computers function using data, problem solving strategies, and
-              how to create using a visual programming language designed for
-              pre-readers. Every activity gives students time to work hands-on,
-              personalize their work, and be creative while applying CS
-              practices and concepts.
+              Computing Through Time is a unit of computer science (CS)
+              instruction that engages students in remixing and creating visual
+              media using procedures on and off the computer. Students learn the
+              basics of how computers function using data, problem solving
+              strategies, and how to create using a visual programming language
+              designed for pre-readers. Every activity gives students time to
+              work hands-on, personalize their work, and be creative while
+              applying CS practices and concepts.
             </p>
             <div className="submenu">
               <a

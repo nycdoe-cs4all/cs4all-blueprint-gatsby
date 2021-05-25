@@ -55,8 +55,8 @@ const About = () => {
             <p>
               We know that it's a big undertaking to support educators and their
               school communities as they begin to integrate, many for the first
-              time, computer science into their classrooms. So we created the
-              Blueprint with a dedicated group of{" "}
+              time, computer science (CS) into their classrooms. So we created
+              the Blueprint with a dedicated group of{" "}
               <a
                 href="#page"
                 onClick={e => {

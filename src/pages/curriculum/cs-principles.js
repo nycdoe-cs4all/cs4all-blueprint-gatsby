@@ -24,11 +24,11 @@ const CSPrinciples = () => (
 
           <div className="article-content">
             <p>
-              CS Principles (CSP) is a full­-year, research-backed course that
-              introduces students to foundational CS topics including
-              programming, algorithms, the Internet, big data, digital privacy
-              and security, and the societal impacts of computing. CSP’s goal is
-              to create leaders in CS fields and attract traditionally
+              Computer Science Principles (CSP) is a full­-year, research-backed
+              course that introduces students to foundational CS topics
+              including programming, algorithms, the Internet, big data, digital
+              privacy and security, and the societal impacts of computing. CSP’s
+              goal is to create leaders in CS fields and attract traditionally
               underrepresented students. The curriculum for this course will
               also prepare students to take the Advanced Placement CS Principles
               exam, you can learn more by checking out the College Board{" "}

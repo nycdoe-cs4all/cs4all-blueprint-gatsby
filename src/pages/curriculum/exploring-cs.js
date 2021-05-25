@@ -37,15 +37,16 @@ const ExploringCS = () => (
 
           <div className="article-content">
             <p>
-              Exploring Computer Science is a yearlong course developed around a
-              framework of both computer science content and computational
-              practice. Assignments and instruction are contextualized to be
-              socially relevant and meaningful for diverse students. Units
-              utilize a variety of tools/platforms and culminate with final
-              projects around Human-Computer Interaction, Problem Solving, Web
-              Design (HTML, CSS), Programming (Scratch, Edware), Computing &
-              Data Analysis, and Robotics. ECS is recognized nationally as a
-              preparatory course for AP Computer Science Principles.
+              Exploring Computer Science (ECS) is a yearlong course developed
+              around a framework of both computer science content and
+              computational practice. Assignments and instruction are
+              contextualized to be socially relevant and meaningful for diverse
+              students. Units utilize a variety of tools/platforms and culminate
+              with final projects around Human-Computer Interaction, Problem
+              Solving, Web Design (HTML, CSS), Programming (Scratch, Edware),
+              Computing and Data Analysis, and Robotics. ECS is recognized
+              nationally as a preparatory course for AP Computer Science
+              Principles.
             </p>
             <p>
               <a href="https://vimeo.com/251542546" target="blank">

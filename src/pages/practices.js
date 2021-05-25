@@ -52,7 +52,7 @@ class Practices extends React.Component {
             </header>
 
             <div className="article-content">
-              <p>
+              <p className="sub-head">
                 Each practice is composed of a progression of skills, based on
                 Webb’s Depth of Knowledge, that educators can utilize to
                 structure CS lessons based on their students’ needs.{" "}

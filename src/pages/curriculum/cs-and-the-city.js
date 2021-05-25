@@ -24,9 +24,9 @@ const CSAndTheCity = () => (
 
           <div className="article-content">
             <p>
-              CS and the City is a full-year capstone course during which
-              students will engage with civic issues in their communities by
-              building a computational artifact with{" "}
+              CS and the City is a full-year capstone computer science (CS)
+              course during which students will engage with civic issues in
+              their communities by building a computational artifact with{" "}
               <a href="https://opendata.cityofnewyork.us/data/" target="blank">
                 New York City Open Data
               </a>

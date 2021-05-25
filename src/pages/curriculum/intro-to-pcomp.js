@@ -37,14 +37,14 @@ const IntroToPComp = () => (
 
           <div className="article-content">
             <p>
-              Developed by the NYCDOE CS education team, the Introduction to
-              Physical Computing course is a 54-hour long introductory computer
-              science course that guides students to explore fundamental CS
-              concepts through tinkering with the micro:bit, a simple
-              programmable computer device. Each unit of the course guides
-              students through the learning process with three practices:
-              analyzing computer applications around them based on a given
-              issue; prototyping a project that reflects the result of the
+              Developed by the NYC DOE computer science (CS) education team, the
+              Introduction to Physical Computing course is a 54-hour long
+              introductory computer science course that guides students to
+              explore fundamental CS concepts through tinkering with the
+              micro:bit, a simple programmable computer device. Each unit of the
+              course guides students through the learning process with three
+              practices: analyzing computer applications around them based on a
+              given issue; prototyping a project that reflects the result of the
               analysis plus their interest; and communicating about their
               projects, including the functionality of a project, a project
               development process, influence from other projects and their
@@ -67,7 +67,7 @@ const IntroToPComp = () => (
               </a>{" "}
               for more information.
             </p>
-            <p>
+            <p style={{ display: "none" }}>
               Note: Due to COVID-19 CS4All is exploring PD delivery models and
               foresees the uncertainty of access to materials. Given all the
               changing matters, after careful consideration, we must sadly

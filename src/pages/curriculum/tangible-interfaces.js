@@ -38,10 +38,10 @@ const TangibleInterfaces = () => (
             </p>
             <p>
               By building accessible visualization tools and interfaces,
-              students will expand their CS knowledge towards the understanding
-              of data democratization and inclusive design. This curriculum will
-              make use of the NYC Open Data portal as well as weather data APIs.
-              It also aligns with the{" "}
+              students will expand their computer science (CS) knowledge towards
+              the understanding of data democratization and inclusive design.
+              This curriculum will make use of the NYC Open Data portal as well
+              as weather data APIs. It also aligns with the{" "}
               <a href="https://blueprint.cs4all.nyc">CS4All Blueprint</a> for CS
               education that emphasizes a hands-on approach called creative
               computing. This course is still in development and only available

@@ -96,7 +96,7 @@ const IntegratedUnits35 = () => (
           <h3>2018-19 Integrated Unit</h3>
           <div className="article-content">
             <p>
-              Build My City is a unit of computer science instruction that
+              Build My City is a unit of computer science (CS) instruction that
               engages students in remixing and creating visual media using
               procedures on and off the computer. Students learn the basics of
               how computers function and represent data, problem solving

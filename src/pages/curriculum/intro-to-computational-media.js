@@ -37,16 +37,16 @@ const IntroToCompMedia = () => (
 
           <div className="article-content">
             <p>
-              Developed by the NYCDOE CS education team, the Introduction to
-              Computational Media is a yearlong (108 hours) creative computing
-              course for high schools using the open source Javascript library
-              p5.js. By understanding how code can be a medium for creative
-              expression, students will learn the fundamentals of computer
-              science while designing and prototyping interactive projects that
-              run on a browser. Additionally, students will learn how HTML/CSS
-              elements can interact with p5.js to fully take advantage of
-              developing content for a browser. This course has been implemented
-              in NYC schools via{" "}
+              Developed by the NYC DOE computer science (CS) education team, the
+              Introduction to Computational Media is a yearlong (108 hours)
+              creative computing course for high schools using the open source
+              Javascript library p5.js. By understanding how code can be a
+              medium for creative expression, students will learn the
+              fundamentals of computer science while designing and prototyping
+              interactive projects that run on a browser. Additionally, students
+              will learn how HTML/CSS elements can interact with p5.js to fully
+              take advantage of developing content for a browser. This course
+              has been implemented in NYC schools via{" "}
               <a href="http://cs4all.nyc/programs/sequences/" target="blank">
                 CS4All’s Software Engineering Program (SEP)
               </a>

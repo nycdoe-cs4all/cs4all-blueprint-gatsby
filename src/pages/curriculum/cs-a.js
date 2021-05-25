@@ -24,7 +24,7 @@ const APCSA = () => (
 
           <div className="article-content">
             <p>
-              Advanced Placement (AP) CS-A is a full­-year, college-level course
+              Advanced Placement (AP) Computer Science (CS)-A is a full­-year, college-level course
               that allows students to deepen their understanding of computer
               science concepts. The AP CS-A curriculum covers problem solving,
               design strategies and methodologies, organization of data,

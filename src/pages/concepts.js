@@ -20,7 +20,7 @@ class Concepts extends React.Component {
   constructor(props) {
     super(props)
     this.handleState = this.handleState.bind(this)
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       if (window.location.hash) {
         this.state = { state: window.location.href.split("#")[1] }
       } else {
@@ -51,7 +51,7 @@ class Concepts extends React.Component {
             </header>
 
             <div className="article-content">
-              <p>
+              <p className="sub-head">
                 Here are definitions of common CS concepts, alongside parallels
                 from other subjects to help to demystify unfamiliar vocabulary.
               </p>
@@ -61,7 +61,7 @@ class Concepts extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="concept-abstraction"
-              icon={<Abstraction/>}
+              icon={<Abstraction />}
               header="Abstraction"
               statement="Extracting essential details and repeatable patterns from a more complex system."
               content="
@@ -116,7 +116,7 @@ class Concepts extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="concept-algorithms"
-              icon={<Algorithm/>}
+              icon={<Algorithm />}
               header="Algorithms"
               statement="Instructions that convert a set of inputs into a desired output (kind of like a recipe)."
               content="
@@ -171,7 +171,7 @@ class Concepts extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="concept-programming"
-              icon={<Programming/>}
+              icon={<Programming />}
               header="Programming"
               statement="Giving instructions to computers in a human language."
               content="
@@ -220,7 +220,7 @@ class Concepts extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="concept-data"
-              icon={<Data/>}
+              icon={<Data />}
               header="Data"
               statement="Information that can be collected, stored, and processed by a computer."
               content="
@@ -272,7 +272,7 @@ class Concepts extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="concept-networks"
-              icon={<Network/>}
+              icon={<Network />}
               header="Networks"
               statement="Connections between computers that allow them to share data."
               content="

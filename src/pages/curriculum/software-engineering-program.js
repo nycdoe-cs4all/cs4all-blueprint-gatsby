@@ -52,7 +52,7 @@ const SoftwareEngineeringProgram = () => (
               Starting in the 2019-20 school year, SEP will undergo a shift that
               will allow schools to incrementally build the sequence on a
               timeline that fits their needs. For both middle and high schools,
-              the NYCDOE CS education team will offer training annually
+              the NYC DOE CS education team will offer training annually
               (depending on need) on curriculum for each year of the sequence
               giving schools have access to the full sequence each year. The
               following curriculum make up the middle and high school SEP
@@ -107,7 +107,6 @@ const SoftwareEngineeringProgram = () => (
                 </div>
               </a>
             </div>
-            <br />
             <div className="submenu">
               <a
                 href="https://drive.google.com/drive/u/0/folders/0B8D2ft9M8qQCYXY2V3VndWNob0E"

@@ -24,7 +24,7 @@ function Resource(props) {
           </header>
 
           <div className="article-content">
-            <p data-desktop="(Use the filter to the left to more easily find the resources you need!)">
+            <p className="sub-head" data-desktop="(Use the filter to the left to more easily find the resources you need!)">
               These resources were created and vetted by the{" "}
               <a href="/about#fellow-list">Blueprint Fellows</a> and the CS
               Education Team, for additional resources created by teachers in

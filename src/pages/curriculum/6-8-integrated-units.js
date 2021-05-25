@@ -97,10 +97,10 @@ const IntegratedUnits68 = () => (
           <div className="article-content">
             <p>
               Learning to Program, Programming to Learn is a unit of computer
-              science instruction that engages students in remixing and creating
-              visual media using procedures on and off the computer. Students
-              learn how computers represent and can transform data, problem
-              solving strategies, the difference between algorithms and
+              science (CS) instruction that engages students in remixing and
+              creating visual media using procedures on and off the computer.
+              Students learn how computers represent and can transform data,
+              problem solving strategies, the difference between algorithms and
               instructions, and how to collaborate on building projects using
               visual programming language. Every activity gives students time to
               work hands-on, personalize their work, and be creative while

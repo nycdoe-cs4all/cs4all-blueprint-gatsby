@@ -27,9 +27,9 @@ const TEALSIntroToCS = () => (
               The Introduction to Computer Science curriculum is based on the
               University of California at Berkeley CS 10 course, “Beauty and Joy
               of Computing” (BJC). TEALS has worked closely with UC Berkeley’s
-              CS department to adapt BJC as a flexible and approachable
-              introductory programming course for a wide range of high school
-              students from diverse backgrounds. The course has been
+              computer science (CS) department to adapt BJC as a flexible and
+              approachable introductory programming course for a wide range of
+              high school students from diverse backgrounds. The course has been
               successfully implemented in hundreds of high schools nationwide.
               This introductory computer science course is not the same as the
               BJC AP CS Principles course. The two courses share a pedagogical
