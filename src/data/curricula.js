@@ -26,7 +26,7 @@ const curricula = {
       pic: sepJr,
       activityGrade: "Grades K-5",
       activityTitle: "Software Engineering Program Junior",
-      activityDevices: "K-5 Sequence",
+      activityDevices: "Grade K-5 Sequence",
       activityConcepts:
         "Concepts: Abstraction, Algorithms, Programming, Data, Networks",
     },
@@ -53,7 +53,7 @@ const curricula = {
       pic: sepHackathon,
       activityGrade: "Grade 6-12",
       activityTitle: "Software Engineering Program",
-      activityDevices: "6-12 Sequence",
+      activityDevices: "Grade 6-12 Sequence",
       activityConcepts: "Concepts: Abstraction, Algorithms, Programming",
     },
     {
@@ -69,7 +69,7 @@ const curricula = {
       pic: creativeComputing,
       activityGrade: "Grade 6",
       activityTitle: "Creative Computing",
-      activityDevices: "Software Engineering Program: 54 Hour Course",
+      activityDevices: "54 Hour Course",
       activityConcepts: "Concepts: Abstraction, Algorithms, Programming, Data",
     },
     {
@@ -77,7 +77,7 @@ const curricula = {
       pic: criticalComputing,
       activityGrade: "Grade 6",
       activityTitle: "Critical Computing",
-      activityDevices: "Software Engineering Program: 54 Hour Course",
+      activityDevices: "54 Hour Course",
       activityConcepts: "Concepts: Abstraction, Algorithms, Programming, Data",
     },
     {
@@ -85,7 +85,7 @@ const curricula = {
       pic: creativeWeb,
       activityGrade: "Grade 7",
       activityTitle: "Creative Web",
-      activityDevices: "Software Engineering Program: 54 Hour Course",
+      activityDevices: "54 Hour Course",
       activityConcepts:
         "Concepts: Abstraction, Algorithms, Programming, Data, Networks",
     },
@@ -94,7 +94,7 @@ const curricula = {
       pic: physicalComputing,
       activityGrade: "Grade 7",
       activityTitle: "Introduction to Physical Computing",
-      activityDevices: "Software Engineering Program: 54 Hour Course",
+      activityDevices: "54 Hour Course",
       activityConcepts:
         "Concepts: Abstraction, Algorithms, Programming, Data, Networks",
     },
@@ -114,7 +114,7 @@ const curricula = {
       pic: sepHackathon,
       activityGrade: "Grade 6-12",
       activityTitle: "Software Engineering Program",
-      activityDevices: "6-12 Sequence",
+      activityDevices: "Grade 6-12 Sequence",
       activityConcepts: "Concepts: Abstraction, Algorithms, Programming",
     },
     {
@@ -147,7 +147,7 @@ const curricula = {
       pic: introToCompMedia,
       activityGrade: "Grade 9-10",
       activityTitle: "Introduction to Computational Media",
-      activityDevices: "Software Engineering Program: 108 Hour Course",
+      activityDevices: "108 Hour Course",
       activityConcepts: "Concepts: Abstraction, Algorithms, Programming, Data",
     },
     {
@@ -155,7 +155,7 @@ const curricula = {
       pic: tangibleInterfaces,
       activityGrade: "Grade 10-11",
       activityTitle: "Tangible Interfaces (Pilot)",
-      activityDevices: "Software Engineering Program: 108 Hour Course",
+      activityDevices: "108 Hour Course",
       activityConcepts:
         "Concepts: Abstraction, Algorithms, Programming, Data, Networks",
     },
@@ -163,8 +163,7 @@ const curricula = {
       link: "/curriculum/cs-principles/",
       pic: csP,
       activityGrade: "Grades 10-12",
-      activityTitle:
-        "Computer Science Principles (Advanced Placement optional)",
+      activityTitle: "Computer Science Principles (Advance Placement optional)",
       activityDevices: "108 Hour Course",
       activityConcepts:
         "Concepts: Abstraction, Algorithms, Programming, Data, Networks",

@@ -26,7 +26,7 @@ const Navbar = () => {
         <a href="/">
           <h1>
             <span className="icon">
-              <Logo/>
+              <Logo />
             </span>
             <span className="label"></span>
           </h1>
@@ -46,7 +46,7 @@ const Navbar = () => {
             role="button"
           >
             <span className="icon">
-              <Menu/>
+              <Menu />
             </span>
             <span className="label">Menu</span>
           </a>
@@ -58,7 +58,7 @@ const Navbar = () => {
             <li className="compressed parent-menu">
               <a href="/what-is-cs">
                 <span className="icon">
-                  <Foundations/>
+                  <Foundations />
                 </span>
                 <span className="preamble">CS</span> Foundations
               </a>
@@ -93,7 +93,7 @@ const Navbar = () => {
             <li>
               <a href="/curriculum">
                 <span className="icon">
-                  <Units/>
+                  <Units />
                 </span>
                 <span className="preamble">Curriculum</span> Catalog
               </a>
@@ -101,7 +101,7 @@ const Navbar = () => {
             <li>
               <a href="/resources">
                 <span className="icon">
-                  <Resources/>
+                  <Resources />
                 </span>
                 <span className="preamble">Educator</span> Resources
               </a>
@@ -109,7 +109,7 @@ const Navbar = () => {
             <li>
               <a href="/about">
                 <span className="icon">
-                  <Blueprint/>
+                  <Blueprint />
                 </span>
                 <span className="preamble">About</span> Blueprint
               </a>

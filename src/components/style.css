@@ -43,7 +43,6 @@ nav a:hover {
 
 a:focus,
 nav a:focus {
-  outline: none !important;
   color: #8ac8ff; /* Color: Light Sky Blue */
   text-decoration: none;
 }
@@ -146,6 +145,14 @@ iframe {
 
 #page {
   margin: 0 0 32px;
+}
+
+:focus-visible {
+  outline: 3px solid #7033a0;
+}
+
+.parentFocus:focus-within {
+  outline: 3px solid #7033a0;
 }
 
 .icon,

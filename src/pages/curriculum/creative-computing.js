@@ -41,15 +41,17 @@ const CreativeComputing = () => (
               computing.
             </p>
             <p>
-              Learn more about the curriculum and PD in our{" "}
+              Learn more about the curriculum and PD the{" "}
               <a
                 href="https://docs.google.com/document/d/1_DOhN60DZEjBeJC0K4z-kj27B7rJ37KRm1cOGDoPDQk/edit?usp=sharing"
                 target="blank"
               >
-                fact sheet
+                Creative Computing fact sheet
               </a>
               .
             </p>
+
+            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://docs.google.com/presentation/d/1eh8oHDMQz8XAhyBleR0aDRZJB_EHU-uRKomF8mUkw_o/copy"

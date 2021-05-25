@@ -61,6 +61,8 @@ const BootstrapDataScience = () => (
               </a>{" "}
               for more information.
             </p>
+
+            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://www.bootstrapworld.org/materials/fall2019/courses/data-science/en-us/"

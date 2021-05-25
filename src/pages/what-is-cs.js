@@ -56,16 +56,16 @@ const WhatIsCS = () => (
                 <div className="box-content">
                   <div className="icon-set">
                     <span className="icon">
-                      <Explorer/>
+                      <Explorer />
                     </span>
                     <span className="icon">
-                      <Creator/>
+                      <Creator />
                     </span>
                     <span className="icon">
-                      <Innovator/>
+                      <Innovator />
                     </span>
                     <span className="icon">
-                      <Citizen/>
+                      <Citizen />
                     </span>
                   </div>
                   <h3>Perspectives</h3>
@@ -80,13 +80,13 @@ const WhatIsCS = () => (
                 <div className="box-content">
                   <div className="icon-set">
                     <span className="icon">
-                      <Analyze/>
+                      <Analyze />
                     </span>
                     <span className="icon">
-                      <Prototype/>
+                      <Prototype />
                     </span>
                     <span className="icon">
-                      <Communicate/>
+                      <Communicate />
                     </span>
                   </div>
                   <h3>Practices</h3>
@@ -102,16 +102,16 @@ const WhatIsCS = () => (
                 <div className="box-content">
                   <div className="icon-set">
                     <span className="icon">
-                      <Algorithm/>
+                      <Algorithm />
                     </span>
                     <span className="icon">
-                      <Programming/>
+                      <Programming />
                     </span>
                     <span className="icon">
-                      <Data/>
+                      <Data />
                     </span>
                     <span className="icon">
-                      <Network/>
+                      <Network />
                     </span>
                   </div>
                   <h3>Concepts</h3>
@@ -134,10 +134,10 @@ const WhatIsCS = () => (
                 <div className="icon-set">
                   <span className="icon"></span>
                   <span className="icon">
-                    <Communicate/>
+                    <Communicate />
                   </span>
                   <span className="icon">
-                    <Abstraction/>
+                    <Abstraction />
                   </span>
                 </div>
                 <h3>Student Outcomes</h3>

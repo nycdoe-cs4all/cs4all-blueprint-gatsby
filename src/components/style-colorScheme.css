@@ -227,10 +227,10 @@ section.orange-theme {
   /* Permalink - use to edit and share this gradient: http:/colorzilla.com/gradient-editor/#922900+0,b23900+20,b23900+80,922900+100 */
   background: linear-gradient(
     to right,
-    #922900 0%, /* Color: Saddle Brown */
-    #b23900 20%, /* Color: Rust */
-    #b23900 80%, /* Color: Rust */
-    #922900 100% /* Color: Saddle Brown */
+    #922900 0%,
+    /* Color: Saddle Brown */ #b23900 20%,
+    /* Color: Rust */ #b23900 80%,
+    /* Color: Rust */ #922900 100% /* Color: Saddle Brown */
   );
 }
 
@@ -333,9 +333,9 @@ section.green-theme {
   /* Permalink - use to edit and share this gradient: http:/colorzilla.com/gradient-editor/#1b573f+0,1d6743+20,1d6743+80,1b573f+100 */
   background: linear-gradient(
     to right,
-    #1b572f 0%, /* Color: Crusoe */
-    #1d6710 20%, /* Color: Myrtle */
-    #1d6710 80%, /* Color: Myrtle */
-    #1b572f 100% /* Color: Crusoe */
+    #1b572f 0%,
+    /* Color: Crusoe */ #1d6710 20%,
+    /* Color: Myrtle */ #1d6710 80%,
+    /* Color: Myrtle */ #1b572f 100% /* Color: Crusoe */
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }

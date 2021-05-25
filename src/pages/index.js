@@ -73,7 +73,7 @@ function IndexPage() {
             <span className="preamble">CS in the</span> Classroom
           </h2>
           <div className="gallery">
-            <div id="elementaryWork">
+            <div id="elementaryWork" className="parentFocus">
               <a
                 href="#elementaryWork"
                 onClick={e => {
@@ -111,7 +111,7 @@ function IndexPage() {
               />
             </div>
 
-            <div id="middleWork">
+            <div id="middleWork" className="parentFocus">
               <a
                 href="#middleWork"
                 onClick={e => {
@@ -148,7 +148,7 @@ function IndexPage() {
               />
             </div>
 
-            <div id="highWork">
+            <div id="highWork" className="parentFocus">
               <a
                 href="#highWork"
                 onClick={e => {
@@ -198,7 +198,7 @@ function IndexPage() {
               >
                 New York State K12 Computer Science and Digital Fluency Learning
                 Standards
-              </a>{" "}
+              </a>
               . These standards were adopted by the Board of Regents in December
               2020 and it is expected that all schools{" "}
               <a
@@ -206,8 +206,9 @@ function IndexPage() {
                 target="blank"
                 rel="noreferrer"
               >
-                fully implement the standards by September 2024.
+                fully implement the standards by September 2024
               </a>
+              .
             </p>
             <ul className="list-unstyled">
               <li>
@@ -216,8 +217,9 @@ function IndexPage() {
                     <span className="icon">
                       <Foundations />
                     </span>
-                    <h3>Explanations of CS concepts &amp; practices.</h3>
-                    No CS background required!
+                    <h3>What is CS?</h3>
+                    Explanations of computer science concepts and practices with
+                    no CS background required!
                   </div>
                 </a>
               </li>
@@ -229,8 +231,8 @@ function IndexPage() {
                       <Units />
                     </span>
                     <h3>CS Curriculum</h3>
-                    Learn how educators are integrating meaningful CS learning
-                    experiences at all grade bands and subjects.
+                    Find meaningful, engaging, and fun learning experiences for
+                    any grade band!
                   </div>
                 </a>
               </li>
@@ -241,9 +243,9 @@ function IndexPage() {
                     <span className="icon">
                       <Resources />
                     </span>
-                    <h3>Tools for teachers of all experience levels.</h3>
-                    Preparing your first lesson incorporating CS? Looking for
-                    classroom management tips? We’ve got you covered.
+                    <h3>Teacher Tools and Resources</h3>
+                    Best practices and answers to common questions for teachers
+                    of all experience levels!
                   </div>
                 </a>
               </li>

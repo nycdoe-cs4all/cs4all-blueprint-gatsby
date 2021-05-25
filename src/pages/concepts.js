@@ -65,9 +65,9 @@ class Concepts extends React.Component {
               header="Abstraction"
               statement="Extracting essential details and repeatable patterns from a more complex system."
               content="
-                <p>An abstraction represents a simplified idea or problem derived by ignoring details and using patterns or general characteristics. A simple example of a CS abstraction can be found in programming languages: They allow programmers to give complex instructions to computers without worrying about the bits &amp; bytes!</p>
+                <p>An abstraction represents a simplified idea or problem derived by ignoring details and using patterns or general characteristics. A simple example of a CS abstraction can be found in programming languages: They allow programmers to give complex instructions to computers without worrying about the bits and bytes!</p>
                 <table>
-                  <caption>Abstraction sub-concepts &amp; interdisciplinary parallels</caption>
+                  <caption>Abstraction sub-concepts and interdisciplinary parallels</caption>
                   <thead>
                     <tr>
                       <th>Sub-concept</th>
@@ -81,16 +81,16 @@ class Concepts extends React.Component {
                       <th>Decomposition</th>
                       <td><p>Ideas, problems, or projects are broken down into component parts to set the stage for deeper analysis.</p></td>
                       <td dataColumn='Math'><p>145 can be decomposed as 100 + 40 + 5.</p></td>
-                      <td dataColumn='ELA'><p>Words can be broken into syllables to sound them out. Essays have three parts—introduction, body, &amp; conclusion.</p></td>
+                      <td dataColumn='ELA'><p>Words can be broken into syllables to sound them out. Essays have three parts—introduction, body, and conclusion.</p></td>
                     </tr>
                     <tr>
                       <th>Pattern Recognition</th>
                       <td><p>Decomposed component parts are examined to find patterns like similarities, repetition, conditional relationships, or nested relationships.</p></td>
-                      <td dataColumn='Math'><p>2, 4, 6, 8, 10 are even numbers. &nbsp;1, 3, 5, 7, 9, 11 are odd numbers.</p></td>
+                      <td dataColumn='Math'><p>2, 4, 6, 8, 10 are even numbers. 1, 3, 5, 7, 9, 11 are odd numbers.</p></td>
                       <td dataColumn='ELA'><p>As an alphabetic language, English has many systematic spelling patterns—“change y to i before adding es,” “i before e except after c”</p></td>
                     </tr>
                     <tr>
-                      <th>Generalization &amp; Detail Removal</th>
+                      <th>Generalization and Detail Removal</th>
                       <td><p>Component parts are grouped by general characteristics, and unnecessary details filtered out.</p></td>
                       <td dataColumn='Math'><p>Rounding or estimating removes details to provide a general understanding.</p></td>
                       <td dataColumn='ELA'><p>The main idea is determined by identifying the most salient idea and filtering out supporting details.</p></td>
@@ -120,9 +120,9 @@ class Concepts extends React.Component {
               header="Algorithms"
               statement="Instructions that convert a set of inputs into a desired output (kind of like a recipe)."
               content="
-                <p>Algorithms are a generalized and repeatable sequence of instructions that achieve a particular purpose and output, given a set of inputs. It&#39;s important to understand when, why and how to implement an algorithm, and to consider who or what might be affected.</p>
+                <p>Algorithms are a generalized and repeatable sequence of instructions that achieve a particular purpose and output, given a set of inputs. It's important to understand when, why and how to implement an algorithm, and to consider who or what might be affected.</p>
                 <table>
-                  <caption>Algorithm sub-concepts &amp; interdisciplinary parallels</caption>
+                  <caption>Algorithm sub-concepts and interdisciplinary parallels</caption>
                   <thead>
                     <tr>
                       <th>Sub-concept</th>
@@ -145,7 +145,7 @@ class Concepts extends React.Component {
                       <td dataColumn='ELA'><p>In non-fiction texts, a footnote can redirect us to look elsewhere for more information, before taking us back to where we left off.</p><p>The steps in the writing process aren’t necessarily linear.  When revising, writers might need to return to the rehearsal phase and gather more information.  During rehearsal, writers might do some flash drafting to try out an idea.</p></td>
                     </tr>
                     <tr>
-                      <th>Inputs, Variables &amp; Outputs</th>
+                      <th>Inputs, Variables, and Outputs</th>
                       <td><p>How <a href='#concept-data'>data</a> is passed into (inputs) manipulated by, used within (variables) and returned from the algorithm (outputs).</p></td>
                       <td dataColumn='Math'>
                         <p>A function machine is an example of a process that takes inputs, manipulates them in a way and outputs them.</p>
@@ -175,9 +175,9 @@ class Concepts extends React.Component {
               header="Programming"
               statement="Giving instructions to computers in a human language."
               content="
-                <p>Programming is about giving instructions to computers. Programming can be done through a constantly changing set of languages. Each language is translated from human-readable code into machine code that can be executed by the computer&rsquo;s central processing unit, CPU.</p>
+                <p>Programming is about giving instructions to computers. Programming can be done through a constantly changing set of languages. Each language is translated from human-readable code into machine code that can be executed by the computer's central processing unit, CPU.</p>
                 <table>
-                  <caption>Programming sub-concepts &amp; interdisciplinary parallels</caption>
+                  <caption>Programming sub-concepts and interdisciplinary parallels</caption>
                   <thead>
                     <tr>
                       <th>Sub-concept</th>
@@ -201,7 +201,7 @@ class Concepts extends React.Component {
                     </tr>
                     <tr>
                       <th>Development Environments</th>
-                      <td><p>Programmers use development environments to create applications; these environments have an editor to write code, run and show a program&rsquo;s output and log errors that arise.</p></td>
+                      <td><p>Programmers use development environments to create applications; these environments have an editor to write code, run and show a program's output and log errors that arise.</p></td>
                       <td dataColumn='Math'><p>Excel can be used as a development environment when formulas are written in cells. It will give you help writing them, run the formula for you, and then tell you if there is an error.</p></td>
                       <td dataColumn='ELA'><p>Word processors or other digital media display errors in the form of spelling and grammar checks.</p></td>
                     </tr>
@@ -226,7 +226,7 @@ class Concepts extends React.Component {
               content="
                 <p>Computers can be used to collect, store and analyze massive amounts of data quickly and reliably. Computer programs can use data to make decisions or to automate tasks.</p>
                 <table>
-                  <caption>Data sub-concepts &amp; interdisciplinary parallels</caption>
+                  <caption>Data sub-concepts and interdisciplinary parallels</caption>
                   <thead>
                     <tr>
                       <th>Subconcept</th>
@@ -237,19 +237,19 @@ class Concepts extends React.Component {
                   </thead>
                   <tbody>
                     <tr>
-                      <th>Sensors &amp; Datasets</th>
+                      <th>Sensors and Datasets</th>
                       <td><p>Data is collected by sensors such as video cameras or thermostats, or from other datasets such as government data, or your digital activity. Data from sensors and datasets must always be cleaned, to ensure its accuracy and usability.</p></td>
                       <td dataColumn='Math'><p>Data can be collected from the class such as heights, interests, country of origin, etc.</p><p>If students are taking measurements, rulers can be seen as analogous to sensors. Sensor data needs a reasonableness check.</p></td>
                       <td dataColumn='ELA'><p> When researching a topic, writers collect data and information from various sources. Writers should use current research to ensure its relevance and usability.</p></td>
                     </tr>
                     <tr>
-                      <th>Data Abstraction &amp; Storage</th>
+                      <th>Data Abstraction and Storage</th>
                       <td><p>Data is represented in computers as binary, but humans save and use data on computers as lists, databases, key-value pairs, etc.</p></td>
                       <td dataColumn='Math'><p>Tables of rows and columns are an example of data representation.</p></td>
                       <td dataColumn='ELA'><p>Outlines, timelines, and graphic organizers can represent complex data in a structured form.</p></td>
                     </tr>
                     <tr>
-                      <th>Transformation &amp; Visualization</th>
+                      <th>Transformation and Visualization</th>
                       <td><p>Computers make looking at data easier by allowing us to quickly visualize data in different ways; to break up a big problem into manageable pieces, operate on each piece independently, and then put all the pieces back together.</p></td>
                       <td dataColumn='Math'>
                         <p>When (x,y) points are plotted, it becomes easier to see their relationship.</p>
@@ -258,9 +258,9 @@ class Concepts extends React.Component {
                       <td dataColumn='ELA'><p>Infographics are used to visually represent complex information and convey scale, interconnections, and progressions.</p></td>
                     </tr>
                     <tr>
-                      <th>Feedback Loops &amp; Automation</th>
+                      <th>Feedback Loops and Automation</th>
                       <td><p>Automation is controlled by data. Some automation uses data from outside the automated system, like time. Other automation uses data on the output of the system, like temperature.</p></td>
-                      <td dataColumn='Math'><p>If the answer to a math problem doesn&rsquo;t pass the reasonableness check, the student may backpedal through their work.</p></td>
+                      <td dataColumn='Math'><p>If the answer to a math problem doesn't pass the reasonableness check, the student may backpedal through their work.</p></td>
                       <td dataColumn='ELA'><p>Using editing and revision checklists during writing for accuracy and clarity through self-assessment, peer-assessment and teacher feedback.</p></td>
                     </tr>
                   </tbody>
@@ -278,7 +278,7 @@ class Concepts extends React.Component {
               content="
                 <p>Networks, like the Internet, allow computers to interface with other computers through a set of rules, or protocols, that define how computers send and receive data. Protocols and standards are created and agreed upon by groups of people.</p>
                 <table>
-                  <caption>Network sub-concepts &amp; interdisciplinary parallels</caption>
+                  <caption>Network sub-concepts and interdisciplinary parallels</caption>
                   <thead>
                     <tr>
                       <th>Subconcept</th>
@@ -311,7 +311,7 @@ class Concepts extends React.Component {
                     </tr>
                     <tr>
                       <th>Markup</th>
-                      <td><p>Hypertext Markup Language (HTML) is the standard way to publish information or applications on the Internet. It is a standard agreed upon by the Internet Engineering Task Force (IETF). It is not a programming language, as it doesn&rsquo;t use logic.</p></td>
+                      <td><p>Hypertext Markup Language (HTML) is the standard way to publish information or applications on the Internet. It is a standard agreed upon by the Internet Engineering Task Force (IETF). It is not a programming language, as it doesn't use logic.</p></td>
                       <td dataColumn='Math'><p>Mathematics has standard representations of different expressions: 1 x 2 is multiplication, etc.</p></td>
                       <td dataColumn='ELA'><p>Underlining titles, indenting paragraphs, starting sentences with capitalization, and ending them with punctuation, are examples of publishing standards in English.</p></td>
                     </tr>

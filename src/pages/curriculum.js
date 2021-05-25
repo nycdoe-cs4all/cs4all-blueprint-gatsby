@@ -8,7 +8,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import CurriculumCard from "../components/CurriculumCard"
 
-/* Curriculum Data & Pictures */
+/* Curriculum Data and Pictures */
 import curricula from "../data/curricula"
 
 /* Component */

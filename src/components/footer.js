@@ -10,7 +10,7 @@ import CreativeCommons from "../assets/svg/icon-cc-by-nc-sa.svg"
 
 /* Component */
 const Footer = () => (
-  <div id="footer">  
+  <div id="footer">
     The DOE is committed to creating and supporting learning environments that
     reflect the diversity of New York City. To ensure that our website serves
     the needs of everyone, it follows the{" "}
@@ -24,8 +24,14 @@ const Footer = () => (
     We are committed to creating accessible digital experiences for all website
     visitors. If you need assistance with a particular page or document on our
     current site, please email{" "}
-    <a href="mailto:dgaylord@strongschools.nyc">Daniel Gaylord</a> for
-    assistance.
+    <a
+      href="mailto:dgaylord@strongschools.nyc"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Daniel Gaylord
+    </a>{" "}
+    for assistance.
     <br />
     <br />
     <a

@@ -19,7 +19,7 @@ class Perspectives extends React.Component {
   constructor(props) {
     super(props)
     this.handleState = this.handleState.bind(this)
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       if (window.location.hash) {
         this.state = { state: window.location.href.split("#")[1] }
       } else {
@@ -64,7 +64,7 @@ class Perspectives extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="perspective-explorer"
-              icon={<Explorer/>}
+              icon={<Explorer />}
               header="Explorer"
               statement="At the beginning of their journey, students learn CS concepts and practices by manipulating physical models and working in guided digital environments."
               content="
@@ -92,7 +92,7 @@ class Perspectives extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="perspective-creator"
-              icon={<Creator/>}
+              icon={<Creator />}
               header="Creator"
               statement="Continuing on their journey, students excited by the possibilities of computing can use friendly, open-ended physical and digital tools to represent their ideas, thoughts, or interests."
               content="
@@ -119,7 +119,7 @@ class Perspectives extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="perspective-innovator"
-              icon={<Innovator/>}
+              icon={<Innovator />}
               header="Innovator"
               statement="Innovators build and share ideas, thoughts, and interests with others by contributing to or building on other projects."
               content="
@@ -146,7 +146,7 @@ class Perspectives extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="perspective-citizen"
-              icon={<Citizen/>}
+              icon={<Citizen />}
               header="Citizen"
               statement="Citizens explore the systemic impact and application of computing by studying the current and historical context of the field."
               content="
@@ -187,8 +187,7 @@ class Perspectives extends React.Component {
                       href="/practices/"
                       role="button"
                     >
-                      Next:{" "}
-                      <span className="preamble">Let&rsquo;s discuss the</span>{" "}
+                      Next: <span className="preamble">Let's discuss the</span>{" "}
                       Practices{" "}
                       <span className="preamble">
                         each perspective employs.

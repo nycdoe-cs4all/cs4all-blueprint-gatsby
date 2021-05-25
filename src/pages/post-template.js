@@ -32,7 +32,9 @@ const PostTemplate = props => (
                 "dddd, MMMM Do YYYY, h:mm:ss a"
               )}
             </small>
-            {typeof props.pageContext.content !== 'string' ? "" : parse(props.pageContext.content)}
+            {typeof props.pageContext.content !== "string"
+              ? ""
+              : parse(props.pageContext.content)}
           </div>
         </div>
       </article>

@@ -40,15 +40,17 @@ const CreativeWeb = () => (
               computing.
             </p>
             <p>
-              See the Creative Web{" "}
+              See the{" "}
               <a
                 href="https://docs.google.com/document/d/1gsdxFQ6xLnD4fQIvN3O6L0yYHvduJKBhobJ-dVaiXhQ/edit?usp=sharing"
                 target="blank"
               >
-                fact sheet
+                Creative Web fact sheet
               </a>{" "}
               for more general information.
             </p>
+
+            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://drive.google.com/drive/folders/11F_yCTMnJzJbTq4CPXBAhKbGQ9Ic8Vpe"

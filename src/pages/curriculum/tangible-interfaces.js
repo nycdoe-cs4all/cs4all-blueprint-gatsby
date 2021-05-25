@@ -52,6 +52,8 @@ const TangibleInterfaces = () => (
               Tangible Interfaces will be offered to all high schools starting
               on SY 21-22.
             </p>
+
+            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://docs.google.com/document/d/1IgHL5LMKrhyJYmISXtnyXU35Q2H34ypz1tuSP36KV3E/edit?usp=sharing"

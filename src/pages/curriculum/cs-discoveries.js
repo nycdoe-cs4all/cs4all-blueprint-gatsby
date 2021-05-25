@@ -52,6 +52,8 @@ const CSDiscoveries = () => (
               </a>{" "}
               for more information.
             </p>
+
+            <h3>Resourses</h3>
             <div className="submenu">
               <a href="https://code.org/educate/csd" target="blank">
                 <div className="btn">

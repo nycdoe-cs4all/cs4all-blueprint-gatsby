@@ -24,19 +24,19 @@ const APCSA = () => (
 
           <div className="article-content">
             <p>
-              Advanced Placement (AP) Computer Science (CS)-A is a full­-year, college-level course
-              that allows students to deepen their understanding of computer
-              science concepts. The AP CS-A curriculum covers problem solving,
-              design strategies and methodologies, organization of data,
-              approaches to processing data, analysis of potential solutions,
-              and the ethical and social implications of computing. The course
-              emphasizes both object-oriented and imperative problem-solving and
-              design. Read more on the College Board's{" "}
+              Advanced Placement (AP) Computer Science (CS)-A is a full­-year,
+              college-level course that allows students to deepen their
+              understanding of computer science concepts. The AP CS-A curriculum
+              covers problem solving, design strategies and methodologies,
+              organization of data, approaches to processing data, analysis of
+              potential solutions, and the ethical and social implications of
+              computing. The course emphasizes both object-oriented and
+              imperative problem-solving and design. Read more on the{" "}
               <a
                 href="http://media.collegeboard.com/digitalServices/pdf/ap/ap-computer-science-a-course-description.pdf"
                 target="blank"
               >
-                course description
+                College Board course description
               </a>
               .
             </p>
@@ -51,15 +51,17 @@ const APCSA = () => (
               available to teachers with previous experience in CS.
             </p>
             <p>
-              See our curriculum and PD on its{" "}
+              See our curriculum and PD on the{" "}
               <a
                 href="https://docs.google.com/document/d/1PAywfah-XVojzPqnDxbV0lj1112MRkbV1esFFnK5oEg/edit?usp=sharing"
                 target="blank"
               >
-                fact sheet
+                AP CS-A fact sheet
               </a>
               .
             </p>
+
+            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="http://media.collegeboard.com/digitalServices/pdf/ap/ap-computer-science-a-course-description.pdf"

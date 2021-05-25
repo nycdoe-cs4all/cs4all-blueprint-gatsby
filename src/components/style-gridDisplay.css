@@ -32,6 +32,8 @@ article .activity-list .preview.video:after {
 article .activity-list a img {
   margin: 0 0 16px;
   border-width: 1px;
+  object-fit: cover;
+  max-height: 180px;
 }
 
 article .activity-list h3 {
@@ -62,4 +64,16 @@ article .activity-list h3 .preamble {
 
 h3 .activity-grade {
   font-size: 14px;
+}
+
+h3 .activity-title {
+  height: 4em;
+}
+
+h3 .activity-name {
+  height: 5em;
+}
+
+.activity-desc {
+  height: 11em;
 }

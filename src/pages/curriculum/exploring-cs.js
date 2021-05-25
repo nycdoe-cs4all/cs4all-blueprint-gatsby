@@ -61,6 +61,8 @@ const ExploringCS = () => (
               </a>{" "}
               for more information.
             </p>
+
+            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="http://www.exploringcs.org/for-teachers-districts/curriculum"

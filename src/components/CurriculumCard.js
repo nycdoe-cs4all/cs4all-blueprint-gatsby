@@ -10,10 +10,6 @@ const CurriculumCard = props => {
           <img
             src={pic}
             alt=""
-            style={{
-              objectFit: "cover",
-              maxHeight: "180px",
-            }}
           />
         </div>
         <h3>

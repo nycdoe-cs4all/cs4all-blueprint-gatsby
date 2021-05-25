@@ -31,12 +31,12 @@ const CSPrinciples = () => (
               goal is to create leaders in CS fields and attract traditionally
               underrepresented students. The curriculum for this course will
               also prepare students to take the Advanced Placement CS Principles
-              exam, you can learn more by checking out the College Board{" "}
+              exam, you can learn more by checking out the{" "}
               <a
                 href="https://apcentral.collegeboard.org/courses/ap-computer-science-principles?course=ap-computer-science-principles"
                 target="blank"
               >
-                course description
+                College Board course description
               </a>
               .
             </p>
@@ -55,15 +55,17 @@ const CSPrinciples = () => (
               .
             </p>
             <p>
-              See the curriculum and PD on its{" "}
+              See the curriculum and PD on the{" "}
               <a
                 href="https://drive.google.com/open?id=1akagsLmAbPhX74cFij9V4hinPHWOOZsGc-QlvJW_qhc"
                 target="blank"
               >
-                fact sheet
+                Computer Science Principles fact sheet
               </a>
               .
             </p>
+
+            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://apcentral.collegeboard.org/courses/ap-computer-science-principles?course=ap-computer-science-principles"

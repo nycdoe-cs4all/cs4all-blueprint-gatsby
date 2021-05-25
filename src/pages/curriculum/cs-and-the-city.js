@@ -48,15 +48,17 @@ const CSAndTheCity = () => (
               computing.
             </p>
             <p>
-              See the CS and the City{" "}
+              See the{" "}
               <a
                 href="https://drive.google.com/open?id=1ox7rRrPuk0jUariAyczz-eiTwXX3w_aZWXi8-auHKBY"
                 target="blank"
               >
-                fact sheet
+                CS and the City fact sheet
               </a>{" "}
               for more general information.
             </p>
+
+            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://github.com/upperlinecode/CS-and-the-City-Curriculum"

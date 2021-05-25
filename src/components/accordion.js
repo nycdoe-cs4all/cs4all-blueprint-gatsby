@@ -93,7 +93,7 @@ function Accordion(props) {
           onClick={e => updateState(e)}
         >
           <div className="box-content">
-            <span class='icon'>{props.icon}</span>
+            <span class="icon">{props.icon}</span>
             <h3>{props.header}</h3>
             {props.statement}
           </div>

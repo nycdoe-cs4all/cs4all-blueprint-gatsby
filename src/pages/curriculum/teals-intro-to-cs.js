@@ -44,6 +44,8 @@ const TEALSIntroToCS = () => (
               </a>{" "}
               for more information.
             </p>
+
+            <h3>Resourses</h3>
             <div className="submenu">
               <a href="https://tealsk12.gitbook.io/intro-cs" target="blank">
                 <div className="btn">

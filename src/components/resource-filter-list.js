@@ -56,10 +56,10 @@ const ResourceFilterList = function (props) {
               >
                 <h3>
                   <span className="icon open">
-                    <Open/>
+                    <Open />
                   </span>
                   <span className="icon close">
-                    <Close/>
+                    <Close />
                   </span>
                   <span className="label">Filter Resources</span>
                 </h3>

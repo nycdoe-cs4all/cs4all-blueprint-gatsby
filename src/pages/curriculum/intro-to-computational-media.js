@@ -47,7 +47,7 @@ const IntroToCompMedia = () => (
               will learn how HTML/CSS elements can interact with p5.js to fully
               take advantage of developing content for a browser. This course
               has been implemented in NYC schools via{" "}
-              <a href="http://cs4all.nyc/programs/sequences/" target="blank">
+              <a href="/curriculum/software-engineering-program/">
                 CS4All’s Software Engineering Program (SEP)
               </a>
               , revised by classroom teachers with guidance from the Processing
@@ -67,6 +67,8 @@ const IntroToCompMedia = () => (
               </a>{" "}
               for more information.
             </p>
+
+            <h3>Resourses</h3>
             <div className="submenu">
               <a href="https://nycdoe-cs4all.github.io/" target="blank">
                 <div className="btn">

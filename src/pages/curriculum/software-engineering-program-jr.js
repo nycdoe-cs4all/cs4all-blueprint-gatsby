@@ -37,6 +37,8 @@ const SoftwareEngineeringProgramJr = () => (
               curriculum is aligned with the the CS4All Blueprint concepts and
               practices, with an emphasis on Explorer and Creator perspectives.
             </p>
+
+            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://sites.google.com/strongschools.nyc/sepjrnyc/"

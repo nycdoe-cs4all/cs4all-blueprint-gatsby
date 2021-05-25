@@ -18,7 +18,7 @@ class Practices extends React.Component {
   constructor(props) {
     super(props)
     this.handleState = this.handleState.bind(this)
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       if (window.location.hash) {
         this.state = { state: window.location.href.split("#")[1] }
       } else {
@@ -63,7 +63,7 @@ class Practices extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="practice-analyze"
-              icon={<Analyze/>}
+              icon={<Analyze />}
               header="Analyzing"
               statement="I can develop a deeper understanding of computing applications."
               content="
@@ -108,7 +108,7 @@ class Practices extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="practice-prototype"
-              icon={<Prototype/>}
+              icon={<Prototype />}
               header="Prototyping"
               statement="I can express my ideas by making computing projects."
               content="
@@ -153,7 +153,7 @@ class Practices extends React.Component {
               state={this.state.state}
               changeState={this.handleState}
               name="practice-communicate"
-              icon={<Communicate/>}
+              icon={<Communicate />}
               header="Communicating"
               statement="I can engage others in my ideas and work on computing concepts."
               content="
@@ -171,22 +171,22 @@ class Practices extends React.Component {
                   <tbody>
                     <tr>
                       <th>Showing</th>
-                      <td>Talk, draw, sing, etc. about a computing application, why you think it’s interesting, or why you made it.</td>
+                      <td><p>Talk, draw, sing, etc. about a computing application, why you think it’s interesting, or why you made it.</p></td>
                       <td dataColumn='Example'><p>&ldquo;I made a circuit with two lights and button. When I’m not pushing the button, one light is on and the other is off and pushing the button reverses which one is on and off. I like this because it reminds me of a digital lock on a door, like in the movies!&rdquo;</p></td>
                     </tr>
                     <tr>
                       <th>Explaining</th>
-                      <td>In your own words talk, draw, sing, etc. about your understanding of how a computing application works. What did you discover about how it works while playing, testing, or creating it?</td>
+                      <td><p>In your own words talk, draw, sing, etc. about your understanding of how a computing application works. What did you discover about how it works while playing, testing, or creating it?</p></td>
                       <td dataColumn='Example'><p>&ldquo;I used code that recognizes when the button in my circuit pushed if it is pushed, it turns on one light and turns off the other. That’s called an if-statement and it let’s me tell the computer how to make a simple decision.&rdquo;</p></td>
                     </tr>
                     <tr>
                       <th>Presenting</th>
-                      <td>Talk, draw, sing, etc. about your understanding of computing concepts to a group of people. Consider how you might help your audience better understand your presentation - e.g. including relevant and practical examples or hands-on activities. Capture feedback that might be useful to improve your presentation.</td>
+                      <td><p>Talk, draw, sing, etc. about your understanding of computing concepts to a group of people. Consider how you might help your audience better understand your presentation - e.g. including relevant and practical examples or hands-on activities. Capture feedback that might be useful to improve your presentation.</p></td>
                       <td dataColumn='Example'><p>&ldquo;I used code to make the button in my circuit do something simple, but interesting. The code is running on a small chip called a microcontroller. Anyone can program a microcontroller, so let’s all try to do a very simple blinking light activity together now. Once we do it, I’d love to hear what questions you have about microcontrollers.&rdquo;</p></td>
                     </tr>
                     <tr>
                       <th>Discussing</th>
-                      <td>Engage in a deep discussion around computing concepts by asking questions, researching and presenting evidence, and drawing on your firsthand experiences using computing concepts.</td>
+                      <td><p>Engage in a deep discussion around computing concepts by asking questions, researching and presenting evidence, and drawing on your firsthand experiences using computing concepts.</p></td>
                       <td dataColumn='Example'><p>Computers are getting smaller and can be embedded anywhere which could make our lives better, but how do we protect people’s privacy? Because small computers can’t store large amounts of data, people’s personal data is sent over the Internet to databases. What if I don’t want my data sent thousands of miles away?</p></td>
                     </tr>
                   </tbody>
@@ -218,8 +218,7 @@ class Practices extends React.Component {
                       href="/concepts/"
                       role="button"
                     >
-                      Next:{" "}
-                      <span className="preamble">We&rsquo;ll define the</span>{" "}
+                      Next: <span className="preamble">We'll define the</span>{" "}
                       Concepts{" "}
                       <span className="preamble">
                         students explore through their CS practice.

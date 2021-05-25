@@ -74,6 +74,8 @@ const IntroToPComp = () => (
               inform you that the CS4All team has decided to cancel the Intro to
               Physical Computing course in SY 2020-21.
             </p>
+
+            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://drive.google.com/open?id=1-9_AeFCkec2YeEcMhJujIb_jiBazWKgs"

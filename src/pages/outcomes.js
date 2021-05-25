@@ -37,7 +37,10 @@ const Outcomes = () => (
         </header>
 
         <div className="article-content">
-          <p className="sub-head" data-desktop="(Hover over an outcome below to see its depth of knowledge value)">
+          <p
+            className="sub-head"
+            data-desktop="(Hover over an outcome below to see its depth of knowledge value)"
+          >
             We are currently refining our student outcomes and curriculum to
             support the release of the{" "}
             <a
@@ -46,7 +49,7 @@ const Outcomes = () => (
             >
               New York State K12 Computer Science and Digital Fluency Learning
               Standards
-            </a>{" "}
+            </a>
             .
           </p>
           <table id="student-outcomes-table">
@@ -886,7 +889,7 @@ const Outcomes = () => (
                     <span className="icon">
                       <Creator />
                     </span>
-                    Creators&nbsp;can&hellip;
+                    Creators can&hellip;
                   </a>
                 </th>
                 <th id="outcomes-networks-innovator" className="perspective">
@@ -1108,8 +1111,8 @@ const Outcomes = () => (
         <div className="exit-links">
           <div className="box">
             <a className="btn" href="/curriculum" role="button">
-              <span className="preamble">Cool. Let&rsquo;s find a</span>{" "}
-              curriculum <span className="preamble">to teach.</span>
+              <span className="preamble">Cool! Let's find a</span> curriculum{" "}
+              <span className="preamble">to teach.</span>
             </a>
           </div>
           <div className="box">

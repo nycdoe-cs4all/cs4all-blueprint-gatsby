@@ -59,7 +59,7 @@ const SoftwareEngineeringProgram = () => (
               sequences:
             </p>
 
-            <h5>Middle School</h5>
+            <h3>Middle School</h3>
             <ul>
               <li>
                 <a href="/curriculum/creative-computing">Creative Computing</a>
@@ -73,7 +73,7 @@ const SoftwareEngineeringProgram = () => (
               <li>Web Games (coming soon)</li>
             </ul>
 
-            <h5>High School</h5>
+            <h3>High School</h3>
             <ul>
               <li>
                 <a href="/curriculum/intro-to-computational-media">
@@ -97,6 +97,7 @@ const SoftwareEngineeringProgram = () => (
               </li>
             </ul>
 
+            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://drive.google.com/drive/u/0/folders/0B8D2ft9M8qQCamQwZGpJMEU2TEk"
