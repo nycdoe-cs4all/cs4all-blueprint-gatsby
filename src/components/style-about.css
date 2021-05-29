@@ -1,5 +1,5 @@
 #fellows {
-  border-bottom: 2px solid #8ac8ff; /* Color: Light Sky Blue */
+  border-bottom: 2px solid #97b5d0; /* Color: Polo Blue */
   padding: 0 0 32px;
   margin: 0 -2px 32px;
 }
@@ -35,8 +35,8 @@
   width: 100%;
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 0.4) 100%
+    rgba(0, 0, 0, 1) 0%, /* Color: White */
+    rgba(0, 0, 0, 0.5) 100% /* Color: White */
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   content: "";
   display: block;
@@ -67,7 +67,7 @@
 }
 
 .fellow:hover .fellow-content {
-  background: #17283e; /* Color: Midnight */
+  background: #142235; /* Color: Tangaroa */
 }
 
 .fellow:hover .fellow-text {

@@ -4,16 +4,9 @@
 
 /* Header (This is the whole navbar that exists at the top of every page)*/
 #masthead {
-  background: #17283e; /* Color: Midnight */
-  background: linear-gradient(
-    to right,
-    rgba(20, 34, 53, 1) 0%,
-    rgba(23, 40, 62, 1) 20%,
-    rgba(23, 40, 62, 1) 80%,
-    rgba(20, 34, 53, 1) 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  border-bottom: 1px solid #88b8e3; /* Color: Jordy Blue */
-  border-color: rgba(136, 184, 227, 0.25);
+  background: #142235; /* Color: Tangaroa */
+  border-bottom: 1px solid #97b5d0; /* Color: Polo Blue */
+  border-color: rgba(151, 181, 208, 0.25); /* Color: Polo Blue */
   font-size: 13px;
   position: fixed;
   left: 0;
@@ -29,14 +22,7 @@
 }
 
 #masthead #logo {
-  background: #17283e; /* Color: Midnight */
-  background: linear-gradient(
-    to right,
-    rgba(20, 34, 53, 1) 0%,
-    rgba(23, 40, 62, 1) 20%,
-    rgba(23, 40, 62, 1) 80%,
-    rgba(20, 34, 53, 1) 100%
-  );
+  background: #142235; /* Color: Tangaroa */
   padding: 16px;
 }
 
@@ -89,13 +75,12 @@
 }
 
 #menu .site-menu {
-  /* Site-Menu corresponds to the Hamburger Menu or normal links depending on screen size */
-  color: #17283e; /* Color: Midnight */
+  color: #142235; /* Color: Tangaroa */
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  background: #cad5e0; /* Color: Link Water */
+  background: #fff; /* Color: White */
   font-size: 18px;
   overflow: hidden;
   transition: transform 0.6s, opacity 0.6s;
@@ -137,7 +122,7 @@
 }
 
 #menu .site-menu a {
-  color: #17283e; /* Color: Midnight */
+  color: #142235; /* Color: Tangaroa */
 }
 
 #menu .site-menu li li a:before {
@@ -172,5 +157,5 @@
 }
 
 #menu .site-menu svg {
-  fill: #17283e; /* Color: Midnight */
+  fill: #142235; /* Color: Tangaroa */
 }

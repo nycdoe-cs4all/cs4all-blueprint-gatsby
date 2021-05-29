@@ -6,7 +6,7 @@
 #page-menu {
   font-size: 20px;
   width: 100%;
-  border-right: 1px solid #f26922; /* Color: Pumpkin */
+  border-right: 1px solid;
   position: fixed;
   top: 68px;
   left: 0;
@@ -47,7 +47,6 @@
 
 #page-menu h3 {
   transition: color 0.3s;
-  color: #f26922; /* Color: Pumpkin */
 }
 
 #page-menu h3 .icon {
@@ -57,10 +56,6 @@
   vertical-align: middle;
   margin: -2px 4px 3px 0;
   transition: width 0.5s, height 0.5s, margin 0.5s;
-}
-
-#page-menu h3 svg {
-  fill: #f26922; /* Color: Pumpkin */
 }
 
 #page-menu .menu-content {

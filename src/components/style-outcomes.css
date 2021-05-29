@@ -3,7 +3,7 @@
  */
 
 /* Student Outcomes Tables */
-article #student-outcomes-table {
+#student-outcomes-table {
   max-width: 1200px;
 }
 
@@ -53,45 +53,25 @@ article #student-outcomes-table {
   margin: 0 0 24px;
 }
 
-article #student-outcomes-table td.perspective:before {
+#student-outcomes-table td.perspective:before {
   display: inline-block;
-  content: attr(dataColumn);
+  content: attr(dataColumn)"\00a0";
 }
 
-article #student-outcomes-table td.perspective:after {
+#student-outcomes-table td.perspective:after {
   display: inline-block;
-  content: "(" attr(dataDokNumber) "\00a0\2022\0020"attr(dataDokVerb) ")";
+  content: "("attr(dataDokNumber)"\00a0\2022\0020"attr(dataDokVerb)")";
   font-weight: bold;
-  color: #97b5d0; /* Color: Polo Blue */
 }
 
 #student-outcomes-table th.perspective {
-  color: #4b77a0; /* Color: San Marino */
   padding: 0 0 128px;
 }
 
-#student-outcomes-table .perspective .icon svg {
-  fill: #97b5d0; /* Color: Polo Blue */
-}
-
 #student-outcomes-table tbody th.concept {
-  color: #fff; /* Color: White */
-  background: #e26932; /* Color: Sorbus */
   padding: 20px 16px;
   text-align: left;
   margin-left: -16px;
   margin-right: -16px;
   border-radius: 0;
-}
-
-#student-outcomes-table tbody th.concept .icon svg {
-  fill: #f9af60; /* Color: Rajah */
-}
-
-#student-outcomes-table tbody td.practice {
-  color: #2d7743; /* Color: Camarone */
-}
-
-#student-outcomes-table tbody td.practice .icon svg {
-  fill: #a1cc3a; /* Color: Atlantis */
 }

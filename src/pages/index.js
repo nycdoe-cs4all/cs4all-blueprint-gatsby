@@ -11,7 +11,7 @@ import FsLightbox from "fslightbox-react"
 
 import Play from "../assets/svg/icon-play.svg"
 import Foundations from "../assets/svg/icon-foundations.svg"
-import Units from "../assets/svg/icon-units.svg"
+import Units from "../assets/svg/icon-curriculum.svg"
 import Resources from "../assets/svg/icon-resources.svg"
 
 /* Video thumbnails */
@@ -30,6 +30,8 @@ function IndexPage() {
   return (
     <Layout>
       <SEO title="CS4All Blueprint" />
+      {/*Add className="animation" to the following div for cool Animations
+         Note: Animation isn't actually useful as it deters from the actual content*/}
       <div id="page">
         <div className="jumbotron">
           <p>
@@ -41,12 +43,15 @@ function IndexPage() {
             >
               <span className="expander">CS4ALL</span>
             </a>{" "}
-            will ensure that every NYC student receives a meaningful unit of
-            computer science education by 2025. With the{" "}
+            will ensure that every <span className="intro-2">NYC</span> student
+            receives a <span className="intro-3">meaningful</span> unit of{" "}
+            <span className="intro-1">computer science education</span> by 2025.
+            With the{" "}
             <a className="intro-b" href="/about/">
               <span className="expander">Blueprint</span>
             </a>
-            , our educators are making it happen.
+            , our <span className="intro-3">educators</span> are making it
+            happen.
           </p>
           <div className=" next box">
             <a

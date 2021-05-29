@@ -17,7 +17,6 @@ import Footer from "./Footer"
 /* Stylesheet Imports */
 import "./style.css"
 import "./style-typography.css"
-import "./style-colorScheme.css"
 import "./style-animations.css"
 import "./style-navbar.css"
 import "./style-footer.css"
@@ -26,6 +25,7 @@ import "./style-gridDisplay.css"
 import "./style-index.css"
 import "./style-about.css"
 import "./style-outcomes.css"
+import "./style-colorScheme.css"
 import "./style-responsive.css"
 
 /* Component */

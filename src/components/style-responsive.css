@@ -418,9 +418,12 @@
   #student-outcomes-table tbody th.concept {
     min-width: 110px;
     background: #fff; /* Color: White */
-    color: #e26932; /* Color: Sorbus */
+    color: #ca4b0c; /* Color: Tenne */
     border-radius: 8px 2px 2px 8px;
-    /*  vertical-align: middle;*/
+  }
+
+  #student-outcomes-table tbody th.concept .icon svg {
+    fill: #f9af60; /* Color: Rajah */
   }
 
   #student-outcomes-table tbody td.practice {
@@ -441,7 +444,7 @@
     margin: 0;
   }
 
-  article #student-outcomes-table td.perspective:before {
+  #student-outcomes-table td.perspective:before {
     display: none;
   }
 
@@ -477,14 +480,6 @@
     width: 19%;
   }
 
-  #student-outcomes-table tbody th.concept .icon svg {
-    fill: #f9af60; /* Color: Rajah */
-  }
-
-  #student-outcomes-table tbody td.practice {
-    color: #2d7743; /* Color: Camarone */
-  }
-
   #student-outcomes-table thead th .icon {
     margin: 0 0 12px;
     max-width: 40px;
@@ -511,7 +506,7 @@
   }
 
   #masthead:hover {
-    border-color: #8ac8ff; /* Color: Light Sky Blue */
+    border-color: #97b5d0; /* Color: Polo Blue */
   }
 
   #masthead #logo {
@@ -554,7 +549,7 @@
   }
 
   #menu .site-menu a {
-    color: #8ac8ff; /* Color: Light Sky Blue */
+    color: #97b5d0; /* Color: Polo Blue */
     padding: 16px 0 11px;
   }
 
@@ -570,7 +565,7 @@
   }
 
   #menu .site-menu svg {
-    fill: #8ac8ff; /* Color: Light Sky Blue */
+    fill: #97b5d0; /* Color: Polo Blue */
   }
 
   #menu .site-menu li:hover > a svg {
@@ -587,10 +582,10 @@
     top: 100%;
     left: -32px;
     margin: 0;
-    background: #17283e; /* Color: Midnight */
+    background: #142235; /* Color: Tangaroa */
     padding: 32px 32px 16px;
-    border: 1px solid #8ac8ff; /* Color: Light Sky Blue */
-    border-color: rgba(136, 184, 227, 0.25);
+    border: 1px solid #97b5d0; /* Color: Polo Blue */
+    border-color: rgba(151, 181, 208, 0.25); /* Color: Polo Blue */
     height: auto !important;
     opacity: 1;
     transition: transform 0.5s, border 0.3s;
@@ -603,7 +598,7 @@
   }
 
   #masthead:hover #menu .site-menu li ul {
-    border-color: #8ac8ff; /* Color: Light Sky Blue */
+    border-color: #97b5d0; /* Color: Polo Blue */
   }
 
   #menu .site-menu li li {
@@ -620,7 +615,7 @@
   }
 
   #menu .site-menu li:hover li a {
-    color: #8ac8ff; /* Color: Light Sky Blue */
+    color: #97b5d0; /* Color: Polo Blue */
   }
 
   #menu .site-menu li:hover li:hover > a {
@@ -796,11 +791,11 @@
   }
 
   #page-menu header a:hover h3 {
-    color: #17283e; /* Color: Midnight */
+    color: #142235; /* Color: Tangaroa */
   }
 
   #page-menu header a:hover h3 svg {
-    fill: #17283e; /* Color: Midnight */
+    fill: #142235; /* Color: Tangaroa */
   }
 
   .col-md-3 {
@@ -820,7 +815,7 @@
   }
 
   .activity-list a:hover {
-    border-color: #8ac8ff; /* Color: Light Sky Blue */
+    border-color: #97b5d0; /* Color: Polo Blue */
   }
 
   .light-theme .box {
@@ -855,7 +850,7 @@
     text-align: center;
     position: relative;
     margin: 0 auto;
-    color: #6b8bb2; /* Color: Ship Cove */
+    color: #97b5d0; /* Color: Polo Blue */
     font-size: 16px;
     font-weight: 400;
   }
@@ -882,7 +877,7 @@
     top: 50%;
     height: 6px;
     width: 6px;
-    background: #6b8bb2; /* Color: Ship Cove */
+    background: #97b5d0; /* Color: Polo Blue */
     border-radius: 50%;
     transform: translate(0, -50%);
   }
@@ -917,7 +912,7 @@
     white-space: nowrap;
   }
 
-  article table#student-outcomes-table td:last-child:hover {
+  #student-outcomes-table td:last-child:hover {
     border-radius: 2px 2px 8px 2px !important;
   }
 
@@ -940,12 +935,6 @@
   #student-outcomes-table th,
   #student-outcomes-table td {
     padding: 12px 14px;
-  }
-
-  #student-outcomes-table tr:hover td {
-    background: #8ac8ff; /* Color: Light Sky Blue */
-    background: #97b5d0; /* Color: Polo Blue */
-    background: #d4e0f0; /* Color: Hawkes Blue */
   }
 
   #student-outcomes-table tr:hover th:hover ~ td {
@@ -975,56 +964,86 @@
     fill: #fff; /* Color: White */
   }
 
-  #student-outcomes-table tbody:hover th.concept {
-    background: #f9af60; /* Color: Rajah */
-  }
-
-  #student-outcomes-table tbody:hover th.concept:hover {
-    background: #b23900; /* Color: Rust */
-    color: #fff; /* Color: White */
-  }
-
-  #student-outcomes-table tbody:hover th.concept .icon svg {
-    fill: #e26932; /* Color: Sorbus */
-  }
-
   #student-outcomes-table tbody:hover th.concept:hover .icon svg {
     fill: #fff; /* Color: White */
   }
 
-  #student-outcomes-table tbody tr:hover td.practice {
-    background: #a1cc3a; /* Color: Camarone */
-    background: #b1cc6a; /* Color: Wild Willow */
+  #student-outcomes-table td.perspective:after {
+    display: block;
+    content: attr(dataDokVerb);
+    line-height: 1;
+    padding: 4px 6px 6px;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    position: absolute;
+    left: 100%;
+    width: 100%;
+    top: 0;
+    background: #8ac8ff; /* Color: Light Sky Blue */
+    color: #fff; /* Color: White */
+    color: #175494; /* Color: Endeavour */
+    opacity: 0;
+    transition: opacity 0.3s, color 0.3s;
+    text-transform: capitalize;
   }
 
-  #student-outcomes-table tbody tr:hover th:hover + td.practice {
-    background: transparent;
+  #student-outcomes-table tr:hover td {
+    background: #8ac8ff; /* Color: Light Sky Blue */
   }
 
   #student-outcomes-table tbody tr:hover td.practice:hover {
     background: #1b572f; /* Color: Crusoe */
   }
 
+  #student-outcomes-table tbody tr:hover td.practice h4 {
+    color: #1b572f; /* Color: Crusoe */
+  }
+
   #student-outcomes-table tbody tr:hover td.practice .icon svg {
-    fill: #2d7743; /* Color: Camarone */
+    fill: #1b572f; /* Color: Crusoe */
+  }
+
+  #student-outcomes-table tbody tr:hover td.practice {
+    background: #a1cc3a; /* Color: Atlantis */
   }
 
   #student-outcomes-table tbody tr:hover th:hover + td.practice .icon svg {
     fill: #a1cc3a; /* Color: Atlantis */
   }
 
+  #student-outcomes-table tbody:hover th.concept:hover {
+    background: #8a2C00; /* Color: Saddle Brown */
+    color: #fff; /* Color: White */
+  }
+
+  #student-outcomes-table tbody:hover th.concept .icon svg {
+    fill: #ca4b0c; /* Color: Tenne */
+  }
+
+  #student-outcomes-table tbody:hover th.concept {
+    background: #f9af60; /* Color: Rajah */
+  }
+
+  #student-outcomes-table tbody tr:hover th:hover + td.practice {
+    background: transparent;
+  }
+
   #student-outcomes-table tbody tr:hover td.practice:hover .icon svg {
     fill: #fff; /* Color: White */
+  }
+
+  #student-outcomes-table tbody tr:hover td.practice:hover h4 {
+    color: #fff; /* Color: White */
   }
 
   #student-outcomes-table td.perspective {
     padding-right: 28px;
   }
 
-  article #student-outcomes-table td.perspective:before {
+  #student-outcomes-table td.perspective:before {
     display: block;
     content: attr(dataDokNumber);
-    background: #4b77a0; /* Color: San Marino */
+    background: #175494; /* Color: Endeavour */
     color: #fff; /* Color: White */
     padding: 4px 0;
     line-height: 1;
@@ -1040,40 +1059,21 @@
     font-size: 11px;
   }
 
-  article #student-outcomes-table td.perspective:after {
-    display: block;
-    content: attr(dataDokVerb);
-    line-height: 1;
-    padding: 4px 6px 6px;
-    transform: rotate(90deg);
-    transform-origin: 0 0;
-    position: absolute;
-    left: 100%;
-    width: 100%;
-    top: 0;
-    background: #d4e0f0; /* Color: Hawkes Blue */
-    color: #fff; /* Color: White */
-    color: #4b77a0; /* Color: San Marino */
-    opacity: 0;
-    transition: opacity 0.3s, color 0.3s;
-    text-transform: capitalize;
-  }
-
-  article #student-outcomes-table tr:hover td.perspective:before,
-  article #student-outcomes-table tr:hover td.perspective:after {
+  #student-outcomes-table tr:hover td.perspective:before,
+  #student-outcomes-table tr:hover td.perspective:after {
     opacity: 1;
   }
 
-  article #student-outcomes-table tr:hover th:hover ~ td.perspective:before,
-  article #student-outcomes-table tr:hover th:hover ~ td.perspective:after {
+  #student-outcomes-table tr:hover th:hover ~ td.perspective:before,
+  #student-outcomes-table tr:hover th:hover ~ td.perspective:after {
     opacity: 0;
   }
 
-  article #student-outcomes-table tr:hover td.perspective:hover:before {
+  #student-outcomes-table tr:hover td.perspective:hover:before {
     background: #17283e; /* Color: Midnight */
   }
 
-  article #student-outcomes-table tr:hover td.perspective:hover:after {
+  #student-outcomes-table tr:hover td.perspective:hover:after {
     color: #17283e; /* Color: Midnight */
   }
 

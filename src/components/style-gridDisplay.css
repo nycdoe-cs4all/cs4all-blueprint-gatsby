@@ -45,17 +45,13 @@ article .activity-list h3 .preamble {
   font-size: 14px;
   text-transform: uppercase;
   line-height: 1.4;
-  color: #8ac8ff; /* Color: Light Sky Blue */
+  color: #97b5d0; /* Color: Polo Blue */
 }
 
 .activity-list a {
   display: block;
   padding: 16px;
-  border: 1px solid #8ac8ff; /* Color: Light Sky Blue */
-}
-
-.activity-list a:hover {
-  color: #8ac8ff; /* Color: Light Sky Blue */
+  border: 1px solid #97b5d0; /* Color: Polo Blue */
 }
 
 .activity-list a span {

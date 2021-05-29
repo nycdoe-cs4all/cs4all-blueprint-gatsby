@@ -16,15 +16,7 @@ body {
   padding-top: 69px;
   padding-bottom: 20px;
   margin: 0;
-  background: #17283e; /* Color: Midnight */
-  background: linear-gradient(
-    to right,
-    rgba(20, 34, 53, 1) 0%,
-    rgba(23, 40, 62, 1) 20%,
-    rgba(23, 40, 62, 1) 80%,
-    rgba(20, 34, 53, 1) 100%
-  );
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #142235; /* Color: Tangaroa */
   color: #fff; /* Color: White */
   font-size: 18px;
   line-height: 1.6;
@@ -32,7 +24,7 @@ body {
 
 a,
 nav a {
-  color: #8ac8ff; /* Color: Light Sky Blue */
+  color: #97b5d0; /* Color: Polo Blue */
   text-decoration: none;
 }
 
@@ -43,13 +35,13 @@ nav a:hover {
 
 a:focus,
 nav a:focus {
-  color: #8ac8ff; /* Color: Light Sky Blue */
+  color: #97b5d0; /* Color: Polo Blue */
   text-decoration: none;
 }
 
 a svg,
 nav a svg {
-  fill: #8ac8ff; /* Color: Light Sky Blue */
+  fill: #97b5d0; /* Color: Polo Blue */
 }
 
 a:hover svg,
@@ -58,7 +50,7 @@ nav a:hover svg {
 }
 
 a img {
-  border: 2px solid #8ac8ff; /* Color: Light Sky Blue */
+  border: 2px solid #97b5d0; /* Color: Polo Blue */
 }
 
 a:hover img,
@@ -100,7 +92,7 @@ h2 {
 
 h2 .preamble,
 h2 b span {
-  color: #8ac8ff; /* Color: Light Sky Blue */
+  color: #97b5d0; /* Color: Polo Blue */
 }
 
 header .icon {
@@ -110,7 +102,7 @@ header .icon {
 }
 
 section header a:hover svg {
-  fill: #8ac8ff; /* Color: Light Sky Blue */
+  fill: #97b5d0; /* Color: Polo Blue */
 }
 
 h2,
@@ -129,7 +121,6 @@ h3 {
 
 h3 .subtitle {
   font-size: 13px;
-  color: #a1cc3b; /* Color: Atlantis */
 }
 
 ul,
@@ -148,11 +139,11 @@ iframe {
 }
 
 :focus-visible {
-  outline: 3px solid #7033a0;
+  outline: 3px solid #7033a0; /* Color: Royal Purple */
 }
 
 .parentFocus:focus-within {
-  outline: 3px solid #7033a0;
+  outline: 3px solid #7033a0; /* Color: Royal Purple */
 }
 
 .icon,
@@ -189,12 +180,10 @@ iframe {
 .headline {
   font-size: 22px;
   font-weight: 400;
-  /* color: #f26922; Color: Pumpkin */
-  color: #ca4b0c; /* Color: Tenne */
 }
 
 .examples {
-  border-bottom: 2px solid #8ac8ff; /* Color: Light Sky Blue */
+  border-bottom: 2px solid #97b5d0; /* Color: Polo Blue */
   margin: 0 0 32px;
   font-weight: 400;
   padding-left: 18px;
@@ -202,8 +191,8 @@ iframe {
 
 /* Button Styles */
 .button {
-  color: #8ac8ff; /* Color: Light Sky Blue */
-  border: 1px solid #8ac8ff; /* Color: Light Sky Blue */
+  color: #97b5d0; /* Color: Polo Blue */
+  border: 1px solid #97b5d0; /* Color: Polo Blue */
   border-radius: 0;
   display: inline-block;
   font-size: 14px;
@@ -221,8 +210,8 @@ iframe {
 }
 
 .btn {
-  color: #8ac8ff; /* Color: Light Sky Blue */
-  border: 2px solid #8ac8ff; /* Color: Light Sky Blue */
+  color: #97b5d0; /* Color: Polo Blue */
+  border: 2px solid #97b5d0; /* Color: Polo Blue */
   border-radius: 0;
   background: none;
   display: block;
@@ -244,7 +233,7 @@ iframe {
 
 .btn:focus {
   background: none;
-  border-color: #8ac8ff; /* Color: Light Sky Blue */
+  border-color: #97b5d0; /* Color: Polo Blue */
 }
 
 .btn.btn-sm {
@@ -356,6 +345,18 @@ article .article-content {
 article .section-content {
   overflow: hidden;
   transition: max-height 0.4s, margin 0.4s;
+  background: #fff; /* Color: White */
+}
+
+article .section-content a:hover,
+article .article-content a:hover,
+.interior-container a:hover {
+  text-decoration: underline;
+}
+
+article .activity-list a:hover,
+article .submenu a:hover {
+  text-decoration: none;
 }
 
 article .section-content:after {
@@ -391,7 +392,7 @@ article section {
   padding: 32px 16px;
   transition: background 0.4s, margin 0.4s, padding 0.4s;
   background: #fff; /* Color: White */
-  color: #17283e; /* Color: Midnight */
+  color: #142235; /* Color: Tangaroa */
 }
 
 article section.compressed {
@@ -408,7 +409,7 @@ article section a.box:focus {
 }
 
 article section.compressed a.box {
-  color: #8ac8ff; /* Color: Light Sky Blue */
+  color: #97b5d0; /* Color: Polo Blue */
 }
 
 article section header {
@@ -424,7 +425,7 @@ article section.compressed header {
 
 article section header h3 {
   max-width: none;
-  color: #17283e; /* Color: Midnight */
+  color: #142235; /* Color: Tangaroa */
   transition: color 0.4s;
 }
 
@@ -437,7 +438,7 @@ article section .box {
 }
 
 article section .box:hover {
-  border-color: #8ac8ff; /* Color: Light Sky Blue */
+  border-color: #97b5d0; /* Color: Polo Blue */
 }
 
 article section + .article-content {
@@ -466,7 +467,7 @@ article table th {
 }
 
 article table td {
-  background: #8ac8ff; /* Color: Light Sky Blue */
+  background: #97b5d0; /* Color: Polo Blue */
 }
 
 article table td:before {
@@ -481,7 +482,7 @@ article table td:last-child {
 
 article table td.placeholder {
   background: none;
-  border: 1px solid #8ac8ff; /* Color: Light Sky Blue */
+  border: 1px solid #97b5d0; /* Color: Polo Blue */
   display: none;
 }
 
@@ -494,7 +495,7 @@ article table thead tr {
 }
 
 article table tbody th {
-  background: #17283e; /* Color: Midnight */
+  background: #142235; /* Color: Tangaroa */
   color: #fff; /* Color: White */
 }
 
@@ -626,7 +627,7 @@ h2,
 .preview-image {
   margin: 0 -15px 10px;
   padding: 16px 15px;
-  border: 1px solid rgba(136, 184, 227, 0.2);
+  border: 1px solid rgba(151, 181, 208, 0.2); /* Color: Polo Blue */
   border-width: 1px 0;
 }
 
@@ -667,9 +668,9 @@ article .box h3 {
   width: 1px;
   background: linear-gradient(
     to bottom,
-    rgba(136, 184, 227, 0) 0%,
-    rgba(136, 184, 227, 0.5) 50%,
-    rgba(136, 184, 227, 0) 100%
+    rgba(151, 181, 208, 0) 0%, /* Color: Polo Blue */
+    rgba(151, 181, 208, 0.5) 50%, /* Color: Polo Blue */
+    rgba(151, 181, 208, 0) 100% /* Color: Polo Blue */
   );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   transform: scale(1, 1.4);
@@ -690,9 +691,9 @@ h2:after,
   height: 1px;
   background: linear-gradient(
     to right,
-    rgba(136, 184, 227, 0) 0%,
-    rgba(136, 184, 227, 0.5) 50%,
-    rgba(136, 184, 227, 0) 100%
+    rgba(151, 181, 208, 0) 0%, /* Color: Polo Blue */
+    rgba(151, 181, 208, 0.5) 50%, /* Color: Polo Blue */
+    rgba(151, 181, 208, 0) 100% /* Color: Polo Blue */
   );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   transform: scale(1.4, 1);
@@ -705,9 +706,9 @@ h2:after,
   height: 2px;
   background: linear-gradient(
     to right,
-    rgba(136, 184, 227, 0) 0%,
-    rgba(136, 184, 227, 0.5) 50%,
-    rgba(136, 184, 227, 0) 100%
+    rgba(151, 181, 208, 0) 0%, /* Color: Polo Blue */
+    rgba(151, 181, 208, 0.5) 50%, /* Color: Polo Blue */
+    rgba(151, 181, 208, 0) 100% /* Color: Polo Blue */
   );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
@@ -840,7 +841,7 @@ h2:after,
 /* Perspectives & About Sidebar */
 .case-study {
   font-size: 16px;
-  background: #17283e; /* Color: Midnight */
+  background: #142235; /* Color: Tangaroa */
   padding: 16px;
   color: #fff; /* Color: White */
   transition: background 0.4s;

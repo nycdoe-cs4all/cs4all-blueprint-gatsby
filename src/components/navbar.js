@@ -7,7 +7,7 @@
 import React, { useState } from "react"
 
 import Foundations from "../assets/svg/icon-foundations.svg"
-import Units from "../assets/svg/icon-units.svg"
+import Units from "../assets/svg/icon-curriculum.svg"
 import Resources from "../assets/svg/icon-resources.svg"
 import Blueprint from "../assets/svg/icon-blueprint.svg"
 import Logo from "../assets/svg/logo-cs4all.svg"

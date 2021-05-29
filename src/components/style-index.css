@@ -17,7 +17,6 @@
 }
 
 .jumbotron p a {
-  color: #a1cc3b; /* Color: Atlantis */
   font-weight: 400;
 }
 
@@ -73,12 +72,12 @@ a:hover .preview-image .icon {
 }
 
 a .preview-image .icon svg {
-  fill: #17283e; /* Color: Midnight */
-  stroke: #8ac8ff; /* Color: Light Sky Blue */
+  fill: #142235; /* Color: Tangaroa */
+  stroke: #97b5d0; /* Color: Polo Blue */
   stroke-width: 0.02em;
 }
 
 a:hover .preview-image .icon svg {
-  fill: #17283e; /* Color: Midnight */
+  fill: #142235; /* Color: Tangaroa */
   stroke: #fff; /* Color: White */
 }
