@@ -41,6 +41,10 @@
   text-align: center;
 }
 
+.gallery a:hover {
+  text-decoration: none;
+}
+
 .gallery > div {
   margin: 0px 0 48px;
   display: inline-block;
