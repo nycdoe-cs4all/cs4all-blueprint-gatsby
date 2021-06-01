@@ -164,13 +164,13 @@ article.light-theme {
 .blue-theme td a,
 .blue-theme td a:hover {
   background: #8ac8ff; /* Color: Light Sky Blue */
-  color: #17283e; /* Color: Midnight */
+  color: #142235; /* Color: Tangaroa */
 }
 
 .light-theme .blue a,
 .light-theme .blue a:hover,
 .blue-theme section {
-  color: #142235; /* Color: Tangaroa */
+  color: #17283e; /* Color: Midnight */
 }
 
 .light-theme .blue h3,
