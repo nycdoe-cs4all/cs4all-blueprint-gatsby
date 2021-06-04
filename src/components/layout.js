@@ -11,8 +11,8 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 /* Component Imports*/
-import Navbar from "./Navbar"
-import Footer from "./Footer"
+import Navbar from "./navbar"
+import Footer from "./footer"
 
 /* Stylesheet Imports */
 import "./style.css"
