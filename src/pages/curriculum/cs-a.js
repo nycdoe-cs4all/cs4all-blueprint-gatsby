@@ -33,7 +33,7 @@ const APCSA = () => (
               computing. The course emphasizes both object-oriented and
               imperative problem-solving and design. Read more on the{" "}
               <a
-                href="http://media.collegeboard.com/digitalServices/pdf/ap/ap-computer-science-a-course-description.pdf"
+                href="https://apcentral.collegeboard.org/courses/ap-computer-science-a/course"
                 target="blank"
               >
                 College Board course description
@@ -56,7 +56,7 @@ const APCSA = () => (
                 href="https://docs.google.com/document/d/1PAywfah-XVojzPqnDxbV0lj1112MRkbV1esFFnK5oEg/edit?usp=sharing"
                 target="blank"
               >
-                AP CS-A fact sheet
+                AP Computer Science A fact sheet
               </a>
               .
             </p>
@@ -64,18 +64,18 @@ const APCSA = () => (
             <h3>Resourses</h3>
             <div className="submenu">
               <a
-                href="http://media.collegeboard.com/digitalServices/pdf/ap/ap-computer-science-a-course-description.pdf"
+                href="https://apcentral.collegeboard.org/courses/ap-computer-science-a/course"
                 target="blank"
               >
                 <div className="btn">
-                  <h4>College Board AP CS-A course description</h4>
+                  <h4>College Board AP Computer Science A course description</h4>
                 </div>
               </a>
             </div>
             <div className="submenu">
               <a href="https://tealsk12.gitbook.io/apcsa/" target="blank">
                 <div className="btn">
-                  <h4>TEALS AP CS-A curriculum</h4>
+                  <h4>TEALS AP Computer Science A curriculum</h4>
                 </div>
               </a>
             </div>
@@ -85,7 +85,7 @@ const APCSA = () => (
                 target="blank"
               >
                 <div className="btn">
-                  <h4>AP CS-A fact sheet</h4>
+                  <h4>AP Computer Science A fact sheet</h4>
                 </div>
               </a>
             </div>

@@ -33,7 +33,7 @@ const CSPrinciples = () => (
               also prepare students to take the Advanced Placement CS Principles
               exam, you can learn more by checking out the{" "}
               <a
-                href="https://apcentral.collegeboard.org/courses/ap-computer-science-principles?course=ap-computer-science-principles"
+                href="https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course"
                 target="blank"
               >
                 College Board course description
@@ -47,10 +47,10 @@ const CSPrinciples = () => (
               Workshops are accessible to teachers with no CS experience. This
               curriculum is aligned to the{" "}
               <a
-                href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-course-and-exam-description.pdf"
+                href="https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course"
                 target="blank"
               >
-                CS Principles Framework
+                Computer Science Principles Framework
               </a>
               .
             </p>
@@ -68,21 +68,11 @@ const CSPrinciples = () => (
             <h3>Resourses</h3>
             <div className="submenu">
               <a
-                href="https://apcentral.collegeboard.org/courses/ap-computer-science-principles?course=ap-computer-science-principles"
+                href="https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course"
                 target="blank"
               >
                 <div className="btn">
-                  <h4>College Board AP CS Principles website</h4>
-                </div>
-              </a>
-            </div>
-            <div className="submenu">
-              <a
-                href="https://apcentral.collegeboard.org/pdf/ap-computer-science-principles-course-and-exam-description.pdf"
-                target="blank"
-              >
-                <div className="btn">
-                  <h4>College Board AP CS Principles course description</h4>
+                  <h4>College Board AP Computer Science Principles course description</h4>
                 </div>
               </a>
             </div>
@@ -99,7 +89,7 @@ const CSPrinciples = () => (
                 target="blank"
               >
                 <div className="btn">
-                  <h4>UTeach CS Principles curriculum</h4>
+                  <h4>UTeach Computer Science Principles curriculum</h4>
                 </div>
               </a>
             </div>
