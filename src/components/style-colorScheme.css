@@ -3,6 +3,12 @@
  */
 
 /* General Colors */
+:root {
+    --drk-color: #142235; /* Color: Tangaroa */
+    --med-color: #487aa3; /* Color: Steel Blue */
+    --lgt-color: 151, 181, 208; /* Color: Polo Blue */
+}
+
 .jumbotron p a,
 h3 .subtitle {
   color: #a1cc3a; /* Color: Atlantis */
@@ -32,7 +38,7 @@ h3 .subtitle {
 
 .activity-list a,
 .activity-list a:hover {
-  color: #97b5d0; /* Color: Polo Blue */
+  color: rgb(var(--lgt-color)); /* Color: Polo Blue */
 }
 
 /* Student Outcomes Tables */
@@ -155,43 +161,49 @@ article.light-theme {
 }
 
 /* Blue theme */
+.blue-theme {
+    --drk-color: 23, 40, 62; /* Color: Midnight */
+    --med-color: 23, 84, 148; /* Color: Endeavour */
+    --lgt-color: 138, 200, 255; /* Color: Light Sky Blue */
+}
+
 .blue-theme,
 .blue-theme tbody th {
-  background: #17283e; /* Color: Midnight */
+  background: rgb(var(--drk-color));
 }
 
 .blue-theme td,
 .blue-theme td a,
 .blue-theme td a:hover {
-  background: #8ac8ff; /* Color: Light Sky Blue */
+  background: rgb(var(--lgt-color));
   color: #142235; /* Color: Tangaroa */
 }
 
 .light-theme .blue a,
 .light-theme .blue a:hover,
 .blue-theme section {
-  color: #17283e; /* Color: Midnight */
+  color: rgb(var(--drk-color));
 }
 
 .light-theme .blue h3,
 .blue-theme section header h3 {
-  color: #175494; /* Color: Endeavour */
+  color: rgb(var(--med-color));
 }
 
 .blue-theme h2 .preamble,
 .blue-theme section.compressed a.box {
-  color: #8ac8ff; /* Color: Light Sky Blue */
+  color: rgb(var(--lgt-color));
 }
 
 .light-theme .blue a svg,
-.blue-theme a svg {
-  fill: #8ac8ff !important; /* Color: Light Sky Blue */
+a svg {
+  fill: rgb(var(--lgt-color)) !important;
 }
 
 .light-theme .blue .box:hover,
 .blue-theme td.placeholder,
 .blue-theme section .box:hover {
-  border-color: #8ac8ff; /* Color: Light Sky Blue */
+  border-color: rgb(var(--lgt-color));
 }
 
 .light-theme .blue .box .box-content:before,
@@ -200,9 +212,9 @@ article.light-theme {
 .blue-theme .box .box-content:after {
   background: linear-gradient(
     to right,
-    rgba(138, 200, 255, 0) 0%, /* Color: Light Sky Blue */
-    rgba(138, 200, 255, 1) 50%, /* Color: Light Sky Blue */
-    rgba(138, 200, 255, 0) 100% /* Color: Light Sky Blue */
+    rgba(var(--lgt-color), 0) 0%,
+    rgba(var(--lgt-color), 1) 50%,
+    rgba(var(--lgt-color), 0) 100%
   );
 }
 
@@ -212,9 +224,9 @@ article.light-theme {
 .blue-theme .box:after {
   background: linear-gradient(
     to bottom,
-    rgba(138, 200, 255, 0) 0%, /* Color: Light Sky Blue */
-    rgba(138, 200, 255, 1) 50%, /* Color: Light Sky Blue */
-    rgba(138, 200, 255, 0) 100% /* Color: Light Sky Blue */
+    rgba(var(--lgt-color), 0) 0%,
+    rgba(var(--lgt-color), 1) 50%,
+    rgba(var(--lgt-color), 0) 100%
   );
 }
 
@@ -283,6 +295,10 @@ article.light-theme {
 }
 
 /* Green Theme */
+.green-theme {
+  --lgt-color: #a1cc3a; /* Color: Atlantis */
+}
+
 .green-theme,
 .green-theme tbody th {
   background: #1b572f; /* Color: Crusoe */
@@ -308,7 +324,7 @@ article.light-theme {
 
 .green-theme h2 .preamble,
 .green-theme section.compressed a.box {
-  color: #a1cc3a; /* Color: Atlantis */
+  color: var(--lgt-color);
 }
 
 .light-theme .green a svg,

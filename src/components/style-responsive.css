@@ -1131,3 +1131,12 @@
     left: 46px;
   }
 }
+
+/* For printing */
+@media print {
+  /* Doesn't work, on to do list */
+  article section.compressed section-content {
+    display: block !important;
+    height: auto !important;
+  }
+}
