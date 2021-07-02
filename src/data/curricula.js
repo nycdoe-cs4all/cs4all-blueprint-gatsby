@@ -163,7 +163,7 @@ const curricula = {
       link: "/curriculum/cs-principles/",
       pic: csP,
       activityGrade: "Grades 10-12",
-      activityTitle: "Computer Science Principles (Advance Placement optional)",
+      activityTitle: "Computer Science Principles (Advanced Placement optional)",
       activityDevices: "108 Hour Course",
       activityConcepts:
         "Concepts: Abstraction, Algorithms, Programming, Data, Networks",
