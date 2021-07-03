@@ -21,7 +21,7 @@ const ResourceFilterList = function (props) {
       /* Pull all categories from the attatched wordpress site */
       query={graphql`
         {
-          allWordpressCategory(filter: { name: { ne: "Uncategorized" } }) {
+          allWpCategory {
             edges {
               node {
                 name
@@ -78,7 +78,7 @@ const ResourceFilterList = function (props) {
                     All Resources
                   </a>
                 </li>
-                {data.allWordpressCategory.edges.map(edge => {
+                {data.allWpCategory.edges.map(edge => {
                   return (
                     <li key={edge.node.id}>
                       <a

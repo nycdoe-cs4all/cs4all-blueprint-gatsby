@@ -10,19 +10,23 @@ exports.createPages = ({ graphql, actions }) => {
   // Variables can be added as the second function parameter
   return graphql(`
     {
-        allWordpressPost {
-          edges {
+      allWpPost {
+        edges {
+          node {
+            date
+            id
+            slug
+            title
+            excerpt
+            content
+            author {
               node {
-                author
-                date
-                id
-                slug
-                title
-                excerpt
-                content
+                name
               }
+            }
           }
         }
+      }
     }
   `, { limit: 1000 }).then(result => {
     if (result.errors) {
@@ -30,7 +34,7 @@ exports.createPages = ({ graphql, actions }) => {
     }
 
     // Create blog post pages.
-    result.data.allWordpressPost.edges.forEach(edge => {
+    result.data.allWpPost.edges.forEach(edge => {
       createPage({
         // Path for this page — required
         path: `/resources/${edge.node.slug}`,
