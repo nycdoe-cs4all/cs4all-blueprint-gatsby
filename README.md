@@ -4,7 +4,7 @@
 
 By [@nycdoe-cs4all](https://github.com/nycdoe-cs4all)
 
-Based on [CS4All Blueprint V1.0](https://github.com/nycdoe-cs4all/blueprint-learning-site)
+Updated version of [CS4All Blueprint V1.0](https://github.com/nycdoe-cs4all/blueprint-learning-site)
 
 ### About Gatsby and React
 
@@ -20,8 +20,10 @@ This README ended up being longer than intended, so here are quick links to wher
 - [Setting Up Your Development Environment](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#setting-up-your-development-environment)
   - [Installing Apps](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#installing-apps)
   - [Preparing Git(Hub)](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#preparing-github)
-  - [Running Locally](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#running-locally)
-  - [Deploying Site](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#deploying-site)
+- [Developing and Building the Site](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#developing-and-building-the-site)
+  - [Running Site Locally](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#running-site-locally)
+  - [Building Site Locally](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#building-site-locally)
+  - [Updating Live Site](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#updating-live-site)
 - [Adding Educator Resources via WordPress](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#adding-educator-resources-via-wordpress)
 - [Changelog](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#changelog)
 - [For Posterity](https://github.com/nycdoe-cs4all/cs4all-blueprint-gatsby#for-posterity)
@@ -31,21 +33,23 @@ This README ended up being longer than intended, so here are quick links to wher
 - [x] Port [Blueprint 1.0](https://github.com/nycdoe-cs4all/blueprint-learning-site) to GatsbyJS
 - [x] Squash bugs so Blueprint 2.0 looks and functions identical to Blueprint 1.0
 - [x] Organize folder structure
-- [x] Improve code comments (_could probably improve further_)
+- [x] Improve code comments
 - [x] Update Educator Resource layouts and structure
-- [x] (_NOT FINAL_) Improve look of curriculum page(s)
-- [x] (_NOT FINAL_) Include references to NYSED standards, 3rd party curriculum, and CS Leads resources
+- [x] Improve look of curriculum page(s)
+- [x] Include references to NYSED standards, 3rd party curriculum, and CS Leads resources
 - [x] Update README
 - [x] Create process for adding new Educator Resources via WordPress
 - [ ] (_IN PROGRESS_) Improve site accessibility (i.e. translation, page structure, alt text, etc. Will require sub tasks)
-- [ ] Improve stylesheets (i.e only import styles for pages that need them)
-- [ ] Make site more modular (i.e make components for items that are used often)
-- [ ] Launch Blueprint 2.0 (estimate May 1, 2021)
+- [ ] Launch Blueprint 2.0
+- [ ] (**OPTIONAL**) (_IN PROGRESS_) Improve stylesheets (i.e only import styles for pages that need them)
+- [ ] (**OPTIONAL**) Make site more modular (i.e make components for items that are used often)
 - [ ] (**OPTIONAL**) Change video hosting
 - [ ] (**OPTIONAL**) Change site hosting
 
 ## File Structure
 
+- _public_
+  - This is where all of the files gofor the built site that will go live
 - _src_
   - This is where the main code of this website lives
   - _src/assets_
@@ -91,7 +95,9 @@ For more information, check out [GitHub Help](https://help.github.com/en/desktop
 3. Install dependencies:
    - In your terminal, run the following command: `npm install`
 
-### Running Locally
+## Developing and Building the Site
+
+### Running Site Locally
 
 For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.org/tutorial/part-zero/)
 
@@ -104,7 +110,7 @@ For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.org/t
 3. Open up a browser tab and navigate to `http://localhost:8000`
    - You can also access the site's [GraphQL](https://graphql.org/) data by going to `http://localhost:8000/___graphql`
 
-### Deploying Site
+### Building Site Locally
 
 For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.com/docs/tutorial/part-eight/)
 
@@ -119,6 +125,15 @@ For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.com/d
 - **OPTIONAL** - Viewing the production site locally:
   - In your terminal, run the following command: `gatsby serve`
   - Open up a browser tab and navigate to `http://localhost:9000`
+
+### Updating Live Site
+
+1. Access the site's Digital Ocean droplet using SSH
+   - To SSH into the server, run `ssh <username>@<ip-address>` then enter your password
+   - If you do not have a username and password or know the IP address, contact the webmaster
+2. Navigate to the proper folder `cd /home/cs4all/cs4all-blueprint-gatsby`
+3. Run `sudo gatsby build`
+   - You may need to `sudo git pull` first
 
 ## Adding Educator Resources via WordPress
 
@@ -150,6 +165,13 @@ For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.com/d
    - The page will go live during the next deployment
 
 ## Changelog
+
+### 7/2/21
+
+From [Dan](https://github.com/danielgaylord)
+
+- Site prepared for live deployment
+- Some tweaks to code to accommodate changes in needs
 
 ### 4/7/21
 
