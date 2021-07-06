@@ -133,6 +133,7 @@ For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.com/d
    - If you do not have a username and password or know the IP address, contact the webmaster
 2. Navigate to the proper folder `cd /home/cs4all/cs4all-blueprint-gatsby`
 3. Run `sudo gatsby build`
+   - You may need to `sudo git pull` first
 
 ## Adding Educator Resources via WordPress
 
