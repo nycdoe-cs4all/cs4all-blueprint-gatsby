@@ -19,18 +19,17 @@ const ResourceQuery = function (props) {
       /* Pull all posts from the attatched wordpress site */
       query={graphql`
         {
-          allWordpressPost {
+          allWpPost {
             edges {
               node {
                 id
                 slug
                 title
-                content
                 excerpt
-                date
                 categories {
-                  id
-                  name
+                  nodes {
+                    name
+                  }
                 }
               }
             }
@@ -45,11 +44,11 @@ const ResourceQuery = function (props) {
       render={data => {
         return (
           <React.Fragment>
-            {data.allWordpressPost.edges.map(post => (
+            {data.allWpPost.edges.map(post => (
               <li
                 key={post.node.id}
                 className={
-                  post.node.categories
+                  post.node.categories.nodes
                     .map(entry => entry.name)
                     .includes(props.category) || props.category === "All"
                     ? "active"
@@ -68,7 +67,7 @@ const ResourceQuery = function (props) {
                   </p>
                   <span>
                     Categories:{" "}
-                    {post.node.categories.map(
+                    {post.node.categories.nodes.map(
                       (category, index) => (index ? ", " : "") + category.name
                     )}
                   </span>
