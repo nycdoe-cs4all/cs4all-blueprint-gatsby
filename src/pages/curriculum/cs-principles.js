@@ -55,14 +55,14 @@ const CSPrinciples = () => (
               .
             </p>
             <p>
-              See the curriculum and PD on the{" "}
+              See the{" "}
               <a
                 href="https://drive.google.com/open?id=1akagsLmAbPhX74cFij9V4hinPHWOOZsGc-QlvJW_qhc"
                 target="blank"
               >
                 Computer Science Principles fact sheet
-              </a>
-              .
+              </a>{" "}
+              for more information.
             </p>
 
             <h3>Resourses</h3>

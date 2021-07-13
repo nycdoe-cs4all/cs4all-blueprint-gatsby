@@ -36,7 +36,7 @@ const CreativeComputing = () => (
               Scratch programming, they will learn how to collaborate with their
               peers, present and share their work to/with others, and contribute
               to the larger CS community. This curriculum aligns with the{" "}
-              <a href="https://blueprint.cs4all.nyc">CS4All Blueprint</a> for CS
+              <a href="/">CS4All Blueprint</a> for CS
               education that emphasizes a hands-on approach called creative
               computing.
             </p>

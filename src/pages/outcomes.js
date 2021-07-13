@@ -1111,14 +1111,16 @@ const Outcomes = () => (
         <div className="exit-links">
           <div className="box">
             <a className="btn" href="/curriculum" role="button">
-              <span className="preamble">Cool! Let's find a</span> curriculum{" "}
+              Cool! <span className="preamble">Let's find a</span> curriculum{" "}
               <span className="preamble">to teach.</span>
             </a>
           </div>
           <div className="box">
             <a className="btn" href="/resources" role="button">
               {" "}
-              <span className="preamble">Hold on, I still have questions.</span>
+              Hold on! <span className="preamble">
+                Can you answer my
+              </span> questions <span className="preamble">?</span>
             </a>
           </div>
         </div>

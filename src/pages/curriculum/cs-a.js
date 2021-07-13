@@ -51,14 +51,14 @@ const APCSA = () => (
               available to teachers with previous experience in CS.
             </p>
             <p>
-              See our curriculum and PD on the{" "}
+              See the{" "}
               <a
                 href="https://docs.google.com/document/d/1PAywfah-XVojzPqnDxbV0lj1112MRkbV1esFFnK5oEg/edit?usp=sharing"
                 target="blank"
               >
                 AP CS-A fact sheet
-              </a>
-              .
+              </a>{" "}
+              for more information.
             </p>
 
             <h3>Resourses</h3>

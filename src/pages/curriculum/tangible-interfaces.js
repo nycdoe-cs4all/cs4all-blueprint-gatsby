@@ -49,6 +49,16 @@ const TangibleInterfaces = () => (
               Computational Media.
             </p>
             <p>
+              See the{" "}
+              <a
+                href="https://docs.google.com/document/d/1IgHL5LMKrhyJYmISXtnyXU35Q2H34ypz1tuSP36KV3E/edit?usp=sharing"
+                target="blank"
+              >
+                Tangible Interfaces fact sheet
+              </a>{" "}
+              for more information.
+            </p>
+            <p>
               Tangible Interfaces will be offered to all high schools starting
               on SY 21-22.
             </p>

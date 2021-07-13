@@ -55,7 +55,7 @@ const CSAndTheCity = () => (
               >
                 CS and the City fact sheet
               </a>{" "}
-              for more general information.
+              for more information.
             </p>
 
             <h3>Resourses</h3>
