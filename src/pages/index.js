@@ -39,7 +39,7 @@ function IndexPage() {
               target="_blank"
               rel="noreferrer"
             >
-              <span className="expander">CS4ALL</span>
+              <span className="expander">CS4All</span>
             </a>{" "}
             will ensure that every NYC student receives a meaningful unit of
             computer science education by 2025. With the{" "}
@@ -276,7 +276,7 @@ function IndexPage() {
                 rel="noreferrer"
               >
                 <span className="preamble">Learn more about the</span>{" "}
-                <span>CS4ALL initiative</span>
+                <span>CS4All initiative</span>
               </a>
             </div>
           </div>

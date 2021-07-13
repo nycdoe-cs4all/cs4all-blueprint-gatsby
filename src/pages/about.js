@@ -167,7 +167,7 @@ const About = () => {
                 </li>
                 <li>
                   <h4>
-                    Tech and tech-related industry at CS4ALL industry
+                    Tech and tech-related industry at CS4All industry
                     roundtables
                   </h4>
                   Collaboration and critical thinking are equally important to
@@ -201,7 +201,7 @@ const About = () => {
 
           <section id="fellow-list">
             <div className="section-content">
-              <h3> 2016-2017 CS4ALL Blueprint Teacher Fellows</h3>
+              <h3> 2016-2017 CS4All Blueprint Teacher Fellows</h3>
               <div id="fellows" className="chart">
                 <div
                   className="fellow"
