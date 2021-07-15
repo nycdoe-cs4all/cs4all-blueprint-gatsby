@@ -36,11 +36,12 @@ const TEALSIntroToCS = () => (
               philosophy, as well as the Snap! programming environment.
             </p>
             <p>
+              See the{" "}
               <a
                 href="https://docs.google.com/document/d/1Qs9AZfcKwfOPiYT9Ysn_t2MbI67EZzxLhlZnap-yxpw/edit?usp=sharing"
                 target="blank"
               >
-                View this fact sheet
+                TEALS Introduction to Computer Science fact sheet
               </a>{" "}
               for more information.
             </p>

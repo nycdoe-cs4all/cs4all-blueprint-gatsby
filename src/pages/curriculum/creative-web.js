@@ -35,7 +35,7 @@ const CreativeWeb = () => (
               of the creative coding community, practice respectful manners of
               participating in it and consider how they can contribute to the
               larger CS community. This curriculum aligns with the{" "}
-              <a href="https://blueprint.cs4all.nyc">CS4All Blueprint</a> for CS
+              <a href="/">CS4All Blueprint</a> for CS
               education that emphasizes a hands-on approach called creative
               computing.
             </p>
@@ -47,7 +47,7 @@ const CreativeWeb = () => (
               >
                 Creative Web fact sheet
               </a>{" "}
-              for more general information.
+              for more information.
             </p>
 
             <h3>Resourses</h3>

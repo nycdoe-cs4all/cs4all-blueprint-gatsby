@@ -43,7 +43,7 @@ const CSAndTheCity = () => (
               communities or is directly linked to things in their communities -
               like trees, parks, schools, businesses. This curriculum aligns
               with the{" "}
-              <a href="https://blueprint.cs4all.nyc">CS4All Blueprint</a> for CS
+              <a href="/">CS4All Blueprint</a> for CS
               education that emphasizes a hands-on approach called creative
               computing.
             </p>
@@ -55,7 +55,7 @@ const CSAndTheCity = () => (
               >
                 CS and the City fact sheet
               </a>{" "}
-              for more general information.
+              for more information.
             </p>
 
             <h3>Resourses</h3>

@@ -42,11 +42,21 @@ const TangibleInterfaces = () => (
               the understanding of data democratization and inclusive design.
               This curriculum will make use of the NYC Open Data portal as well
               as weather data APIs. It also aligns with the{" "}
-              <a href="https://blueprint.cs4all.nyc">CS4All Blueprint</a> for CS
+              <a href="/">CS4All Blueprint</a> for CS
               education that emphasizes a hands-on approach called creative
               computing. This course is still in development and only available
               to pilot for schools who have implemented Introduction to
               Computational Media.
+            </p>
+            <p>
+              See the{" "}
+              <a
+                href="https://docs.google.com/document/d/1IgHL5LMKrhyJYmISXtnyXU35Q2H34ypz1tuSP36KV3E/edit?usp=sharing"
+                target="blank"
+              >
+                Tangible Interfaces fact sheet
+              </a>{" "}
+              for more information.
             </p>
             <p>
               Tangible Interfaces will be offered to all high schools starting
