@@ -25,7 +25,7 @@ const ExploringCS = () => (
           <div className="article-content" style={{ textAlign: "center" }}>
             <iframe
               title="Exploring Computer Science intro video"
-              src="../assets/videos/ecs2019-20.mp4"
+              src="https://player.vimeo.com/video/251542546"
               width="640"
               height="360"
               frameborder="0"
