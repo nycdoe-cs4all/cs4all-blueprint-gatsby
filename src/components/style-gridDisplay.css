@@ -74,6 +74,10 @@ h3 .activity-name {
   height: 5em;
 }
 
+h4 .activity-offering {
+  text-transform: none;
+}
+
 .activity-desc {
   height: 11em;
 }

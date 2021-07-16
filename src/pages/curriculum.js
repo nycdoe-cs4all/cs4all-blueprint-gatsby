@@ -57,6 +57,7 @@ const Curriculum = () => (
                 pic={curriculum.pic}
                 grade={curriculum.activityGrade}
                 title={curriculum.activityTitle}
+                available={curriculum.activityOffered}
                 devices={curriculum.activityDevices}
                 concepts={curriculum.activityConcepts}
                 key={curriculum.activityTitle}
@@ -81,6 +82,7 @@ const Curriculum = () => (
                 pic={curriculum.pic}
                 grade={curriculum.activityGrade}
                 title={curriculum.activityTitle}
+                available={curriculum.activityOffered}
                 devices={curriculum.activityDevices}
                 concepts={curriculum.activityConcepts}
                 key={curriculum.activityTitle}
@@ -105,6 +107,7 @@ const Curriculum = () => (
                 pic={curriculum.pic}
                 grade={curriculum.activityGrade}
                 title={curriculum.activityTitle}
+                available={curriculum.activityOffered}
                 devices={curriculum.activityDevices}
                 concepts={curriculum.activityConcepts}
                 key={curriculum.activityTitle}

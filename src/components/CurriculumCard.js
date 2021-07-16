@@ -1,7 +1,7 @@
 import React from "react"
 
 const CurriculumCard = props => {
-  const { link, pic, grade, title, devices, concepts } = props
+  const { link, pic, grade, title, available, devices, concepts } = props
 
   return (
     <li>
@@ -16,6 +16,10 @@ const CurriculumCard = props => {
           <span className="activity-grade">{grade}</span>
           <span className="activity-title">{title}</span>
         </h3>
+        <h4>
+          <span className={available ? "activity-offering active" : "activity-offering inactive"}>CS4All PD Available SY 21-22</span>
+          <span className={available ? "activity-offering inactive" : "activity-offering active"}>&nbsp;</span>
+        </h4>
         <span className="activity-devices">{devices}</span>
         <span className="activity-concepts">{concepts}</span>
       </a>
