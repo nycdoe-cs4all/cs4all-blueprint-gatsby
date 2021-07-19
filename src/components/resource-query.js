@@ -9,7 +9,7 @@ import { StaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
 
 /* Parser */
-const parse = require("html-react-parser")
+import parse from "html-react-parser";
 
 /* Component */
 const ResourceQuery = function (props) {
