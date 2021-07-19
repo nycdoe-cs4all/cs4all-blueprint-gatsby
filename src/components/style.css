@@ -141,6 +141,15 @@ ol {
 
 iframe {
   max-width: 100%;
+  display: block !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure span {
+  display: block !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #page {
