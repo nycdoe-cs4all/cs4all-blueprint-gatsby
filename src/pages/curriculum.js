@@ -5,7 +5,7 @@
 /* General Imports */
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import CurriculumCard from "../components/CurriculumCard"
 
 /* Curriculum Data and Pictures */
@@ -14,7 +14,7 @@ import curricula from "../data/curricula"
 /* Component */
 const Curriculum = () => (
   <Layout>
-    <SEO title="Curriculum Catalog" />
+    <Seo title="Curriculum Catalog" />
     <div id="page">
       <article id="explore-units">
         <header>

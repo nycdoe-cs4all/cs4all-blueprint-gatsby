@@ -5,12 +5,12 @@
 /* Imports */
 import React from "react"
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
+import Seo from "../../components/seo"
 
 /* Component */
 const IntegratedUnits68 = () => (
   <Layout>
-    <SEO title="6-8 Integrated Units" />
+    <Seo title="6-8 Integrated Units" />
     <div id="page">
       <article className="light-theme">
         <div className="col-md-12">

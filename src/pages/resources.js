@@ -2,14 +2,14 @@ import React, { useState } from "react"
 import ResourceFilterList from "../components/resource-filter-list"
 import ResourceQuery from "../components/resource-query"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 function Resource(props) {
   const [category, changeCategory] = useState("All")
 
   return (
     <Layout>
-      <SEO title="Educator Resources" />
+      <Seo title="Educator Resources" />
       <div id="page">
         <ResourceFilterList changeCategory={e => changeCategory(e)} />
         <article id="educator-resources">

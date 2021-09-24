@@ -6,7 +6,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Accordion from "../components/accordion"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import Explorer from "../assets/svg/icon-explorer.svg"
 import Creator from "../assets/svg/icon-creator.svg"
@@ -39,7 +39,7 @@ class Perspectives extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Computer Science Perspectives" />
+        <Seo title="Computer Science Perspectives" />
         <div id="page">
           <article className="blue-theme">
             <header>

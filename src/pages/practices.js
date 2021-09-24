@@ -6,7 +6,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Accordion from "../components/accordion"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import Analyze from "../assets/svg/icon-analyze.svg"
 import Prototype from "../assets/svg/icon-prototype.svg"
@@ -38,7 +38,7 @@ class Practices extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Computer Science Practices" />
+        <Seo title="Computer Science Practices" />
         <div id="page">
           <article className="green-theme">
             <header>

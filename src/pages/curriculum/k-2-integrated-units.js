@@ -5,12 +5,12 @@
 /* Imports */
 import React from "react"
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
+import Seo from "../../components/seo"
 
 /* Component */
 const IntegratedUnitsK2 = () => (
   <Layout>
-    <SEO title="K-2 Integrated Units" />
+    <Seo title="K-2 Integrated Units" />
     <div id="page">
       <article className="light-theme">
         <div className="col-md-12">
@@ -53,6 +53,18 @@ const IntegratedUnitsK2 = () => (
                   <h4>
                     K-2 Integrated Unit (2020-21): Introduction to Computer
                     Science curriculum
+                  </h4>
+                </div>
+              </a>
+            </div>
+            <div className="submenu">
+              <a
+                href="https://drive.google.com/drive/folders/1oz4z2umzOTbotO1ntqMUVKfaqadu46SN?usp=sharing"
+                target="blank"
+              >
+                <div className="btn">
+                  <h4>
+                    K-2:  Scratch Junior - Intro. Animated Genres
                   </h4>
                 </div>
               </a>

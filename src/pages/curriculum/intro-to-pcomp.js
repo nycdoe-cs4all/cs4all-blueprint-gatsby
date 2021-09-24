@@ -5,12 +5,12 @@
 /* Imports */
 import React from "react"
 import Layout from "../../components/layout"
-import SEO from "../../components/seo"
+import Seo from "../../components/seo"
 
 /* Component */
 const IntroToPComp = () => (
   <Layout>
-    <SEO title="Introduction to Physical Computing" />
+    <Seo title="Introduction to Physical Computing" />
     <div id="page">
       <article className="light-theme">
         <div className="col-md-12">
