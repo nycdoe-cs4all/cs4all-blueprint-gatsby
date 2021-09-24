@@ -7,12 +7,12 @@ import React from "react"
 import moment from "moment"
 import parse from "html-react-parser"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 /* Component */
 const PostTemplate = props => (
   <Layout>
-    <SEO title={props.pageContext.title} />
+    <Seo title={props.pageContext.title} />
     <div id="page">
       <article className="light-theme">
         <div className="col-md-12">

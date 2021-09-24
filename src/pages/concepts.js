@@ -6,7 +6,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Accordion from "../components/accordion"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import Abstraction from "../assets/svg/icon-abstraction.svg"
 import Algorithm from "../assets/svg/icon-algorithm.svg"
@@ -40,7 +40,7 @@ class Concepts extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Computer Science Concepts" />
+        <Seo title="Computer Science Concepts" />
         <div id="page">
           <article className="orange-theme">
             <header>

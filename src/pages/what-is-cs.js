@@ -7,7 +7,7 @@
 /* Imports */
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import Explorer from "../assets/svg/icon-explorer.svg"
 import Creator from "../assets/svg/icon-creator.svg"
@@ -25,7 +25,7 @@ import Network from "../assets/svg/icon-network.svg"
 /* Component */
 const WhatIsCS = () => (
   <Layout>
-    <SEO title="What Is Computer Science?" />
+    <Seo title="What Is Computer Science?" />
     <div id="page">
       <article className="light-theme">
         <header>

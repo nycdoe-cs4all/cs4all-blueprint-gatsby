@@ -5,7 +5,7 @@
 /* General Imports */
 import React, { useState } from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import FsLightbox from "fslightbox-react"
 
@@ -29,7 +29,7 @@ function IndexPage() {
   /* Display component */
   return (
     <Layout>
-      <SEO title="CS4All Blueprint" />
+      <Seo title="CS4All Blueprint" />
       <div id="page">
         <div className="jumbotron">
           <p>

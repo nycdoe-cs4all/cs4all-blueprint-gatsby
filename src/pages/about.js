@@ -6,7 +6,7 @@
 /* General Imports */
 import React, { useState, useRef } from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
 /* Blueprint fellow pictures */
@@ -36,7 +36,7 @@ const About = () => {
   /* Display component */
   return (
     <Layout>
-      <SEO title="About the Blueprint" />
+      <Seo title="About the Blueprint" />
       <div id="page">
         <article className="light-theme">
           <header>
