@@ -20,7 +20,11 @@ import matt from "../assets/images/matt-boyle.png"
 import sean from "../assets/images/sean-pawelec.jpg"
 import timF from "../assets/images/tim-feimer.png"
 import timC from "../assets/images/tim-chen.png"
+import patW from "../assets/images/patricia-wong.jpg"
+import jeffK from "../assets/images/jeff-kaufman.jpg"
 import workshop from "../assets/images/cs4all-workshop.jpg"
+
+import Person from "../assets/images/person-icon.jpg"
 
 /* Component */
 const About = () => {
@@ -29,9 +33,9 @@ const About = () => {
   const [aboutHeight, setAboutHeight] = useState("0px")
   const aboutContent = useRef(null)
 
-  const [fellowState, setFellowState] = useState(false)
-  const [fellowHeight, setFellowHeight] = useState("0px")
-  const fellowContent = useRef(null)
+  const [fellowMessageState, setFellowMessageState] = useState(false)
+  const [fellowMessageHeight, setFellowMessageHeight] = useState("0px")
+  const fellowMessageContent = useRef(null)
 
   /* Display component */
   return (
@@ -49,9 +53,10 @@ const About = () => {
               City public schools.
             </p>
           </header>
-
-          <div id="about-blueprint" className="article-content">
+          <div className="article-content">
             <img src={workshop} alt="Blueprint fellows at work" />
+          </div>
+          <div id="about-blueprint" className="article-content">
             <p>
               We know that it's a big undertaking to support educators and their
               school communities as they begin to integrate, many for the first
@@ -92,11 +97,14 @@ const About = () => {
                 feedback they offered, are summarized below.
               </p>
               <p>
-                With this beta (first published draft) version of the Blueprint,
-                the CS4All team is engaging a new cohort of Teacher Fellows, and
-                work with administrators to further refine and develop the
+                With the beta (first published draft) version of the Blueprint,
+                the CS4All team is engaged a new cohort of Teacher Fellows, and
+                worked with administrators to further refine and develop the
                 resources schools need to implement a rigorous computer science
                 curriculum.
+              </p>
+              <p>
+                With every new iteration of this Blueprint CS4All hopes to involve more and more educators to further build and refine this website to be the best computer science education resource in NYC.
               </p>
             </div>
             <p>
@@ -112,7 +120,7 @@ const About = () => {
                   )
                   setTimeout(() => {
                     scrollTo("#about-blueprint")
-                  }, 500)
+                  }, 500)   
                   return false
                 }}
                 role="button"
@@ -134,7 +142,7 @@ const About = () => {
 
           <section>
             <div className="section-content">
-              <h3>What we learned in 2016</h3>
+              <h3>What we learned in 2016 (The inception of the Blueprint)</h3>
               <p>A huge thank you to all those who attended our sessions!</p>
               <ul>
                 <li>
@@ -201,8 +209,9 @@ const About = () => {
 
           <section id="fellow-list">
             <div className="section-content">
-              <h3> 2016-2017 CS4All Blueprint Teacher Fellows</h3>
-              <div id="fellows" className="chart">
+              <h3>2016-2017 CS4All Blueprint Fellows</h3>
+              <p>The 2016-17 Blueprint Fellows laid the groundwork for the CS4All Blueprint. This team of amazing and insightful educators helped determine the foundations of this website, both <a href="/what-is-cs">literally</a> and figuratively.</p>
+              <div id="fellows2016" className="chart">
                 <div
                   className="fellow"
                   style={{ backgroundImage: "url(" + alana + ")" }}
@@ -345,7 +354,465 @@ const About = () => {
                 </div>
               </div>
 
-              <div id="about-fellows" className="article-content introduction">
+              <h3>2017-2018 CS4All Blueprint Fellows</h3>
+              <p>The Blueprint Fellowship for the 2017-18 school year was structured as two tracks - Curriculum and Pedagogy. The Curriculum Fellows designed Blueprint-aligned CS units to test in the classroom, while the Pedagogy Fellows participated in interivistations and peer observations that were published as video <a href="/resources">resources</a> on the Blueprint. Several 2016-17 Blueprint Fellows were able to attend this year as well!</p>
+              <div id="fellows2017" className="chart">
+                <p>Names, pictures, and bios are in the process of being updated!</p>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Eric Allatta</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Jacqueline Anderson</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Lisa Baerga</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Darlene Bowman</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Saisha Braithwaite</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Jonathan Broker</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Althea Burris</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Sheila Callahan</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Robert Calungsod</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Cherubim Cannon</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Aasine Cassara</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Renne Castro</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Abraham Cohen</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Alexis Dixon</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Hui Yu Du</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Susan Ettenheim</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Yokasta Evans-Lora</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Matthew Gill</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Valerie Hernandez</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Jody Hilton</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Pravin Jammula</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Yuhang Jiang</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + jeffK + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Jeffrey Kaufman</h4>
+                    <span className="fellow-text">
+                    Jeff Kaufman has taught Computer Science through the intersection of law and philosophy instilling in his students the importance of the social, political and economic implications of technology.
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Michelle Kennedy</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Brian Knoerzer</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Brooke Kohler Britton</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Mark Leffler</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Bonnie Lestz</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Alison Lisberger</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Janice Mack</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Joyce Malchow</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Megan Massimo</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Courtney Morgan</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>John Nelson</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Tenicka Norwood</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Deborah Ominiabohs</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Beth Portocarrero</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Casey Snepar</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Daniel Sterbenz</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Alicia Wade</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Kimberly Welcome</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Gwynn White</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Thea Williams</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + patW + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Patricia Wong</h4>
+                    <span className="fellow-text">
+                      Patricia is a Media Librarian, Social Scientist, CS4ALL Equity Lead, NYCDOE School SPOC, SBL &amp; SDL Certified, and a Recipient of the 2017 Senator Lanza Teacher of the Year Award.
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="fellow"
+                  style={{ backgroundImage: "url(" + Person + ")" }}
+                >
+                  <div className="fellow-content">
+                    <h4>Jessica Zuluaga</h4>
+                    <span className="fellow-text">
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div id="about-fellows" className="article-content">
                 <h4>
                   <span>A message from the fellows:</span> What are we trying to
                   teach?
@@ -360,8 +827,8 @@ const About = () => {
                 <div
                   id="about-fellows-more"
                   className="read-more"
-                  ref={fellowContent}
-                  style={{ maxHeight: `${fellowHeight}` }}
+                  ref={fellowMessageContent}
+                  style={{ maxHeight: `${fellowMessageHeight}` }}
                 >
                   <p>
                     Your students have used computers to convey their thinking
@@ -406,11 +873,11 @@ const About = () => {
                     className="btn btn-sm open"
                     href="#about-fellows"
                     onClick={() => {
-                      setFellowState(!fellowState)
-                      setFellowHeight(
-                        fellowState
+                      setFellowMessageState(!fellowMessageState)
+                      setFellowMessageHeight(
+                        fellowMessageState
                           ? "0px"
-                          : `${fellowContent.current.scrollHeight}px`
+                          : `${fellowMessageContent.current.scrollHeight}px`
                       )
                       setTimeout(() => {
                         scrollTo("#about-fellows")
@@ -422,39 +889,20 @@ const About = () => {
                   >
                     <span
                       className={
-                        fellowState ? "label inactive" : "label active"
+                        fellowMessageState ? "label inactive" : "label active"
                       }
                     >
                       Read More
                     </span>
                     <span
                       className={
-                        fellowState ? "label active" : "label inactive"
+                        fellowMessageState ? "label active" : "label inactive"
                       }
                     >
                       Collapse Text
                     </span>
                   </a>
                 </p>
-              </div>
-
-              <div className="case-study">
-                <h4>2017-2018 Fellows</h4>
-                <p>
-                  {" "}
-                  The Blueprint Fellowship for the 2017-18 school year is
-                  structured as two tracks - Curriculum and Pedagogy. We have
-                  almost 50 teachers participating this year!
-                </p>
-                <p>
-                  The Curriculum Fellows, who got started in early July 2017,
-                  are designed Blueprint-aligned CS units to test in the
-                  classroom and eventually publish on the Blueprint. The
-                  Pedagogy Fellows will meeting in August to kick-off a year of
-                  interivistation and peer observation that will published as
-                  video <a href="/resources">resources</a> on the Blueprint.
-                </p>
-                <p> Names and bios will be posted soon!</p>
               </div>
             </div>
           </section>
