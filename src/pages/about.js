@@ -307,9 +307,7 @@ const About = () => {
                   <div className="fellow-content">
                     <h4>Matt Boyle</h4>
                     <span className="fellow-text">
-                      Matthew Boyle has background in architecture and graphic
-                      design. He helps lead operations, arts, and digital media
-                      programming at the Renaissance Charter HS for Innovation.
+                      Matthew Boyle has taught CS for 9 years, and is the coordinator of the Software Engineering program at Innovation HS in East Harlem. He teaches a 4-year computer science curriculum culminating in AP CSP.
                     </span>
                   </div>
                 </div>
