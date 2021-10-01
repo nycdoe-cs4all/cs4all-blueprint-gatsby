@@ -4,6 +4,7 @@
 
 /* Imports */
 import React from "react"
+import { Link } from 'gatsby'
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
@@ -36,7 +37,7 @@ const CreativeComputing = () => (
               Scratch programming, they will learn how to collaborate with their
               peers, present and share their work to/with others, and contribute
               to the larger CS community. This curriculum aligns with the{" "}
-              <a href="/">CS4All Blueprint</a> for CS
+              <Link to="/">CS4All Blueprint</Link> for CS
               education that emphasizes a hands-on approach called creative
               computing.
             </p>

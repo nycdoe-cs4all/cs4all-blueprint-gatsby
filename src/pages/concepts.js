@@ -4,6 +4,7 @@
 
 /* Imports */
 import React from "react"
+import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import Accordion from "../components/accordion"
 import Seo from "../components/seo"
@@ -325,28 +326,28 @@ class Concepts extends React.Component {
             <div className="exit-menu">
               <ol className="list-unstyled">
                 <li>
-                  <a className="box" href="/what-is-cs/" role="button">
+                  <Link className="box" to="/what-is-cs/" role="button">
                     <span className="box-content">CS Education</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="box" href="/perspectives/" role="button">
+                  <Link className="box" to="/perspectives/" role="button">
                     <span className="box-content">Perspectives</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="box" href="/practices/" role="button">
+                  <Link className="box" to="/practices/" role="button">
                     <span className="box-content">Practices</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="current">
-                  <a href="/concepts/">Concepts</a>
+                  <Link to="/concepts/">Concepts</Link>
                 </li>
                 <li>
                   <div className="box">
-                    <a
+                    <Link
                       className="btn btn-primary btn-lg"
-                      href="/outcomes/"
+                      to="/outcomes/"
                       role="button"
                     >
                       Next:{" "}
@@ -354,7 +355,7 @@ class Concepts extends React.Component {
                         let's put it all together and see{" "}
                       </span>{" "}
                       <span>what CS Students can do!</span>
-                    </a>
+                    </Link>
                   </div>
                 </li>
               </ol>

@@ -4,6 +4,7 @@
 
 /* Imports */
 import React from "react"
+import { Link } from 'gatsby'
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
@@ -43,7 +44,7 @@ const CSAndTheCity = () => (
               communities or is directly linked to things in their communities -
               like trees, parks, schools, businesses. This curriculum aligns
               with the{" "}
-              <a href="/">CS4All Blueprint</a> for CS
+              <Link to="/">CS4All Blueprint</Link> for CS
               education that emphasizes a hands-on approach called creative
               computing.
             </p>

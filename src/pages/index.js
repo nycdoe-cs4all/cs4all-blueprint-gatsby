@@ -4,6 +4,7 @@
 
 /* General Imports */
 import React, { useState } from "react"
+import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import scrollTo from "gatsby-plugin-smoothscroll"
@@ -43,15 +44,15 @@ function IndexPage() {
             </a>{" "}
             will ensure that every NYC student receives a meaningful unit of
             computer science education by 2025. With the{" "}
-            <a className="intro-b" href="/about/">
+            <Link className="intro-b" to="/about/">
               <span className="expander">Blueprint</span>
-            </a>
+            </Link>
             , our educators are making it happen.
           </p>
           <div className=" next box">
-            <a
+            <Link
               className="btn"
-              href="#page"
+              to="#page"
               onClick={e => {
                 scrollTo("#what-is-blueprint")
                 e.preventDefault()
@@ -64,7 +65,7 @@ function IndexPage() {
               tabIndex="0"
             >
               <span className="preamble">Show me</span> how
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -74,8 +75,8 @@ function IndexPage() {
           </h2>
           <div className="gallery">
             <div id="elementaryWork" className="parentFocus">
-              <a
-                href="#elementaryWork"
+              <Link
+                to="#elementaryWork"
                 onClick={e => {
                   setTogglerES(!togglerES)
                   e.preventDefault()
@@ -94,7 +95,7 @@ function IndexPage() {
                   Elementary School{" "}
                   <span className="subtitle">Student Work</span>
                 </h3>
-              </a>
+              </Link>
               <FsLightbox
                 toggler={togglerES}
                 sources={[
@@ -112,8 +113,8 @@ function IndexPage() {
             </div>
 
             <div id="middleWork" className="parentFocus">
-              <a
-                href="#middleWork"
+              <Link
+                to="#middleWork"
                 onClick={e => {
                   setTogglerMS(!togglerMS)
                   e.preventDefault()
@@ -131,7 +132,7 @@ function IndexPage() {
                 <h3>
                   Middle School <span className="subtitle">Student Work</span>
                 </h3>
-              </a>
+              </Link>
               <FsLightbox
                 toggler={togglerMS}
                 sources={[
@@ -149,8 +150,8 @@ function IndexPage() {
             </div>
 
             <div id="highWork" className="parentFocus">
-              <a
-                href="#highWork"
+              <Link
+                to="#highWork"
                 onClick={e => {
                   setTogglerHS(!togglerHS)
                   e.preventDefault()
@@ -165,7 +166,7 @@ function IndexPage() {
                 <h3>
                   High School <span className="subtitle">Student Work</span>
                 </h3>
-              </a>
+              </Link>
               <FsLightbox
                 toggler={togglerHS}
                 sources={[
@@ -212,7 +213,7 @@ function IndexPage() {
             </p>
             <ul className="list-unstyled">
               <li>
-                <a className="box" href="/what-is-cs">
+                <Link className="box" to="/what-is-cs">
                   <div className="box-content">
                     <span className="icon">
                       <Foundations />
@@ -221,11 +222,11 @@ function IndexPage() {
                     Explanations of computer science concepts and practices with
                     no CS background required!
                   </div>
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a className="box" href="/curriculum">
+                <Link className="box" to="/curriculum">
                   <div className="box-content">
                     <span className="icon">
                       <Units />
@@ -234,11 +235,11 @@ function IndexPage() {
                     Find meaningful, engaging, and fun learning experiences for
                     any grade band!
                   </div>
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a className="box" href="/resources">
+                <Link className="box" to="/resources">
                   <div className="box-content">
                     <span className="icon">
                       <Resources />
@@ -247,7 +248,7 @@ function IndexPage() {
                     Best practices and answers to common questions for teachers
                     of all experience levels!
                   </div>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { Link } from 'gatsby'
 import ResourceFilterList from "../components/resource-filter-list"
 import ResourceQuery from "../components/resource-query"
 import Layout from "../components/layout"
@@ -29,7 +30,7 @@ function Resource(props) {
               data-desktop="(Use the filter to the left to more easily find the resources you need!)"
             >
               These resources were created and vetted by the{" "}
-              <a href="/about#fellow-list">Blueprint Fellows</a> and the CS
+              <Link to="/about#fellow-list">Blueprint Fellows</Link> and the CS
               Education Team, for additional resources created by teachers in
               the CS Leads program visit the{" "}
               <a

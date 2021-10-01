@@ -4,6 +4,7 @@
 
 /* Imports */
 import React from "react"
+import { Link } from 'gatsby'
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
@@ -42,7 +43,7 @@ const TangibleInterfaces = () => (
               the understanding of data democratization and inclusive design.
               This curriculum will make use of the NYC Open Data portal as well
               as weather data APIs. It also aligns with the{" "}
-              <a href="/">CS4All Blueprint</a> for CS
+              <Link to="/">CS4All Blueprint</Link> for CS
               education that emphasizes a hands-on approach called creative
               computing. This course is still in development and only available
               to pilot for schools who have implemented Introduction to

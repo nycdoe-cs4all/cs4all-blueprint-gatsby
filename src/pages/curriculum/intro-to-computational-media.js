@@ -4,6 +4,7 @@
 
 /* Imports */
 import React from "react"
+import { Link } from 'gatsby'
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
@@ -47,9 +48,9 @@ const IntroToCompMedia = () => (
               will learn how HTML/CSS elements can interact with p5.js to fully
               take advantage of developing content for a browser. This course
               has been implemented in NYC schools via{" "}
-              <a href="/curriculum/software-engineering-program/">
+              <Link to="/curriculum/software-engineering-program/">
                 CS4All’s Software Engineering Program (SEP)
-              </a>
+              </Link>
               , revised by classroom teachers with guidance from the Processing
               Foundation, and aligns with the CS4All Blueprint for CS education
               that emphasizes a hands-on CS approach called creative computing.

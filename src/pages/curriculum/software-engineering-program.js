@@ -4,6 +4,7 @@
 
 /* Imports */
 import React from "react"
+import { Link } from 'gatsby'
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
@@ -62,13 +63,13 @@ const SoftwareEngineeringProgram = () => (
             <h3>Middle School</h3>
             <ul>
               <li>
-                <a href="/curriculum/creative-computing">Creative Computing</a>
+                <Link to="/curriculum/creative-computing">Creative Computing</Link>
               </li>
               <li>
-                <a href="/curriculum/creative-web">Creative Web</a> OR{" "}
-                <a href="/curriculum/intro-to-pcomp">
+                <Link to="/curriculum/creative-web">Creative Web</Link> OR{" "}
+                <Link to="/curriculum/intro-to-pcomp">
                   Introduction to Physical Computing
-                </a>
+                </Link>
               </li>
               <li>Web Games (coming soon)</li>
             </ul>
@@ -76,24 +77,24 @@ const SoftwareEngineeringProgram = () => (
             <h3>High School</h3>
             <ul>
               <li>
-                <a href="/curriculum/intro-to-computational-media">
+                <Link to="/curriculum/intro-to-computational-media">
                   Introduction to Computational Media
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/curriculum/tangible-interfaces">
+                <Link to="/curriculum/tangible-interfaces">
                   Tangible Interfaces
-                </a>{" "}
+                </Link>{" "}
                 OR Physical Computing and the Digital Self (coming soon)
               </li>
               <li>
-                <a href="/curriculum/cs-principles">
+                <Link to="/curriculum/cs-principles">
                   Computer Science Principles (Advanced Placement optional)
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/curriculum/cs-and-the-city">CS and the City</a> OR{" "}
-                <a href="/curriculum/cs-a">Advanced Placement CS A</a>
+                <Link to="/curriculum/cs-and-the-city">CS and the City</Link> OR{" "}
+                <Link to="/curriculum/cs-a">Advanced Placement CS A</Link>
               </li>
             </ul>
 

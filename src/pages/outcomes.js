@@ -4,6 +4,7 @@
 
 /* Imports */
 import React from "react"
+import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -58,58 +59,58 @@ const Outcomes = () => (
                 <th className="concept">Concept</th>
                 <th className="practice">Practice</th>
                 <th id="outcomes-abstraction-explorer" className="perspective">
-                  <a href="/perspectives#perspective-explorer">
+                  <Link to="/perspectives#perspective-explorer">
                     <span className="icon">
                       <Explorer />
                     </span>
                     As an Explorer, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-abstraction-creator" className="perspective">
-                  <a href="/perspectives#perspective-creator">
+                  <Link to="/perspectives#perspective-creator">
                     <span className="icon">
                       <Creator />
                     </span>
                     As a Creator, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-abstraction-innovator" className="perspective">
-                  <a href="/perspectives#perspective-innovator">
+                  <Link to="/perspectives#perspective-innovator">
                     <span className="icon">
                       <Innovator />
                     </span>
                     As an Innovator, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-abstraction-citizen" className="perspective">
-                  <a href="/perspectives#perspective-citizen">
+                  <Link to="/perspectives#perspective-citizen">
                     <span className="icon">
                       <Citizen />
                     </span>
                     As a Citizen, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th className="concept" rowspan="3">
-                  <a href="/concepts#concept-abstraction">
+                  <Link to="/concepts#concept-abstraction">
                     Abstraction
                     <span className="icon">
                       <Abstraction />
                     </span>
-                  </a>
+                  </Link>
                 </th>
                 <td className="practice">
-                  <a href="/practices#practice-analyze">
+                  <Link to="/practices#practice-analyze">
                     <h4>
                       Analyze
                       <span className="icon">
                         <Analyze />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -154,14 +155,14 @@ const Outcomes = () => (
               </tr>
               <tr>
                 <td className="practice">
-                  <a href="/practices#practice-prototype">
+                  <Link to="/practices#practice-prototype">
                     <h4>
                       Prototype{" "}
                       <span className="icon">
                         <Prototype />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -206,14 +207,14 @@ const Outcomes = () => (
               </tr>
               <tr>
                 <td className="practice">
-                  <a href="/practices#practice-communicate">
+                  <Link to="/practices#practice-communicate">
                     <h4>
                       Communicate
                       <span className="icon">
                         <Communicate />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -263,58 +264,58 @@ const Outcomes = () => (
                 <th className="concept">Concept</th>
                 <th className="practice">Practice</th>
                 <th id="outcomes-algorithm-explorer" className="perspective">
-                  <a href="/perspectives#perspective-explorer">
+                  <Link to="/perspectives#perspective-explorer">
                     <span className="icon">
                       <Explorer />
                     </span>
                     As an Explorer, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-algorithm-creator" className="perspective">
-                  <a href="/perspectives#perspective-creator">
+                  <Link to="/perspectives#perspective-creator">
                     <span className="icon">
                       <Creator />
                     </span>
                     As a Creator, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-algorithm-innovator" className="perspective">
-                  <a href="/perspectives#perspective-innovator">
+                  <Link to="/perspectives#perspective-innovator">
                     <span className="icon">
                       <Innovator />
                     </span>
                     As an Innovator, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-algorithm-citizen" className="perspective">
-                  <a href="/perspectives#perspective-citizen">
+                  <Link to="/perspectives#perspective-citizen">
                     <span className="icon">
                       <Citizen />
                     </span>
                     As a Citizen, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th className="concept" rowspan="3">
-                  <a href="/concepts#concept-algorithms">
+                  <Link to="/concepts#concept-algorithms">
                     Algorithms
                     <span className="icon">
                       <Algorithm />
                     </span>
-                  </a>
+                  </Link>
                 </th>
                 <td className="practice">
-                  <a href="/practices#practice-analyze">
+                  <Link to="/practices#practice-analyze">
                     <h4>
                       Analyze
                       <span className="icon">
                         <Analyze />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -360,14 +361,14 @@ const Outcomes = () => (
               </tr>
               <tr>
                 <td className="practice">
-                  <a href="/practices#practice-prototype">
+                  <Link to="/practices#practice-prototype">
                     <h4>
                       Prototype{" "}
                       <span className="icon">
                         <Prototype />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -412,14 +413,14 @@ const Outcomes = () => (
               </tr>
               <tr>
                 <td className="practice">
-                  <a href="/practices#practice-communicate">
+                  <Link to="/practices#practice-communicate">
                     <h4>
                       Communicate
                       <span className="icon">
                         <Communicate />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -469,58 +470,58 @@ const Outcomes = () => (
                 <th className="concept">Concept</th>
                 <th className="practice">Practice</th>
                 <th id="outcomes-programming-explorer" className="perspective">
-                  <a href="/perspectives#perspective-explorer">
+                  <Link to="/perspectives#perspective-explorer">
                     <span className="icon">
                       <Explorer />
                     </span>
                     As an Explorer, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-programming-creator" className="perspective">
-                  <a href="/perspectives#perspective-creator">
+                  <Link to="/perspectives#perspective-creator">
                     <span className="icon">
                       <Creator />
                     </span>
                     As a Creator, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-programming-innovator" className="perspective">
-                  <a href="/perspectives#perspective-innovator">
+                  <Link to="/perspectives#perspective-innovator">
                     <span className="icon">
                       <Innovator />
                     </span>
                     As an Innovator, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-programming-citizen" className="perspective">
-                  <a href="/perspectives#perspective-citizen">
+                  <Link to="/perspectives#perspective-citizen">
                     <span className="icon">
                       <Citizen />
                     </span>
                     As a Citizen, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th className="concept" rowspan="3">
-                  <a href="/concepts#concept-programming">
+                  <Link to="/concepts#concept-programming">
                     Programming
                     <span className="icon">
                       <Programming />
                     </span>
-                  </a>
+                  </Link>
                 </th>
                 <td className="practice">
-                  <a href="/practices#practice-analyze">
+                  <Link to="/practices#practice-analyze">
                     <h4>
                       Analyze
                       <span className="icon">
                         <Analyze />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -565,14 +566,14 @@ const Outcomes = () => (
               </tr>
               <tr>
                 <td className="practice">
-                  <a href="/practices#practice-prototype">
+                  <Link to="/practices#practice-prototype">
                     <h4>
                       Prototype{" "}
                       <span className="icon">
                         <Prototype />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -617,14 +618,14 @@ const Outcomes = () => (
               </tr>
               <tr>
                 <td className="practice">
-                  <a href="/practices#practice-communicate">
+                  <Link to="/practices#practice-communicate">
                     <h4>
                       Communicate
                       <span className="icon">
                         <Communicate />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -674,58 +675,58 @@ const Outcomes = () => (
                 <th className="concept">Concept</th>
                 <th className="practice">Practice</th>
                 <th id="outcomes-data-explorer" className="perspective">
-                  <a href="/perspectives#perspective-explorer">
+                  <Link to="/perspectives#perspective-explorer">
                     <span className="icon">
                       <Explorer />
                     </span>
                     As an Explorer, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-data-creator" className="perspective">
-                  <a href="/perspectives#perspective-creator">
+                  <Link to="/perspectives#perspective-creator">
                     <span className="icon">
                       <Creator />
                     </span>
                     As a Creator, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-data-innovator" className="perspective">
-                  <a href="/perspectives#perspective-innovator">
+                  <Link to="/perspectives#perspective-innovator">
                     <span className="icon">
                       <Innovator />
                     </span>
                     As an Innovator, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-data-citizen" className="perspective">
-                  <a href="/perspectives#perspective-citizen">
+                  <Link to="/perspectives#perspective-citizen">
                     <span className="icon">
                       <Citizen />
                     </span>
                     As a Citizen, I can&hellip;
-                  </a>
+                  </Link>
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th className="concept" rowspan="3">
-                  <a href="/concepts#concept-data">
+                  <Link to="/concepts#concept-data">
                     Data
                     <span className="icon">
                       <Data />
                     </span>
-                  </a>
+                  </Link>
                 </th>
                 <td className="practice">
-                  <a href="/practices#practice-analyze">
+                  <Link to="/practices#practice-analyze">
                     <h4>
                       Analyze
                       <span className="icon">
                         <Analyze />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -769,14 +770,14 @@ const Outcomes = () => (
               </tr>
               <tr>
                 <td className="practice">
-                  <a href="/practices#practice-prototype">
+                  <Link to="/practices#practice-prototype">
                     <h4>
                       Prototype{" "}
                       <span className="icon">
                         <Prototype />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -821,14 +822,14 @@ const Outcomes = () => (
               </tr>
               <tr>
                 <td className="practice">
-                  <a href="/practices#practice-communicate">
+                  <Link to="/practices#practice-communicate">
                     <h4>
                       Communicate
                       <span className="icon">
                         <Communicate />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -877,58 +878,58 @@ const Outcomes = () => (
                 <th className="concept">Concept</th>
                 <th className="practice">Practice</th>
                 <th id="outcomes-networks-explorer" className="perspective">
-                  <a href="/perspectives#perspective-explorer">
+                  <Link to="/perspectives#perspective-explorer">
                     <span className="icon">
                       <Explorer />
                     </span>
                     Explorers can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-networks-creator" className="perspective">
-                  <a href="/perspectives#perspective-creator">
+                  <Link to="/perspectives#perspective-creator">
                     <span className="icon">
                       <Creator />
                     </span>
                     Creators can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-networks-innovator" className="perspective">
-                  <a href="/perspectives#perspective-innovator">
+                  <Link to="/perspectives#perspective-innovator">
                     <span className="icon">
                       <Innovator />
                     </span>
                     Innovators can&hellip;
-                  </a>
+                  </Link>
                 </th>
                 <th id="outcomes-networks-citizen" className="perspective">
-                  <a href="/perspectives#perspective-citizen">
+                  <Link to="/perspectives#perspective-citizen">
                     <span className="icon">
                       <Citizen />
                     </span>
                     Citizens can&hellip;
-                  </a>
+                  </Link>
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th className="concept" rowspan="3">
-                  <a href="/concepts#concept-networks">
+                  <Link to="/concepts#concept-networks">
                     Networks
                     <span className="icon">
                       <Network />
                     </span>
-                  </a>
+                  </Link>
                 </th>
                 <td className="practice">
-                  <a href="/practices#practice-analyze">
+                  <Link to="/practices#practice-analyze">
                     <h4>
                       Analyze
                       <span className="icon">
                         <Analyze />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -973,14 +974,14 @@ const Outcomes = () => (
               </tr>
               <tr>
                 <td className="practice">
-                  <a href="/practices#practice-prototype">
+                  <Link to="/practices#practice-prototype">
                     <h4>
                       Prototype{" "}
                       <span className="icon">
                         <Prototype />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -1025,14 +1026,14 @@ const Outcomes = () => (
               </tr>
               <tr>
                 <td className="practice">
-                  <a href="/practices#practice-communicate">
+                  <Link to="/practices#practice-communicate">
                     <h4>
                       Communicate
                       <span className="icon">
                         <Communicate />
                       </span>
                     </h4>
-                  </a>
+                  </Link>
                 </td>
                 <td
                   dataColumn="Explorers can"
@@ -1084,44 +1085,44 @@ const Outcomes = () => (
         <div className="exit-menu">
           <ol className="list-unstyled">
             <li>
-              <a className="box" href="/what-is-cs" role="button">
+              <Link className="box" to="/what-is-cs" role="button">
                 <span className="box-content">CS Education</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="box" href="/perspectives" role="button">
+              <Link className="box" to="/perspectives" role="button">
                 <span className="box-content">Perspectives</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="box" href="/practices" role="button">
+              <Link className="box" to="/practices" role="button">
                 <span className="box-content">Practices</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="box" href="/concepts" role="button">
+              <Link className="box" to="/concepts" role="button">
                 <span className="box-content">Concepts</span>
-              </a>
+              </Link>
             </li>
             <li className="current">
-              <a href="/outcomes/">Outcomes</a>
+              <Link to="/outcomes/">Outcomes</Link>
             </li>
           </ol>
         </div>
         <div className="exit-links">
           <div className="box">
-            <a className="btn" href="/curriculum" role="button">
+            <Link className="btn" to="/curriculum" role="button">
               Cool, <span className="preamble">Let's find a</span> curriculum{" "}
               <span className="preamble">to teach!</span>
-            </a>
+            </Link>
           </div>
           <div className="box">
-            <a className="btn" href="/resources" role="button">
+            <Link className="btn" to="/resources" role="button">
               {" "}
               Hold on, <span className="preamble">
                 Can you answer my
               </span> questions <span className="preamble">?</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

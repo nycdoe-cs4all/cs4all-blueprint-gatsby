@@ -5,6 +5,7 @@
 
 /* Imports */
 import React, { useState } from "react"
+import { Link } from 'gatsby'
 
 import Foundations from "../assets/svg/icon-foundations.svg"
 import Units from "../assets/svg/icon-units.svg"
@@ -23,22 +24,22 @@ const Navbar = () => {
     <div id="masthead">
       {/* CS4All Logo */}
       <div id="logo">
-        <a href="/">
+        <Link to="/">
           <h1>
             <span className="icon">
               <Logo />
             </span>
             <span className="label"></span>
           </h1>
-        </a>
+        </Link>
       </div>
 
       <nav id="menu" className={menuState ? "active" : ""}>
         {/* Hamburger menu (only seen on phone-sized screen) */}
         <h2>
-          <a
+          <Link
             className="toggle"
-            href="#menu"
+            to="#menu"
             onClick={() => {
               setMenuState(!menuState)
               return false
@@ -49,70 +50,70 @@ const Navbar = () => {
               <Menu />
             </span>
             <span className="label">Menu</span>
-          </a>
+          </Link>
         </h2>
 
         {/* Navbar icons (changes orientation based on screen size) */}
         <div className="site-menu">
           <ul>
             <li className="compressed parent-menu">
-              <a href="/what-is-cs">
+              <Link to="/what-is-cs">
                 <span className="icon">
                   <Foundations />
                 </span>
                 <span className="preamble">CS</span> Foundations
-              </a>
+              </Link>
               <ul>
                 {/*<li>
-                  <a href="/what-is-cs">
+                  <Link to="/what-is-cs">
                     <span className="preamble">What is</span> CS Education?
-                  </a>
+                  </Link>
                 </li>*/}
                 <li>
-                  <a href="/perspectives">
+                  <Link to="/perspectives">
                     <span className="preamble">CS</span> Perspectives
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/practices">
+                  <Link to="/practices">
                     <span className="preamble">CS</span> Practices
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/concepts">
+                  <Link to="/concepts">
                     <span className="preamble">CS</span> Concepts
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/outcomes">
+                  <Link to="/outcomes">
                     <span className="preamble">Student</span> Outcomes
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="/curriculum">
+              <Link to="/curriculum">
                 <span className="icon">
                   <Units />
                 </span>
                 <span className="preamble">Curriculum</span> Catalog
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/resources">
+              <Link to="/resources">
                 <span className="icon">
                   <Resources />
                 </span>
                 <span className="preamble">Educator</span> Resources
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about">
+              <Link to="/about">
                 <span className="icon">
                   <Blueprint />
                 </span>
                 <span className="preamble">About</span> Blueprint
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
