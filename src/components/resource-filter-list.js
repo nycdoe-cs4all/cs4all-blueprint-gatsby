@@ -5,6 +5,7 @@
 
 /* Imports */
 import React, { useState } from "react"
+import { Link } from 'gatsby'
 import { StaticQuery, graphql } from "gatsby"
 
 import Open from "../assets/svg/icon-open.svg"
@@ -45,8 +46,8 @@ const ResourceFilterList = function (props) {
             }
           >
             <header>
-              <a
-                href="#page-menu"
+              <Link
+                to="#page-menu"
                 className="toggle"
                 onClick={() => {
                   setFilterState(!filterState)
@@ -63,33 +64,33 @@ const ResourceFilterList = function (props) {
                   </span>
                   <span className="label">Filter Resources</span>
                 </h3>
-              </a>
+              </Link>
             </header>
             <div className="menu-content">
               <ul>
                 <li key="0">
-                  <a
-                    href="#page-menu"
+                  <Link
+                    to="#page-menu"
                     onClick={() => {
                       props.changeCategory("All")
                       return false
                     }}
                   >
                     All Resources
-                  </a>
+                  </Link>
                 </li>
                 {data.allWpCategory.edges.map(edge => {
                   return (
                     <li key={edge.node.id}>
-                      <a
-                        href="#page-menu"
+                      <Link
+                        to="#page-menu"
                         onClick={() => {
                           props.changeCategory(edge.node.name)
                           return false
                         }}
                       >
                         {edge.node.name}
-                      </a>
+                      </Link>
                     </li>
                   )
                 })}

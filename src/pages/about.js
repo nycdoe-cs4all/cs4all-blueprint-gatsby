@@ -5,6 +5,7 @@
 
 /* General Imports */
 import React, { useState, useRef } from "react"
+import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import scrollTo from "gatsby-plugin-smoothscroll"
@@ -62,8 +63,8 @@ const About = () => {
               school communities as they begin to integrate, many for the first
               time, computer science (CS) into their classrooms. So we created
               the Blueprint with a dedicated group of{" "}
-              <a
-                href="#page"
+              <Link
+                to="#page"
                 onClick={e => {
                   scrollTo("#fellow-list")
                   e.preventDefault()
@@ -76,7 +77,7 @@ const About = () => {
                 tabIndex="0"
               >
                 Blueprint Teacher Fellows
-              </a>
+              </Link>
               , elevating their CS teaching knowledge and experience in NYC
               classrooms.
             </p>
@@ -108,9 +109,9 @@ const About = () => {
               </p>
             </div>
             <p>
-              <a
+              <Link
                 className="btn btn-sm open"
-                href="#about-blueprint"
+                to="#about-blueprint"
                 onClick={() => {
                   setAboutState(!aboutState)
                   setAboutHeight(
@@ -136,7 +137,7 @@ const About = () => {
                 >
                   Collapse Text
                 </span>
-              </a>
+              </Link>
             </p>
           </div>
 
@@ -210,7 +211,7 @@ const About = () => {
           <section id="fellow-list">
             <div className="section-content">
               <h3>2016-2017 CS4All Blueprint Fellows</h3>
-              <p>The 2016-17 Blueprint Fellows laid the groundwork for the CS4All Blueprint. This team of amazing and insightful educators helped determine the foundations of this website, both <a href="/what-is-cs">literally</a> and figuratively.</p>
+              <p>The 2016-17 Blueprint Fellows laid the groundwork for the CS4All Blueprint. This team of amazing and insightful educators helped determine the foundations of this website, both <Link to="/what-is-cs">literally</Link> and figuratively.</p>
               <div id="fellows2016" className="chart">
                 <div
                   className="fellow"
@@ -353,7 +354,7 @@ const About = () => {
               </div>
 
               <h3>2017-2018 CS4All Blueprint Fellows</h3>
-              <p>The Blueprint Fellowship for the 2017-18 school year was structured as two tracks - Curriculum and Pedagogy. The Curriculum Fellows designed Blueprint-aligned CS units to test in the classroom, while the Pedagogy Fellows participated in interivistations and peer observations that were published as video <a href="/resources">resources</a> on the Blueprint. Several 2016-17 Blueprint Fellows were able to attend this year as well!</p>
+              <p>The Blueprint Fellowship for the 2017-18 school year was structured as two tracks - Curriculum and Pedagogy. The Curriculum Fellows designed Blueprint-aligned CS units to test in the classroom, while the Pedagogy Fellows participated in interivistations and peer observations that were published as video <Link to="/resources">resources</Link> on the Blueprint. Several 2016-17 Blueprint Fellows were able to attend this year as well!</p>
               <div id="fellows2017" className="chart">
                 <p>Names, pictures, and bios are in the process of being updated!</p>
                 <div
@@ -867,9 +868,9 @@ const About = () => {
                   </p>
                 </div>
                 <p>
-                  <a
+                  <Link
                     className="btn btn-sm open"
-                    href="#about-fellows"
+                    to="#about-fellows"
                     onClick={() => {
                       setFellowMessageState(!fellowMessageState)
                       setFellowMessageHeight(
@@ -899,7 +900,7 @@ const About = () => {
                     >
                       Collapse Text
                     </span>
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>

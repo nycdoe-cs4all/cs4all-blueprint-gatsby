@@ -4,6 +4,7 @@
 
 /* Imports */
 import React from "react"
+import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import Accordion from "../components/accordion"
 import Seo from "../components/seo"
@@ -173,18 +174,18 @@ class Perspectives extends React.Component {
             <div className="exit-menu">
               <ol className="list-unstyled">
                 <li>
-                  <a className="box" href="/what-is-cs/" role="button">
+                  <Link className="box" to="/what-is-cs/" role="button">
                     <span className="box-content">CS Education</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="current">
-                  <a href="/perspectives/">Perspectives</a>
+                  <Link to="/perspectives/">Perspectives</Link>
                 </li>
                 <li>
                   <div className="box">
-                    <a
+                    <Link
                       className="btn btn-primary btn-lg"
-                      href="/practices/"
+                      to="/practices/"
                       role="button"
                     >
                       Next: <span className="preamble">Let's discuss the</span>{" "}
@@ -192,18 +193,18 @@ class Perspectives extends React.Component {
                       <span className="preamble">
                         each perspective employs.
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </li>
                 <li>
-                  <a className="box" href="/concepts/" role="button">
+                  <Link className="box" to="/concepts/" role="button">
                     <span className="box-content">Concepts</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="box" href="/outcomes/" role="button">
+                  <Link className="box" to="/outcomes/" role="button">
                     <span className="box-content">Outcomes</span>
-                  </a>
+                  </Link>
                 </li>
               </ol>
             </div>

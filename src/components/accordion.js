@@ -5,6 +5,7 @@
 
 /* Imports */
 import React, { useState, useRef, useEffect } from "react"
+import { Link } from 'gatsby'
 import scrollTo from "gatsby-plugin-smoothscroll"
 
 /* Component */
@@ -87,9 +88,9 @@ function Accordion(props) {
       }
     >
       <header>
-        <a
+        <Link
           className="box accordion"
-          href={"#" + props.name}
+          to={"#" + props.name}
           onClick={e => updateState(e)}
         >
           <div className="box-content">
@@ -97,7 +98,7 @@ function Accordion(props) {
             <h3>{props.header}</h3>
             {props.statement}
           </div>
-        </a>
+        </Link>
       </header>
       <div
         className="section-content"

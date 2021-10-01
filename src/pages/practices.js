@@ -4,6 +4,7 @@
 
 /* Imports */
 import React from "react"
+import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import Accordion from "../components/accordion"
 import Seo from "../components/seo"
@@ -199,23 +200,23 @@ class Practices extends React.Component {
             <div className="exit-menu">
               <ol className="list-unstyled">
                 <li>
-                  <a className="box" href="/what-is-cs/" role="button">
+                  <Link className="box" to="/what-is-cs/" role="button">
                     <span className="box-content">CS Education</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="box" href="/perspectives/" role="button">
+                  <Link className="box" to="/perspectives/" role="button">
                     <span className="box-content">Perspectives</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="current">
-                  <a href="/practices/">Practices</a>
+                  <Link to="/practices/">Practices</Link>
                 </li>
                 <li>
                   <div className="box">
-                    <a
+                    <Link
                       className="btn btn-primary btn-lg"
-                      href="/concepts/"
+                      to="/concepts/"
                       role="button"
                     >
                       Next: <span className="preamble">We'll define the</span>{" "}
@@ -223,13 +224,13 @@ class Practices extends React.Component {
                       <span className="preamble">
                         students explore through their CS practice.
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </li>
                 <li>
-                  <a className="box" href="/outcomes/" role="button">
+                  <Link className="box" to="/outcomes/" role="button">
                     <span className="box-content">Outcomes</span>
-                  </a>
+                  </Link>
                 </li>
               </ol>
             </div>

@@ -6,6 +6,7 @@
 
 /* Imports */
 import React from "react"
+import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -40,19 +41,19 @@ const WhatIsCS = () => (
             limitations of computers. Computational literacy is the ability to
             understand how CS can be applied in all walks of life. New York City
             public school students develop computational literacy through{" "}
-            <a href="/resources/what-is-creative-computing/">
+            <Link to="/resources/what-is-creative-computing/">
               creative computing
-            </a>
+            </Link>
             .
           </p>
           <p>
-            Each <a href="/resources/meaningful-cs-unit/">meaningful unit</a> of
+            Each <Link to="/resources/meaningful-cs-unit/">meaningful unit</Link> of
             CS education combines three core components in 10-25 hours of
             instructional time:
           </p>
           <ul className="list-unstyled submenu">
             <li className="blue">
-              <a className="box" href="/perspectives/">
+              <Link className="box" to="/perspectives/">
                 <div className="box-content">
                   <div className="icon-set">
                     <span className="icon">
@@ -72,11 +73,11 @@ const WhatIsCS = () => (
                   The different stages of CS learning describe how and why your
                   students will tackle a computing task.
                 </div>
-              </a>
+              </Link>
             </li>
 
             <li className="green">
-              <a className="box" href="/practices/">
+              <Link className="box" to="/practices/">
                 <div className="box-content">
                   <div className="icon-set">
                     <span className="icon">
@@ -94,11 +95,11 @@ const WhatIsCS = () => (
                   master in order to solve a problem, answer a question, or
                   express themselves.
                 </div>
-              </a>
+              </Link>
             </li>
 
             <li className="orange">
-              <a className="box" href="/concepts/">
+              <Link className="box" to="/concepts/">
                 <div className="box-content">
                   <div className="icon-set">
                     <span className="icon">
@@ -118,7 +119,7 @@ const WhatIsCS = () => (
                   The big ideas students will explore in the process, and better
                   understand when they're done.
                 </div>
-              </a>
+              </Link>
             </li>
           </ul>
           <p>
@@ -129,7 +130,7 @@ const WhatIsCS = () => (
           </p>
 
           <div className="submenu">
-            <a href="/outcomes/" className="box">
+            <Link to="/outcomes/" className="box">
               <div className="box-content">
                 <div className="icon-set">
                   <span className="icon"></span>
@@ -144,7 +145,7 @@ const WhatIsCS = () => (
                 Proficiencies gained through the study of computer science,
                 articulated from students' point of view.
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </article>
@@ -153,13 +154,13 @@ const WhatIsCS = () => (
         <div className="exit-menu">
           <ol className="list-unstyled">
             <li className="current">
-              <a href="/what-is-cs/">CS&nbsp;Education</a>
+              <Link to="/what-is-cs/">CS&nbsp;Education</Link>
             </li>
             <li>
               <div className="box">
-                <a
+                <Link
                   className="btn btn-primary btn-lg"
-                  href="/perspectives/"
+                  to="/perspectives/"
                   role="button"
                 >
                   Next: <span className="preamble">We&rsquo;ll look at</span>{" "}
@@ -168,23 +169,23 @@ const WhatIsCS = () => (
                     and see how students approach CS education at different
                     stages.
                   </span>
-                </a>
+                </Link>
               </div>
             </li>
             <li>
-              <a className="box" href="/practices/" role="button">
+              <Link className="box" to="/practices/" role="button">
                 <span className="box-content">Practices</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="box" href="/concepts/" role="button">
+              <Link className="box" to="/concepts/" role="button">
                 <span className="box-content">Concepts</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="box" href="/outcomes/" role="button">
+              <Link className="box" to="/outcomes/" role="button">
                 <span className="box-content">Outcomes</span>
-              </a>
+              </Link>
             </li>
           </ol>
         </div>

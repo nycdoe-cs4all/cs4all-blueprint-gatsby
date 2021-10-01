@@ -1,11 +1,12 @@
 import React from "react"
+import { Link } from 'gatsby'
 
 const CurriculumCard = props => {
   const { link, pic, grade, title, available, devices, concepts } = props
 
   return (
     <li>
-      <a href={link}>
+      <Link to={link}>
         <div className="preview">
           <img
             src={pic}
@@ -22,7 +23,7 @@ const CurriculumCard = props => {
         </h4>
         <span className="activity-devices">{devices}</span>
         <span className="activity-concepts">{concepts}</span>
-      </a>
+      </Link>
     </li>
   )
 }
