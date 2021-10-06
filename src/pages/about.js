@@ -23,6 +23,7 @@ import timF from "../assets/images/tim-feimer.png"
 import timC from "../assets/images/tim-chen.png"
 import patW from "../assets/images/patricia-wong.jpg"
 import jeffK from "../assets/images/jeff-kaufman.jpg"
+import darleneB from "../assets/images/darlene-bowman.jpg"
 import workshop from "../assets/images/cs4all-workshop.jpg"
 
 import Person from "../assets/images/person-icon.jpg"
@@ -389,11 +390,12 @@ const About = () => {
                 </div>
                 <div
                   className="fellow"
-                  style={{ backgroundImage: "url(" + Person + ")" }}
+                  style={{ backgroundImage: "url(" + darleneB + ")" }}
                 >
                   <div className="fellow-content">
                     <h4>Darlene Bowman</h4>
                     <span className="fellow-text">
+                      Darlene designs innovative learning experiences in technology for high school students with Autism and is an English professor with the College of Staten Island. She has been teaching students with and without disabilities for almost 20 years.
                     </span>
                   </div>
                 </div>
