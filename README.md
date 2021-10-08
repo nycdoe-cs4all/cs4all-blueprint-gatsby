@@ -39,8 +39,8 @@ This README ended up being longer than intended, so here are quick links to wher
 - [x] Include references to NYSED standards, 3rd party curriculum, and CS Leads resources
 - [x] Update README
 - [x] Create process for adding new Educator Resources via WordPress
+- [x] Launch Blueprint 2.0
 - [ ] (_IN PROGRESS_) Improve site accessibility (i.e. translation, page structure, alt text, etc. Will require sub tasks)
-- [ ] Launch Blueprint 2.0
 - [ ] (**OPTIONAL**) (_IN PROGRESS_) Improve stylesheets (i.e only import styles for pages that need them)
 - [ ] (**OPTIONAL**) Make site more modular (i.e make components for items that are used often)
 - [ ] (**OPTIONAL**) Change video hosting
@@ -165,6 +165,14 @@ For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.com/d
    - The page will go live during the next deployment
 
 ## Changelog
+
+### 10/7/21
+
+From [Dan](https://github.com/danielgaylord)
+
+ - Some changes
+ - Writing about the launch (launch happened about a month ago, but forgot to write it earlier)
+ - Note: Need to be better about listing changes...
 
 ### 7/2/21
 
