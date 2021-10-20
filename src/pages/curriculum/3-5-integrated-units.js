@@ -34,6 +34,27 @@ const IntegratedUnits35 = () => (
             ></iframe>
           </div>
 
+          <h3>2021-22 Integrated Unit</h3>
+          <div className="article-content">
+            <p>
+              The Integrated Unit for school year 2021-22 has been revamped for in-person computer science instruction. Each of the 13 lesson folders contains all of the resources needed to deliver a high-quality computer science experience to students. In order for students to strengthen their problem solving skills, they will work through the concepts of: algorithms, programming, debugging, loops, conditionals, and abstraction. The first 3 lessons help students make the connection between hardware and software and begin to develop their own algorithms. Lessons 4-13 include a mix of plugged and unplugged lessons designed to prepare students the tools and skills needed to give instructions to a computer!
+
+            </p>
+            <div className="submenu">
+              <a
+                href="https://drive.google.com/drive/folders/1Ry0X9inNyQfF6tkur9ZUshbfUMS9Axw6?usp=sharing"
+                target="blank"
+              >
+                <div className="btn">
+                  <h4>
+                    3-5 Integrated Unit (2021-22): Introduction to Programming
+                    curriculum
+                  </h4>
+                </div>
+              </a>
+            </div>
+          </div>
+
           <h3>2020-21 Integrated Unit</h3>
           <div className="article-content">
             <p>
@@ -81,7 +102,7 @@ const IntegratedUnits35 = () => (
             </p>
             <div className="submenu">
               <a
-                href="https://drive.google.com/open?id=1pawMvbbM7RxtzL7QvcQYgAkXP4dSZ9tx"
+                href="https://drive.google.com/drive/folders/1pawMvbbM7RxtzL7QvcQYgAkXP4dSZ9tx?usp=sharing"
                 target="blank"
               >
                 <div className="btn">
@@ -109,7 +130,7 @@ const IntegratedUnits35 = () => (
             </p>
             <div className="submenu">
               <a
-                href="https://drive.google.com/open?id=1Lcq44di8dXVVhCrTv48OX_0b0-jxrRVW"
+                href="https://drive.google.com/drive/folders/1Lcq44di8dXVVhCrTv48OX_0b0-jxrRVW?usp=sharing"
                 target="blank"
               >
                 <div className="btn">
