@@ -18,12 +18,13 @@ import christa from "../assets/images/christa-quint.jpg"
 import christy from "../assets/images/christy-crawford.png"
 import joann from "../assets/images/joann-westhall.png"
 import matt from "../assets/images/matt-boyle.png"
-import sean from "../assets/images/sean-pawelec.jpg"
+import sean from "../assets/images/sean-pawelec.png"
 import timF from "../assets/images/tim-feimer.png"
 import timC from "../assets/images/tim-chen.png"
 import patW from "../assets/images/patricia-wong.jpg"
 import jeffK from "../assets/images/jeff-kaufman.jpg"
 import darleneB from "../assets/images/darlene-bowman.jpg"
+import gwynnW from "../assets/images/gwynn-white.jpg"
 import workshop from "../assets/images/cs4all-workshop.jpg"
 
 import Person from "../assets/images/person-icon.jpg"
@@ -320,9 +321,7 @@ const About = () => {
                   <div className="fellow-content">
                     <h4>Sean Pawelec</h4>
                     <span className="fellow-text">
-                      Sean Pawelec has a background in earth science who teaches
-                      computer science at the Renaissance Charter HS for
-                      Innovation where he is the Science Department Chair.
+                      Sean Pawelec is the STEM Department Chair and Software Engineering Program Teacher at Innovation Charter High School in East Harlem. Sean has been working at Innovation for 10 years and still co-teaches the SEP Program with Matthew Boyle.
                     </span>
                   </div>
                 </div>
@@ -772,11 +771,12 @@ const About = () => {
                 </div>
                 <div
                   className="fellow"
-                  style={{ backgroundImage: "url(" + Person + ")" }}
+                  style={{ backgroundImage: "url(" + gwynnW + ")" }}
                 >
                   <div className="fellow-content">
                     <h4>Gwynn White</h4>
                     <span className="fellow-text">
+                      Gwynn is a Library Media Specialist, CS4All Teacher Trainer and Ingenuity Team Cohort member, Recipient of the 2019 Excellence in School Technology and Dr. Adelaide L. Sanford 2021 Legacy Teaching Excellence awards, and Member of the Black Caucus of the ALA.
                     </span>
                   </div>
                 </div>
