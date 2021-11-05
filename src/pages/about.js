@@ -25,6 +25,7 @@ import patW from "../assets/images/patricia-wong.jpg"
 import jeffK from "../assets/images/jeff-kaufman.jpg"
 import darleneB from "../assets/images/darlene-bowman.jpg"
 import gwynnW from "../assets/images/gwynn-white.jpg"
+import aasineC from "../assets/images/aasine-cassara.jpg"
 import workshop from "../assets/images/cs4all-workshop.jpg"
 
 import Person from "../assets/images/person-icon.jpg"
@@ -460,11 +461,12 @@ const About = () => {
                 </div>
                 <div
                   className="fellow"
-                  style={{ backgroundImage: "url(" + Person + ")" }}
+                  style={{ backgroundImage: "url(" + aasineC + ")" }}
                 >
                   <div className="fellow-content">
                     <h4>Aasine Cassara</h4>
                     <span className="fellow-text">
+                      Aasine created the CS program at HALA 6 years ago and has had an amazing journey doing so!
                     </span>
                   </div>
                 </div>
