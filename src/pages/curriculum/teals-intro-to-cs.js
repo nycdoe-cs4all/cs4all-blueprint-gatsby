@@ -48,9 +48,16 @@ const TEALSIntroToCS = () => (
 
             <h3>Resourses</h3>
             <div className="submenu">
-              <a href="https://tealsk12.gitbook.io/intro-cs" target="blank">
+              <a href="https://tealsk12.github.io/introduction-to-computer-science/" target="blank">
                 <div className="btn">
-                  <h4>TEALS Introduction to Computer Science curriculum</h4>
+                  <h4>TEALS Introduction to Computer Science curriculum: Snap! Semester</h4>
+                </div>
+              </a>
+            </div>
+            <div className="submenu">
+              <a href="https://tealsk12.github.io/2nd-semester-introduction-to-computer-science/" target="blank">
+                <div className="btn">
+                  <h4>TEALS Introduction to Computer Science curriculum: Python Semester</h4>
                 </div>
               </a>
             </div>
