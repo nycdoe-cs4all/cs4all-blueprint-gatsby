@@ -166,6 +166,12 @@ For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.com/d
 
 ## Changelog
 
+### 11/16/21
+
+From [Dan](https://github.com/danielgaylord)
+
+ - Updated links on curricular pages
+
 ### 10/7/21
 
 From [Dan](https://github.com/danielgaylord)
