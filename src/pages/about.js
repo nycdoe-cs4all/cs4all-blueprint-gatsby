@@ -26,6 +26,7 @@ import jeffK from "../assets/images/jeff-kaufman.jpg"
 import darleneB from "../assets/images/darlene-bowman.jpg"
 import gwynnW from "../assets/images/gwynn-white.jpg"
 import aasineC from "../assets/images/aasine-cassara.jpg"
+import jodyH from "../assets/images/jody-hilton.png"
 import workshop from "../assets/images/cs4all-workshop.jpg"
 
 import Person from "../assets/images/person-icon.jpg"
@@ -552,11 +553,12 @@ const About = () => {
                 </div>
                 <div
                   className="fellow"
-                  style={{ backgroundImage: "url(" + Person + ")" }}
+                  style={{ backgroundImage: "url(" + jodyH + ")" }}
                 >
                   <div className="fellow-content">
                     <h4>Jody Hilton</h4>
                     <span className="fellow-text">
+                      Jody is the Magnet Coordinator and CS4All Lead at P.S. 44.  She has worked as a Classroom Teacher, Literacy Coach, and Science Teacher for grades PreK-5 for the past 24 years. She is also an Adjunct Lecturer in City College of New York's Education Department.
                     </span>
                   </div>
                 </div>
