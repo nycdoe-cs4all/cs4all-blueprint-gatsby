@@ -27,6 +27,7 @@ import darleneB from "../assets/images/darlene-bowman.jpg"
 import gwynnW from "../assets/images/gwynn-white.jpg"
 import aasineC from "../assets/images/aasine-cassara.jpg"
 import jodyH from "../assets/images/jody-hilton.png"
+import lisaB from "../assets/images/lisa-baerga.png"
 import workshop from "../assets/images/cs4all-workshop.jpg"
 
 import Person from "../assets/images/person-icon.jpg"
@@ -381,11 +382,12 @@ const About = () => {
                 </div>
                 <div
                   className="fellow"
-                  style={{ backgroundImage: "url(" + Person + ")" }}
+                  style={{ backgroundImage: "url(" + lisaB + ")" }}
                 >
                   <div className="fellow-content">
                     <h4>Lisa Baerga</h4>
                     <span className="fellow-text">
+                    Lisa is a proud product of the NYC public school system, both as a student, teacher, and former member of the CS4All team as the Associate Director of Secondary CS for the DOE. She recently earned her license in CS Education with the First Cohort at Hunter College.
                     </span>
                   </div>
                 </div>
