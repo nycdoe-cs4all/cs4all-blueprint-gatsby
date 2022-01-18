@@ -2,12 +2,26 @@
  * Styling for site color schemes
  */
 
+ :root {
+   --midnight--: color: #17283e;
+   --tame--: color: #ca4b0c;
+   --pumpkin--: color: #f26922;
+   --shipcove--: color: #6b8bb2;
+   --poloblue--: color: #97b5d0;
+   --steelblue--: color: #487aa3;
+   --endeavour-- : color: var(--endeavour--);
+   --lightskyblue--: color: #8ac8ff;
+   --colbalt--: color: #0a55a3;
+   --rust--: color: #b23900;
+   --rajah--: color: #f9af60; /* Color: Rajah */
+ }
+
 /* Light Theme */
 .light-theme {
   background: #fff; /* Color: White */
   /* background: #cad5e0; Color: Link Water */
   /* background: #dfe9fb; Color: Solitude */
-  color: #17283e; /* Color: Midnight */
+  color: var(--midnight--); /* Color: Midnight */
 }
 
 .light-theme a {
@@ -17,7 +31,7 @@
 }
 
 .case-study a {
-  color: #f26922; /*Color: Pumpkin*/
+  color: var(--pumpkin--); /*Color: Pumpkin*/
 }
 
 .light-theme a:hover {
@@ -31,14 +45,14 @@
 .light-theme svg,
 .light-theme a svg,
 .light-theme a:hover svg {
-  fill: #6b8bb2; /* Color: Ship Cove */
+  fill: var(--shipcove--); /* Color: Ship Cove */
 }
 
 .light-theme h2 .preamble,
 .light-theme h2 b span,
 .light-theme h3 {
-  color: #6b8bb2; /* Color: Ship Cove */
-  /* color: #175494; Color: Endeavour */
+  color: var(--shipcove--);
+  /* color: var(--endeavour--); Color: Endeavour */
 }
 
 .light-theme h3 a {
@@ -47,13 +61,13 @@
 
 .light-theme .btn {
   border-color: #97b5d0; /* Color: Polo Blue */
-  color: #487aa3; /* Color: Steel Blue */
+  color: var(--steelblue--); /* Color: Steel Blue */
   /* color: #97b5d0; Color: Polo Blue */
 }
 
 .light-theme .btn:hover {
-  border-color: #175494; /* Color: Endeavour */
-  color: #175494; /* Color: Endeavour */
+  border-color: var(--endeavour--); /* Color: Endeavour */
+  color: var(--endeavour--); /* Color: Endeavour */
 }
 
 .light-theme .box {
@@ -103,7 +117,7 @@
 }
 
 .light-theme section header .box h3 {
-  color: #175494; /* Color: Endeavour */
+  color: var(--endeavour--); /* Color: Endeavour */
 }
 
 article.light-theme {
@@ -120,7 +134,7 @@ article.light-theme {
 
 .blue h3 {
   color: #0a55a3; /* Color: Cobalt */
-  color: #175494; /* Color: Endeavour */
+  color: var(--endeavour--); /* Color: Endeavour */
   /* color: #97b5d0; Color: Polo Blue */
 }
 
