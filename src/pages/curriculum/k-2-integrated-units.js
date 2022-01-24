@@ -114,7 +114,7 @@ const IntegratedUnitsK2 = () => (
             </p>
             <div className="submenu">
               <a
-                href="https://drive.google.com/drive/folders/1Lcq44di8dXVVhCrTv48OX_0b0-jxrRVW?usp=sharing"
+                href="https://drive.google.com/drive/folders/19l27XWtF_uy9Z2M4UdqESK4F3gAQki3E?usp=sharing"
                 target="blank"
               >
                 <div className="btn">

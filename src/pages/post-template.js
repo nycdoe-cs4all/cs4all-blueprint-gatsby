@@ -13,7 +13,7 @@ import Seo from "../components/seo"
 const PostTemplate = props => (
   <Layout>
     <Seo title={props.pageContext.title} />
-    <div id="page">
+    <div id="page" key={props.pageContext.id}>
       <article className="light-theme">
         <div className="col-md-12">
           <header>
