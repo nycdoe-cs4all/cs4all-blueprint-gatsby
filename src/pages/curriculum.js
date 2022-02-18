@@ -29,16 +29,37 @@ const Curriculum = () => (
 
         <div className="article-content">
           <p className="sub-head">
-            We are currently refining our student outcomes and curriculum to
-            support the release of the{" "}
+            The{" "}
             <a
               href="http://www.nysed.gov/curriculum-instruction/computer-science-and-digital-fluency-learning-standards"
               target="blank"
             >
               New York State K12 Computer Science and Digital Fluency Learning
               Standards
-            </a>{" "}
-            .
+            </a>
+            {" "}are currently in use in some schools and are expected to be implemented in all schools in the 2024/2025 school year. These standards include{" "}
+            <a
+              href="https://infohub.nyced.org/in-our-schools/programs/digital-citizenship"
+              target="blank"
+              rel="noreferrer"
+            >
+              Digital Citizenship
+            </a>
+            ,{" "}
+            <a
+              href="https://nycdoe.libguides.com/home/ESIFC"
+              target="blank"
+              rel="noreferrer"
+            >
+              Digital Fluency
+            </a>
+            , and Computer Science. The Computer Science Standards are being aligned to the{" "}
+            <a
+              href="/"
+            >
+              CS4All Blueprint
+            </a>
+            {" "}to help teachers integrate computational literacy, algorithmic thinking, and problem-solving skills in every classroom and at all grade levels.
           </p>
           <header className="orange-theme">
             <div className="box">
