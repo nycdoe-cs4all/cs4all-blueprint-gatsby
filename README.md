@@ -107,6 +107,8 @@ For more information, check out the [Gatsby Tutorial](https://www.gatsbyjs.org/t
    - If using GitHub Desktop, just hit `CTRL + ~`
 2. Run the development server:
    - In your terminal, run the following command: `gatsby develop`
+   - If you receive the ERROR message `The path passed to gatsby-source-filesystem does not exist on your file system: ~ /cs4all-blueprint-gatsby/src/assets/videos`:
+    - Create a `videos` dir in`\src\assets` and try running the development server again.
 3. Open up a browser tab and navigate to `http://localhost:8000`
    - You can also access the site's [GraphQL](https://graphql.org/) data by going to `http://localhost:8000/___graphql`
 
