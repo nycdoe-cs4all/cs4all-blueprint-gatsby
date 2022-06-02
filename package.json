@@ -23,7 +23,7 @@
     "html-react-parser": "^1.4.8",
     "jquery": "^3.6.0",
     "moment": "^2.29.1",
-    "npm": "^8.5.1",
+    "npm": "^8.11.0",
     "postcss": "^8.4.6",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-loader": "^6.2.1",
