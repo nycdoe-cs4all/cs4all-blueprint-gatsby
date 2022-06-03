@@ -37,8 +37,17 @@ const IntegratedUnits35 = () => (
           <h3>2021-22 Integrated Unit</h3>
           <div className="article-content">
             <p>
-              The Integrated Unit for school year 2021-22 has been revamped for in-person computer science instruction. Each of the 13 lesson folders contains all of the resources needed to deliver a high-quality computer science experience to students. In order for students to strengthen their problem solving skills, they will work through the concepts of: algorithms, programming, debugging, loops, conditionals, and abstraction. The first 3 lessons help students make the connection between hardware and software and begin to develop their own algorithms. Lessons 4-13 include a mix of plugged and unplugged lessons designed to prepare students the tools and skills needed to give instructions to a computer!
-
+              The Integrated Unit for school year 2021-22 has been revamped for
+              in-person computer science instruction. Each of the 13 lesson
+              folders contains all of the resources needed to deliver a
+              high-quality computer science experience to students. In order for
+              students to strengthen their problem solving skills, they will
+              work through the concepts of: algorithms, programming, debugging,
+              loops, conditionals, and abstraction. The first 3 lessons help
+              students make the connection between hardware and software and
+              begin to develop their own algorithms. Lessons 4-13 include a mix
+              of plugged and unplugged lessons designed to prepare students the
+              tools and skills needed to give instructions to a computer!
             </p>
             <div className="submenu">
               <a
@@ -130,7 +139,7 @@ const IntegratedUnits35 = () => (
             </p>
             <div className="submenu">
               <a
-                href="https://drive.google.com/drive/folders/1Lcq44di8dXVVhCrTv48OX_0b0-jxrRVW?usp=sharing"
+                href="https://drive.google.com/drive/folders/1mhMyM0tNVxodvhKnnA1nld_GKUKzxOsL?usp=sharing"
                 target="blank"
               >
                 <div className="btn">
