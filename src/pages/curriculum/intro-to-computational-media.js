@@ -71,7 +71,7 @@ const IntroToCompMedia = () => (
 
             <h3>Resourses</h3>
             <div className="submenu">
-              <a href="https://nycdoe-cs4all.github.io/" target="blank">
+              <a href="https://cs4all-icm.gitbook.io/introduction-to-computational-media-curriculum/" target="blank">
                 <div className="btn">
                   <h4>Introduction to Computational Media curriculum</h4>
                 </div>
