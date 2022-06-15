@@ -87,7 +87,7 @@ const IntegratedUnitsK2 = () => (
             </p>
             <div className="submenu">
               <a
-                href="https://drive.google.com/drive/folders/1w4hh73fw2mz1Ma5gzdH8ElvVcCOlV0Mu?usp=sharing"
+                href="https://drive.google.com/drive/folders/1in-6rYjude0AOOjoTIDICIT8gxIA8-Ae?usp=sharing"
                 target="blank"
               >
                 <div className="btn">
@@ -114,7 +114,7 @@ const IntegratedUnitsK2 = () => (
             </p>
             <div className="submenu">
               <a
-                href="https://drive.google.com/drive/folders/19l27XWtF_uy9Z2M4UdqESK4F3gAQki3E?usp=sharing"
+                href="https://drive.google.com/drive/folders/11u95FrS3OZZqa1SDmbQDltOOg_PEvt8G?usp=sharing"
                 target="blank"
               >
                 <div className="btn">
