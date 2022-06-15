@@ -43,7 +43,7 @@ const CreativeWeb = () => (
             <p>
               See the{" "}
               <a
-                href="https://docs.google.com/document/d/1gsdxFQ6xLnD4fQIvN3O6L0yYHvduJKBhobJ-dVaiXhQ/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1YI2usiOIXsLy7Pn6-F3113AyikYad7NNR4K9weXJYt8/edit#heading=h.7monmfak9rdy"
                 target="blank"
               >
                 Creative Web fact sheet
@@ -54,7 +54,7 @@ const CreativeWeb = () => (
             <h3>Resourses</h3>
             <div className="submenu">
               <a
-                href="https://drive.google.com/drive/folders/11F_yCTMnJzJbTq4CPXBAhKbGQ9Ic8Vpe"
+                href="https://drive.google.com/drive/folders/1NkcQn2sLNxweZECj854YMj9ymL1OW4It?usp=sharing"
                 target="blank"
               >
                 <div className="btn">
@@ -67,7 +67,7 @@ const CreativeWeb = () => (
             </div>
             <div className="submenu">
               <a
-                href="https://docs.google.com/document/d/1gsdxFQ6xLnD4fQIvN3O6L0yYHvduJKBhobJ-dVaiXhQ/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1YI2usiOIXsLy7Pn6-F3113AyikYad7NNR4K9weXJYt8/edit#heading=h.7monmfak9rdy"
                 target="blank"
               >
                 <div className="btn">
