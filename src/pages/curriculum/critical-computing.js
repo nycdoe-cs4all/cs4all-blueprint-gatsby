@@ -57,6 +57,17 @@ const CriticalComputing = () => (
                 </div>
               </a>
             </div>
+
+            <div className="submenu">
+              <a
+                href="https://drive.google.com/drive/folders/1qN_T2nt9ZGDtChlbTbmQJgYsNidMJ7tk?usp=sharing"
+                target="blank"
+              >
+                <div className="btn">
+                  <h4>Critical Computing curriculum</h4>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </article>
