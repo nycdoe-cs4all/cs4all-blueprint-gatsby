@@ -25,11 +25,19 @@ const Footer = () => (
     visitors. If you need assistance with a particular page or document on our
     current site, please email{" "}
     <a
-      href="mailto:dgaylord@strongschools.nyc"
+      href="mailto:lquinones11@schools.nyc.gov"
       target="_blank"
       rel="noreferrer"
     >
-      Daniel Gaylord
+      Layla Quiñones
+    </a>{" "}
+    or{" "}
+    <a
+      href="mailto:jgallardo2@schools.nyc.gov"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Jorge Gallardo
     </a>{" "}
     for assistance.
     <br />
