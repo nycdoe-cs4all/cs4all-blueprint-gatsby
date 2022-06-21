@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
 import ResourceFilterList from "../components/resource-filter-list"
 import ResourceQuery from "../components/resource-query"
 import Layout from "../components/layout"
@@ -31,15 +31,16 @@ function Resource(props) {
             >
               These resources were created and vetted by the{" "}
               <Link to="/about#fellow-list">Blueprint Fellows</Link> and the CS
-              Education Team, for additional resources created by teachers in
-              the CS Leads program visit the{" "}
+              Education Team. For additional resources created by teachers in
+              the CS Leads program, visit the{" "}
               <a
-                href="https://sites.google.com/strongschools.nyc/cs4allschoolleaders/home"
+                href="https://sites.google.com/schools.nyc.gov/cs4all-school-leaders/home"
                 target="_blank"
                 rel="noreferrer"
               >
                 School Leaders Website
               </a>
+              .
             </p>
 
             <ul className="activity-list">
