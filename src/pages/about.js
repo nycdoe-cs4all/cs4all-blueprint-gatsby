@@ -5,7 +5,7 @@
 
 /* General Imports */
 import React, { useState, useRef } from "react"
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import scrollTo from "gatsby-plugin-smoothscroll"
@@ -110,7 +110,10 @@ const About = () => {
                 curriculum.
               </p>
               <p>
-                With every new iteration of this Blueprint CS4All hopes to involve more and more educators to further build and refine this website to be the best computer science education resource in NYC.
+                With every new iteration of this Blueprint CS4All hopes to
+                involve more and more educators to further build and refine this
+                website to be the best computer science education resource in
+                NYC.
               </p>
             </div>
             <p>
@@ -126,7 +129,7 @@ const About = () => {
                   )
                   setTimeout(() => {
                     scrollTo("#about-blueprint")
-                  }, 500)   
+                  }, 500)
                   return false
                 }}
                 role="button"
@@ -216,7 +219,12 @@ const About = () => {
           <section id="fellow-list">
             <div className="section-content">
               <h3>2016-2017 CS4All Blueprint Fellows</h3>
-              <p>The 2016-17 Blueprint Fellows laid the groundwork for the CS4All Blueprint. This team of amazing and insightful educators helped determine the foundations of this website, both <Link to="/what-is-cs">literally</Link> and figuratively.</p>
+              <p>
+                The 2016-17 Blueprint Fellows laid the groundwork for the CS4All
+                Blueprint. This team of amazing and insightful educators helped
+                determine the foundations of this website, both{" "}
+                <Link to="/what-is-cs">literally</Link> and figuratively.
+              </p>
               <div id="fellows2016" className="chart">
                 <div
                   className="fellow"
@@ -313,7 +321,10 @@ const About = () => {
                   <div className="fellow-content">
                     <h4>Matt Boyle</h4>
                     <span className="fellow-text">
-                      Matthew Boyle has taught CS for 9 years, and is the coordinator of the Software Engineering program at Innovation HS in East Harlem. He teaches a 4-year computer science curriculum culminating in AP CSP.
+                      Matthew Boyle has taught CS for 9 years, and is the
+                      coordinator of the Software Engineering program at
+                      Innovation HS in East Harlem. He teaches a 4-year computer
+                      science curriculum culminating in AP CSP.
                     </span>
                   </div>
                 </div>
@@ -324,7 +335,11 @@ const About = () => {
                   <div className="fellow-content">
                     <h4>Sean Pawelec</h4>
                     <span className="fellow-text">
-                      Sean Pawelec is the STEM Department Chair and Software Engineering Program Teacher at Innovation Charter High School in East Harlem. Sean has been working at Innovation for 10 years and still co-teaches the SEP Program with Matthew Boyle.
+                      Sean Pawelec is the STEM Department Chair and Software
+                      Engineering Program Teacher at Innovation Charter High
+                      School in East Harlem. Sean has been working at Innovation
+                      for 10 years and still co-teaches the SEP Program with
+                      Matthew Boyle.
                     </span>
                   </div>
                 </div>
@@ -357,17 +372,27 @@ const About = () => {
               </div>
 
               <h3>2017-2018 CS4All Blueprint Fellows</h3>
-              <p>The Blueprint Fellowship for the 2017-18 school year was structured as two tracks - Curriculum and Pedagogy. The Curriculum Fellows designed Blueprint-aligned CS units to test in the classroom, while the Pedagogy Fellows participated in interivistations and peer observations that were published as video <Link to="/resources">resources</Link> on the Blueprint. Several 2016-17 Blueprint Fellows were able to attend this year as well!</p>
+              <p>
+                The Blueprint Fellowship for the 2017-18 school year was
+                structured as two tracks - Curriculum and Pedagogy. The
+                Curriculum Fellows designed Blueprint-aligned CS units to test
+                in the classroom, while the Pedagogy Fellows participated in
+                interivistations and peer observations that were published as
+                video <Link to="/resources">resources</Link> on the Blueprint.
+                Several 2016-17 Blueprint Fellows were able to attend this year
+                as well!
+              </p>
               <div id="fellows2017" className="chart">
-                <p>Names, pictures, and bios are in the process of being updated!</p>
+                <p>
+                  Names, pictures, and bios are in the process of being updated!
+                </p>
                 <div
                   className="fellow"
                   style={{ backgroundImage: "url(" + Person + ")" }}
                 >
                   <div className="fellow-content">
                     <h4>Eric Allatta</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -376,8 +401,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Jacqueline Anderson</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -387,7 +411,11 @@ const About = () => {
                   <div className="fellow-content">
                     <h4>Lisa Baerga</h4>
                     <span className="fellow-text">
-                    Lisa is a proud product of the NYC public school system, both as a student, teacher, and former member of the CS4All team as the Associate Director of Secondary CS for the DOE. She recently earned her license in CS Education with the First Cohort at Hunter College.
+                      Lisa is a proud product of the NYC public school system,
+                      both as a student, teacher, and former member of the
+                      CS4All team as the Associate Director of Secondary CS for
+                      the DOE. She recently earned her license in CS Education
+                      with the First Cohort at Hunter College.
                     </span>
                   </div>
                 </div>
@@ -398,7 +426,11 @@ const About = () => {
                   <div className="fellow-content">
                     <h4>Darlene Bowman</h4>
                     <span className="fellow-text">
-                      Darlene designs innovative learning experiences in technology for high school students with Autism and is an English professor with the College of Staten Island. She has been teaching students with and without disabilities for almost 20 years.
+                      Darlene designs innovative learning experiences in
+                      technology for high school students with Autism and is an
+                      English professor with the College of Staten Island. She
+                      has been teaching students with and without disabilities
+                      for almost 20 years.
                     </span>
                   </div>
                 </div>
@@ -408,8 +440,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Saisha Braithwaite</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -418,8 +449,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Jonathan Broker</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -428,8 +458,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Althea Burris</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -438,8 +467,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Sheila Callahan</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -448,8 +476,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Robert Calungsod</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -458,8 +485,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Cherubim Cannon</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -469,7 +495,8 @@ const About = () => {
                   <div className="fellow-content">
                     <h4>Aasine Cassara</h4>
                     <span className="fellow-text">
-                      Aasine created the CS program at HALA 6 years ago and has had an amazing journey doing so!
+                      Aasine created the CS program at HALA 6 years ago and has
+                      had an amazing journey doing so!
                     </span>
                   </div>
                 </div>
@@ -479,8 +506,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Renne Castro</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -489,8 +515,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Abraham Cohen</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -499,8 +524,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Alexis Dixon</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -509,8 +533,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Hui Yu Du</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -519,8 +542,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Susan Ettenheim</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -529,8 +551,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Yokasta Evans-Lora</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -539,8 +560,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Matthew Gill</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -549,8 +569,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Valerie Hernandez</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -560,7 +579,11 @@ const About = () => {
                   <div className="fellow-content">
                     <h4>Jody Hilton</h4>
                     <span className="fellow-text">
-                      Jody is the Magnet Coordinator and CS4All Lead at P.S. 44.  She has worked as a Classroom Teacher, Literacy Coach, and Science Teacher for grades PreK-5 for the past 24 years. She is also an Adjunct Lecturer in City College of New York's Education Department.
+                      Jody is the Magnet Coordinator and CS4All Lead at P.S. 44.
+                      She has worked as a Classroom Teacher, Literacy Coach, and
+                      Science Teacher for grades PreK-5 for the past 24 years.
+                      She is also an Adjunct Lecturer in City College of New
+                      York's Education Department.
                     </span>
                   </div>
                 </div>
@@ -570,8 +593,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Pravin Jammula</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -580,8 +602,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Yuhang Jiang</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -591,7 +612,10 @@ const About = () => {
                   <div className="fellow-content">
                     <h4>Jeffrey Kaufman</h4>
                     <span className="fellow-text">
-                    Jeff Kaufman has taught Computer Science through the intersection of law and philosophy instilling in his students the importance of the social, political and economic implications of technology.
+                      Jeff Kaufman has taught Computer Science through the
+                      intersection of law and philosophy instilling in his
+                      students the importance of the social, political and
+                      economic implications of technology.
                     </span>
                   </div>
                 </div>
@@ -601,8 +625,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Michelle Kennedy</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -611,8 +634,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Brian Knoerzer</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -621,8 +643,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Brooke Kohler Britton</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -631,8 +652,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Mark Leffler</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -641,8 +661,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Bonnie Lestz</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -651,8 +670,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Alison Lisberger</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -661,8 +679,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Janice Mack</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -671,8 +688,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Joyce Malchow</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -681,8 +697,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Megan Massimo</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -691,8 +706,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Courtney Morgan</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -701,8 +715,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>John Nelson</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -711,8 +724,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Tenicka Norwood</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -721,8 +733,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Deborah Ominiabohs</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -731,8 +742,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Beth Portocarrero</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -741,8 +751,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Casey Snepar</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -751,8 +760,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Daniel Sterbenz</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -761,8 +769,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Alicia Wade</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -771,8 +778,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Kimberly Welcome</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -782,7 +788,11 @@ const About = () => {
                   <div className="fellow-content">
                     <h4>Gwynn White</h4>
                     <span className="fellow-text">
-                      Gwynn is a Library Media Specialist, CS4All Teacher Trainer and Ingenuity Team Cohort member, Recipient of the 2019 Excellence in School Technology and Dr. Adelaide L. Sanford 2021 Legacy Teaching Excellence awards, and Member of the Black Caucus of the ALA.
+                      Gwynn is a Library Media Specialist, CS4All Teacher
+                      Trainer and Ingenuity Team Cohort member, Recipient of the
+                      2019 Excellence in School Technology and Dr. Adelaide L.
+                      Sanford 2021 Legacy Teaching Excellence awards, and Member
+                      of the Black Caucus of the ALA.
                     </span>
                   </div>
                 </div>
@@ -792,8 +802,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Thea Williams</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
                 <div
@@ -803,7 +812,10 @@ const About = () => {
                   <div className="fellow-content">
                     <h4>Patricia Wong</h4>
                     <span className="fellow-text">
-                      Patricia is a Media Librarian, Social Scientist, CS4ALL Equity Lead, NYCDOE School SPOC, SBL &amp; SDL Certified, and a Recipient of the 2017 Senator Lanza Teacher of the Year Award.
+                      Patricia is a Media Librarian, Social Scientist, CS4ALL
+                      Equity Lead, NYCDOE School SPOC, SBL &amp; SDL Certified,
+                      and a Recipient of the 2017 Senator Lanza Teacher of the
+                      Year Award.
                     </span>
                   </div>
                 </div>
@@ -813,8 +825,7 @@ const About = () => {
                 >
                   <div className="fellow-content">
                     <h4>Jessica Zuluaga</h4>
-                    <span className="fellow-text">
-                    </span>
+                    <span className="fellow-text"></span>
                   </div>
                 </div>
               </div>
@@ -913,20 +924,6 @@ const About = () => {
               </div>
             </div>
           </section>
-
-          <div className="article-content">
-            <p>
-              If you have thoughts or feedback about the Blueprint website,{" "}
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSeIeJ9xKpfT-ngiOeMY01GF-vounSQxMjnYzaePEsMXhwIEcQ/viewform"
-                target="_blank"
-                rel="noreferrer"
-              >
-                please share them with us
-              </a>
-              !
-            </p>
-          </div>
         </article>
       </div>
     </Layout>
