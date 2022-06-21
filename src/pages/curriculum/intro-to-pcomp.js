@@ -78,7 +78,7 @@ const IntroToPComp = () => (
             <h3>Resourses</h3>
             <div className="submenu">
               <a
-                href="https://drive.google.com/open?id=1-9_AeFCkec2YeEcMhJujIb_jiBazWKgs"
+                href="https://drive.google.com/drive/folders/1fcYjPEz8-8lMqaTIhO5R_JHw3OtCJJKb"
                 target="blank"
               >
                 <div className="btn">
