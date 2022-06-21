@@ -22,18 +22,6 @@ const IntegratedUnits68 = () => (
             </span>
           </header>
 
-          <div className="article-content" style={{ textAlign: "center" }}>
-            <iframe
-              title="6-8 Integrated Units intro video"
-              src="https://www.youtube.com/embed/l5S9JMyyyZQ?rel=0"
-              width="640"
-              height="360"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-
           <h3>2020-21 Integrated Unit</h3>
           <div className="article-content">
             <p>

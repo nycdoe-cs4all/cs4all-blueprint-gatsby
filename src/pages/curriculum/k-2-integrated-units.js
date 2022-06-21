@@ -22,18 +22,6 @@ const IntegratedUnitsK2 = () => (
             </span>
           </header>
 
-          <div className="article-content" style={{ textAlign: "center" }}>
-            <iframe
-              title="K-2 Integrated Units intro video"
-              src="https://www.youtube.com/embed/Xh7MmjTEl1k?rel=0"
-              width="640"
-              height="360"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-
           <h3>2020-21 Integrated Unit</h3>
           <div className="article-content">
             <p>
@@ -63,9 +51,7 @@ const IntegratedUnitsK2 = () => (
                 target="blank"
               >
                 <div className="btn">
-                  <h4>
-                    K-2:  Scratch Junior - Intro. Animated Genres
-                  </h4>
+                  <h4>K-2: Scratch Junior - Intro. Animated Genres</h4>
                 </div>
               </a>
             </div>
