@@ -5,7 +5,7 @@
 
 /* Imports */
 import React, { useState } from "react"
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
 import { StaticQuery, graphql } from "gatsby"
 
 import Open from "../assets/svg/icon-open.svg"
@@ -51,7 +51,6 @@ const ResourceFilterList = function (props) {
                 className="toggle"
                 onClick={() => {
                   setFilterState(!filterState)
-                  return false
                 }}
                 role="button"
               >
@@ -73,7 +72,7 @@ const ResourceFilterList = function (props) {
                     to="#page-menu"
                     onClick={() => {
                       props.changeCategory("All")
-                      return false
+                      setFilterState(!filterState)
                     }}
                   >
                     All Resources
@@ -86,7 +85,7 @@ const ResourceFilterList = function (props) {
                         to="#page-menu"
                         onClick={() => {
                           props.changeCategory(edge.node.name)
-                          return false
+                          setFilterState(!filterState)
                         }}
                       >
                         {edge.node.name}
