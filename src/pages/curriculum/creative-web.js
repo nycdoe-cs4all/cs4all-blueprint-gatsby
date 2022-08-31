@@ -4,7 +4,7 @@
 
 /* Imports */
 import React from "react"
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
@@ -36,19 +36,8 @@ const CreativeWeb = () => (
               of the creative coding community, practice respectful manners of
               participating in it and consider how they can contribute to the
               larger CS community. This curriculum aligns with the{" "}
-              <Link to="/">CS4All Blueprint</Link> for CS
-              education that emphasizes a hands-on approach called creative
-              computing.
-            </p>
-            <p>
-              See the{" "}
-              <a
-                href="https://docs.google.com/document/d/1YI2usiOIXsLy7Pn6-F3113AyikYad7NNR4K9weXJYt8/edit#heading=h.7monmfak9rdy"
-                target="blank"
-              >
-                Creative Web fact sheet
-              </a>{" "}
-              for more information.
+              <Link to="/">CS4All Blueprint</Link> for CS education that
+              emphasizes a hands-on approach called creative computing.
             </p>
 
             <h3>Resourses</h3>
@@ -62,16 +51,6 @@ const CreativeWeb = () => (
                     Creative Web curriculum and professional development
                     materials
                   </h4>
-                </div>
-              </a>
-            </div>
-            <div className="submenu">
-              <a
-                href="https://docs.google.com/document/d/1YI2usiOIXsLy7Pn6-F3113AyikYad7NNR4K9weXJYt8/edit#heading=h.7monmfak9rdy"
-                target="blank"
-              >
-                <div className="btn">
-                  <h4>Creative Web fact sheet</h4>
                 </div>
               </a>
             </div>
