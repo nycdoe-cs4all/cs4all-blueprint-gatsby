@@ -40,18 +40,7 @@ const CreativeComputing = () => (
               <Link to="/">CS4All Blueprint</Link> for CS education that
               emphasizes a hands-on approach called creative computing.
             </p>
-            <p>
-              See the{" "}
-              <a
-                href="https://docs.google.com/document/d/1_DOhN60DZEjBeJC0K4z-kj27B7rJ37KRm1cOGDoPDQk/edit?usp=sharing"
-                target="blank"
-              >
-                Creative Computing fact sheet
-              </a>{" "}
-              for more information.
-            </p>
 
-            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://creativecomputing.gse.harvard.edu/guide/curriculum.html"
@@ -69,16 +58,6 @@ const CreativeComputing = () => (
               >
                 <div className="btn">
                   <h4>Creative Computing guide</h4>
-                </div>
-              </a>
-            </div>
-            <div className="submenu">
-              <a
-                href="https://docs.google.com/document/d/1_DOhN60DZEjBeJC0K4z-kj27B7rJ37KRm1cOGDoPDQk/edit?usp=sharing"
-                target="blank"
-              >
-                <div className="btn">
-                  <h4>Creative Computing fact sheet</h4>
                 </div>
               </a>
             </div>

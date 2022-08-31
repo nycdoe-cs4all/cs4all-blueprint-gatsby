@@ -40,7 +40,6 @@ const CreativeWeb = () => (
               emphasizes a hands-on approach called creative computing.
             </p>
 
-            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://drive.google.com/drive/folders/1NkcQn2sLNxweZECj854YMj9ymL1OW4It?usp=sharing"

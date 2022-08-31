@@ -54,19 +54,7 @@ const IntroToPComp = () => (
               while helping them to become comfortable with the main tool, the
               micro:bit.
             </p>
-            <p>
-              <a href="https://vimeo.com/250914986" target="blank">
-                Watch this video
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://docs.google.com/document/d/1yVLZ-SDuu-hgxc4MaJqOFwXe2M6tmPfbNk20iixoVgY/edit?usp=sharing"
-                target="blank"
-              >
-                view this fact sheet
-              </a>{" "}
-              for more information.
-            </p>
+
             <p style={{ display: "none" }}>
               Note: Due to COVID-19 CS4All is exploring PD delivery models and
               foresees the uncertainty of access to materials. Given all the
@@ -75,7 +63,6 @@ const IntroToPComp = () => (
               Physical Computing course in SY 2020-21.
             </p>
 
-            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://drive.google.com/drive/folders/1fcYjPEz8-8lMqaTIhO5R_JHw3OtCJJKb"
@@ -83,16 +70,6 @@ const IntroToPComp = () => (
               >
                 <div className="btn">
                   <h4>Introduction to Physical Computing curriculum</h4>
-                </div>
-              </a>
-            </div>
-            <div className="submenu">
-              <a
-                href="https://docs.google.com/document/d/1yVLZ-SDuu-hgxc4MaJqOFwXe2M6tmPfbNk20iixoVgY/edit?usp=sharing"
-                target="blank"
-              >
-                <div className="btn">
-                  <h4>Introduction to Physical Computing fact sheet</h4>
                 </div>
               </a>
             </div>

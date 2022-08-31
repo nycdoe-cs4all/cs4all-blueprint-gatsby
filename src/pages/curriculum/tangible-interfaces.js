@@ -4,7 +4,7 @@
 
 /* Imports */
 import React from "react"
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
@@ -43,38 +43,11 @@ const TangibleInterfaces = () => (
               the understanding of data democratization and inclusive design.
               This curriculum will make use of the NYC Open Data portal as well
               as weather data APIs. It also aligns with the{" "}
-              <Link to="/">CS4All Blueprint</Link> for CS
-              education that emphasizes a hands-on approach called creative
-              computing. This course is still in development and only available
-              to pilot for schools who have implemented Introduction to
-              Computational Media.
+              <Link to="/">CS4All Blueprint</Link> for CS education that
+              emphasizes a hands-on approach called creative computing. This
+              course is still in development and only available to pilot for
+              schools who have implemented Introduction to Computational Media.
             </p>
-            <p>
-              See the{" "}
-              <a
-                href="https://docs.google.com/document/d/1IgHL5LMKrhyJYmISXtnyXU35Q2H34ypz1tuSP36KV3E/edit?usp=sharing"
-                target="blank"
-              >
-                Tangible Interfaces fact sheet
-              </a>{" "}
-              for more information.
-            </p>
-            <p>
-              Tangible Interfaces will be offered to all high schools starting
-              on SY 21-22.
-            </p>
-
-            <h3>Resourses</h3>
-            <div className="submenu">
-              <a
-                href="https://docs.google.com/document/d/1IgHL5LMKrhyJYmISXtnyXU35Q2H34ypz1tuSP36KV3E/edit?usp=sharing"
-                target="blank"
-              >
-                <div className="btn">
-                  <h4>Tangible Interfaces fact sheet</h4>
-                </div>
-              </a>
-            </div>
           </div>
         </div>
       </article>

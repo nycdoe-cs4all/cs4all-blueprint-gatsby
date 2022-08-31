@@ -4,7 +4,7 @@
 
 /* General Imports */
 import React, { useState } from "react"
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import scrollTo from "gatsby-plugin-smoothscroll"
@@ -198,8 +198,10 @@ function IndexPage() {
               >
                 New York State K12 Computer Science and Digital Fluency Learning
                 Standards
-              </a>
-              {" "}are currently in use in some schools and are expected to be implemented in all schools in the 2024/2025 school year. These standards include{" "}
+              </a>{" "}
+              are currently in use in some schools and are expected to be
+              implemented in all schools in the 2024/2025 school year. These
+              standards include{" "}
               <a
                 href="https://infohub.nyced.org/in-our-schools/programs/digital-citizenship"
                 target="blank"
@@ -215,13 +217,10 @@ function IndexPage() {
               >
                 Digital Fluency
               </a>
-              , and Computer Science. The Computer Science Standards are being aligned to the{" "}
-              <a
-                href="/"
-              >
-                CS4All Blueprint
-              </a>
-              {" "}to help teachers integrate computational literacy, algorithmic thinking, and problem-solving skills in every classroom and at all grade levels.
+              , and Computer Science. The Computer Science Standards are being
+              aligned to the <a href="/">CS4All Blueprint</a> to help teachers
+              integrate computational literacy, algorithmic thinking, and
+              problem-solving skills in every classroom and at all grade levels.
             </p>
             <ul className="list-unstyled">
               <li>

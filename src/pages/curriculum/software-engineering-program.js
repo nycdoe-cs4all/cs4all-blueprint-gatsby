@@ -4,7 +4,7 @@
 
 /* Imports */
 import React from "react"
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
@@ -63,7 +63,9 @@ const SoftwareEngineeringProgram = () => (
             <h3>Middle School</h3>
             <ul>
               <li>
-                <Link to="/curriculum/creative-computing">Creative Computing</Link>
+                <Link to="/curriculum/creative-computing">
+                  Creative Computing
+                </Link>
               </li>
               <li>
                 <Link to="/curriculum/creative-web">Creative Web</Link> OR{" "}
@@ -98,7 +100,6 @@ const SoftwareEngineeringProgram = () => (
               </li>
             </ul>
 
-            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://drive.google.com/drive/u/0/folders/0B8D2ft9M8qQCamQwZGpJMEU2TEk"

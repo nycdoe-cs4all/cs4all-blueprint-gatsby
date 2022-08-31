@@ -52,17 +52,9 @@ const ExploringCS = () => (
               <a href="https://vimeo.com/251542546" target="blank">
                 Watch this video
               </a>{" "}
-              and{" "}
-              <a
-                href="https://docs.google.com/document/d/1Whvp_SJzRH7OSd1IUbd43XePmcrvi73tfMt1kkas1Yk/edit?usp=sharing"
-                target="blank"
-              >
-                view this fact sheet
-              </a>{" "}
               for more information.
             </p>
 
-            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="http://www.exploringcs.org/for-teachers-districts/curriculum"
@@ -70,16 +62,6 @@ const ExploringCS = () => (
               >
                 <div className="btn">
                   <h4>Exploring Computer Science curriculum</h4>
-                </div>
-              </a>
-            </div>
-            <div className="submenu">
-              <a
-                href="https://docs.google.com/document/d/1Whvp_SJzRH7OSd1IUbd43XePmcrvi73tfMt1kkas1Yk/edit?usp=sharing"
-                target="blank"
-              >
-                <div className="btn">
-                  <h4>Exploring Computer Science fact sheet</h4>
                 </div>
               </a>
             </div>

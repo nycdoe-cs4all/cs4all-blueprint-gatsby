@@ -24,20 +24,28 @@ const APCSA = () => (
 
           <div className="article-content">
             <p>
-              AP Computer Science A (AP CSA) is an introductory college-level computer science course using the programming language of Java. Students cultivate their understanding of coding through analyzing, writing, and testing code as they explore concepts like modularity, variables, and control structures. Across the entire course curriculum, students are immersed in the big ideas including implementing Java primitive types, using objects, boolean expressions, if statements, and iteration, as well as writing classes. Students will also be immersed in the Java creation of arrays, arraylists, 2D arrays, inheritance, and recursion. Students in AP CSA practices object-oriented computational thinking and creative problem solving while being deeply immersed in Java programming. Learn more about the course on the <a href="http://media.collegeboard.com/digitalServices/pdf/ap/ap-computer-science-a-course-description.pdf" target="blank">College Board course description</a>.
-            </p>
-            <p>
-              See the{" "}
+              AP Computer Science A (AP CSA) is an introductory college-level
+              computer science course using the programming language of Java.
+              Students cultivate their understanding of coding through
+              analyzing, writing, and testing code as they explore concepts like
+              modularity, variables, and control structures. Across the entire
+              course, students are immersed in the big ideas including
+              implementing Java primitive types, using objects, boolean
+              expressions, if statements, and iteration, as well as writing
+              classes. Students will also be immersed in the Java creation of
+              arrays, arraylists, 2D arrays, inheritance, and recursion.
+              Students in AP CSA practices object-oriented computational
+              thinking and creative problem solving while being deeply immersed
+              in Java programming. Learn more about the course on the{" "}
               <a
-                href="https://docs.google.com/document/d/1PAywfah-XVojzPqnDxbV0lj1112MRkbV1esFFnK5oEg/edit?usp=sharing"
+                href="http://media.collegeboard.com/digitalServices/pdf/ap/ap-computer-science-a-course-description.pdf"
                 target="blank"
               >
-                AP CS-A fact sheet
-              </a>{" "}
-              for more information.
+                College Board course description
+              </a>
+              .
             </p>
 
-            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://apcentral.collegeboard.org/courses/ap-computer-science-a/course"
@@ -49,7 +57,10 @@ const APCSA = () => (
               </a>
             </div>
             <div className="submenu">
-              <a href="https://csawesome.runestone.academy/runestone/books/published/csawesome/index.html" target="blank">
+              <a
+                href="https://csawesome.runestone.academy/runestone/books/published/csawesome/index.html"
+                target="blank"
+              >
                 <div className="btn">
                   <h4>CSAwesome AP CSA Curriculum</h4>
                 </div>
@@ -57,18 +68,9 @@ const APCSA = () => (
             </div>
             <div className="submenu">
               <a
-                href="https://docs.google.com/document/d/1PAywfah-XVojzPqnDxbV0lj1112MRkbV1esFFnK5oEg/edit?usp=sharing"
+                href="https://tealsk12.github.io/introduction-to-computer-science/"
                 target="blank"
               >
-                <div className="btn">
-                  <h4>AP CS-A fact sheet</h4>
-                </div>
-              </a>
-            </div>
-
-            <h3>Legacy Resourses</h3>
-            <div className="submenu">
-              <a href="https://tealsk12.github.io/introduction-to-computer-science/" target="blank">
                 <div className="btn">
                   <h4>TEALS AP CS-A curriculum</h4>
                 </div>

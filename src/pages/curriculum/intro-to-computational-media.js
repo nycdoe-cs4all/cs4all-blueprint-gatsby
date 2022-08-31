@@ -4,7 +4,7 @@
 
 /* Imports */
 import React from "react"
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
@@ -59,31 +59,16 @@ const IntroToCompMedia = () => (
               <a href="https://vimeo.com/251337307" target="blank">
                 Watch this video
               </a>{" "}
-              and{" "}
-              <a
-                href="https://docs.google.com/document/d/1WuFtlG2lb4NFtOCaQ0xjYlK_3juZ54GReBw_fEteTWA/edit?usp=sharing"
-                target="blank"
-              >
-                view this fact sheet
-              </a>{" "}
               for more information.
             </p>
 
-            <h3>Resourses</h3>
-            <div className="submenu">
-              <a href="https://cs4all-icm.gitbook.io/introduction-to-computational-media-curriculum/" target="blank">
-                <div className="btn">
-                  <h4>Introduction to Computational Media curriculum</h4>
-                </div>
-              </a>
-            </div>
             <div className="submenu">
               <a
-                href="https://docs.google.com/document/d/1WuFtlG2lb4NFtOCaQ0xjYlK_3juZ54GReBw_fEteTWA/edit?usp=sharing"
+                href="https://cs4all-icm.gitbook.io/introduction-to-computational-media-curriculum/"
                 target="blank"
               >
                 <div className="btn">
-                  <h4>Introduction to Computational Media fact sheet</h4>
+                  <h4>Introduction to Computational Media curriculum</h4>
                 </div>
               </a>
             </div>

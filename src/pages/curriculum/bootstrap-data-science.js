@@ -52,17 +52,9 @@ const BootstrapDataScience = () => (
               >
                 Watch this video
               </a>{" "}
-              and{" "}
-              <a
-                href="https://docs.google.com/document/d/1NzVVaR5ufXbrXBl2hlmQtGUlj1U1a-jikC-W74cuR9g/edit?usp=sharing"
-                target="blank"
-              >
-                view this fact sheet
-              </a>{" "}
               for more information.
             </p>
 
-            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://www.bootstrapworld.org/materials/fall2019/courses/data-science/en-us/"
@@ -70,16 +62,6 @@ const BootstrapDataScience = () => (
               >
                 <div className="btn">
                   <h4>Bootstrap: Data Science curriculum</h4>
-                </div>
-              </a>
-            </div>
-            <div className="submenu">
-              <a
-                href="https://docs.google.com/document/d/1NzVVaR5ufXbrXBl2hlmQtGUlj1U1a-jikC-W74cuR9g/edit?usp=sharing"
-                target="blank"
-              >
-                <div className="btn">
-                  <h4>Bootstrap: Data Science fact sheet</h4>
                 </div>
               </a>
             </div>

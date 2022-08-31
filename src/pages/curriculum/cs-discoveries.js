@@ -43,31 +43,13 @@ const CSDiscoveries = () => (
               <a href="https://vimeo.com/251538125" target="blank">
                 Watch this video
               </a>{" "}
-              and{" "}
-              <a
-                href="https://docs.google.com/document/d/1gx99bJIbUr6a43olU_pEBt_M4xkXB4VXv2SL5SPtqj4/edit?usp=sharing"
-                target="blank"
-              >
-                view this fact sheet
-              </a>{" "}
               for more information.
             </p>
 
-            <h3>Resourses</h3>
             <div className="submenu">
               <a href="https://code.org/educate/csd" target="blank">
                 <div className="btn">
                   <h4>Code.org Computer Science Discoveries curriculum</h4>
-                </div>
-              </a>
-            </div>
-            <div className="submenu">
-              <a
-                href="https://docs.google.com/document/d/1gx99bJIbUr6a43olU_pEBt_M4xkXB4VXv2SL5SPtqj4/edit?usp=sharing"
-                target="blank"
-              >
-                <div className="btn">
-                  <h4>Code.org Computer Science Discoveries fact sheet</h4>
                 </div>
               </a>
             </div>

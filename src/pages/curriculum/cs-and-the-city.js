@@ -4,7 +4,7 @@
 
 /* Imports */
 import React from "react"
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
@@ -43,23 +43,10 @@ const CSAndTheCity = () => (
               provide that perspective because it is created by their
               communities or is directly linked to things in their communities -
               like trees, parks, schools, businesses. This curriculum aligns
-              with the{" "}
-              <Link to="/">CS4All Blueprint</Link> for CS
-              education that emphasizes a hands-on approach called creative
-              computing.
-            </p>
-            <p>
-              See the{" "}
-              <a
-                href="https://drive.google.com/open?id=1ox7rRrPuk0jUariAyczz-eiTwXX3w_aZWXi8-auHKBY"
-                target="blank"
-              >
-                CS and the City fact sheet
-              </a>{" "}
-              for more information.
+              with the <Link to="/">CS4All Blueprint</Link> for CS education
+              that emphasizes a hands-on approach called creative computing.
             </p>
 
-            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://github.com/upperlinecode/CS-and-the-City-Curriculum"
@@ -67,16 +54,6 @@ const CSAndTheCity = () => (
               >
                 <div className="btn">
                   <h4>CS and the City curriculum</h4>
-                </div>
-              </a>
-            </div>
-            <div className="submenu">
-              <a
-                href="https://drive.google.com/open?id=1ox7rRrPuk0jUariAyczz-eiTwXX3w_aZWXi8-auHKBY"
-                target="blank"
-              >
-                <div className="btn">
-                  <h4>CS and the City fact sheet</h4>
                 </div>
               </a>
             </div>

@@ -38,7 +38,6 @@ const SoftwareEngineeringProgramJr = () => (
               practices, with an emphasis on Explorer and Creator perspectives.
             </p>
 
-            <h3>Resourses</h3>
             <div className="submenu">
               <a
                 href="https://sites.google.com/strongschools.nyc/sepjrnyc/"

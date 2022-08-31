@@ -35,28 +35,6 @@ const CriticalComputing = () => (
               through Scratch, a creative computing platform, and use CS as a
               tool to advocate for marginalized communities.
             </p>
-            <p>
-              See the{" "}
-              <a
-                href="https://docs.google.com/document/d/1qgkpHJ-Q_A8rca5Rl9nSfKEQAmJIV-bxK77b8NQfiF8/edit?usp=sharing"
-                target="blank"
-              >
-                Critical Computing fact sheet
-              </a>{" "}
-              for more information.
-            </p>
-
-            <h3>Resourses</h3>
-            <div className="submenu">
-              <a
-                href="https://docs.google.com/document/d/1qgkpHJ-Q_A8rca5Rl9nSfKEQAmJIV-bxK77b8NQfiF8/edit?usp=sharing"
-                target="blank"
-              >
-                <div className="btn">
-                  <h4>Critical Computing fact sheet</h4>
-                </div>
-              </a>
-            </div>
 
             <div className="submenu">
               <a
