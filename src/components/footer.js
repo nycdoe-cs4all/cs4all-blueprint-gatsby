@@ -33,11 +33,11 @@ const Footer = () => (
     </a>{" "}
     or{" "}
     <a
-      href="mailto:jgallardo2@schools.nyc.gov"
+      href="mailto:jolivares2@schools.nyc.gov"
       target="_blank"
       rel="noreferrer"
     >
-      Jorge Gallardo
+      José Olivares
     </a>{" "}
     for assistance.
     <br />
