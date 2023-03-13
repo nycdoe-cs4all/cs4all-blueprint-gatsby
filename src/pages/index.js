@@ -99,15 +99,13 @@ function IndexPage() {
               <FsLightbox
                 toggler={togglerES}
                 sources={[
-                  <iframe
-                    title="Elementary School Student Work"
-                    src="https://player.vimeo.com/video/226674454?autoplay=1"
-                    width="1920px"
-                    height="1080px"
-                    frameborder="0"
-                    allowfullscreen
-                    allow="autoplay; fullscreen"
-                  ></iframe>,
+                  <iframe 
+                  title="Elementary School Student Work"
+                  src="https://drive.google.com/file/d/1cMoYxjcxufB8khCobCJoOoHUlTn24Uyn/preview" 
+                  width="1920" 
+                  height="1080" 
+                  allow="autoplay">
+                  </iframe>,
                 ]}
               />
             </div>
@@ -136,15 +134,13 @@ function IndexPage() {
               <FsLightbox
                 toggler={togglerMS}
                 sources={[
-                  <iframe
-                    title="Middle School Student Work"
-                    src="https://player.vimeo.com/video/231736989?autoplay=1"
-                    width="1920px"
-                    height="1080px"
-                    frameborder="0"
-                    allowfullscreen
-                    allow="autoplay; fullscreen"
-                  ></iframe>,
+                  <iframe 
+                  title="Elementary School Student Work"
+                  src="https://drive.google.com/file/d/12WXozp8EMxdesdramU2OCZtErZXPuuRx/preview" 
+                  width="1920" 
+                  height="1080" 
+                  allow="autoplay">
+                  </iframe>,
                 ]}
               />
             </div>
