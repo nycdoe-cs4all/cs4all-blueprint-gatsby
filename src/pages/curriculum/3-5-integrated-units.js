@@ -22,6 +22,37 @@ const IntegratedUnits35 = () => (
             </span>
           </header>
 
+          <h3>2022-23 Integrated Unit: CS is Problem Solving</h3>
+          <div className="article-content">
+            <p>
+              CS Problem Solving is designed to expose students to key Computer
+              Science concepts through various problem-solving tasks and
+              activities. Students will learn about the evolution of technology
+              and the significant impact made by pioneering CS figures. By
+              drawing on real-life and interdisciplinary connections, they will
+              be encouraged to consider how CS skills can be applied when
+              developing impactful computing systems. The curriculum introduces
+              Scratch, a visual block-based programming language and a mix of
+              plugged and unplugged activities to turn students into powerful
+              problem solvers. Students will strengthen their problem-solving
+              skills by exploring concepts such as algorithms, programming,
+              debugging, loops, conditionals, and abstraction.
+            </p>
+            <div className="submenu">
+              <a
+                href="https://drive.google.com/drive/folders/1_c7hF0Hv8HMSMbsMHIJtCsZxONN5bGbc"
+                target="blank"
+              >
+                <div className="btn">
+                  <h4>
+                    3-5 Integrated Unit (2022-23): CS is Problem Solving
+                    curriculum
+                  </h4>
+                </div>
+              </a>
+            </div>
+          </div>
+
           <h3>2021-22 Integrated Unit</h3>
           <div className="article-content">
             <p>
