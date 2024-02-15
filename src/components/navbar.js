@@ -5,13 +5,13 @@
 
 /* Imports */
 import React, { useState } from "react"
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
 
 import Foundations from "../assets/svg/icon-foundations.svg"
 import Units from "../assets/svg/icon-units.svg"
 import Resources from "../assets/svg/icon-resources.svg"
 import Blueprint from "../assets/svg/icon-blueprint.svg"
-import Logo from "../assets/svg/logo-cs4all.svg"
+import Logo from "../assets/images/nycps-cs4all.png"
 import Menu from "../assets/svg/icon-menu.svg"
 
 /* Component */
@@ -27,7 +27,10 @@ const Navbar = () => {
         <Link to="/">
           <h1>
             <span className="icon">
-              <Logo />
+              <img
+                src={Logo}
+                alt="New York City Public Schools Computer Science For All logo"
+              />
             </span>
             <span className="label"></span>
           </h1>

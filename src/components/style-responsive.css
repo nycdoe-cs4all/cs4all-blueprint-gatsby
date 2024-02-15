@@ -62,6 +62,10 @@
     max-width: none;
   }
 
+  #masthead #logo .icon img {
+    max-width: 366px; /* Adjust for tablets */
+  }
+
   #menu h2 .icon {
     height: 48px;
     width: 57px;
@@ -516,8 +520,18 @@
 
   #masthead #logo {
     background: none;
-    width: 398px;
     float: left;
+    padding: 4px;
+  }
+
+  #masthead #logo a {
+    height: auto;
+    width: auto;
+    max-width: none;
+  }
+
+  #masthead #logo .icon img {
+    max-width: 398px; /* Adjust for laptops */
   }
 
   #menu {
@@ -1092,7 +1106,7 @@
   }
 
   #masthead #logo {
-    padding: 24px 32px;
+    padding: 12px;
   }
 
   #menu .site-menu {

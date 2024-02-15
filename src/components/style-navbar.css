@@ -46,13 +46,32 @@
   max-width: 272px;
 }
 
+#masthead #logo h1 span {
+  margin: 0 auto; /* Resets the margin */
+  font-size: 0px; /* Resets the font size, if necessary */
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center content horizontally */
+}
+
+#masthead #logo a img {
+  border: none;
+}
+
 #masthead #logo .icon {
   height: 100%;
   width: 100%;
 }
 
-#masthead #logo .icon svg {
+/* #masthead #logo .icon svg {
   vertical-align: top;
+} */
+
+#masthead #logo .icon img {
+  max-height: 100%; /* Ensure the logo isn't taller than the navbar */
+  max-width: 272px; /* Adjust based on your navbar size, keeping aspect ratio in mind */
+  width: auto; /* Scale width automatically to maintain aspect ratio */
+  height: auto; /* Adjust height automatically to maintain aspect ratio */
+  vertical-align: middle; /* Center logo vertically */
 }
 
 #masthead h1 {
