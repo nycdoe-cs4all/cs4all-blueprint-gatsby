@@ -37,7 +37,7 @@
     rgba(23, 40, 62, 1) 80%,
     rgba(20, 34, 53, 1) 100%
   );
-  padding: 16px;
+  padding: 8px;
 }
 
 #masthead #logo a {
@@ -90,7 +90,7 @@
 }
 
 #menu h2 .icon {
-  height: 36px;
+  height: 24px;
   width: 44px;
 }
 
